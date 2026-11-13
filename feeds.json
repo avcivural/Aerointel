@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T18:46:41Z",
+ "generated": "2026-11-13T18:47:09Z",
  "sources": [
   {
    "id": "defensenews",
@@ -52,19 +52,6 @@
     "DOCTRINE"
    ],
    "desc": "Air and space power news and doctrine (formerly Air Force Magazine)."
-  },
-  {
-   "id": "defensepost",
-   "name": "The Defense Post",
-   "icon": "📡",
-   "cat": "news",
-   "url": "https://thedefensepost.com",
-   "feed": "https://thedefensepost.com/feed/",
-   "tags": [
-    "DEFENCE",
-    "GLOBAL"
-   ],
-   "desc": "Global defence and security news."
   },
   {
    "id": "airforcetech",
@@ -201,7 +188,7 @@
    "count": 10,
    "latest": "2026-11-13T18:43:45Z",
    "error": null,
-   "ms": 361
+   "ms": 342
   },
   {
    "id": "breakingdefense",
@@ -209,7 +196,7 @@
    "count": 12,
    "latest": "2026-11-13T17:00:00Z",
    "error": null,
-   "ms": 120
+   "ms": 134
   },
   {
    "id": "defenseone",
@@ -217,7 +204,7 @@
    "count": 12,
    "latest": "2026-11-13T11:00:00Z",
    "error": null,
-   "ms": 513
+   "ms": 484
   },
   {
    "id": "afmag",
@@ -228,19 +215,12 @@
    "ms": 302
   },
   {
-   "id": "defensepost",
-   "status": "error",
-   "count": 0,
-   "latest": null,
-   "error": "ParseError: not well-formed (invalid token): line 120, column 14"
-  },
-  {
    "id": "airforcetech",
    "status": "ok",
    "count": 10,
    "latest": "2026-11-13T16:16:26Z",
    "error": null,
-   "ms": 139
+   "ms": 134
   },
   {
    "id": "twz",
@@ -248,7 +228,7 @@
    "count": 12,
    "latest": "2026-11-13T18:03:06Z",
    "error": null,
-   "ms": 346
+   "ms": 386
   },
   {
    "id": "warontherocks",
@@ -256,7 +236,7 @@
    "count": 12,
    "latest": "2026-11-12T18:30:19Z",
    "error": null,
-   "ms": 438
+   "ms": 620
   },
   {
    "id": "rand",
@@ -264,7 +244,7 @@
    "count": 8,
    "latest": "2026-11-09T16:45:00Z",
    "error": null,
-   "ms": 228
+   "ms": 169
   },
   {
    "id": "ukdj",
@@ -272,7 +252,7 @@
    "count": 10,
    "latest": "2026-11-13T16:08:28Z",
    "error": null,
-   "ms": 779
+   "ms": 1119
   },
   {
    "id": "aviationist",
@@ -280,7 +260,7 @@
    "count": 12,
    "latest": "2026-11-13T15:21:15Z",
    "error": null,
-   "ms": 222
+   "ms": 208
   },
   {
    "id": "rusi",
@@ -288,7 +268,7 @@
    "count": 12,
    "latest": "2026-11-13T00:00:00Z",
    "error": null,
-   "ms": 273
+   "ms": 271
   },
   {
    "id": "eurosd",
@@ -296,7 +276,7 @@
    "count": 6,
    "latest": "2026-11-13T13:03:06Z",
    "error": null,
-   "ms": 645
+   "ms": 350
   },
   {
    "id": "savunmasanayist",
@@ -304,7 +284,7 @@
    "count": 10,
    "latest": "2026-11-13T14:25:03Z",
    "error": null,
-   "ms": 917
+   "ms": 543
   },
   {
    "id": "defensehere",
@@ -312,7 +292,7 @@
    "count": 10,
    "latest": "2026-11-13T11:34:39Z",
    "error": null,
-   "ms": 2650
+   "ms": 2762
   }
  ],
  "trending": [
