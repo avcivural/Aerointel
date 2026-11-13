@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T18:44:24Z",
+ "generated": "2026-11-13T18:46:05Z",
  "sources": [
   {
    "id": "defensenews",
@@ -54,32 +54,30 @@
    "desc": "Air and space power news and doctrine (formerly Air Force Magazine)."
   },
   {
-   "id": "aviationweek",
-   "name": "Aviation Week",
-   "icon": "✈",
+   "id": "defensepost",
+   "name": "The Defense Post",
+   "icon": "📡",
    "cat": "news",
-   "url": "https://aviationweek.com",
-   "feed": "https://aviationweek.com/rss.xml",
+   "url": "https://thedefensepost.com",
+   "feed": "https://thedefensepost.com/feed/",
    "tags": [
-    "AEROSPACE",
-    "ANALYSIS"
+    "DEFENCE",
+    "GLOBAL"
    ],
-   "desc": "Aerospace and defence industry reporting.",
-   "paywall": true
+   "desc": "Global defence and security news."
   },
   {
-   "id": "flightglobal",
-   "name": "FlightGlobal",
+   "id": "airforcetech",
+   "name": "Airforce Technology",
    "icon": "🛩",
    "cat": "news",
-   "url": "https://www.flightglobal.com",
-   "feed": "https://www.flightglobal.com/rss",
+   "url": "https://www.airforce-technology.com",
+   "feed": "https://www.airforce-technology.com/feed/",
    "tags": [
-    "FLEETS",
+    "AIR",
     "PROGRAMMES"
    ],
-   "desc": "Aircraft programmes, operators and air forces worldwide.",
-   "paywall": true
+   "desc": "Military aircraft programmes and air force technology."
   },
   {
    "id": "twz",
@@ -113,23 +111,11 @@
    "icon": "🔬",
    "cat": "analysis",
    "url": "https://www.rand.org",
-   "feed": "https://www.rand.org/pubs/rss/rss.xml",
+   "feed": "https://www.rand.org/topics/us-department-of-war-department-of-defense.xml",
    "tags": [
     "RESEARCH"
    ],
-   "desc": "Research and analysis on defence and security policy."
-  },
-  {
-   "id": "csis",
-   "name": "CSIS",
-   "icon": "🏛",
-   "cat": "analysis",
-   "url": "https://www.csis.org",
-   "feed": "https://www.csis.org/analysis/feed",
-   "tags": [
-    "THINK TANK"
-   ],
-   "desc": "Center for Strategic and International Studies analysis."
+   "desc": "RAND research and commentary on defence."
   },
   {
    "id": "ukdj",
@@ -158,25 +144,12 @@
    "desc": "Military aviation news and photography, Europe-based."
   },
   {
-   "id": "nato",
-   "name": "NATO News",
-   "icon": "🌐",
-   "cat": "europe",
-   "url": "https://www.nato.int",
-   "feed": "https://www.nato.int/cps/rss/en/natohq/rssFeed.xsl/rssFeed.xml",
-   "tags": [
-    "NATO",
-    "OFFICIAL"
-   ],
-   "desc": "Official NATO news releases."
-  },
-  {
    "id": "rusi",
    "name": "RUSI",
    "icon": "🎖",
    "cat": "europe",
    "url": "https://www.rusi.org",
-   "feed": "https://www.rusi.org/rss.xml",
+   "feed": "https://www.rusi.org/rss/latest-publications.xml",
    "tags": [
     "THINK TANK",
     "UK"
@@ -184,17 +157,17 @@
    "desc": "Royal United Services Institute commentary."
   },
   {
-   "id": "raes",
-   "name": "Royal Aeronautical Society",
-   "icon": "🎓",
+   "id": "eurosd",
+   "name": "European Security & Defence",
+   "icon": "🇪🇺",
    "cat": "europe",
-   "url": "https://www.aerosociety.com",
-   "feed": "https://www.aerosociety.com/news/rss/",
+   "url": "https://euro-sd.com",
+   "feed": "https://euro-sd.com/feed/",
    "tags": [
-    "AEROSPACE",
-    "PROFESSIONAL"
+    "EUROPE",
+    "DEFENCE"
    ],
-   "desc": "Aerospace news from the professional society."
+   "desc": "European defence and security reporting."
   },
   {
    "id": "savunmasanayist",
@@ -209,30 +182,16 @@
    "desc": "Independent Turkish defence industry news."
   },
   {
-   "id": "defenceturkey",
-   "name": "Defence Turkey",
-   "icon": "📰",
+   "id": "defensehere",
+   "name": "Defensehere",
+   "icon": "🇹🇷",
    "cat": "turkiye",
-   "url": "https://www.defenceturkey.com",
-   "feed": "https://www.defenceturkey.com/en/rss",
+   "url": "https://www.defensehere.com",
+   "feed": "https://www.defensehere.com/feed/",
    "tags": [
-    "TÜRKİYE",
-    "MAGAZINE"
+    "TÜRKİYE"
    ],
-   "desc": "Turkish defence and aerospace magazine (English)."
-  },
-  {
-   "id": "scramble",
-   "name": "Scramble",
-   "icon": "📋",
-   "cat": "fleet",
-   "url": "https://www.scramble.nl",
-   "feed": "https://www.scramble.nl/component/content/?format=feed&type=rss",
-   "tags": [
-    "FLEETS",
-    "SERIALS"
-   ],
-   "desc": "Military aircraft fleets, serials and unit movements."
+   "desc": "Turkish defence industry news."
   }
  ],
  "health": [
@@ -242,7 +201,7 @@
    "count": 10,
    "latest": "2026-11-13T18:43:45Z",
    "error": null,
-   "ms": 138
+   "ms": 325
   },
   {
    "id": "breakingdefense",
@@ -250,7 +209,7 @@
    "count": 12,
    "latest": "2026-11-13T17:00:00Z",
    "error": null,
-   "ms": 140
+   "ms": 104
   },
   {
    "id": "defenseone",
@@ -258,7 +217,7 @@
    "count": 12,
    "latest": "2026-11-13T11:00:00Z",
    "error": null,
-   "ms": 481
+   "ms": 534
   },
   {
    "id": "afmag",
@@ -266,22 +225,22 @@
    "count": 9,
    "latest": "2026-11-13T15:58:44Z",
    "error": null,
-   "ms": 234
+   "ms": 282
   },
   {
-   "id": "aviationweek",
-   "status": "stale",
-   "count": 0,
-   "latest": "2026-03-31T07:48:56Z",
-   "error": null,
-   "ms": 399
-  },
-  {
-   "id": "flightglobal",
+   "id": "defensepost",
    "status": "error",
    "count": 0,
    "latest": null,
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "error": "ParseError: not well-formed (invalid token): line 69, column 239"
+  },
+  {
+   "id": "airforcetech",
+   "status": "ok",
+   "count": 10,
+   "latest": "2026-11-13T16:16:26Z",
+   "error": null,
+   "ms": 140
   },
   {
    "id": "twz",
@@ -289,7 +248,7 @@
    "count": 12,
    "latest": "2026-11-13T18:03:06Z",
    "error": null,
-   "ms": 174
+   "ms": 407
   },
   {
    "id": "warontherocks",
@@ -297,21 +256,15 @@
    "count": 12,
    "latest": "2026-11-12T18:30:19Z",
    "error": null,
-   "ms": 363
+   "ms": 444
   },
   {
    "id": "rand",
-   "status": "error",
+   "status": "empty",
    "count": 0,
    "latest": null,
-   "error": "HTTPError: HTTP Error 404: Not Found"
-  },
-  {
-   "id": "csis",
-   "status": "error",
-   "count": 0,
-   "latest": null,
-   "error": "HTTPError: HTTP Error 404: Not Found"
+   "error": null,
+   "ms": 192
   },
   {
    "id": "ukdj",
@@ -319,7 +272,7 @@
    "count": 10,
    "latest": "2026-11-13T16:08:28Z",
    "error": null,
-   "ms": 1290
+   "ms": 1363
   },
   {
    "id": "aviationist",
@@ -327,28 +280,23 @@
    "count": 12,
    "latest": "2026-11-13T15:21:15Z",
    "error": null,
-   "ms": 120
-  },
-  {
-   "id": "nato",
-   "status": "error",
-   "count": 0,
-   "latest": null,
-   "error": "HTTPError: HTTP Error 404: Not Found"
+   "ms": 225
   },
   {
    "id": "rusi",
-   "status": "error",
-   "count": 0,
-   "latest": null,
-   "error": "HTTPError: HTTP Error 404: Not Found"
+   "status": "ok",
+   "count": 12,
+   "latest": "2026-11-13T00:00:00Z",
+   "error": null,
+   "ms": 287
   },
   {
-   "id": "raes",
-   "status": "error",
-   "count": 0,
-   "latest": null,
-   "error": "HTTPError: HTTP Error 404: Not Found"
+   "id": "eurosd",
+   "status": "ok",
+   "count": 6,
+   "latest": "2026-11-13T13:03:06Z",
+   "error": null,
+   "ms": 709
   },
   {
    "id": "savunmasanayist",
@@ -356,33 +304,27 @@
    "count": 10,
    "latest": "2026-11-13T14:25:03Z",
    "error": null,
-   "ms": 918
+   "ms": 926
   },
   {
-   "id": "defenceturkey",
-   "status": "error",
-   "count": 0,
-   "latest": null,
-   "error": "HTTPError: HTTP Error 404: Not Found"
-  },
-  {
-   "id": "scramble",
-   "status": "error",
-   "count": 0,
-   "latest": null,
-   "error": "HTTPError: HTTP Error 403: Forbidden"
+   "id": "defensehere",
+   "status": "ok",
+   "count": 10,
+   "latest": "2026-11-13T11:34:39Z",
+   "error": null,
+   "ms": 2505
   }
  ],
  "trending": [
   {
    "term": "Northrop Grumman",
-   "n": 6,
-   "sources": 3
+   "n": 7,
+   "sources": 4
   },
   {
    "term": "Ukraine",
-   "n": 5,
-   "sources": 3
+   "n": 6,
+   "sources": 4
   },
   {
    "term": "Pentagon",
@@ -474,6 +416,14 @@
    "source": "defensenews"
   },
   {
+   "title": "US Air Force debuts T-19A Kestrel for cadet aerobatic training",
+   "link": "https://www.airforce-technology.com/news/us-airforce-t-19a-kestrel/",
+   "date": "2026-11-13T16:16:26Z",
+   "desc": "The US Air Force Academy unveiled the T-19A Kestrel, its first powered aerobatic aircraft, following final military certification flights.",
+   "img": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/11/T-19A-Kestre.jpg",
+   "source": "airforcetech"
+  },
+  {
    "title": "New American stealth bomber begins testing powerful weapons",
    "link": "https://ukdefencejournal.org.uk/new-american-stealth-bomber-begins-testing-powerful-weapons/",
    "date": "2026-11-13T16:08:28Z",
@@ -546,12 +496,60 @@
    "source": "breakingdefense"
   },
   {
+   "title": "GSIS 2026: From Summit to International Platform for Security and Innovation",
+   "link": "https://euro-sd.com/2026/11/news/industry-news/54671/gsis-2026-2/",
+   "date": "2026-11-13T13:03:06Z",
+   "desc": "Geopolitical tensions, technological upheaval and new vulnerabilities are fundamentally reshaping the international security architecture. The decisive factor is no longer … mehr... The post GSIS 2026: From Summit to Int",
+   "img": "https://euro-sd.com/wp-content/uploads/2026/11/GSIS_JW_22.10.25_1236-300x200.jpg",
+   "source": "eurosd"
+  },
+  {
+   "title": "Hermeus and Northrop Grumman team on high-Mach aircraft systems",
+   "link": "https://www.airforce-technology.com/news/hermeus-northrop-grumman-aircraft/",
+   "date": "2026-11-13T12:47:14Z",
+   "desc": "Hermeus and Northrop Grumman have signed a strategic teaming agreement to develop uncrewed, high-Mach aircraft intended to meet US military requirements.",
+   "img": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/11/Hermeus.jpg",
+   "source": "airforcetech"
+  },
+  {
    "title": "Britain catching up with Germany on defence, says Rutte",
    "link": "https://ukdefencejournal.org.uk/britain-catching-up-with-germany-on-defence-says-rutte/",
    "date": "2026-11-13T12:20:00Z",
    "desc": "Mark Rutte, NATO’s Secretary General, has said Britain will double its defence spending in ten years under commitments made in the recent Budget, and is now catching up with Germany, according to remarks made on board HM",
    "img": null,
    "source": "ukdj"
+  },
+  {
+   "title": "ASELSAN’ın KILIÇ ve DERİNGÖZ sistemleri Mavi Balina-2026 Tatbikatı’nda görev yaptı",
+   "link": "https://defensehere.com/tr/aselsanin-kilic-ve-deringoz-sistemleri-mavi-balina-2026-tatbikatinda-gorev-yapti/",
+   "date": "2026-11-13T11:34:39Z",
+   "desc": "ASELSAN, NATO ve müttefik ülkelerin katılımıyla gerçekleştirilen Mavi Balina-2026 Davet Tatbikatı’nda KILIÇ Kamikaze Otonom Su Altı Aracı ve DERİNGÖZ Otonom Su Altı Aracı’nın görevlerini başarıyla tamamladığını bildirdi.",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/aselsan2.jpg",
+   "source": "defensehere"
+  },
+  {
+   "title": "Mavi Balina-2026 Davet Tatbikatı’nın seçkin gözlemci günü başladı",
+   "link": "https://defensehere.com/tr/mavi-balina-2026-davet-tatbikatinin-seckin-gozlemci-gunu-basladi/",
+   "date": "2026-11-13T11:29:04Z",
+   "desc": "Türkiye’nin ev sahipliğinde Doğu Akdeniz’de düzenlenen Mavi Balina-2026 Davet Tatbikatı’nın basın ve seçkin gözlemci günü başladı. Deniz Kuvvetleri Komutanlığınca 9-20 Kasım’da gerçekleştirilen tatbikatın basın ve seçkin",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/AA-20261113-43066137-43066125-MAVI_BALINA2026_DAVET_TATBIKATININ_SECKIN_GOZLEMCI_GUNU_BASLADI.jpg",
+   "source": "defensehere"
+  },
+  {
+   "title": "Türkiye ile Suudi Arabistan arasında savunma sanayisi işbirliği yeni alanlara taşınıyor",
+   "link": "https://defensehere.com/tr/turkiye-ile-suudi-arabistan-arasinda-savunma-sanayisi-isbirligi-yeni-alanlara-tasiniyor/",
+   "date": "2026-11-13T11:15:41Z",
+   "desc": "Cumhurbaşkanlığı Savunma Sanayii Başkanı Haluk Görgün, Türkiye ile Suudi Arabistan arasında savunma sanayisi alanındaki işbirliğini geliştirmek amacıyla son üç yılda 75’i aşkın toplantı gerçekleştirdiklerini, Türk şirket",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Eski SAT komandoları Mali’de özel kuvvetler personeline eğitim veriyor",
+   "link": "https://defensehere.com/tr/eski-sat-komandolari-malide-ozel-kuvvetler-personeline-egitim-veriyor/",
+   "date": "2026-11-13T11:01:22Z",
+   "desc": "Mali ordusunun özel kuvvetler personeli, eski Türk SAT komandolarından eğitim alıyor. Eğitimi yürüten şirket, Mali Savunma Bakanlığı ile Türk şirketi The Peak Defense tarafından başkent Bamako’da düzenlenen BAMEX 2026 Sa",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "Defense Business Brief: This Ukraine-founded drone maker is now worth $6 billion. What now?",
@@ -586,12 +584,44 @@
    "source": "ukdj"
   },
   {
+   "title": "SoliCELL, −30 derecede şarj edilebilen batarya geliştirdi",
+   "link": "https://defensehere.com/tr/solicell-%e2%88%9230-derecede-sarj-edilebilen-batarya-gelistirdi/",
+   "date": "2026-11-13T07:23:58Z",
+   "desc": "Utarit bünyesinde faaliyet gösteren, enerji depolama çözümleri geliştiren SoliCELL, düşük sıcaklıklarda çalışan saha ekipmanları için Arctic-30 batarya sistemini geliştirdi. −30 °C’ye kadar şarjı destekleyen lityum demir",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Hava Kuvvetleri Komutanı Orgeneral Dalkıran, ASELSAN’ı ziyaret etti",
+   "link": "https://defensehere.com/tr/hava-kuvvetleri-komutani-orgeneral-dalkiran-aselsani-ziyaret-etti/",
+   "date": "2026-11-13T06:52:25Z",
+   "desc": "Hava Kuvvetleri Komutanı Orgeneral Rafet Dalkıran, ASELSAN’ı ziyaret etti. ASELSAN Genel Müdürü Ahmet Akyol, sosyal medyadan yaptığı paylaşımda ziyarette geliştirilen ileri teknolojiler, seri üretim faaliyetleri ve şirke",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Alman İHA üreticisi Quantum Systems’e siber saldırı",
+   "link": "https://defensehere.com/tr/alman-iha-ureticisi-quantum-systemse-siber-saldiri/",
+   "date": "2026-11-13T06:45:56Z",
+   "desc": "Almanya merkezli insansız hava aracı (İHA) üreticisi Quantum Systems’in şirket ağına siber saldırı düzenlendiği ve güncelleme sunucusuna zararlı yazılım yerleştirildiği bildirildi. Der Spiegel dergisinin güvenlik kaynakl",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "The Air Force’s Newest Trainer Is An Aerial Stunt Plane",
    "link": "https://www.twz.com/air/the-air-forces-newest-trainer-is-an-aerial-stunt-plane",
    "date": "2026-11-13T00:25:18Z",
    "desc": "The U.S. Air Force unveiled its newest aircraft today by flying them over the Air Force Academy , where they will be used to train a future generation of pilots and serve as the basis for a new aerial demonstration team.",
    "img": "https://www.twz.com/wp-content/uploads/2026/11/U.S.-Air-Force-T-19A-Kestrel-trainers.jpg?quality=85",
    "source": "twz"
+  },
+  {
+   "title": "Episode 6: The Shops That Don’t Add Up",
+   "link": "https://www.rusi.org/podcasts/suspicious-transaction-report/episode-6-shops-dont-add",
+   "date": "2026-11-13T00:00:00Z",
+   "desc": "Why some of Britain’s strangest-looking businesses survive – and what they reveal about tax evasion, money laundering and weak enforcement.",
+   "img": null,
+   "source": "rusi"
   },
   {
    "title": "High-Speed Aircraft Startup Hermeus Joins Forces With Northrop Grumman",
@@ -786,6 +816,14 @@
    "source": "warontherocks"
   },
   {
+   "title": "Drone and Counter-Drone Capabilities for U.S. Forces",
+   "link": "https://euro-sd.com/2026/11/news/land/54678/counter-drone-ordnanc-arquimea/",
+   "date": "2026-11-12T18:20:10Z",
+   "desc": "Global Ordnance Holdings and ARQUIMEA USA have signed a teaming agreement to expand the drone and counter-drone systems available to … mehr... The post Drone and Counter-Drone Capabilities for U.S. Forces appeared first ",
+   "img": "https://euro-sd.com/wp-content/uploads/2026/11/image001-002-300x200.jpg",
+   "source": "eurosd"
+  },
+  {
    "title": "Desert Storm Memorial Misses Its Target",
    "link": "https://www.airandspaceforces.com/commentary-desert-storm-memorial-misses-target/",
    "date": "2026-11-12T18:13:31Z",
@@ -800,6 +838,22 @@
    "desc": "The USS Colorado will serve as the first submarine assigned to Submarine Rotational Force-West in support of AUKUS Pillar I.",
    "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/271027-N-NR343-9270-e1794506945842-1024x577.jpeg",
    "source": "breakingdefense"
+  },
+  {
+   "title": "Çin’in güneş enerjili İHA’sı ilk uçuşunu yaptı: 30 saat havada kalabiliyor",
+   "link": "https://defensehere.com/tr/cinin-gunes-enerjili-ihasi-ilk-ucusunu-yapti-30-saat-havada-kalabiliyor/",
+   "date": "2026-11-12T18:11:40Z",
+   "desc": "Çin, tamamen güneş enerjisiyle çalışan yeni insansız hava aracı (İHA) Çingçibing’in ilk uçuşunu gerçekleştirdi. 30 saate kadar havada kalabilen İHA’nın kritik altyapıların denetlenmesi, doğal kaynakların takibi ve afet b",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Thales ve KONGSBERG, Arctic Hunter platformunda iş birliği yapacak",
+   "link": "https://defensehere.com/tr/thales-ve-kongsberg-arctic-hunter-platformunda-is-birligi-yapacak/",
+   "date": "2026-11-12T17:57:38Z",
+   "desc": "Thales’in İngiltere birimi, İngiliz Kraliyet Donanması için denizaltı savunma harbi gemisi geliştirmek üzere Norveçli teknoloji şirketi Kongsberg Maritime ile mutabakat zaptı imzaladığını duyurdu. Geliştirilecek deniz ar",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "Instead of stockpiling small attack drones, Army looking to simply buy new ones",
@@ -826,6 +880,22 @@
    "source": "defenseone"
   },
   {
+   "title": "WB GROUP Expands into Germany",
+   "link": "https://euro-sd.com/2026/11/news/land/54683/wb-group-germany/",
+   "date": "2026-11-12T16:53:15Z",
+   "desc": "The Polish WB Group, a developer and manufacturer of, among other things, unmanned multi-domain systems, unveiled its new subsidiary, WB … mehr... The post WB GROUP Expands into Germany appeared first on European Securit",
+   "img": "https://euro-sd.com/wp-content/uploads/2026/11/20261110_WB_GROUP-Expands-into-Germany_06-300x200.jpg",
+   "source": "eurosd"
+  },
+  {
+   "title": "BAE Systems, LRASM füzeleri için RF güdüm sensörleri teslimatı yaptı",
+   "link": "https://defensehere.com/tr/bae-systems-lrasm-fuzeleri-icin-rf-gudum-sensorleri-teslimati-yapti/",
+   "date": "2026-11-12T16:52:18Z",
+   "desc": "Savunma ve teknoloji şirketi BAE Systems, Uzun Menzilli Gemisavar Füzesi (LRASM) için geliştirdiği gelişmiş radyo frekansı sensörlerini Lockheed Martin’e teslim ettiğini duyurdu. Şirket, hızlandırılmış üretim takvimine u",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "Cry ‘drone,’ and let slip the fruit flies of war",
    "link": "https://breakingdefense.com/2026/11/cry-drone-and-let-slip-the-fruit-flies-of-war/",
    "date": "2026-11-12T16:29:34Z",
@@ -840,6 +910,22 @@
    "desc": "Malatya’da kaza kırıma uğrayan S-70 tipi askeri helikopterde bulunan 4 asker şehit oldu. Milli Savunma Bakanlığı (MSB), kazanın nedeninin henüz belirlenemediğini açıkladı. Milli Savunma Bakanlığı tarafından yapılan açıkl",
    "img": null,
    "source": "savunmasanayist"
+  },
+  {
+   "title": "Kratos completes SRR for US Space Force missile-warning programme",
+   "link": "https://www.airforce-technology.com/news/kratos-us-space-force-missile/",
+   "date": "2026-11-12T16:22:15Z",
+   "desc": "Kratos Defense & Security Solutions has completed a System Requirements Review (SRR) for the US Space Force’s Resilient Missile Warning and Tracking (MWT) programme.",
+   "img": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/11/Kratos-5.jpg",
+   "source": "airforcetech"
+  },
+  {
+   "title": "Dutch consortium signs MoU to develop sovereign air-defence missile",
+   "link": "https://www.airforce-technology.com/news/netherlands-air-defence-missile/",
+   "date": "2026-11-12T16:15:24Z",
+   "desc": "A consortium led by Guardian Dynamics has signed a memorandum of understanding (MoU) to develop the WARDEN missile, aiming to strengthen the Netherlands' sovereign air defence capabilities.",
+   "img": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/11/Dutch-air-defence.jpg",
+   "source": "airforcetech"
   },
   {
    "title": "UK and Norway seal Royal Navy mine-hunting mothership deal",
@@ -874,12 +960,36 @@
    "source": "savunmasanayist"
   },
   {
+   "title": "U.S. Marine Corps orders additional UC-12W+ aircraft",
+   "link": "https://euro-sd.com/2026/11/news/exclusive-news/54649/uc-12w-aircraft/",
+   "date": "2026-11-12T06:00:34Z",
+   "desc": "The Naval Air Systems Command has awarded Textron Aviation a firm-fixed-price contract for one Beechcraft King Air 360CER aircraft, designated … mehr... The post U.S. Marine Corps orders additional UC-12W+ aircraft appea",
+   "img": "https://euro-sd.com/wp-content/uploads/2026/11/Lead-Image-USMC-UC-12W-Beechcraft-King-Air-360CER-Order-Announcement-F0f3c9-300x200.jpg",
+   "source": "eurosd"
+  },
+  {
    "title": "Wolfe Pledges More Manpower for Maintenance amid Career Field Overhaul",
    "link": "https://www.airandspaceforces.com/wolfe-air-force-maintenance-manpower-career-field-overhaul/",
    "date": "2026-11-12T01:34:26Z",
    "desc": "KISSIMMEE, Fla. —Chief Master Sergeant of the Air Force David R. Wolfe recently pledged “a plus-up in manpower” for the maintainer ranks, as the service prepares to launch a major overhaul of its maintenance career field",
    "img": "https://www.airandspaceforces.com/app/uploads/2025/03/f-35-900x600.jpeg",
    "source": "afmag"
+  },
+  {
+   "title": "Maritime Jurisdiction and Undersea Security in Europe",
+   "link": "https://www.rusi.org/explore-our-research/publications/rusi-newsbrief/maritime-jurisdiction-and-undersea-security-europe",
+   "date": "2026-11-12T00:00:00Z",
+   "desc": "Baltic Sea cable incidents show that protecting Europe’s undersea infrastructure depends as much on evidence, jurisdiction and legal cooperation as on maritime surveillance.",
+   "img": null,
+   "source": "rusi"
+  },
+  {
+   "title": "Israel's Arab Parties After the Election: Unprecedented Representation",
+   "link": "https://www.rusi.org/explore-our-research/publications/commentary/israels-arab-parties-after-election-unprecedented-representation",
+   "date": "2026-11-12T00:00:00Z",
+   "desc": "Israel’s Arab parties won a record 19 Knesset seats and helped Gadi Eisenkot secure the mandate, but converting that into policy influence will be harder.",
+   "img": null,
+   "source": "rusi"
   },
   {
    "title": "F-16V vs F-16C Block 70/72: Understanding The Differences Between The Latest Viper Variants",
@@ -922,12 +1032,28 @@
    "source": "twz"
   },
   {
+   "title": "BAE Systems accelerates delivery of LRASM missile sensors",
+   "link": "https://euro-sd.com/2026/11/news/exclusive-news/54654/bae-systems-lrasm/",
+   "date": "2026-11-11T20:00:21Z",
+   "desc": "BAE Systems has delivered all Lot 8 units of its advanced radio-frequency (RF) sensor to Lockheed Martin for the Long-Range … mehr... The post BAE Systems accelerates delivery of LRASM missile sensors appeared first on E",
+   "img": "https://euro-sd.com/wp-content/uploads/2026/11/bae-Kopie-300x169.jpg",
+   "source": "eurosd"
+  },
+  {
    "title": "F-35s Train In India For “Red Flag Of The East”",
    "link": "https://www.twz.com/air/f-35s-train-in-india-for-red-flag-of-the-east",
    "date": "2026-11-11T18:31:47Z",
    "desc": "For the first time, F-35 stealth fighters have operated from Indian soil in an exercise with the Indian Air Force (IAF). Six of the U.S. Air Force jets joined Tarang Shakti 2026 at Jodhpur, in the northwest Indian state ",
    "img": "https://www.twz.com/wp-content/uploads/2026/11/F-35-WITH-TEJAS-INDIA-1.jpg?quality=85",
    "source": "twz"
+  },
+  {
+   "title": "NAVAIR Contract for DAIRCM Aircraft Survivability System",
+   "link": "https://euro-sd.com/2026/11/news/air/54658/leonardo-drs-navair-daircm/",
+   "date": "2026-11-11T18:00:11Z",
+   "desc": "Naval Air Systems Command (NAVAIR) has awarded Leonardo DRS a three-year indefinite-delivery/indefinite-quantity (IDIQ) contract for low-rate initial production of the … mehr... The post NAVAIR Contract for DAIRCM Aircra",
+   "img": "https://euro-sd.com/wp-content/uploads/2026/11/UH-1Y-Venom-and-AH-1Z-Viper-DAIRCM-1-300x200.jpg",
+   "source": "eurosd"
   },
   {
    "title": "Autonomous Cessna Caravan Air Ambulance To Be Tested By U.S. Military",
@@ -938,12 +1064,28 @@
    "source": "twz"
   },
   {
+   "title": "Merlin wins $8.9m contract to advance USSOCOM C-130J autonomy project",
+   "link": "https://www.airforce-technology.com/news/merlin-ussocom-c130j-contract/",
+   "date": "2026-11-11T15:14:56Z",
+   "desc": "Merlin has been awarded a new task order valued at $8.9m to advance its C-130J autonomy programme with the US Special Operations Command (USSOCOM).",
+   "img": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/11/C-130J-Hercules.jpg",
+   "source": "airforcetech"
+  },
+  {
    "title": "Leonardo DRS to Produce DAIRCM Defensive System for USMC UH-1Y and AH-1Z",
    "link": "https://theaviationist.com/2026/11/11/daircm-for-usmc-uh-1y-and-ah-1z/",
    "date": "2026-11-11T14:36:31Z",
    "desc": "The NAVAIR contract will support low-rate initial production of the AN/AAQ-45 system, which will equip the UH-1Y and AH-1Z with missile warning, laser warning, hostile-fire indication and DIRCM. Leonardo DRS, the U.S.-ba",
    "img": "https://theaviationist.com/wp-content/uploads/2026/11/UH-1Y-Venom-and-AH-1Z-Viper-DAIRCM-1-scaled.jpg",
    "source": "aviationist"
+  },
+  {
+   "title": "Spanish NH-90s conduct first Nato drone response scramble in Romania",
+   "link": "https://www.airforce-technology.com/news/spain-nato-nh-90-romania/",
+   "date": "2026-11-11T12:55:10Z",
+   "desc": "Two NH-90 helicopters from the Spanish Air and Space Force conducted an Alpha Scramble on 5 November in response to unidentified drones detected over Romania.",
+   "img": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/11/Spanish-NH-90.jpg",
+   "source": "airforcetech"
   },
   {
    "title": "STM NETA 300 Akdeniz’de Batık Tankı Görüntüledi",
@@ -1042,6 +1184,22 @@
    "source": "warontherocks"
   },
   {
+   "title": "US agencies form ‘whole-of-government’ pact to counter drone threats",
+   "link": "https://www.airforce-technology.com/news/us-agencies-counter-drone-threats/",
+   "date": "2026-11-10T16:22:41Z",
+   "desc": "Five US federal departments have agreed an expanded approach to coordinating counter-uncrewed aircraft system operations, including a process for evaluating technologies before their deployment.",
+   "img": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/11/US-counter-drone.jpg",
+   "source": "airforcetech"
+  },
+  {
+   "title": "Electra wins $4.7m AFRL contract for hybrid-electric Ultra-STOL tests",
+   "link": "https://www.airforce-technology.com/news/electra-afrl-contract-stol/",
+   "date": "2026-11-10T16:22:23Z",
+   "desc": "Electra Defense has received a $4.7m contract from the US Air Force Research Laboratory (AFRL) to advance the development and evaluation of hybrid-electric aircraft technologies.",
+   "img": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/11/Electra-EL9.jpg",
+   "source": "airforcetech"
+  },
+  {
    "title": "Hegseth denounces impeachment charges in rare press briefing",
    "link": "https://www.defenseone.com/threats/2026/11/hegseth-returns-pentagon-briefing-room-defend-himself-against-impeachment-charges/417148/",
    "date": "2026-11-10T15:41:08Z",
@@ -1090,6 +1248,22 @@
    "source": "defenseone"
   },
   {
+   "title": "The Double-Edged Sword: AI in Cybersecurity Offense and Defence",
+   "link": "https://www.rusi.org/news-and-comment/video-commentary/double-edged-sword-ai-cybersecurity-offense-and-defence",
+   "date": "2026-11-10T00:00:00Z",
+   "desc": "How are AI tools used by cyber attackers and defensive security teams?",
+   "img": null,
+   "source": "rusi"
+  },
+  {
+   "title": "Why an ‘Article 5-Style Guarantee’ for Ukraine Makes Little Sense",
+   "link": "https://www.rusi.org/explore-our-research/publications/commentary/why-article-5-style-guarantee-ukraine-makes-little-sense",
+   "date": "2026-11-10T00:00:00Z",
+   "desc": "Ukraine should ditch the idea and focus on getting its partners to commit to a structured programme of long-term support for its armed forces.",
+   "img": null,
+   "source": "rusi"
+  },
+  {
    "title": "Our Best Look Yet at China’s GJ-11 UCAV",
    "link": "https://theaviationist.com/2026/11/09/our-best-look-yet-at-chinas-gj-11-ucav/",
    "date": "2026-11-09T22:48:31Z",
@@ -1122,6 +1296,22 @@
    "source": "warontherocks"
   },
   {
+   "title": "South Korea selects Sikorsky S-92A+ for new presidential helicopter fleet",
+   "link": "https://www.airforce-technology.com/news/south-korea-sikorsky-s-92a/",
+   "date": "2026-11-09T18:06:23Z",
+   "desc": "Sikorsky, a subsidiary of Lockheed Martin, has been awarded a contract to supply its S-92A+ helicopter to the Republic of Korea Air Force (ROKAF) for the country’s next presidential helicopter.",
+   "img": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/11/South-Korea-Sikorsky-S-92A.jpg",
+   "source": "airforcetech"
+  },
+  {
+   "title": "US approves potential $1.08bn Black Hawk sale to Mexico",
+   "link": "https://www.airforce-technology.com/news/us-mexoci-black-hawk-helicopters/",
+   "date": "2026-11-09T18:02:18Z",
+   "desc": "The US Department of State has approved a possible $1.08bn Foreign Military Sale (FMS) to Mexico covering 11 UH-60M Black Hawk helicopters, associated equipment, training and support.",
+   "img": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/11/Mexico-UH-60M-Black-Hawk.jpg",
+   "source": "airforcetech"
+  },
+  {
    "title": "The Record Budgets and Missing Suppliers Shaping America’s Munitions Ramp",
    "link": "https://warontherocks.com/cogs-of-war/the-record-budgets-and-missing-suppliers-shaping-americas-munitions-ramp/",
    "date": "2026-11-09T09:00:45Z",
@@ -1136,6 +1326,14 @@
    "desc": "Every administration since the Cold War has been looking for a significant foreign policy breakthrough with China. Spanning containment and normalization to opening and reform, U.S. policymakers have long hoped that Chin",
    "img": null,
    "source": "warontherocks"
+  },
+  {
+   "title": "Israel’s Foreign Funding Inquiry is Not Evidence of a Stolen Election",
+   "link": "https://www.rusi.org/explore-our-research/publications/commentary/israels-foreign-funding-inquiry-not-evidence-stolen-election",
+   "date": "2026-11-09T00:00:00Z",
+   "desc": "The incumbent appears to be using a national security foreign-funding inquiry to discredit 19 Arab-held seats and perhaps disrupt formation of a replacement government.",
+   "img": null,
+   "source": "rusi"
   },
   {
    "title": "A320 ATRA Testbed is Now Flying with the Eurofighter’s AESA Radar",
@@ -1186,12 +1384,60 @@
    "source": "warontherocks"
   },
   {
+   "title": "Why Rasputitsa Shapes Operational and Strategic Considerations in Ukraine",
+   "link": "https://www.rusi.org/explore-our-research/publications/commentary/why-rasputitsa-shapes-operational-and-strategic-considerations-ukraine",
+   "date": "2026-11-06T00:00:00Z",
+   "desc": "As autumn sets in, Ukraine's rasputitsa mud season will constrain Russian manoeuvre on the battlefield and strain the railways supplying Moscow's forces in occupied territory.",
+   "img": null,
+   "source": "rusi"
+  },
+  {
    "title": "The Golden Dome Proposal is Destabilizing and Dangerous",
    "link": "https://warontherocks.com/cogs-of-war/the-golden-dome-proposal-is-destabilizing-and-dangerous/",
    "date": "2026-11-05T09:00:03Z",
    "desc": "Editor’s Note: This is the second article in a two-part series exploring the Golden Dome for America proposal. Please also read the first, “Golden Dome Is Technologically and Financially Infeasible.”Golden Dome is an amb",
    "img": null,
    "source": "warontherocks"
+  },
+  {
+   "title": "Who Calls the Shots? Institutional Conflicts in Ukraine’s Defence Sector",
+   "link": "https://www.rusi.org/explore-our-research/publications/rusi-newsbrief/who-calls-shots-institutional-conflicts-ukraines-defence-sector",
+   "date": "2026-11-05T00:00:00Z",
+   "desc": "The dismissals of Mykhailo Fedorov and Oleksandr Syrskyi exposed institutional flaws in how Ukraine manages its war that new appointments alone cannot fix.",
+   "img": null,
+   "source": "rusi"
+  },
+  {
+   "title": "Europe’s Defence Coalitions Need Someone to Own the Outcome",
+   "link": "https://www.rusi.org/explore-our-research/publications/commentary/europes-defence-coalitions-need-someone-own-outcome",
+   "date": "2026-11-05T00:00:00Z",
+   "desc": "EU leaders are pushing capability coalitions. The next question is who is responsible when the capability does not materialise.",
+   "img": null,
+   "source": "rusi"
+  },
+  {
+   "title": "The Long War: Rethinking Defence Strategy in Prolonged Conflict",
+   "link": "https://www.rusi.org/news-and-comment/video-commentary/long-war-rethinking-defence-strategy-prolonged-conflict",
+   "date": "2026-11-05T00:00:00Z",
+   "desc": "Modern defence strategy must shift from preparing for short, decisive conflicts to building the infrastructure needed for wars that extend far beyond initial expectations.",
+   "img": null,
+   "source": "rusi"
+  },
+  {
+   "title": "Episode 132: Brazil’s Elections: Why Lula’s Win Matters for Global Security",
+   "link": "https://www.rusi.org/podcasts/global-security-briefing/episode-132-brazils-elections-why-lulas-win-matters-global-security",
+   "date": "2026-11-04T00:00:00Z",
+   "desc": "Dr Daniela Portella Sampaio joins Dr Andrew Gee to discuss the security implications of Brazil's 2026 election and Lula's fourth term.",
+   "img": null,
+   "source": "rusi"
+  },
+  {
+   "title": "Who Polices the Blockchain? The Binance Heist and the New Gatekeepers",
+   "link": "https://www.rusi.org/explore-our-research/publications/commentary/who-polices-blockchain-binance-heist-and-new-gatekeepers",
+   "date": "2026-11-04T00:00:00Z",
+   "desc": "The institutions that have the authority to police international finance are no longer necessarily the institutions that possess the capabilities to do so.",
+   "img": null,
+   "source": "rusi"
   }
  ]
 }
