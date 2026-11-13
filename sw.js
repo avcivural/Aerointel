@@ -1,7 +1,7 @@
 // AeroIntel service worker: app shell cache-first, feeds.json network-first.
-const CACHE = "aerointel-v4.3";
+const CACHE = "aerointel-v4.4";
 const SHELL = ["./", "index.html", "manifest.webmanifest",
-  "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
+  "icons/icon-192-v2.png", "icons/icon-512-v2.png", "icons/apple-touch-icon-v2.png"];
 
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
