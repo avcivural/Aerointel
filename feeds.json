@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T18:46:05Z",
+ "generated": "2026-11-13T18:46:41Z",
  "sources": [
   {
    "id": "defensenews",
@@ -111,11 +111,11 @@
    "icon": "🔬",
    "cat": "analysis",
    "url": "https://www.rand.org",
-   "feed": "https://www.rand.org/topics/us-department-of-war-department-of-defense.xml",
+   "feed": "https://www.rand.org/blog.xml",
    "tags": [
     "RESEARCH"
    ],
-   "desc": "RAND research and commentary on defence."
+   "desc": "Commentary and analysis from RAND researchers."
   },
   {
    "id": "ukdj",
@@ -201,7 +201,7 @@
    "count": 10,
    "latest": "2026-11-13T18:43:45Z",
    "error": null,
-   "ms": 325
+   "ms": 361
   },
   {
    "id": "breakingdefense",
@@ -209,7 +209,7 @@
    "count": 12,
    "latest": "2026-11-13T17:00:00Z",
    "error": null,
-   "ms": 104
+   "ms": 120
   },
   {
    "id": "defenseone",
@@ -217,7 +217,7 @@
    "count": 12,
    "latest": "2026-11-13T11:00:00Z",
    "error": null,
-   "ms": 534
+   "ms": 513
   },
   {
    "id": "afmag",
@@ -225,14 +225,14 @@
    "count": 9,
    "latest": "2026-11-13T15:58:44Z",
    "error": null,
-   "ms": 282
+   "ms": 302
   },
   {
    "id": "defensepost",
    "status": "error",
    "count": 0,
    "latest": null,
-   "error": "ParseError: not well-formed (invalid token): line 69, column 239"
+   "error": "ParseError: not well-formed (invalid token): line 120, column 14"
   },
   {
    "id": "airforcetech",
@@ -240,7 +240,7 @@
    "count": 10,
    "latest": "2026-11-13T16:16:26Z",
    "error": null,
-   "ms": 140
+   "ms": 139
   },
   {
    "id": "twz",
@@ -248,7 +248,7 @@
    "count": 12,
    "latest": "2026-11-13T18:03:06Z",
    "error": null,
-   "ms": 407
+   "ms": 346
   },
   {
    "id": "warontherocks",
@@ -256,15 +256,15 @@
    "count": 12,
    "latest": "2026-11-12T18:30:19Z",
    "error": null,
-   "ms": 444
+   "ms": 438
   },
   {
    "id": "rand",
-   "status": "empty",
-   "count": 0,
-   "latest": null,
+   "status": "ok",
+   "count": 8,
+   "latest": "2026-11-09T16:45:00Z",
    "error": null,
-   "ms": 192
+   "ms": 228
   },
   {
    "id": "ukdj",
@@ -272,7 +272,7 @@
    "count": 10,
    "latest": "2026-11-13T16:08:28Z",
    "error": null,
-   "ms": 1363
+   "ms": 779
   },
   {
    "id": "aviationist",
@@ -280,7 +280,7 @@
    "count": 12,
    "latest": "2026-11-13T15:21:15Z",
    "error": null,
-   "ms": 225
+   "ms": 222
   },
   {
    "id": "rusi",
@@ -288,7 +288,7 @@
    "count": 12,
    "latest": "2026-11-13T00:00:00Z",
    "error": null,
-   "ms": 287
+   "ms": 273
   },
   {
    "id": "eurosd",
@@ -296,7 +296,7 @@
    "count": 6,
    "latest": "2026-11-13T13:03:06Z",
    "error": null,
-   "ms": 709
+   "ms": 645
   },
   {
    "id": "savunmasanayist",
@@ -304,7 +304,7 @@
    "count": 10,
    "latest": "2026-11-13T14:25:03Z",
    "error": null,
-   "ms": 926
+   "ms": 917
   },
   {
    "id": "defensehere",
@@ -312,7 +312,7 @@
    "count": 10,
    "latest": "2026-11-13T11:34:39Z",
    "error": null,
-   "ms": 2505
+   "ms": 2650
   }
  ],
  "trending": [
@@ -1312,6 +1312,14 @@
    "source": "airforcetech"
   },
   {
+   "title": "Veterans, Families, and Life After Military Service: Q&A with RAND Experts",
+   "link": "https://www.rand.org/pubs/commentary/2026/11/veterans-families-and-life-after-military-service-qa.html",
+   "date": "2026-11-09T16:45:00Z",
+   "desc": "For veterans, leaving the U.S. military can open new doors and raise new questions. In this Q&A, Carrie Farmer and Rajeev Ramchand share what RAND's research reveals about life after military service and the questions th",
+   "img": null,
+   "source": "rand"
+  },
+  {
    "title": "The Record Budgets and Missing Suppliers Shaping America’s Munitions Ramp",
    "link": "https://warontherocks.com/cogs-of-war/the-record-budgets-and-missing-suppliers-shaping-americas-munitions-ramp/",
    "date": "2026-11-09T09:00:45Z",
@@ -1424,6 +1432,14 @@
    "source": "rusi"
   },
   {
+   "title": "Preparedness for the AI Era Requires a Reserve of Critical Workers",
+   "link": "https://www.rand.org/pubs/commentary/2026/11/preparedness-for-the-ai-era-requires-a-reserve-of-critical.html",
+   "date": "2026-11-04T15:15:00Z",
+   "desc": "If governments or employers assume that permanent AI automation is right around the corner, vital training and career pipelines could collapse. We could find ourselves without enough people to perform work essential for ",
+   "img": null,
+   "source": "rand"
+  },
+  {
    "title": "Episode 132: Brazil’s Elections: Why Lula’s Win Matters for Global Security",
    "link": "https://www.rusi.org/podcasts/global-security-briefing/episode-132-brazils-elections-why-lulas-win-matters-global-security",
    "date": "2026-11-04T00:00:00Z",
@@ -1438,6 +1454,54 @@
    "desc": "The institutions that have the authority to police international finance are no longer necessarily the institutions that possess the capabilities to do so.",
    "img": null,
    "source": "rusi"
+  },
+  {
+   "title": "Lessons from L.A. on Transfer Taxes",
+   "link": "https://www.rand.org/pubs/commentary/2026/11/lessons-from-la-on-transfer-taxes.html",
+   "date": "2026-11-02T22:45:00Z",
+   "desc": "San Francisco voters have a new proposition on real estate transfer taxes to consider. Aspects of and arguments for the new Prop 1 closely mirror the debate over Los Angeles' Measure ULA, a 2022 ballot initiative that es",
+   "img": null,
+   "source": "rand"
+  },
+  {
+   "title": "Why Employers Can't Tame Health Costs",
+   "link": "https://www.rand.org/pubs/commentary/2026/11/why-employers-cant-tame-health-costs.html",
+   "date": "2026-11-02T12:00:00Z",
+   "desc": "Price transparency alone isn’t helping employers rein in health care costs. What will it take to give them real leverage—and overcome the barriers of today’s system?",
+   "img": null,
+   "source": "rand"
+  },
+  {
+   "title": "America's Least Bad Option in Iran",
+   "link": "https://www.rand.org/pubs/commentary/2026/10/americas-least-bad-option-in-iran.html",
+   "date": "2026-10-29T11:00:00Z",
+   "desc": "In Iran, the United States could return to a full-scale bombing campaign, walk away from the conflict, or stick with the current approach. Staying the course almost certainly will not bring quick results but it is strate",
+   "img": null,
+   "source": "rand"
+  },
+  {
+   "title": "Why Quick Compensation Hasn't Replaced Eaton Fire Lawsuits—So Far",
+   "link": "https://www.rand.org/pubs/commentary/2026/10/why-quick-compensation-hasnt-replaced-eaton-fire-lawsuits.html",
+   "date": "2026-10-21T21:00:00Z",
+   "desc": "A review of Southern California Edison's direct-payment program finds that it has paid claimants much faster, but it hasn't become a broad substitute for lawsuits.",
+   "img": null,
+   "source": "rand"
+  },
+  {
+   "title": "The Missing Link in Drug Policy: Why Whole-System Reform Is Stalling",
+   "link": "https://www.rand.org/pubs/commentary/2026/10/the-missing-link-in-drug-policy-why-whole-system-reform.html",
+   "date": "2026-10-19T12:00:00Z",
+   "desc": "The UK has made progress toward a whole-system approach to drug policy, but unclear accountability and persistent stigma are stalling reform.",
+   "img": null,
+   "source": "rand"
+  },
+  {
+   "title": "A Better Way to Use Criminal Records in Hiring",
+   "link": "https://www.rand.org/pubs/commentary/2026/10/a-better-way-to-use-criminal-records-in-hiring.html",
+   "date": "2026-10-15T15:30:00Z",
+   "desc": "Employers want to know whether an applicant is likely to commit another crime, possibly on the job. But the screening rules many of them use are often about as accurate as a coin toss, in part because they're based on da",
+   "img": null,
+   "source": "rand"
   }
  ]
 }
