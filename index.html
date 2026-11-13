@@ -1,726 +1,774 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>AEROINTEL // Military Aviation Intelligence Dashboard</title>
-<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+<title>AEROINTEL — Open-Source Defence Aviation News</title>
+<meta name="description" content="Live open-source defence aviation news from curated sources, in one screen.">
+<meta name="theme-color" content="#000000">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="AEROINTEL">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta property="og:title" content="AEROINTEL — Open-Source Defence Aviation News">
+<meta property="og:description" content="Live open-source defence aviation news from curated sources, in one screen.">
+<meta property="og:image" content="icons/icon-512.png">
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-  :root {
-    --green: #00ff41;
-    --green-dim: #00aa2a;
-    --green-dark: #004f12;
-    --green-glow: rgba(0,255,65,0.25);
-    --bg: #000000;
-    --bg2: #050f07;
-    --bg3: #071510;
-    --border: #00ff4133;
-    --text: #00ff41;
-    --text-dim: #00aa2a;
-    --red: #ff3030;
-    --amber: #ffb300;
-    --cyan: #00ccff;
-    --white: #c8ffc8;
+  :root{
+    --green:#00ff41; --green-dim:#3fcf63; --green-dark:#0b4a1a; --green-glow:rgba(0,255,65,.22);
+    --bg:#000; --bg2:#050f07; --bg3:#08180d; --border:#00ff4130;
+    --text:#00ff41; --text-dim:#5fbf75; --title:#d8ffe0; --body:#a8d8b2;
+    --red:#ff4d4d; --amber:#ffb300; --cyan:#00ccff;
+    --hdr-h:64px;
+    --safe-t:env(safe-area-inset-top,0px); --safe-b:env(safe-area-inset-bottom,0px);
+    --safe-l:env(safe-area-inset-left,0px); --safe-r:env(safe-area-inset-right,0px);
   }
-  * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color: transparent; }
-  body { background:var(--bg); color:var(--text); font-family:'Share Tech Mono',monospace; min-height:100vh; overflow-x:hidden; }
-  body::before {
-    content:''; position:fixed; top:0;left:0;right:0;bottom:0;
-    background:repeating-linear-gradient(0deg,transparent,transparent 2px,rgba(0,0,0,0.12) 2px,rgba(0,0,0,0.12) 4px);
-    pointer-events:none; z-index:9999;
+  *{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html{-webkit-text-size-adjust:100%}
+  body{background:var(--bg);color:var(--text);font-family:'Share Tech Mono',monospace;min-height:100vh;overflow-x:hidden;
+       padding-left:var(--safe-l);padding-right:var(--safe-r)}
+  /* subtle scanlines (toggle: FX) */
+  body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;
+    background:repeating-linear-gradient(0deg,transparent,transparent 3px,rgba(0,0,0,.06) 3px,rgba(0,0,0,.06) 4px)}
+  body.fx-off::before{display:none}
+  #matrix-canvas{position:fixed;inset:0;width:100%;height:100%;opacity:.07;pointer-events:none;z-index:0;transition:opacity 1.2s}
+  a{color:inherit}
+
+  /* HEADER (refresh merged in) */
+  header{position:sticky;top:0;z-index:200;background:rgba(0,5,2,.97);border-bottom:2px solid var(--green);
+    padding:calc(10px + var(--safe-t)) 18px 10px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;box-shadow:0 0 26px var(--green-glow)}
+  .logo{display:flex;align-items:center;gap:12px;min-width:0}
+  .logo-icon{width:42px;height:42px;border:2px solid var(--green);display:flex;align-items:center;justify-content:center;flex:none;
+    box-shadow:0 0 12px var(--green-glow),inset 0 0 12px var(--green-glow)}
+  .logo-icon svg{width:24px;height:24px}
+  .logo-text{font-family:'Orbitron',monospace;font-weight:900;font-size:20px;letter-spacing:5px;text-shadow:0 0 18px var(--green);line-height:1}
+  .logo-sub{font-size:9px;color:var(--text-dim);letter-spacing:2.5px;margin-top:4px}
+  .byline{font-size:10px;color:var(--text-dim);letter-spacing:1.5px;margin-top:3px;text-decoration:none;display:inline-block}
+  .byline:hover{color:var(--green)}
+  .hdr-right{margin-left:auto;display:flex;align-items:center;gap:14px;flex-wrap:wrap;justify-content:flex-end}
+  .status{font-size:10px;color:var(--text-dim);letter-spacing:2px;display:flex;align-items:center;gap:6px}
+  .dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 8px var(--green);animation:breathe 3s ease-in-out infinite}
+  .dot.warn{background:var(--amber);box-shadow:0 0 8px var(--amber)}
+  @keyframes breathe{0%,100%{opacity:1}50%{opacity:.35}}
+  #clock{font-family:'Orbitron',monospace;font-size:15px;text-shadow:0 0 10px var(--green);letter-spacing:3px;text-align:right}
+  #date-display{font-size:8px;text-align:right;color:var(--text-dim);letter-spacing:1.5px}
+  .btn{background:var(--green-dark);border:1px solid var(--green);color:var(--green);font-family:'Share Tech Mono',monospace;font-size:11px;
+    padding:7px 14px;cursor:pointer;letter-spacing:2px;transition:.2s;display:inline-flex;align-items:center;gap:6px;min-height:34px}
+  .btn:hover{background:var(--green);color:#000}
+  .btn:disabled{opacity:.45;cursor:not-allowed}
+  .btn.ghost{background:transparent;border-color:var(--border);color:var(--text-dim)}
+  .spin{display:inline-block}
+  .loading .spin{animation:spin .7s linear infinite}
+  @keyframes spin{to{transform:rotate(360deg)}}
+  #progress{position:absolute;left:0;right:0;bottom:-2px;height:2px;background:transparent;overflow:hidden}
+  #progress-fill{height:100%;width:0;background:var(--green);box-shadow:0 0 6px var(--green);transition:width .3s}
+
+  /* PREVIEW BANNER */
+  #preview-banner{display:none;background:rgba(255,179,0,.08);border-bottom:1px solid rgba(255,179,0,.4);color:var(--amber);
+    font-size:11px;letter-spacing:1.5px;padding:8px 18px;text-align:center;position:relative;z-index:1}
+  body.preview #preview-banner{display:block}
+
+  /* TABS */
+  .nav-tabs{background:var(--bg2);border-bottom:1px solid var(--border);padding:0 18px;display:flex;overflow-x:auto;
+    position:sticky;top:var(--hdr-h);z-index:198;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+  .nav-tabs::-webkit-scrollbar{display:none}
+  .nav-tab{padding:11px 16px;font-family:'Share Tech Mono',monospace;font-size:11px;letter-spacing:2px;color:var(--text-dim);cursor:pointer;
+    border:none;border-bottom:3px solid transparent;background:none;white-space:nowrap;transition:.2s;min-height:42px}
+  .nav-tab:hover{color:var(--green)}
+  .nav-tab.active{color:var(--green);border-bottom-color:var(--green);text-shadow:0 0 8px var(--green);background:rgba(0,255,65,.06)}
+  .tab-badge{display:inline-block;background:var(--green-dark);color:var(--green);font-size:9px;padding:0 5px;margin-left:6px;min-width:18px;text-align:center}
+
+  /* TICKER */
+  .ticker-wrap{background:rgba(0,255,65,.035);border-bottom:1px solid var(--border);padding:7px 0;overflow:hidden;position:relative;z-index:1}
+  .ticker-label{position:absolute;left:0;top:0;bottom:0;background:var(--green);color:#000;font-family:'Orbitron',monospace;font-size:9px;
+    font-weight:700;letter-spacing:2px;padding:0 12px;display:flex;align-items:center;z-index:2}
+  .ticker-track{display:flex;gap:50px;padding-left:90px;white-space:nowrap;width:max-content}
+  .ticker-animated{animation:ticker 110s linear infinite}
+  .ticker-wrap:hover .ticker-animated{animation-play-state:paused}
+  @keyframes ticker{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+  .ticker-item{font-size:11px;color:var(--text-dim);letter-spacing:1px;text-decoration:none}
+  .ticker-item b{color:var(--green);font-weight:normal}
+
+  main{position:relative;z-index:1;padding:20px 18px calc(24px + var(--safe-b));max-width:1600px;margin:0 auto}
+
+  /* STATS */
+  .stats-bar{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:18px}
+  .stat-card{background:var(--bg2);border:1px solid var(--border);padding:12px 16px;position:relative}
+  .stat-card::before{content:'';position:absolute;top:0;left:0;width:3px;height:100%;background:var(--green);box-shadow:0 0 8px var(--green)}
+  .stat-label{font-size:9px;letter-spacing:2.5px;color:var(--text-dim);margin-bottom:6px;display:flex;align-items:center;gap:6px}
+  .stat-value{font-family:'Orbitron',monospace;font-size:22px;font-weight:700;text-shadow:0 0 10px var(--green)}
+  .stat-value.small{font-size:15px}
+  .stat-sub{font-size:9px;color:var(--text-dim);margin-top:4px;letter-spacing:1px}
+  .tip{position:relative;display:inline-flex;width:14px;height:14px;border:1px solid var(--green-dark);border-radius:50%;
+    font-size:9px;align-items:center;justify-content:center;cursor:help;color:var(--text-dim);flex:none}
+  .tip .tip-box{display:none;position:absolute;top:18px;left:-8px;width:220px;background:#020a04;border:1px solid var(--green);
+    padding:8px 10px;font-family:'IBM Plex Sans',sans-serif;font-size:11.5px;line-height:1.45;letter-spacing:0;color:var(--body);z-index:300;text-transform:none}
+  .tip:hover .tip-box,.tip.show .tip-box{display:block}
+
+  /* SEARCH */
+  .search-bar{display:flex;gap:8px;margin-bottom:20px;flex-wrap:wrap}
+  .search-input{flex:1;min-width:160px;background:var(--bg2);border:1px solid var(--border);color:var(--green);
+    font-family:'Share Tech Mono',monospace;font-size:16px;padding:9px 14px;outline:none;letter-spacing:1px}
+  .search-input::placeholder{color:#2b7a3f}
+  .search-input:focus{border-color:var(--green);box-shadow:0 0 10px var(--green-glow)}
+
+  /* SECTIONS & CARDS */
+  .section-header{display:flex;align-items:center;gap:10px;margin:6px 0 14px;padding-bottom:8px;border-bottom:1px solid var(--border)}
+  .section-title{font-family:'Orbitron',monospace;font-size:12px;letter-spacing:4px;text-shadow:0 0 8px var(--green)}
+  .section-line{flex:1;height:1px;background:linear-gradient(to right,var(--green-dark),transparent)}
+  .section-count{font-size:9px;color:var(--text-dim);border:1px solid var(--border);padding:2px 7px;letter-spacing:2px}
+  .news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-bottom:28px}
+  .news-card{background:var(--bg2);border:1px solid var(--border);text-decoration:none;display:flex;flex-direction:column;transition:.2s;position:relative}
+  .news-card:hover{background:var(--bg3);border-color:var(--green);transform:translateY(-2px);box-shadow:0 0 16px rgba(0,255,65,.12)}
+  .card-img-wrap{height:140px;overflow:hidden;position:relative;background:var(--bg3)}
+  .card-img{width:100%;height:100%;object-fit:cover;opacity:.85;filter:saturate(.75) contrast(1.05);transition:.3s;display:block}
+  .card-img-wrap::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,40,10,.15),rgba(0,20,5,.55));pointer-events:none}
+  .news-card:hover .card-img{opacity:1}
+  .card-ph{width:100%;height:100%;display:flex;align-items:center;justify-content:center;font-size:34px;
+    background:linear-gradient(135deg,var(--bg3),var(--bg2));border-bottom:1px solid var(--border)}
+  .badge{position:absolute;top:8px;background:rgba(0,0,0,.85);border:1px solid var(--green);font-family:'Orbitron',monospace;
+    font-size:8px;letter-spacing:2px;padding:3px 8px;z-index:1}
+  .badge.src{left:8px}
+  .badge.age{right:8px;border-color:var(--border);color:var(--text-dim);font-family:'Share Tech Mono',monospace;letter-spacing:1px}
+  .badge.new{left:8px;top:32px;border-color:var(--amber);color:var(--amber)}
+  .card-body{padding:12px 14px;flex:1;display:flex;flex-direction:column;font-family:'IBM Plex Sans',sans-serif}
+  .card-title{font-size:14px;font-weight:600;color:var(--title);line-height:1.4;margin-bottom:7px;flex:1}
+  .card-desc{font-size:12.5px;color:var(--body);line-height:1.5;margin-bottom:9px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+  .card-meta{display:flex;align-items:center;gap:6px;margin-top:auto;font-family:'Share Tech Mono',monospace}
+  .card-meta .card-go{margin-left:auto}
+  .card-cat{font-size:8px;letter-spacing:2px;padding:2px 7px;border:1px solid var(--green-dark);color:var(--text-dim)}
+  .card-go{font-size:13px;color:var(--green)}
+  .lock{color:var(--amber);font-size:10px;margin-left:6px}
+  .skeleton{background:var(--bg2);border:1px solid var(--border);height:250px;position:relative;overflow:hidden}
+  .skeleton::after{content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;
+    background:linear-gradient(90deg,transparent,rgba(0,255,65,.05),transparent);animation:shimmer 1.5s infinite}
+  @keyframes shimmer{to{left:100%}}
+  .empty{padding:20px;text-align:center;color:var(--amber);font-size:11px;letter-spacing:2px;border:1px solid rgba(255,179,0,.3);background:rgba(255,179,0,.04)}
+
+  /* HELP + FILTER BAR */
+  .help{display:flex;gap:12px;align-items:flex-start;background:rgba(0,204,255,.05);border:1px solid rgba(0,204,255,.3);padding:12px 14px;margin-bottom:16px;
+    font-family:'IBM Plex Sans',sans-serif;font-size:13px;line-height:1.5;color:var(--body)}
+  .help b{color:var(--cyan);font-weight:600}
+  .help ol{padding-left:18px;flex:1}
+  .help button{background:none;border:none;color:var(--text-dim);font-size:18px;cursor:pointer;line-height:1}
+  .filterbar{display:none;align-items:center;gap:10px;flex-wrap:wrap;background:var(--bg3);border:1px solid var(--green);padding:8px 12px;margin-bottom:16px;font-size:11px;letter-spacing:1.5px}
+  .filterbar.on{display:flex}
+  .filterbar .f{color:var(--title)}
+  .filterbar .btn{margin-left:auto;min-height:28px;padding:4px 10px;font-size:10px}
+  /* TOPIC CHIPS */
+  .chips-area{margin:-6px 0 18px}
+  .chips-wrap{display:flex;align-items:center;gap:8px;margin-bottom:8px;flex-wrap:wrap}
+  .chip.trend{border-color:rgba(255,120,0,.55);color:#ffa040}
+  .chip.trend:hover{border-color:#ff8a00;color:#ffb060}
+  .chip.trend.active{background:#ff8a00;color:#000;border-color:#ff8a00}
+  .chips-label.trend{color:#ffa040}
+  .chips-label{font-size:9px;letter-spacing:2.5px;color:var(--text-dim);display:flex;align-items:center;gap:6px;margin-right:4px}
+  .chip{background:var(--bg2);border:1px solid var(--border);color:var(--text-dim);font-family:'Share Tech Mono',monospace;font-size:10px;
+    letter-spacing:1.5px;padding:6px 10px;cursor:pointer;transition:.15s;min-height:30px}
+  .chip:hover{border-color:var(--green);color:var(--green)}
+  .chip.active{background:var(--green);color:#000;border-color:var(--green)}
+  .chip .n{opacity:.7;margin-left:6px}
+  /* WATCHLIST */
+  .news-card.watched{border-color:rgba(255,179,0,.55);box-shadow:inset 3px 0 0 var(--amber)}
+  .badge.watch{right:8px;top:32px;border-color:var(--amber);color:var(--amber)}
+  .topic-tag{font-size:8px;letter-spacing:1.5px;padding:2px 6px;border:1px solid rgba(0,204,255,.35);color:var(--cyan)}
+  .watch-box{background:var(--bg2);border:1px solid rgba(255,179,0,.35);padding:16px;margin-bottom:22px}
+  .watch-box h3{font-family:'Orbitron',monospace;font-size:12px;letter-spacing:3px;color:var(--amber);margin-bottom:6px}
+  .watch-box p{font-family:'IBM Plex Sans',sans-serif;font-size:13px;color:var(--body);line-height:1.5;margin-bottom:12px}
+  .watch-form{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+  .watch-form input{flex:1;min-width:160px;background:#000;border:1px solid var(--border);color:var(--amber);font-family:'Share Tech Mono',monospace;
+    font-size:16px;padding:8px 12px;outline:none}
+  .watch-form input:focus{border-color:var(--amber)}
+  .btn.amber{background:rgba(255,179,0,.12);border-color:var(--amber);color:var(--amber)}
+  .btn.amber:hover{background:var(--amber);color:#000}
+  .kw-list{display:flex;gap:8px;flex-wrap:wrap}
+  .kw{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--amber);color:var(--amber);font-size:11px;letter-spacing:1px;padding:5px 6px 5px 10px}
+  .kw button{background:none;border:none;color:var(--amber);font-size:14px;cursor:pointer;line-height:1;padding:0 4px}
+  .kw-suggest{background:none;border:1px dashed rgba(255,179,0,.45);color:var(--amber);font-family:'Share Tech Mono',monospace;font-size:11px;padding:5px 10px;cursor:pointer}
+  .tab-badge.amber{background:rgba(255,179,0,.18);color:var(--amber)}
+  .tab-panel{display:none}
+  .tab-panel.active{display:block}
+
+  /* SOURCES */
+  .sources-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin-bottom:28px}
+  .source-card{background:var(--bg2);border:1px solid var(--border);padding:14px;text-decoration:none;display:block;position:relative;transition:.2s}
+  .source-card:hover{background:var(--bg3);border-color:var(--green)}
+  .source-name{font-family:'Orbitron',monospace;font-size:11px;letter-spacing:2px;margin-bottom:4px;padding-right:70px}
+  .source-url{font-size:9px;color:var(--text-dim);margin-bottom:8px;word-break:break-all}
+  .source-desc{font-family:'IBM Plex Sans',sans-serif;font-size:12px;color:var(--body);line-height:1.5}
+  .source-tags{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:8px}
+  .tag{font-size:8px;letter-spacing:1.5px;padding:2px 7px;border:1px solid var(--green-dark);color:var(--text-dim)}
+  .health{position:absolute;right:12px;top:12px;font-size:8px;letter-spacing:1.5px;padding:2px 6px;border:1px solid}
+  .h-ok{color:var(--green);border-color:var(--green-dark)}
+  .h-stale,.h-empty,.h-preview{color:var(--amber);border-color:rgba(255,179,0,.4)}
+  .h-error{color:var(--red);border-color:rgba(255,77,77,.45)}
+
+  /* ABOUT */
+  .about{max-width:860px;font-family:'IBM Plex Sans',sans-serif;color:var(--body);font-size:14px;line-height:1.65}
+  .about h2{font-family:'Orbitron',monospace;font-size:13px;letter-spacing:3px;color:var(--green);margin:22px 0 8px;text-shadow:0 0 8px var(--green)}
+  .about p,.about li{margin-bottom:8px}
+  .about ul{padding-left:20px}
+  .about b{color:var(--title)}
+  .about a{color:var(--green)}
+
+  footer{border-top:1px solid var(--border);padding:14px 18px calc(14px + var(--safe-b));display:flex;justify-content:space-between;align-items:center;
+    font-size:9px;color:var(--text-dim);letter-spacing:1.5px;background:var(--bg2);position:relative;z-index:1;flex-wrap:wrap;gap:10px}
+  footer button{background:none;border:1px solid var(--border);color:var(--text-dim);font-family:inherit;font-size:9px;letter-spacing:1.5px;padding:4px 8px;cursor:pointer}
+  .corner{position:fixed;width:30px;height:30px;z-index:50;pointer-events:none}
+  .c-tl{top:var(--safe-t);left:0;border-top:2px solid var(--green);border-left:2px solid var(--green)}
+  .c-tr{top:var(--safe-t);right:0;border-top:2px solid var(--green);border-right:2px solid var(--green)}
+  .c-bl{bottom:0;left:0;border-bottom:2px solid var(--green);border-left:2px solid var(--green)}
+  .c-br{bottom:0;right:0;border-bottom:2px solid var(--green);border-right:2px solid var(--green)}
+
+  @media (max-width:900px) and (min-width:641px){.stats-bar{grid-template-columns:1fr 1fr}}
+  @media (max-width:640px){
+    header{padding:calc(8px + var(--safe-t)) 12px 8px;gap:10px}
+    .logo-text{font-size:16px;letter-spacing:3px}
+    .logo-sub{font-size:8px;letter-spacing:1.5px}
+    .hdr-right{width:100%;justify-content:space-between}
+    .clock-box{display:none}
+    main{padding:14px 12px calc(20px + var(--safe-b))}
+    .news-grid{grid-template-columns:1fr}
+    .stat-value{font-size:18px}
+    .nav-tabs{padding:0 8px}
+    .chips-wrap{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;scrollbar-width:none;margin-right:-12px;padding-right:12px}
+    .stats-bar{grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:14px}
+    .stat-card{padding:8px 8px 8px 11px}
+    .stat-label{font-size:7.5px;letter-spacing:1px;margin-bottom:4px;flex-wrap:wrap;gap:4px}
+    .stat-value{font-size:16px}
+    .stat-value.small{font-size:12px}
+    .stat-sub{display:none}
+    .help{font-size:12.5px}
+    .chips-wrap::-webkit-scrollbar{display:none}
+    .chip,.chips-label{flex:none}
   }
-  #matrix-canvas { position:fixed;top:0;left:0;width:100%;height:100%;opacity:0.04;pointer-events:none;z-index:0; }
-
-/* HEADER */
-header {
-position:sticky;top:0;z-index:200;
-background:rgba(0,5,2,0.97);
-border-bottom:2px solid var(--green);
-padding:10px 20px;
-display:flex;align-items:center;justify-content:space-between;gap:12px;
-box-shadow:0 0 30px var(--green-glow);
-flex-wrap:wrap;
-}
-.logo { display:flex;align-items:center;gap:12px; }
-.logo-icon {
-width:42px;height:42px;border:2px solid var(--green);
-display:flex;align-items:center;justify-content:center;font-size:20px;
-box-shadow:0 0 14px var(--green-glow),inset 0 0 14px var(--green-glow);
-animation:pulse 2.5s infinite;
-}
-@keyframes pulse{0%,100%{box-shadow:0 0 10px var(--green-glow),inset 0 0 10px var(--green-glow);}50%{box-shadow:0 0 24px rgba(0,255,65,0.55),inset 0 0 18px rgba(0,255,65,0.35);}}
-.logo-text { font-family:'Orbitron',monospace;font-weight:900;font-size:20px;letter-spacing:5px;text-shadow:0 0 20px var(--green); }
-.logo-sub { font-size:9px;color:var(--text-dim);letter-spacing:3px; }
-.header-right { display:flex;align-items:center;gap:16px;font-size:10px;color:var(--text-dim);letter-spacing:2px; }
-.status-dot { width:7px;height:7px;border-radius:50%;background:var(--green);display:inline-block;margin-right:5px;box-shadow:0 0 8px var(--green);animation:blink 1s infinite; }
-@keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0.3}}
-#clock { font-family:'Orbitron',monospace;font-size:15px;color:var(--green);text-shadow:0 0 12px var(--green);letter-spacing:3px; }
-
-/* REFRESH BAR */
-.refresh-bar {
-background:var(--bg2);border-bottom:1px solid var(--border);
-padding:8px 20px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;
-position:sticky;top:68px;z-index:199;
-}
-.refresh-btn {
-background:var(--green-dark);border:1px solid var(--green);color:var(--green);
-font-family:'Share Tech Mono',monospace;font-size:11px;padding:6px 16px;
-cursor:pointer;letter-spacing:2px;transition:.2s;display:flex;align-items:center;gap:6px;
-}
-.refresh-btn:hover { background:var(--green);color:var(--bg); }
-.refresh-btn:disabled { opacity:.4;cursor:not-allowed; }
-.spin { display:inline-block; }
-.loading .spin { animation:spin .7s linear infinite; }
-@keyframes spin{to{transform:rotate(360deg)}}
-.last-update { font-size:10px;color:var(--text-dim);letter-spacing:1.5px; }
-.feed-count { font-size:10px;color:var(--green);letter-spacing:2px; }
-.auto-label { font-size:10px;color:var(--text-dim);letter-spacing:1.5px;margin-left:auto; }
-#progress-bar { height:2px;background:var(--green-dark);position:relative;overflow:hidden;flex:1;min-width:80px; }
-#progress-fill { height:100%;background:var(--green);width:0%;transition:width .3s;box-shadow:0 0 6px var(--green); }
-
-/* NAV TABS */
-.nav-tabs {
-background:var(--bg2);border-bottom:1px solid var(--border);
-padding:0 20px;display:flex;gap:0;overflow-x:auto;
-position:sticky;top:108px;z-index:198;
--webkit-overflow-scrolling: touch;
-}
-.nav-tab {
-padding:10px 18px;font-family:'Share Tech Mono',monospace;font-size:11px;letter-spacing:2px;
-color:var(--text-dim);cursor:pointer;border-bottom:3px solid transparent;transition:.2s;
-white-space:nowrap;background:none;border-left:none;border-right:none;border-top:none;outline:none;
-}
-.nav-tab:hover { color:var(--green);background:rgba(0,255,65,0.05); }
-.nav-tab.active { color:var(--green);border-bottom-color:var(--green);text-shadow:0 0 10px var(--green);background:rgba(0,255,65,0.07); }
-.tab-badge {
-display:inline-flex;align-items:center;justify-content:center;
-background:var(--green-dark);color:var(--green);border-radius:2px;
-font-size:9px;padding:0 5px;margin-left:6px;min-width:18px;
-}
-
-/* TICKER */
-.ticker-wrap {
-background:rgba(0,255,65,0.04);border-bottom:1px solid var(--border);
-padding:6px 0;overflow:hidden;position:relative;
-}
-.ticker-label {
-position:absolute;left:0;top:0;bottom:0;background:var(--green);color:var(--bg);
-font-family:'Orbitron',monospace;font-size:9px;font-weight:700;letter-spacing:2px;
-padding:0 12px;display:flex;align-items:center;z-index:2;white-space:nowrap;
-}
-.ticker-track { display:flex;gap:50px;padding-left:110px;white-space:nowrap; }
-.ticker-animated { animation:ticker-scroll 90s linear infinite; }
-@keyframes ticker-scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-.ticker-item { font-size:10px;color:var(--text-dim);letter-spacing:1.5px; }
-.ticker-item::before { content:'▶ ';color:var(--green); }
-
-/* MAIN */
-main { position:relative;z-index:1;padding:20px;max-width:1600px;margin:0 auto; }
-
-/* STATS BAR */
-.stats-bar { display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin-bottom:20px; }
-.stat-card { background:var(--bg2);border:1px solid var(--border);padding:12px 16px;position:relative;overflow:hidden; }
-.stat-card::before { content:'';position:absolute;top:0;left:0;width:3px;height:100%;background:var(--green);box-shadow:0 0 8px var(--green); }
-.stat-label { font-size:8px;letter-spacing:3px;color:var(--text-dim);margin-bottom:5px; }
-.stat-value { font-family:'Orbitron',monospace;font-size:20px;font-weight:700;color:var(--green);text-shadow:0 0 10px var(--green); }
-.stat-sub { font-size:8px;color:var(--text-dim);margin-top:3px; }
-
-/* SEARCH */
-.search-bar { display:flex;gap:8px;margin-bottom:20px;align-items:center;flex-wrap:wrap; }
-.search-input {
-flex:1;background:var(--bg2);border:1px solid var(--border);color:var(--green);
-font-family:'Share Tech Mono',monospace;font-size:12px;padding:9px 14px;outline:none;letter-spacing:1.5px;
-min-width:150px;
-}
-.search-input::placeholder { color:var(--green-dark); }
-.search-input:focus { border-color:var(--green);box-shadow:0 0 10px var(--green-glow); }
-.search-btn {
-background:var(--green-dark);border:1px solid var(--green);color:var(--green);
-font-family:'Share Tech Mono',monospace;font-size:11px;padding:9px 18px;cursor:pointer;letter-spacing:2px;transition:.2s;
-}
-.search-btn:hover { background:var(--green);color:var(--bg); }
-
-/* SECTION HEADER */
-.section-header { display:flex;align-items:center;gap:10px;margin-bottom:14px;padding-bottom:8px;border-bottom:1px solid var(--border);flex-wrap:wrap; }
-.section-title { font-family:'Orbitron',monospace;font-size:12px;letter-spacing:4px;color:var(--green);text-shadow:0 0 10px var(--green); }
-.section-line { flex:1;height:1px;background:linear-gradient(to right,var(--green-dark),transparent);min-width:30px; }
-.section-count { font-size:9px;color:var(--text-dim);border:1px solid var(--border);padding:2px 7px;letter-spacing:2px; }
-
-/* NEWS GRID */
-.news-grid { display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-bottom:28px; }
-
-.news-card {
-background:var(--bg2);border:1px solid var(--border);cursor:pointer;transition:.25s;
-position:relative;overflow:hidden;text-decoration:none;display:flex;flex-direction:column;
-}
-.news-card:hover { background:var(--bg3);transform:translateY(-2px);box-shadow:0 0 18px rgba(0,255,65,0.13),0 4px 18px rgba(0,0,0,0.5);border-color:var(--green); }
-
-.card-img-wrap { width:100%;height:140px;overflow:hidden;position:relative;background:var(--bg3); }
-.card-img { width:100%;height:100%;object-fit:cover;opacity:.7;transition:.3s;filter:grayscale(40%) hue-rotate(90deg); }
-.news-card:hover .card-img { opacity:.9;filter:grayscale(20%) hue-rotate(80deg); }
-.card-img-placeholder {
-width:100%;height:100%;display:flex;align-items:center;justify-content:center;
-font-size:36px;background:linear-gradient(135deg,var(--bg3),var(--bg2));border-bottom:1px solid var(--border);
-}
-.card-source-badge {
-position:absolute;top:8px;left:8px;background:rgba(0,0,0,0.85);border:1px solid var(--green);
-font-family:'Orbitron',monospace;font-size:8px;letter-spacing:2px;padding:3px 8px;color:var(--green);
-}
-.card-age-badge {
-position:absolute;top:8px;right:8px;background:rgba(0,0,0,0.8);border:1px solid var(--border);
-font-size:8px;letter-spacing:1px;padding:3px 7px;color:var(--text-dim);
-}
-
-.card-body { padding:12px 14px;flex:1;display:flex;flex-direction:column; }
-.card-title { font-size:11px;color:var(--white);line-height:1.6;letter-spacing:.5px;margin-bottom:8px;flex:1; }
-.card-desc { font-size:10px;color:var(--text-dim);line-height:1.5;margin-bottom:8px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden; }
-.card-meta-row { display:flex;align-items:center;justify-content:space-between;margin-top:auto; }
-.card-category { font-size:8px;letter-spacing:2px;padding:2px 7px;border:1px solid var(--green-dark);color:var(--text-dim); }
-.card-link-label { font-size:9px;color:var(--green);letter-spacing:2px; }
-
-/* Skeleton */
-.skeleton-card { background:var(--bg2);border:1px solid var(--border);height:260px;position:relative;overflow:hidden; }
-.skeleton-card::after {
-content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;
-background:linear-gradient(90deg,transparent,rgba(0,255,65,0.05),transparent);
-animation:shimmer 1.5s infinite;
-}
-@keyframes shimmer{to{left:100%}}
-
-.feed-error { padding:20px;text-align:center;color:var(--amber);font-size:11px;letter-spacing:2px;border:1px solid rgba(255,179,0,0.3);background:rgba(255,179,0,0.04); }
-
-/* TAB PANELS */
-.tab-panel { display:none; }
-.tab-panel.active { display:block; }
-
-/* SOURCES */
-.sources-grid { display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:12px;margin-bottom:28px; }
-.source-card {
-background:var(--bg2);border:1px solid var(--border);padding:14px;cursor:pointer;
-transition:.2s;text-decoration:none;display:block;position:relative;
-}
-.source-card:hover { background:var(--bg3);border-color:var(--green);transform:translateY(-1px);box-shadow:0 0 14px var(--green-glow); }
-.source-name { font-family:'Orbitron',monospace;font-size:11px;letter-spacing:2px;color:var(--green);margin-bottom:4px; }
-.source-url { font-size:9px;color:var(--text-dim);margin-bottom:8px;word-break:break-all; }
-.source-desc { font-size:10px;color:var(--text-dim);line-height:1.6; }
-.source-arrow { position:absolute;right:12px;top:12px;color:var(--text-dim);transition:.2s; }
-.source-card:hover .source-arrow { color:var(--green);transform:translate(2px,-2px); }
-.source-tags { display:flex;gap:5px;flex-wrap:wrap;margin-bottom:8px; }
-.tag { font-size:8px;letter-spacing:1.5px;padding:2px 7px;border:1px solid var(--green-dark);color:var(--text-dim); }
-.tag.hot { border-color:var(--amber);color:var(--amber); }
-.tag.intel { border-color:rgba(0,204,255,0.4);color:var(--cyan); }
-
-/* FOOTER */
-footer {
-border-top:1px solid var(--border);padding:14px 20px;display:flex;justify-content:space-between;align-items:center;
-font-size:9px;color:var(--text-dim);letter-spacing:2px;background:var(--bg2);position:relative;z-index:1;flex-wrap:wrap;gap:8px;
-}
-
-.corner { position:fixed;width:36px;height:36px;z-index:50;pointer-events:none; }
-.corner-tl{top:0;left:0;border-top:2px solid var(--green);border-left:2px solid var(--green);}
-.corner-tr{top:0;right:0;border-top:2px solid var(--green);border-right:2px solid var(--green);}
-.corner-bl{bottom:0;left:0;border-bottom:2px solid var(--green);border-left:2px solid var(--green);}
-.corner-br{bottom:0;right:0;border-bottom:2px solid var(--green);border-right:2px solid var(--green);}
-
-@media(max-width:768px){
-header{padding:8px 12px;}
-.logo-text{font-size:15px;letter-spacing:3px;}
-.logo-sub{font-size:7px;}
-main{padding:12px;}
-.news-grid{grid-template-columns:1fr;}
-.stats-bar{grid-template-columns:1fr 1fr;}
-.nav-tabs{top:98px;}
-.refresh-bar{top:62px;}
-}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}#matrix-canvas{display:none}}
 </style>
 </head>
 <body>
-<canvas id="matrix-canvas"></canvas>
-<div class="corner corner-tl"></div><div class="corner corner-tr"></div>
-<div class="corner corner-bl"></div><div class="corner corner-br"></div>
+<canvas id="matrix-canvas" aria-hidden="true"></canvas>
+<div class="corner c-tl"></div><div class="corner c-tr"></div><div class="corner c-bl"></div><div class="corner c-br"></div>
 
-<header>
+<header id="hdr">
   <div class="logo">
-    <div class="logo-icon">✈</div>
+    <div class="logo-icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24"><path d="M12 2 L22 17 L15 15.4 L12 21 L9 15.4 L2 17 Z" fill="#00ff41"/><path d="M12 7 L13.6 14 L10.4 14 Z" fill="#0b4a1a"/></svg>
+    </div>
     <div>
       <div class="logo-text">AEROINTEL</div>
-      <div class="logo-sub">MILITARY AVIATION INTELLIGENCE DASHBOARD</div>
+      <div class="logo-sub">OPEN-SOURCE DEFENCE AVIATION NEWS</div>
+      <a class="byline" href="https://www.linkedin.com/in/vural-avci-759635315/" target="_blank" rel="noopener noreferrer">BY VURAL AVCI ↗</a>
     </div>
   </div>
-  <div class="header-right">
-    <span><span class="status-dot"></span><span id="status-text">INITIALIZING...</span></span>
-    <div>
-      <div id="clock">00:00:00Z</div>
-      <div style="font-size:8px;text-align:right;" id="date-display">UTC</div>
-    </div>
+  <div class="hdr-right">
+    <span class="status"><span class="dot" id="dot"></span><span id="status-text">INITIALISING</span></span>
+    <button class="btn" id="refresh-btn" title="Fetch the latest articles now"><span class="spin">↻</span> REFRESH</button>
+    <div class="clock-box"><div id="clock">00:00:00Z</div><div id="date-display">UTC</div></div>
   </div>
+  <div id="progress"><div id="progress-fill"></div></div>
 </header>
 
-<div class="refresh-bar">
-  <button class="refresh-btn" id="refresh-btn">
-    <span class="spin">↻</span> REFRESH FEEDS
-  </button>
-  <div id="progress-bar"><div id="progress-fill"></div></div>
-  <span class="last-update" id="last-update">// NOT YET LOADED</span>
-  <span class="feed-count" id="feed-count">0 ARTICLES</span>
-  <span class="auto-label">AUTO: 15 MIN</span>
-</div>
+<div id="preview-banner">PREVIEW MODE · SAMPLE DATA — live headlines load automatically once the app is deployed</div>
 
-<nav class="nav-tabs">
-  <button class="nav-tab active" data-tab="all">// ALL <span class="tab-badge" id="badge-all">0</span></button>
-  <button class="nav-tab" data-tab="news">// NEWS <span class="tab-badge" id="badge-news">0</span></button>
-  <button class="nav-tab" data-tab="industry">// INDUSTRY <span class="tab-badge" id="badge-industry">0</span></button>
-  <button class="nav-tab" data-tab="intel">// INTELLIGENCE <span class="tab-badge" id="badge-intel">0</span></button>
-  <button class="nav-tab" data-tab="programs">// PROGRAMS <span class="tab-badge" id="badge-programs">0</span></button>
-  <button class="nav-tab" data-tab="sources">// SOURCES</button>
-</nav>
+<nav class="nav-tabs" id="tabs"></nav>
 
 <div class="ticker-wrap">
-  <div class="ticker-label">SIGINT</div>
-  <div class="ticker-track" id="ticker-track">
-    <span class="ticker-item">AEROINTEL INITIALIZING — LOADING RSS FEEDS</span>
-  </div>
+  <div class="ticker-label">LIVE</div>
+  <div class="ticker-track" id="ticker-track"><span class="ticker-item">LOADING FEEDS…</span></div>
 </div>
 
 <main>
+  <div class="help" id="help" style="display:none">
+    <ol>
+      <li>Tap a <b>🔥 TRENDING</b> term or a <b>TOPIC</b> to filter the news.</li>
+      <li>Add your own keywords in <b>★ MY WATCHLIST</b> — matches are highlighted everywhere.</li>
+      <li>Install it: iPhone <b>Share → Add to Home Screen</b> · Android <b>⋮ → Install app</b>.</li>
+    </ol>
+    <button id="help-close" aria-label="Hide tips">×</button>
+  </div>
   <div class="stats-bar">
     <div class="stat-card">
-      <div class="stat-label">// TOTAL ARTICLES</div>
+      <div class="stat-label">ARTICLES <span class="tip">?<span class="tip-box">Articles from the last 30 days across all working sources, duplicates removed.</span></span></div>
       <div class="stat-value" id="stat-total">—</div>
-      <div class="stat-sub">LIVE FROM RSS</div>
+      <div class="stat-sub">LAST 30 DAYS</div>
     </div>
     <div class="stat-card">
-      <div class="stat-label">// ACTIVE FEEDS</div>
-      <div class="stat-value" id="stat-feeds">—</div>
-      <div class="stat-sub">RSS CHANNELS</div>
+      <div class="stat-label">NEW FOR YOU <span class="tip">?<span class="tip-box">Articles published since your previous visit on this device. Marked NEW on the cards. Stored only in your browser.</span></span></div>
+      <div class="stat-value" id="stat-new">—</div>
+      <div class="stat-sub" id="stat-new-sub">SINCE LAST VISIT</div>
     </div>
     <div class="stat-card">
-      <div class="stat-label">// CATEGORIES</div>
-      <div class="stat-value">04</div>
-      <div class="stat-sub">INTEL SECTORS</div>
+      <div class="stat-label">SOURCE HEALTH <span class="tip">?<span class="tip-box">How many sources returned fresh articles in the latest update. See the SOURCES tab for each source's status.</span></span></div>
+      <div class="stat-value" id="stat-health">—</div>
+      <div class="stat-sub">SOURCES ONLINE</div>
     </div>
     <div class="stat-card">
-      <div class="stat-label">// LAST REFRESH</div>
-      <div class="stat-value" id="stat-age" style="font-size:14px;">—</div>
-      <div class="stat-sub">ZULU TIME</div>
-    </div>
-    <div class="stat-card">
-      <div class="stat-label">// FEED STATUS</div>
-      <div class="stat-value" id="stat-status" style="font-size:14px;color:var(--amber)">INIT</div>
-      <div class="stat-sub">SYSTEM</div>
+      <div class="stat-label">LAST UPDATE <span class="tip">?<span class="tip-box">When the article list was last collected (Zulu / UTC). Feeds are collected every 30 minutes.</span></span></div>
+      <div class="stat-value small" id="stat-age">—</div>
+      <div class="stat-sub" id="stat-age-sub">ZULU</div>
     </div>
   </div>
 
   <div class="search-bar">
-    <input class="search-input" type="text" placeholder="// SEARCH ARTICLES, SOURCES, TOPICS, PROGRAMS..." id="search-input">
-    <button class="search-btn" id="search-btn">SEARCH</button>
-    <button class="search-btn" id="clear-btn" style="border-color:var(--border);color:var(--text-dim)">CLEAR</button>
+    <input class="search-input" type="search" placeholder="Search news…" id="search-input" aria-label="Search articles">
+    <button class="btn ghost" id="clear-btn">CLEAR</button>
   </div>
 
-  <div id="panel-all" class="tab-panel active"><div id="grid-all"></div></div>
-  <div id="panel-news" class="tab-panel"><div id="grid-news"></div></div>
-  <div id="panel-industry" class="tab-panel"><div id="grid-industry"></div></div>
-  <div id="panel-intel" class="tab-panel"><div id="grid-intel"></div></div>
-  <div id="panel-programs" class="tab-panel"><div id="grid-programs"></div></div>
-
-  <div id="panel-sources" class="tab-panel">
-    <div class="section-header">
-      <span class="section-title">// INTELLIGENCE SOURCES</span>
-      <div class="section-line"></div>
-      <span class="section-count" id="sources-count">25 SOURCES</span>
-    </div>
-    <div class="sources-grid" id="sources-grid"></div>
-  </div>
+  <div class="chips-area" id="chips"></div>
+  <div class="filterbar" id="filterbar"></div>
+  <div id="panels"></div>
 </main>
 
 <footer>
-  <span>AEROINTEL v3.1 // LIVE RSS MILITARY AVIATION AGGREGATOR</span>
-  <span>⬡ FOR DEFENSE SECTOR ANALYSTS</span>
-  <span id="footer-time">INITIALIZING...</span>
+  <span>AEROINTEL v4.2 · © 2026 VURAL AVCI · ALL RIGHTS RESERVED · ARTICLE CONTENT © RESPECTIVE PUBLISHERS</span>
+  <span><button id="fx-btn" title="Turn scanline effect on/off">FX: ON</button> <button id="about-link">ABOUT</button></span>
 </footer>
 
 <script>
-// RSS SOURCES DATABASE
-const PROXY = 'https://api.allorigins.win/get?url=';
-const CORS_PROXY = 'https://corsproxy.io/?';
-
-const SOURCES = [
-  { id:'aviationweek', name:'Aviation Week', icon:'✈', cat:'news',
-    url:'https://aviationweek.com',
-    feed:'https://aviationweek.com/rss.xml',
-    tags:['DEFENSE','ANALYSIS','HOT'],
-    desc:'Küresel havacılık ve savunma sanayiinin en prestijli yayını.' },
-  { id:'flightglobal', name:'Flight Global', icon:'🛩', cat:'news',
-    url:'https://www.flightglobal.com',
-    feed:'https://www.flightglobal.com/rss/news',
-    tags:['NEWS','FLEET DATA'],
-    desc:'Dünya çapında hava araçları, operatörler ve savunma programları.' },
-  { id:'thewarzone', name:'The War Zone', icon:'⚔', cat:'intel',
-    url:'https://www.thedrive.com/the-war-zone',
-    feed:'https://www.thedrive.com/feeds/all',
-    tags:['INTEL','HOT','OPERATIONS'],
-    desc:'Askeri operasyonlar, gizli programlar üzerine derinlemesine habercilik.' },
-  { id:'defensenews', name:'Defense News', icon:'🛡', cat:'news',
-    url:'https://www.defensenews.com',
-    feed:'https://www.defensenews.com/rss/',
-    tags:['POLICY','BUDGET'],
-    desc:'Savunma politikası, bütçe süreçleri ve tedarik kararları.' },
-  { id:'breakingdefense', name:'Breaking Defense', icon:'💥', cat:'news',
-    url:'https://breakingdefense.com',
-    feed:'https://breakingdefense.com/feed/',
-    tags:['HOT','BREAKING','CONTRACTS'],
-    desc:'Pentagon haberlerini anlık kıran savunma medyası.' },
-  { id:'defenseone', name:'Defense One', icon:'🔰', cat:'news',
-    url:'https://www.defenseone.com',
-    feed:'https://www.defenseone.com/rss/all/',
-    tags:['STRATEGY','POLICY','TECH'],
-    desc:'Savunma politikası ve strateji üzerine analiz platformu.' },
-  { id:'airforcemag', name:'Air Force Magazine', icon:'🦅', cat:'news',
-    url:'https://www.airforcemag.com',
-    feed:'https://www.airforcemag.com/feed/',
-    tags:['USAF','DOCTRINE','PROGRAMS'],
-    desc:'ABD Hava Kuvvetleri Derneği resmi yayın organı.' },
-  { id:'warontherocks', name:'War on the Rocks', icon:'📜', cat:'intel',
-    url:'https://warontherocks.com',
-    feed:'https://warontherocks.com/feed/',
-    tags:['STRATEGY','DOCTRINE'],
-    desc:'Ulusal güvenlik, savunma stratejisi ve dış politika analizleri.' },
-  { id:'rand', name:'RAND Corporation', icon:'🔬', cat:'intel',
-    url:'https://www.rand.org',
-    feed:'https://www.rand.org/pubs/rss/rss.xml',
-    tags:['RESEARCH','STRATEGY'],
-    desc:'ABD Hava Kuvvetleri birincil araştırma ortağı.' },
-  { id:'lockheed', name:'Lockheed Martin', icon:'🏭', cat:'industry',
-    url:'https://www.lockheedmartin.com',
-    feed:'https://news.lockheedmartin.com/rss/rss.xml',
-    tags:['F-35','F-22','OEM'],
-    desc:'F-35, F-22, NGAD programları için resmi açıklamalar.' },
-  { id:'boeing', name:'Boeing Defense', icon:'🔩', cat:'industry',
-    url:'https://www.boeing.com/defense',
-    feed:'https://boeing.mediaroom.com/rss',
-    tags:['F/A-18','KC-46','OEM'],
-    desc:'F/A-18 Super Hornet, KC-46A, MQ-25 programları.' },
-  { id:'northrop', name:'Northrop Grumman', icon:'🌑', cat:'industry',
-    url:'https://www.northropgrumman.com',
-    feed:'https://news.northropgrumman.com/news/press-releases/rss',
-    tags:['B-21','STEALTH','UAS'],
-    desc:'B-21 Raider ve UCAS programlarının ana müteahhidi.' },
-  { id:'rtx', name:'RTX / Raytheon', icon:'🎯', cat:'industry',
-    url:'https://www.rtx.com',
-    feed:'https://newsroom.rtx.com/rss',
-    tags:['MISSILES','ENGINES','EW'],
-    desc:'Pratt & Whitney motorları, Raytheon füze sistemleri.' },
-  { id:'tai', name:'TUSAŞ / TAI', icon:'🇹🇷', cat:'industry',
-    url:'https://www.tai.com.tr',
-    feed:'https://www.tai.com.tr/rss.xml',
-    tags:['KAAN','T129','DOMESTIC'],
-    desc:'KAAN milli muharip, ANKA, AKINCI insansız hava araçları.' },
-  { id:'roketsan', name:'ROKETSAN', icon:'🚀', cat:'industry',
-    url:'https://www.roketsan.com.tr',
-    feed:'https://www.roketsan.com.tr/rss.xml',
-    tags:['MISSILES','SOM','HISAR'],
-    desc:'SOM seyir füzesi, HİSAR hava savunma sistemi.' },
-  { id:'globalsec', name:'GlobalSecurity.org', icon:'🌍', cat:'programs',
-    url:'https://www.globalsecurity.org',
-    feed:'https://www.globalsecurity.org/rss.xml',
-    tags:['SYSTEMS','DATABASE'],
-    desc:'Askeri hava araçları ve savunma programları açık kaynak veritabanı.' },
-  { id:'scramble', name:'Scramble Magazine', icon:'📋', cat:'programs',
-    url:'https://www.scramble.nl',
-    feed:'https://www.scramble.nl/component/content/?format=feed&type=rss',
-    tags:['SERIALS','FLEET','TRACKING'],
-    desc:'Askeri hava araçları seri numaraları ve filo hareketleri.' }
+"use strict";
+const FALLBACK_SOURCES = [{"id": "defensenews", "name": "Defense News", "icon": "🛡", "cat": "news", "url": "https://www.defensenews.com", "feed": "https://www.defensenews.com/arc/outboundfeeds/rss/?outputType=xml", "tags": ["POLICY", "PROCUREMENT"], "desc": "Defence policy, budgets and procurement decisions."}, {"id": "breakingdefense", "name": "Breaking Defense", "icon": "💥", "cat": "news", "url": "https://breakingdefense.com", "feed": "https://breakingdefense.com/feed/", "tags": ["BREAKING", "AIR"], "desc": "Fast-moving defence news, programmes and contracts."}, {"id": "defenseone", "name": "Defense One", "icon": "🔰", "cat": "news", "url": "https://www.defenseone.com", "feed": "https://www.defenseone.com/rss/all/", "tags": ["STRATEGY", "TECH"], "desc": "Defence technology, strategy and policy analysis."}, {"id": "afmag", "name": "Air & Space Forces Magazine", "icon": "🦅", "cat": "news", "url": "https://www.airandspaceforces.com", "feed": "https://www.airandspaceforces.com/feed/", "tags": ["AIR POWER", "DOCTRINE"], "desc": "Air and space power news and doctrine (formerly Air Force Magazine)."}, {"id": "aviationweek", "name": "Aviation Week", "icon": "✈", "cat": "news", "url": "https://aviationweek.com", "feed": "https://aviationweek.com/rss.xml", "tags": ["AEROSPACE", "ANALYSIS"], "desc": "Aerospace and defence industry reporting.", "paywall": true}, {"id": "flightglobal", "name": "FlightGlobal", "icon": "🛩", "cat": "news", "url": "https://www.flightglobal.com", "feed": "https://www.flightglobal.com/rss", "tags": ["FLEETS", "PROGRAMMES"], "desc": "Aircraft programmes, operators and air forces worldwide.", "paywall": true}, {"id": "twz", "name": "The War Zone", "icon": "⚔", "cat": "analysis", "url": "https://www.twz.com", "feed": "https://www.twz.com/feed", "tags": ["OPERATIONS", "DEEP DIVES"], "desc": "In-depth reporting on military aviation and operations."}, {"id": "warontherocks", "name": "War on the Rocks", "icon": "📜", "cat": "analysis", "url": "https://warontherocks.com", "feed": "https://warontherocks.com/feed/", "tags": ["STRATEGY", "DOCTRINE"], "desc": "Commentary on strategy, defence and national security."}, {"id": "rand", "name": "RAND", "icon": "🔬", "cat": "analysis", "url": "https://www.rand.org", "feed": "https://www.rand.org/pubs/rss/rss.xml", "tags": ["RESEARCH"], "desc": "Research and analysis on defence and security policy."}, {"id": "csis", "name": "CSIS", "icon": "🏛", "cat": "analysis", "url": "https://www.csis.org", "feed": "https://www.csis.org/analysis/feed", "tags": ["THINK TANK"], "desc": "Center for Strategic and International Studies analysis."}, {"id": "ukdj", "name": "UK Defence Journal", "icon": "🇬🇧", "cat": "europe", "url": "https://ukdefencejournal.org.uk", "feed": "https://ukdefencejournal.org.uk/feed/", "tags": ["UK", "EUROPE"], "desc": "UK and European defence news."}, {"id": "aviationist", "name": "The Aviationist", "icon": "🛫", "cat": "europe", "url": "https://theaviationist.com", "feed": "https://theaviationist.com/feed/", "tags": ["MIL AVIATION", "EUROPE"], "desc": "Military aviation news and photography, Europe-based."}, {"id": "nato", "name": "NATO News", "icon": "🌐", "cat": "europe", "url": "https://www.nato.int", "feed": "https://www.nato.int/cps/rss/en/natohq/rssFeed.xsl/rssFeed.xml", "tags": ["NATO", "OFFICIAL"], "desc": "Official NATO news releases."}, {"id": "rusi", "name": "RUSI", "icon": "🎖", "cat": "europe", "url": "https://www.rusi.org", "feed": "https://www.rusi.org/rss.xml", "tags": ["THINK TANK", "UK"], "desc": "Royal United Services Institute commentary."}, {"id": "raes", "name": "Royal Aeronautical Society", "icon": "🎓", "cat": "europe", "url": "https://www.aerosociety.com", "feed": "https://www.aerosociety.com/news/rss/", "tags": ["AEROSPACE", "PROFESSIONAL"], "desc": "Aerospace news from the professional society."}, {"id": "savunmasanayist", "name": "SavunmaSanayiST", "icon": "🇹🇷", "cat": "turkiye", "url": "https://www.savunmasanayist.com", "feed": "https://www.savunmasanayist.com/feed/", "tags": ["TÜRKİYE"], "desc": "Independent Turkish defence industry news."}, {"id": "defenceturkey", "name": "Defence Turkey", "icon": "📰", "cat": "turkiye", "url": "https://www.defenceturkey.com", "feed": "https://www.defenceturkey.com/en/rss", "tags": ["TÜRKİYE", "MAGAZINE"], "desc": "Turkish defence and aerospace magazine (English)."}, {"id": "scramble", "name": "Scramble", "icon": "📋", "cat": "fleet", "url": "https://www.scramble.nl", "feed": "https://www.scramble.nl/component/content/?format=feed&type=rss", "tags": ["FLEETS", "SERIALS"], "desc": "Military aircraft fleets, serials and unit movements."}];
+const CATS = [
+  {k:"news",     tab:"NEWS",          title:"// NEWS & PROGRAMMES"},
+  {k:"analysis", tab:"ANALYSIS",      title:"// ANALYSIS & THINK TANKS"},
+  {k:"europe",   tab:"EUROPE · NATO", title:"// EUROPE & NATO"},
+  {k:"turkiye",  tab:"TÜRKİYE",       title:"// TÜRKİYE"},
+  {k:"fleet",    tab:"FLEET",         title:"// FLEETS & TRACKING"}
 ];
+const TOPICS = [
+  {k:"cca",      l:"CCA / LOYAL WINGMAN", re:/\b(cca|ccas|collaborative combat aircraft|loyal wingman|ghost bat|uncrewed fighter|drone wingm[ae]n)\b/i},
+  {k:"mumt",     l:"MUM-T",              re:/\b(mum-?t|manned[- ]unmanned|crewed[- ]uncrewed|human[- ]machine team(ing)?)\b/i},
+  {k:"6gen",     l:"6TH GEN",            re:/\b(6th[- ]gen(eration)?|sixth[- ]generation|ngad|f-47|gcap|tempest|fcas|scaf|f\/a-xx)\b/i},
+  {k:"fighters", l:"FIGHTERS",           re:/\b(f-35|f-16|f-15\w*|f-22|eurofighter|typhoon|rafale|gripen|su-57|su-35|j-20|j-35|fighter jets?|fighters?)\b/i},
+  {k:"uav",      l:"UAV / DRONES",       re:/\b(drones?|uavs?|uas|ucavs?|unmanned aircraft|uncrewed aircraft)\b/i},
+  {k:"sead",     l:"SEAD / EW",          re:/\b(sead|dead|electronic warfare|electronic attack|jamm(er|ing)|growler|aargm)\b/i},
+  {k:"airdef",   l:"AIR DEFENCE",        re:/\b(air (and missile )?defen[cs]e|patriot|s-400|iron dome|nasams|samp\/t|iris-t|interceptors?)\b/i},
+  {k:"cuas",     l:"C-UAS",              re:/\b(counter[- ]?(uas|drones?|unmanned)|c-uas|anti-drone)\b/i},
+  {k:"missiles", l:"MISSILES",           re:/\b(missiles?|hypersonic|cruise missile|ballistic)\b/i},
+  {k:"tanker",   l:"TANKER / AIRLIFT",   re:/\b(tankers?|refuel(l)?ing|kc-46|mrtt|airlift|c-130\w*|a400m|c-17|transport aircraft)\b/i},
+  {k:"training", l:"TRAINING",           re:/\b(training|trainers?|pilot (shortage|training)|simulat(or|ion)s?)\b/i},
+  {k:"space",    l:"SPACE",              re:/\b(space force|satellites?|orbit(al)?|space launch)\b/i},
+  {k:"procure",  l:"PROCUREMENT",        re:/\b(contracts?|procurement|budget|acquisition|orders?|deal)\b/i},
+  {k:"nato",     l:"NATO",               re:/\b(nato|alliance)\b/i}
+];
+const STOPW = new Set(`a an and or of to in on for with at by from as is are be been was were it its into over after before amid about
+against than that this these those their his her our your new how why what who when where which will can could may might would should
+says said say gets get set just now still back up out off not but no yes more most less first last next top big two three one four five
+us u.s uk eu air force forces army navy marine marines corps space defense defence military aircraft jet jets fighter fighters drone drones
+war wars news report reports video photos watch update week weeks day days year years plan plans deal deals contract contracts program
+programs programme programmes system systems world global national international government minister ministry chief head
+sample headline headlines live title appears here story stories exclusive analysis opinion commentary podcast interview
+january february march april may june july august september october november december monday tuesday wednesday thursday friday saturday sunday
+mr ms dr general gen lt col secretary president prime`.split(/\s+/));
+const WORDRE = /[A-Za-z][A-Za-z0-9]*(?:[-\/][A-Za-z0-9]+)*|\d+[A-Za-z][A-Za-z0-9-]*/g;
+function isTerm(w){ const lw = w.toLowerCase(), dig = /\d/.test(w);
+  if(STOPW.has(lw) || (w.length < 3 && !dig)) return false;
+  if(/[A-Za-z]/.test(w) && dig) return true;
+  if(w === w.toUpperCase() && w.length >= 2 && w.length <= 6) return true;
+  return /^[A-Z]/.test(w) && w.length >= 4; }
+function termCandidates(title){
+  const words = (title.match(WORDRE) || []).map(w => w.replace(/(\d)s$/, "$1")), out = new Set();
+  words.forEach((w, i) => { if(isTerm(w)) out.add(w); const w2 = words[i + 1];
+    if(w2 && /^[A-Z]/.test(w) && /^[A-Z]/.test(w2) && !STOPW.has(w.toLowerCase()) && !STOPW.has(w2.toLowerCase())
+       && (w.length > 2 || /\d/.test(w)) && (w2.length > 2 || /\d/.test(w2))) out.add(w + " " + w2); });
+  return out;
+}
+function computeTrending(items){                 // same rule as the server: frequent this week, rare in the 3 weeks before
+  const week = Date.now() - 7 * 864e5, rec = {}, old = {}, src = {}, cas = {};
+  items.forEach(a => termCandidates(a.title).forEach(term => { const k = term.toLowerCase();
+    (cas[k] = cas[k] || {})[term] = (cas[k][term] || 0) + 1;
+    if(a.date.getTime() >= week){ rec[k] = (rec[k] || 0) + 1; (src[k] = src[k] || new Set()).add(a.source); } else old[k] = (old[k] || 0) + 1; }));
+  const sc = Object.entries(rec).map(([k, n]) => { const base = (old[k] || 0) * 7 / 23; return {k, n, ok: n >= 3 && src[k].size >= 2 && n >= 2 * base + 1, s: n - base + (k.includes(" ") ? .5 : 0)}; })
+    .filter(x => x.ok).sort((a, b) => b.s - a.s);
+  const out = [];
+  for(const x of sc){ if(out.some(p => p.key.includes(x.k) || x.k.includes(p.key))) continue;
+    out.push({key: x.k, term: Object.entries(cas[x.k]).sort((a, b) => b[1] - a[1])[0][0], n: x.n, sources: src[x.k].size}); if(out.length === 5) break; }
+  return out.map(({term, n, sources}) => ({term, n, sources}));
+}
+function termRe(term){ return new RegExp("(^|[^\\p{L}\\p{N}])" + reEsc(term) + "s?($|[^\\p{L}\\p{N}])", "iu"); }
+function detectTopics(a){ const txt = a.title + " " + (a.desc || ""); return TOPICS.filter(tp => tp.re.test(txt)).map(tp => tp.k); }
+function loadWatch(){ try{ const w = JSON.parse(localStorage.getItem("aerointel.watch") || "[]"); return Array.isArray(w) ? w.filter(x => typeof x === "string").slice(0, 20) : []; }catch(e){ return []; } }
+function saveWatch(){ try{ localStorage.setItem("aerointel.watch", JSON.stringify(state.watch)); }catch(e){} }
+function reEsc(s){ return s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }
+function watchHits(a){
+  if(!state.watch.length) return [];
+  const txt = a.title + " " + (a.desc || "") + " " + srcById(a.source).name;
+  return state.watch.filter(w => new RegExp("(^|[^\\p{L}\\p{N}])" + reEsc(w) + "($|[^\\p{L}\\p{N}])", "iu").test(txt));
+}
+const LS = {
+  get(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } },
+  set(k,v){ try{ localStorage.setItem(k,v); }catch(e){} }
+};
+const state = { sources: FALLBACK_SOURCES, health: {}, items: [], generated: null, mode: "init",
+                query: "", tab: "all", topic: null, trend: null, trending: [], watch: [], lastVisit: Number(LS.get("aerointel.lastVisit")) || 0 };
 
-let allArticles = [];
-let loadedFeeds = 0;
-let autoTimer;
-
-function stripHtml(h) { return (h||'').replace(/<[^>]*>/g,'').replace(/&[a-z#0-9]+;/gi,' ').replace(/\s+/g,' ').trim(); }
-function cleanTitle(t){ return stripHtml(t||'Untitled').substring(0,140); }
-function extractImg(html){
-  if(!html) return null;
-  const m = html.match(/<img[^>]+src=["']([^"']+)["']/i);
-  return m ? m[1] : null;
+/* ---------- helpers ---------- */
+const $ = id => document.getElementById(id);
+function esc(s){ return String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c])); }
+function safeUrl(u){ try{ const x = new URL(u); return (x.protocol === "http:" || x.protocol === "https:") ? x.href : null; }catch(e){ return null; } }
+function stripHtml(h){ const d = document.createElement("div"); d.innerHTML = String(h || "").replace(/<(script|style)[\s\S]*?<\/\1>/gi, ""); return (d.textContent || "").replace(/\s+/g, " ").trim(); }
+function parseDate(s){
+  if(!s) return null;
+  let t = String(s).trim();
+  if(/^\d{4}-\d{2}-\d{2} \d{2}:\d{2}(:\d{2})?$/.test(t)) t = t.replace(" ", "T") + "Z";   // rss2json UTC format (Safari-safe)
+  const d = new Date(t);
+  return isNaN(d) ? null : d;
 }
 function timeAgo(d){
-  const diff = Math.floor((Date.now()-d.getTime())/60000);
-  if(diff<1) return 'JUST NOW';
-  if(diff<60) return diff+'M AGO';
-  const h=Math.floor(diff/60);
-  if(h<24) return h+'H AGO';
-  return Math.floor(h/24)+'D AGO';
+  const m = Math.max(0, Math.floor((Date.now() - d.getTime()) / 60000));
+  if(m < 1) return "JUST NOW"; if(m < 60) return m + "M AGO";
+  const h = Math.floor(m / 60); if(h < 24) return h + "H AGO";
+  return Math.floor(h / 24) + "D AGO";
+}
+function zulu(d){ return String(d.getUTCHours()).padStart(2,"0") + ":" + String(d.getUTCMinutes()).padStart(2,"0") + "Z"; }
+function srcById(id){ return state.sources.find(s => s.id === id) || {name:id, icon:"✈", cat:"news", url:"#"}; }
+function normLink(u){ return String(u).toLowerCase().replace(/[?#].*$/, "").replace(/\/$/, ""); }
+function dedupe(items){
+  const L = new Set(), T = new Set();
+  return items.filter(a => { const l = normLink(a.link), t = a.title.toLowerCase();
+    if(L.has(l) || T.has(t)) return false; L.add(l); T.add(t); return true; });
 }
 
-async function fetchFeed(src) {
-  try {
-    // Using multiple proxy options for better mobile compatibility
-    const proxyUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(src.feed)}`;
-    
-    const controller = new AbortController();
-    const timeoutId = setTimeout(() => controller.abort(), 15000);
-    
-    const res = await fetch(proxyUrl, { 
-      signal: controller.signal,
-      headers: { 'Accept': 'application/json' }
-    });
-    clearTimeout(timeoutId);
-    
-    if(!res.ok) throw new Error('HTTP '+res.status);
-    const data = await res.json();
-    if(data.status==='error' || !data.items?.length) throw new Error('empty');
-    
-    return data.items.slice(0,10).map(item => ({
-      title: cleanTitle(item.title),
-      link: item.link || item.url || src.url,
-      pubDate: item.pubDate ? new Date(item.pubDate) : new Date(),
-      thumbnail: item.thumbnail || extractImg(item.description) || null,
-      source: src.name,
-      sourceUrl: src.url,
-      cat: src.cat,
-      icon: src.icon,
-      description: stripHtml(item.description||'').substring(0,180),
-    }));
-  } catch(e) {
-    console.warn('Feed failed:', src.name, e.message);
-    return [];
+/* ---------- data loading ---------- */
+async function withTimeout(p, ms){
+  const c = new AbortController(); const t = setTimeout(() => c.abort(), ms);
+  try { return await p(c.signal); } finally { clearTimeout(t); }
+}
+async function loadServer(){
+  const r = await withTimeout(sig => fetch("feeds.json?t=" + Date.now(), {signal: sig, cache: "no-store"}), 8000);
+  if(!r.ok) throw new Error("feeds.json " + r.status);
+  const j = await r.json();
+  if(!j.items || !j.items.length) throw new Error("feeds.json empty");
+  state.sources = j.sources || FALLBACK_SOURCES;
+  state.health = Object.fromEntries((j.health || []).map(h => [h.id, h]));
+  state.trending = Array.isArray(j.trending) ? j.trending.filter(x => x && typeof x.term === "string").slice(0, 5) : null;
+  state.generated = parseDate(j.generated);
+  state.items = j.items.map(a => ({...a, date: parseDate(a.date) || new Date()}))
+                       .filter(a => safeUrl(a.link));
+  state.mode = "server";
+}
+async function fetchClient(src){
+  const u = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(src.feed);
+  const r = await withTimeout(sig => fetch(u, {signal: sig}), 10000);
+  if(!r.ok) throw new Error("HTTP " + r.status);
+  const d = await r.json();
+  if(d.status === "error" || !d.items?.length) throw new Error("empty");
+  return d.items.slice(0, 12).map(it => ({
+    title: stripHtml(it.title).slice(0, 160), link: it.link || it.url, date: parseDate(it.pubDate) || new Date(),
+    desc: stripHtml(it.description).slice(0, 220), img: it.thumbnail || (it.enclosure && it.enclosure.link) || null, source: src.id
+  })).filter(a => a.title && safeUrl(a.link));
+}
+async function loadClient(onProgress){
+  const out = [], health = {}; let done = 0; const queue = [...FALLBACK_SOURCES];
+  async function worker(){
+    while(queue.length){
+      const s = queue.shift();
+      try { const a = await fetchClient(s); out.push(...a); health[s.id] = {status: "ok", count: a.length}; }
+      catch(e){ health[s.id] = {status: "error", count: 0, error: e.message}; }
+      onProgress(++done / FALLBACK_SOURCES.length);
+    }
   }
+  await Promise.all([1,2,3,4].map(worker));   // 4 at a time
+  if(!out.length) throw new Error("no client data");
+  state.sources = FALLBACK_SOURCES; state.health = health; state.items = out; state.generated = new Date(); state.mode = "client";
 }
-
-async function refreshAllFeeds() {
-  const btn = document.getElementById('refresh-btn');
-  const fill = document.getElementById('progress-fill');
-  btn.disabled = true;
-  btn.classList.add('loading');
-  document.getElementById('status-text').textContent = 'LOADING FEEDS...';
-  document.getElementById('stat-status').textContent = 'SYNC';
-  document.getElementById('stat-status').style.color = 'var(--amber)';
-  loadedFeeds = 0;
-  
-  ['all','news','industry','intel','programs'].forEach(c => {
-    const el = document.getElementById('grid-'+c);
-    if(el) el.innerHTML = Array(6).fill('<div class="skeleton-card"></div>').join('');
+function loadPreview(){
+  const now = Date.now(); const items = [];
+  const demo = ["CCA / loyal wingman", "MUM-T", "6th gen fighter", "drone", "SEAD / electronic warfare", "air defence",
+                "counter-drone", "hypersonic missile", "tanker", "pilot training", "NATO", "procurement contract"];
+  FALLBACK_SOURCES.forEach((s, i) => {
+    for(let k = 0; k < 2; k++){
+      const tw = ["Poland", "GCAP", "F-35"][(i + k) % 3];
+      items.push({ title: `Sample ${demo[(i * 2 + k) % demo.length]} headline on ${tw} from ${s.name}`,
+        link: s.url + "#sample-" + k, date: new Date(now - (i * 47 + k * 190 + 12) * 60000),
+        desc: "Preview card. After deployment this shows the first lines of the real article, with its image.",
+        img: null, source: s.id });
+    }
   });
-  
-  let done = 0;
-  const total = SOURCES.length;
-  
-  // Sequential loading to avoid overwhelming mobile devices and clone errors
-  const allResults = [];
-  for (let i = 0; i < SOURCES.length; i++) {
-    const src = SOURCES[i];
-    const arts = await fetchFeed(src);
-    allResults.push(arts);
-    done++;
-    fill.style.width = Math.round((done/total)*100)+'%';
-    if(arts.length) loadedFeeds++;
-    // Small delay to prevent rate limiting on mobile
-    await new Promise(r => setTimeout(r, 100));
-  }
-  
-  allArticles = allResults
-    .flatMap(arts => arts)
-    .filter(a => a.title && a.link)
-    .sort((a,b) => b.pubDate - a.pubDate);
-  
-  btn.disabled = false;
-  btn.classList.remove('loading');
-  setTimeout(()=>{ fill.style.width='0%'; }, 2000);
-  
-  const now = new Date();
-  const hh = String(now.getUTCHours()).padStart(2,'0');
-  const mm = String(now.getUTCMinutes()).padStart(2,'0');
-  document.getElementById('last-update').textContent = '// UPDATED '+hh+':'+mm+'Z';
-  document.getElementById('feed-count').textContent = allArticles.length+' ARTICLES';
-  document.getElementById('stat-total').textContent = allArticles.length;
-  document.getElementById('stat-feeds').textContent = loadedFeeds;
-  document.getElementById('stat-age').textContent = hh+':'+mm+'Z';
-  document.getElementById('stat-status').textContent = 'LIVE';
-  document.getElementById('stat-status').style.color = 'var(--green)';
-  document.getElementById('status-text').textContent = 'LIVE — '+allArticles.length+' ARTICLES';
-  
-  renderAll(allArticles);
-  updateTicker();
-  
-  if(autoTimer) clearTimeout(autoTimer);
-  autoTimer = setTimeout(refreshAllFeeds, 15*60*1000);
+  state.sources = FALLBACK_SOURCES;
+  state.health = Object.fromEntries(FALLBACK_SOURCES.map(s => [s.id, {status: "preview", count: 2}]));
+  state.items = items; state.generated = new Date(); state.mode = "preview";
+  document.body.classList.add("preview");
 }
 
-function buildCard(a) {
-  const img = a.thumbnail
-    ? `<img class="card-img" src="${a.thumbnail}" alt="" loading="lazy" onerror="this.parentElement.innerHTML='<div class=card-img-placeholder>${a.icon}</div>'">`
-    : `<div class="card-img-placeholder">${a.icon}</div>`;
-  return `<a class="news-card" href="${a.link}" target="_blank" rel="noopener noreferrer">
-    <div class="card-img-wrap">
-      ${img}
-      <div class="card-source-badge">${a.source.substring(0,18).toUpperCase()}</div>
-      <div class="card-age-badge">${timeAgo(a.pubDate)}</div>
+state.watch = loadWatch();
+let busy = false, autoTimer = null;
+async function refresh(){
+  if(busy) return; busy = true;
+  const btn = $("refresh-btn"), fill = $("progress-fill");
+  btn.disabled = true; btn.classList.add("loading"); setStatus("SYNCING", true);
+  if(!state.items.length) showSkeletons();
+  fill.style.width = "15%";
+  try { await loadServer(); }
+  catch(e1){
+    try { await loadClient(p => fill.style.width = Math.round(15 + p * 85) + "%"); }
+    catch(e2){ loadPreview(); }
+  }
+  state.items = (state.mode === "preview" ? state.items : dedupe(state.items)).sort((a, b) => b.date - a.date);
+  state.items.forEach(a => a.topics = detectTopics(a));
+  if(state.mode !== "server" || !state.trending) state.trending = computeTrending(state.items);
+  if(state.trend && !state.trending.some(x => x.term === state.trend)) state.trend = null;
+  fill.style.width = "100%"; setTimeout(() => fill.style.width = "0", 900);
+  btn.disabled = false; btn.classList.remove("loading");
+  render(); updateTicker();
+  if(state.mode !== "preview") LS.set("aerointel.lastVisit", String(Date.now()));
+  busy = false;
+  clearTimeout(autoTimer); autoTimer = setTimeout(refresh, 15 * 60 * 1000);
+}
+
+/* ---------- rendering ---------- */
+function setStatus(t, warn){ $("status-text").textContent = t; $("dot").classList.toggle("warn", !!warn); }
+function cardHtml(a){
+  const s = srcById(a.source), link = safeUrl(a.link) || "#", img = safeUrl(a.img);
+  const isNew = state.lastVisit && a.date.getTime() > state.lastVisit && state.mode !== "preview";
+  const hits = watchHits(a);
+  const tp = (a.topics || [])[0], tpl = tp ? TOPICS.find(x => x.k === tp).l : "";
+  const media = img ? `<img class="card-img" src="${esc(img)}" alt="" loading="lazy" referrerpolicy="no-referrer" data-ph="${esc(s.icon)}">`
+                    : `<div class="card-ph">${esc(s.icon)}</div>`;
+  return `<a class="news-card${hits.length ? " watched" : ""}" href="${esc(link)}" target="_blank" rel="noopener noreferrer"${hits.length ? ` title="Watchlist: ${esc(hits.join(", "))}"` : ""}>
+    <div class="card-img-wrap">${media}
+      <div class="badge src">${esc(s.name.slice(0, 22).toUpperCase())}</div>
+      <div class="badge age">${timeAgo(a.date)}</div>
+      ${isNew ? '<div class="badge new">NEW</div>' : ""}
+      ${hits.length ? `<div class="badge watch">★ ${esc(hits[0].toUpperCase().slice(0, 18))}</div>` : ""}
     </div>
     <div class="card-body">
-      <div class="card-title">${a.title}</div>
-      ${a.description ? `<div class="card-desc">${a.description}</div>` : ''}
-      <div class="card-meta-row">
-        <span class="card-category">${a.cat.toUpperCase()}</span>
-        <span class="card-link-label">READ FULL ARTICLE →</span>
-      </div>
-    </div>
-  </a>`;
+      <div class="card-title">${esc(a.title)}</div>
+      ${a.desc ? `<div class="card-desc">${esc(a.desc)}</div>` : ""}
+      <div class="card-meta"><span class="card-cat">${esc((CATS.find(c => c.k === s.cat) || {tab: s.cat}).tab)}${s.paywall ? '<span class="lock" title="May require a subscription">🔒</span>' : ""}</span>${tpl ? `<span class="topic-tag">${esc(tpl)}</span>` : ""}<span class="card-go">↗</span></div>
+    </div></a>`;
 }
+function section(title, items){
+  if(!items.length) return "";
+  return `<div class="section-header"><span class="section-title">${esc(title)}</span><div class="section-line"></div>
+    <span class="section-count">${items.length} ARTICLES</span></div><div class="news-grid">${items.map(cardHtml).join("")}</div>`;
+}
+function filtered(){
+  const q = state.query.toLowerCase().trim();
+  let base = state.topic ? state.items.filter(a => (a.topics || []).includes(state.topic)) : state.items;
+  if(state.trend){ const r = termRe(state.trend); base = base.filter(a => r.test(a.title + " " + (a.desc || ""))); }
+  if(!q) return base;
+  return base.filter(a => { const s = srcById(a.source);
+    return a.title.toLowerCase().includes(q) || (a.desc || "").toLowerCase().includes(q) || s.name.toLowerCase().includes(q) || s.cat.includes(q); });
+}
+function catItems(items, k){ return items.filter(a => srcById(a.source).cat === k); }
 
-function renderSection(gridId, articles, title) {
-  const el = document.getElementById(gridId);
-  if(!el) return;
-  if(!articles.length) {
-    el.innerHTML = `<div class="feed-error">// NO ARTICLES — REFRESH OR CHECK NETWORK CONNECTION</div>`;
-    return;
+function render(){
+  const items = filtered();
+  // tabs
+  const watched = items.filter(a => watchHits(a).length);
+  const watchNew = state.lastVisit ? watched.filter(a => a.date.getTime() > state.lastVisit).length : 0;
+  const tabs = [{k:"all", tab:"ALL", n: items.length}, {k:"watch", tab:"★ MY WATCHLIST", n: watched.length, amber: true}, ...CATS.map(c => ({...c, n: catItems(items, c.k).length})),
+                {k:"sources", tab:"SOURCES"}, {k:"about", tab:"ABOUT"}];
+  $("tabs").innerHTML = tabs.map(t => `<button class="nav-tab${state.tab === t.k ? " active" : ""}" data-tab="${t.k}">// ${esc(t.tab)}${t.n !== undefined ? `<span class="tab-badge${t.amber ? " amber" : ""}">${t.n}${t.amber && watchNew ? " · " + watchNew + " NEW" : ""}</span>` : ""}</button>`).join("");
+  renderChips();
+  // panels
+  let html;
+  const none = `<div class="empty">// NO ARTICLES MATCH${state.query ? ` "${esc(state.query)}"` : ""}</div>`;
+  if(state.tab === "all"){
+    html = CATS.map(c => section(c.title, catItems(items, c.k))).join("") || none;
+  } else if(state.tab === "watch"){
+    html = watchHtml(watched);
+  } else if(state.tab === "sources"){
+    html = sourcesHtml();
+  } else if(state.tab === "about"){
+    html = aboutHtml();
+  } else {
+    const c = CATS.find(c => c.k === state.tab);
+    html = section(c.title, catItems(items, c.k)) || none;
   }
-  el.innerHTML = `
-    <div class="section-header">
-      <span class="section-title">${title}</span>
-      <div class="section-line"></div>
-      <span class="section-count">${articles.length} ARTICLES</span>
-    </div>
-    <div class="news-grid">${articles.map(buildCard).join('')}</div>`;
+  $("panels").innerHTML = html;
+  // stats
+  const total = state.items.length;
+  const okN = Object.values(state.health).filter(h => h.status === "ok").length;
+  const newN = state.mode === "preview" || !state.lastVisit ? null : state.items.filter(a => a.date.getTime() > state.lastVisit).length;
+  $("stat-total").textContent = state.mode === "preview" ? "—" : total;
+  $("stat-new").textContent = newN === null ? "—" : newN;
+  $("stat-new-sub").textContent = state.lastVisit ? "SINCE LAST VISIT" : "FIRST VISIT";
+  $("stat-health").textContent = state.mode === "preview" ? "—" : `${okN}/${state.sources.length}`;
+  $("stat-age").textContent = state.generated ? zulu(state.generated) : "—";
+  $("stat-age-sub").textContent = state.generated ? timeAgo(state.generated) : "ZULU";
+  setStatus(state.mode === "preview" ? "PREVIEW" : `LIVE · ${total} ARTICLES`, state.mode === "preview");
+}
+function renderChips(){
+  const hide = state.tab === "sources" || state.tab === "about";
+  const pool = state.query ? state.items.filter(a => { const q = state.query.toLowerCase(); return a.title.toLowerCase().includes(q) || (a.desc || "").toLowerCase().includes(q); }) : state.items;
+  const counts = TOPICS.map(tp => ({...tp, n: pool.filter(a => (a.topics || []).includes(tp.k)).length})).filter(tp => tp.n > 0 || tp.k === state.topic);
+  let html = "";
+  const topicNames = new Set(TOPICS.flatMap(tp => tp.l.toLowerCase().split(" / ")));   // NATO, CCA… already have their own topic chip
+  const trends = state.trending.filter(x => !topicNames.has(x.term.toLowerCase()));
+  if(trends.length) html += `<div class="chips-wrap"><span class="chips-label trend">🔥 TRENDING <span class="tip">?<span class="tip-box">Names and terms that appear in many headlines this week, from at least two sources, but were rare in the weeks before. Detected automatically at every update.</span></span></span>` +
+    trends.map(x => `<button class="chip trend${state.trend === x.term ? " active" : ""}" data-trend="${esc(x.term)}">${esc(x.term.toUpperCase())}<span class="n">${x.n}</span></button>`).join("") + `</div>`;
+  if(counts.length) html += `<div class="chips-wrap"><span class="chips-label">TOPICS <span class="tip">?<span class="tip-box">Fixed subject areas, detected from each headline and summary. Tap a topic to show only those articles; tap again to clear.</span></span></span>` +
+    counts.sort((a, b) => b.n - a.n).map(tp => `<button class="chip${state.topic === tp.k ? " active" : ""}" data-topic="${tp.k}">${esc(tp.l)}<span class="n">${tp.n}</span></button>`).join("") + `</div>`;
+  $("chips").style.display = hide || !html ? "none" : "block";
+  $("chips").innerHTML = html;
+  // active-filter bar
+  const parts = [];
+  if(state.trend) parts.push(`🔥 <span class="f">${esc(state.trend.toUpperCase())}</span>`);
+  if(state.topic) parts.push(`TOPIC: <span class="f">${esc(TOPICS.find(x => x.k === state.topic).l)}</span>`);
+  if(state.query) parts.push(`SEARCH: <span class="f">"${esc(state.query)}"</span>`);
+  const fb = $("filterbar");
+  fb.classList.toggle("on", !!parts.length && !hide);
+  fb.innerHTML = parts.length ? `<span>SHOWING <span class="f">${filtered().length}</span> ARTICLES · ${parts.join(" · ")}</span><button class="btn ghost" id="clear-filters">✕ CLEAR FILTERS</button>` : "";
+}
+function watchHtml(watched){
+  const kws = state.watch.map((w, i) => `<span class="kw">${esc(w)}<button data-kw-del="${i}" aria-label="Remove ${esc(w)}">×</button></span>`).join("");
+  const sugg = ["F-35", "Eurofighter", "Poland", "MUM-T", "Loyal Wingman", "Tanker", "Gripen", "Hypersonic"].filter(s => !state.watch.some(w => w.toLowerCase() === s.toLowerCase()));
+  const box = `<div class="watch-box">
+    <h3>// MY WATCHLIST</h3>
+    <p>Add the programmes, aircraft, countries or companies you follow. Matching articles are collected here and highlighted everywhere with ★. Your keywords are stored only on this device — no account needed.</p>
+    <form class="watch-form" id="watch-form"><input id="watch-input" maxlength="40" placeholder="Add a keyword, e.g. F-35, Poland, Rafale…" aria-label="Add a watchlist keyword"><button class="btn amber" type="submit">+ ADD</button></form>
+    <div class="kw-list">${kws || sugg.slice(0, 6).map(s => `<button class="kw-suggest" data-kw-add="${esc(s)}">+ ${esc(s)}</button>`).join("")}</div>
+  </div>`;
+  if(!state.watch.length) return box;
+  return box + (section("// WATCHLIST MATCHES", watched) || `<div class="empty">// NO MATCHES YET — NEW ARTICLES ARE CHECKED AT EVERY UPDATE</div>`);
+}
+function addWatch(w){
+  w = String(w || "").trim().replace(/\s+/g, " ").slice(0, 40);
+  if(!w || state.watch.length >= 20 || state.watch.some(x => x.toLowerCase() === w.toLowerCase())) return;
+  state.watch.push(w); saveWatch(); render();
+}
+function showSkeletons(){ $("panels").innerHTML = `<div class="news-grid">${'<div class="skeleton"></div>'.repeat(6)}</div>`; }
+
+function sourcesHtml(){
+  const label = {ok:"ONLINE", stale:"STALE", empty:"EMPTY", error:"OFFLINE", preview:"PREVIEW"};
+  const cards = state.sources.map(s => {
+    const h = state.health[s.id] || {status: "error"};
+    const tip = h.status === "ok" ? `${h.count} articles in the last 30 days` : (h.error || label[h.status]);
+    return `<a class="source-card" href="${esc(safeUrl(s.url) || "#")}" target="_blank" rel="noopener noreferrer">
+      <span class="health h-${esc(h.status)}" title="${esc(tip)}">${label[h.status] || "?"}${h.status === "ok" ? " · " + h.count : ""}</span>
+      <div class="source-name">${esc(s.icon)} ${esc(s.name)}${s.paywall ? ' <span class="lock" title="May require a subscription">🔒</span>' : ""}</div>
+      <div class="source-url">${esc(String(s.url).replace(/^https?:\/\//, ""))}</div>
+      <div class="source-tags">${(s.tags || []).map(t => `<span class="tag">${esc(t)}</span>`).join("")}</div>
+      <div class="source-desc">${esc(s.desc)}</div></a>`;
+  }).join("");
+  return `<div class="section-header"><span class="section-title">// SOURCES</span><div class="section-line"></div>
+    <span class="section-count">${state.sources.length} SOURCES</span></div><div class="sources-grid">${cards}</div>`;
+}
+function aboutHtml(){
+  return `<div class="about">
+  <h2>// WHAT IS AEROINTEL</h2>
+  <p>AEROINTEL brings open-source defence aviation news from ${state.sources.length} curated publications into one screen. It is a reading tool: every card links to the original article on the publisher's own site.</p>
+  <h2>// WHERE THE DATA COMES FROM</h2>
+  <ul>
+    <li><b>Source:</b> the public RSS/Atom feeds of the publications listed in the SOURCES tab. No other data is used.</li>
+    <li><b>Collection:</b> an automated job collects all feeds every 30 minutes and publishes one combined file. The app reads that file, so it opens fast and works offline with the last copy.</li>
+    <li><b>Processing:</b> only the title, link, publication time, first lines and image of each article are kept. Articles older than 30 days are dropped, and the same story from two sources is shown once.</li>
+    <li><b>Source health:</b> <i>ONLINE</i> = fresh articles in the last update · <i>STALE</i> = nothing new for 30 days · <i>EMPTY/OFFLINE</i> = the feed returned nothing or could not be reached.</li>
+    <li><b>🔒</b> marks publications where many articles may need a subscription.</li>
+  </ul>
+  <h2>// CATEGORIES</h2>
+  <ul>
+    <li><b>News & Programmes:</b> daily defence and aerospace reporting.</li>
+    <li><b>Analysis & Think Tanks:</b> in-depth reporting, commentary and research.</li>
+    <li><b>Europe & NATO:</b> European outlets, professional bodies and official NATO news.</li>
+    <li><b>Türkiye:</b> independent Turkish defence and aerospace media.</li>
+    <li><b>Fleets & Tracking:</b> aircraft fleets, serials and unit movements.</li>
+  </ul>
+  <h2>// TRENDING, TOPICS & WATCHLIST</h2>
+  <ul>
+    <li><b>Topics:</b> each article is tagged automatically from its headline and summary (e.g. CCA / Loyal Wingman, MUM-T, SEAD / EW, Air Defence). Tap a topic to filter. Detection is keyword-based, so an article can carry several topics or, occasionally, a loose match.</li>
+    <li><b>🔥 Trending:</b> up to five names or terms (a programme, an aircraft, a country) that appear in at least three headlines from at least two sources this week, and were rare in the three weeks before. Calculated automatically at every update.</li>
+    <li><b>My Watchlist:</b> add up to 20 keywords of your own. Articles mentioning them are collected in the watchlist tab, marked with ★ everywhere, and counted as NEW when they arrive after your last visit.</li>
+  </ul>
+  <h2>// PRIVACY</h2>
+  <p>No accounts, no cookies, no tracking of individuals. Your watchlist, the "NEW FOR YOU" counter and your display settings are stored only in your own browser. Visit numbers are counted anonymously in aggregate.</p>
+  <h2>// COPYRIGHT</h2>
+  <p>Headlines, excerpts and images belong to their publishers and are shown as links to the original articles. AEROINTEL is an independent, non-commercial project and is not affiliated with any of the listed publications or with any company or government body.</p>
+  <h2>// INSTALL ON YOUR PHONE</h2>
+  <p><b>iPhone (Safari):</b> Share → Add to Home Screen. <b>Android (Chrome):</b> ⋮ menu → Install app / Add to Home screen.</p>
+  <h2>// AUTHOR</h2>
+  <p>Built by <a href="https://www.linkedin.com/in/vural-avci-759635315/" target="_blank" rel="noopener noreferrer">Vural Avcı</a>. Feedback and source suggestions are welcome.</p>
+  <p>© 2026 Vural Avcı. All rights reserved. The AEROINTEL application code may not be copied, modified or redistributed without written permission.</p>
+  </div>`;
+}
+function updateTicker(){
+  const top = state.items.slice(0, 20);
+  if(!top.length) return;
+  const one = top.map(a => `<a class="ticker-item" href="${esc(safeUrl(a.link) || "#")}" target="_blank" rel="noopener noreferrer"><b>${esc(srcById(a.source).name.toUpperCase())}:</b> ${esc(a.title.slice(0, 90))}</a>`).join("");
+  const t = $("ticker-track"); t.innerHTML = one + one; t.classList.add("ticker-animated");
 }
 
-function renderAll(arts) {
-  const cats = { news:[], industry:[], intel:[], programs:[] };
-  arts.forEach(a => { if(cats[a.cat]) cats[a.cat].push(a); });
-  
-  const allEl = document.getElementById('grid-all');
-  allEl.innerHTML = '';
-  [
-    { k:'news', l:'// NEWS & ANALYSIS' },
-    { k:'intel', l:'// INTELLIGENCE & THINK TANKS' },
-    { k:'industry', l:'// DEFENSE INDUSTRY' },
-    { k:'programs', l:'// PROGRAMS & TRACKING' },
-  ].forEach(d => {
-    if(!cats[d.k].length) return;
-    const div = document.createElement('div');
-    div.innerHTML = `
-      <div class="section-header">
-        <span class="section-title">${d.l}</span>
-        <div class="section-line"></div>
-        <span class="section-count">${cats[d.k].length} ARTICLES</span>
-      </div>
-      <div class="news-grid">${cats[d.k].map(buildCard).join('')}</div>`;
-    allEl.appendChild(div);
-  });
-  
-  renderSection('grid-news', cats.news, '// NEWS & ANALYSIS');
-  renderSection('grid-industry', cats.industry, '// DEFENSE INDUSTRY');
-  renderSection('grid-intel', cats.intel, '// INTELLIGENCE');
-  renderSection('grid-programs', cats.programs, '// PROGRAMS & TRACKING');
-  
-  document.getElementById('badge-all').textContent = arts.length;
-  document.getElementById('badge-news').textContent = cats.news.length;
-  document.getElementById('badge-industry').textContent = cats.industry.length;
-  document.getElementById('badge-intel').textContent = cats.intel.length;
-  document.getElementById('badge-programs').textContent = cats.programs.length;
-}
+/* ---------- events ---------- */
+document.addEventListener("error", e => {          // broken image → icon placeholder
+  const el = e.target;
+  if(el.classList && el.classList.contains("card-img")){ const ph = document.createElement("div"); ph.className = "card-ph"; ph.textContent = el.dataset.ph || "✈"; el.replaceWith(ph); }
+}, true);
+$("tabs").addEventListener("click", e => { const b = e.target.closest(".nav-tab"); if(!b) return; state.tab = b.dataset.tab; render(); window.scrollTo({top: 0}); });
+$("refresh-btn").onclick = refresh;
+$("chips").addEventListener("click", e => { const c = e.target.closest(".chip"); if(!c) return;
+  if(c.dataset.trend !== undefined) state.trend = state.trend === c.dataset.trend ? null : c.dataset.trend;
+  else state.topic = state.topic === c.dataset.topic ? null : c.dataset.topic;
+  render(); });
+function clearFilters(){ $("search-input").value = ""; state.query = ""; state.topic = null; state.trend = null; render(); }
+$("filterbar").addEventListener("click", e => { if(e.target.closest("#clear-filters")) clearFilters(); });
+if(LS.get("aerointel.help") !== "off") $("help").style.display = "flex";
+$("help-close").onclick = () => { $("help").style.display = "none"; LS.set("aerointel.help", "off"); };
+$("panels").addEventListener("submit", e => { if(e.target.id !== "watch-form") return; e.preventDefault(); addWatch($("watch-input").value); const i = $("watch-input"); if(i) i.focus(); });
+$("panels").addEventListener("click", e => {
+  const d = e.target.closest("[data-kw-del]"); if(d){ e.preventDefault(); state.watch.splice(Number(d.dataset.kwDel), 1); saveWatch(); render(); return; }
+  const a = e.target.closest("[data-kw-add]"); if(a){ e.preventDefault(); addWatch(a.dataset.kwAdd); }
+});
+let qt; $("search-input").addEventListener("input", e => { clearTimeout(qt); qt = setTimeout(() => { state.query = e.target.value; render(); }, 150); });
+$("clear-btn").onclick = clearFilters;
+$("about-link").onclick = () => { state.tab = "about"; render(); window.scrollTo({top: 0}); };
+document.addEventListener("click", e => {          // tap-to-show tooltips on touch screens
+  const t = e.target.closest(".tip"); document.querySelectorAll(".tip.show").forEach(x => x !== t && x.classList.remove("show"));
+  if(t) t.classList.toggle("show");
+});
+function applyFx(on){ document.body.classList.toggle("fx-off", !on); $("fx-btn").textContent = "FX: " + (on ? "ON" : "OFF"); }
+let fx = LS.get("aerointel.fx") !== "off"; applyFx(fx);
+$("fx-btn").onclick = () => { fx = !fx; LS.set("aerointel.fx", fx ? "on" : "off"); applyFx(fx); };
 
-function updateTicker() {
-  if(!allArticles.length) return;
-  const top = allArticles.slice(0, 20);
-  const track = document.getElementById('ticker-track');
-  track.innerHTML = top.map(a =>
-    `<span class="ticker-item">${a.source.toUpperCase()}: ${a.title.substring(0,90)}</span>`
-  ).join('');
-  track.classList.add('ticker-animated');
-}
+/* sticky offsets follow the real header height (header wraps on small screens) */
+function syncHdr(){ document.documentElement.style.setProperty("--hdr-h", $("hdr").offsetHeight + "px"); }
+if(window.ResizeObserver) new ResizeObserver(syncHdr).observe($("hdr")); window.addEventListener("resize", syncHdr); syncHdr();
 
-function renderSources() {
-  document.getElementById('sources-grid').innerHTML = SOURCES.map(s => `
-    <a class="source-card" href="${s.url}" target="_blank" rel="noopener noreferrer">
-      <div class="source-arrow">↗</div>
-      <div class="source-name">${s.icon} ${s.name}</div>
-      <div class="source-url">${s.url.replace('https://','').replace('http://','')}</div>
-      <div class="source-tags">
-        ${s.tags.map(t=>`<span class="tag ${t==='HOT'?'hot':''}">${t}</span>`).join('')}
-      </div>
-      <div class="source-desc">${s.desc}</div>
-    </a>`).join('');
-  document.getElementById('sources-count').textContent = SOURCES.length+' SOURCES';
+/* clock */
+function tick(){
+  const n = new Date(), p = x => String(x).padStart(2, "0");
+  $("clock").textContent = `${p(n.getUTCHours())}:${p(n.getUTCMinutes())}:${p(n.getUTCSeconds())}Z`;
+  $("date-display").textContent = `${["SUN","MON","TUE","WED","THU","FRI","SAT"][n.getUTCDay()]} ${n.getUTCFullYear()}-${p(n.getUTCMonth() + 1)}-${p(n.getUTCDate())} UTC`;
 }
+setInterval(tick, 1000); tick();
 
-function searchArticles() {
-  const q = document.getElementById('search-input').value.toLowerCase().trim();
-  if(!q) { renderAll(allArticles); return; }
-  renderAll(allArticles.filter(a =>
-    a.title.toLowerCase().includes(q) ||
-    a.source.toLowerCase().includes(q) ||
-    a.cat.toLowerCase().includes(q) ||
-    (a.description && a.description.toLowerCase().includes(q))
-  ));
-}
-
-function clearSearch() {
-  document.getElementById('search-input').value = '';
-  renderAll(allArticles);
-}
-
-function switchTab(name) {
-  document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
-  document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
-  document.getElementById('panel-'+name).classList.add('active');
-  const activeBtn = Array.from(document.querySelectorAll('.nav-tab')).find(btn => btn.getAttribute('data-tab') === name);
-  if(activeBtn) activeBtn.classList.add('active');
-}
-
-function updateClock() {
-  const n = new Date();
-  const hh = String(n.getUTCHours()).padStart(2,'0');
-  const mm = String(n.getUTCMinutes()).padStart(2,'0');
-  const ss = String(n.getUTCSeconds()).padStart(2,'0');
-  document.getElementById('clock').textContent = hh+':'+mm+':'+ss+'Z';
-  const days=['SUN','MON','TUE','WED','THU','FRI','SAT'];
-  document.getElementById('date-display').textContent =
-    days[n.getUTCDay()]+' '+n.getUTCFullYear()+'-'+String(n.getUTCMonth()+1).padStart(2,'0')+'-'+String(n.getUTCDate()).padStart(2,'0')+' UTC';
-  document.getElementById('footer-time').textContent = 'ZULU: '+hh+mm+ss+'Z';
-}
-
-// Matrix Rain effect - optimized for mobile
+/* matrix rain: plays for the first seconds only, then fades out (saves battery) */
 (function(){
-  const c=document.getElementById('matrix-canvas'),ctx=c.getContext('2d');
-  const chars='ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789@#$%ΩΣΨ';
-  let cols,drops;
-  function resize(){
-    c.width=window.innerWidth;
-    c.height=window.innerHeight;
-    cols=Math.floor(c.width/20);
-    drops=Array(cols).fill(1);
+  if(window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+  const c = $("matrix-canvas"), ctx = c.getContext("2d"), chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+  let drops, raf, last = 0; const t0 = performance.now();
+  function size(){ c.width = innerWidth; c.height = innerHeight; drops = Array(Math.floor(c.width / 20)).fill(1); }
+  function draw(ts){
+    if(ts - t0 > 3500){ c.style.opacity = "0"; setTimeout(() => c.remove(), 1300); return; }
+    if(ts - last > 50){ last = ts;
+      ctx.fillStyle = "rgba(0,0,0,0.08)"; ctx.fillRect(0, 0, c.width, c.height); ctx.fillStyle = "#00ff41"; ctx.font = "13px monospace";
+      for(let i = 0; i < drops.length; i++){ ctx.fillText(chars[Math.random() * chars.length | 0], i * 20, drops[i] * 20);
+        if(drops[i] * 20 > c.height && Math.random() > .975) drops[i] = 0; drops[i]++; } }
+    raf = requestAnimationFrame(draw);
   }
-  function draw(){
-    ctx.fillStyle='rgba(0,0,0,0.05)';
-    ctx.fillRect(0,0,c.width,c.height);
-    ctx.fillStyle='#00ff41';
-    ctx.font='13px monospace';
-    for(let i=0;i<drops.length;i++){
-      ctx.fillText(chars[Math.floor(Math.random()*chars.length)],i*20,drops[i]*20);
-      if(drops[i]*20>c.height&&Math.random()>.975)drops[i]=0;
-      drops[i]++;
-    }
-    requestAnimationFrame(draw);
-  }
-  resize();
-  window.addEventListener('resize',resize);
-  draw();
+  size(); addEventListener("resize", size); raf = requestAnimationFrame(draw);
 })();
 
-// Event Listeners
-document.getElementById('refresh-btn').onclick = refreshAllFeeds;
-document.getElementById('search-btn').onclick = searchArticles;
-document.getElementById('clear-btn').onclick = clearSearch;
-document.getElementById('search-input').oninput = searchArticles;
-
-document.querySelectorAll('.nav-tab').forEach(btn => {
-  btn.onclick = () => switchTab(btn.getAttribute('data-tab'));
+/* PWA */
+if("serviceWorker" in navigator && location.protocol === "https:"){
+  navigator.serviceWorker.register("sw.js").catch(() => {});
+}
+document.addEventListener("visibilitychange", () => {   // came back to the tab after a while → refresh
+  if(document.visibilityState === "visible" && state.generated && Date.now() - state.generated > 30 * 60 * 1000) refresh();
 });
 
-setInterval(updateClock, 1000);
-updateClock();
-renderSources();
-refreshAllFeeds();
+/* GoatCounter (cookie-free visit counter): set GC_CODE after creating a free account. */
+const GC_CODE = "";
+if(GC_CODE && location.protocol === "https:"){
+  const g = document.createElement("script"); g.async = true; g.src = "https://gc.zgo.at/count.js";
+  g.dataset.goatcounter = "https://" + GC_CODE + ".goatcounter.com/count"; document.head.appendChild(g);
+}
+
+render(); refresh();
 </script>
 </body>
 </html>
