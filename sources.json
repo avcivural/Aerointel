@@ -109,11 +109,11 @@
   "icon": "🔬",
   "cat": "analysis",
   "url": "https://www.rand.org",
-  "feed": "https://www.rand.org/topics/us-department-of-war-department-of-defense.xml",
+  "feed": "https://www.rand.org/blog.xml",
   "tags": [
    "RESEARCH"
   ],
-  "desc": "RAND research and commentary on defence."
+  "desc": "Commentary and analysis from RAND researchers."
  },
  {
   "id": "ukdj",

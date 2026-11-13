@@ -56,8 +56,18 @@ def text(el, path):
 def is_http(u):
     return isinstance(u, str) and u.lower().startswith(("http://", "https://"))
 
+def _repair(raw):
+    """Fix the most common XML errors in real-world feeds (stray '&', control characters)."""
+    s = raw.decode("utf-8", errors="replace")
+    s = re.sub(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", "", s)
+    s = re.sub(r"&(?!(?:#\d+|#x[0-9a-fA-F]+|[A-Za-z][A-Za-z0-9]*);)", "&amp;", s)
+    return s.encode("utf-8")
+
 def parse_feed(raw):
-    root = ET.fromstring(raw)
+    try:
+        root = ET.fromstring(raw)
+    except ET.ParseError:
+        root = ET.fromstring(_repair(raw))
     items = []
     tag = root.tag.lower()
     if tag.endswith("feed"):  # Atom
