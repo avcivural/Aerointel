@@ -52,19 +52,6 @@
   "desc": "Air and space power news and doctrine (formerly Air Force Magazine)."
  },
  {
-  "id": "defensepost",
-  "name": "The Defense Post",
-  "icon": "📡",
-  "cat": "news",
-  "url": "https://thedefensepost.com",
-  "feed": "https://thedefensepost.com/feed/",
-  "tags": [
-   "DEFENCE",
-   "GLOBAL"
-  ],
-  "desc": "Global defence and security news."
- },
- {
   "id": "airforcetech",
   "name": "Airforce Technology",
   "icon": "🛩",
