@@ -1,5 +1,5 @@
-// AeroIntel service worker: app shell cache-first, feeds.json network-first.
-const CACHE = "aerointel-v4.4";
+// AeroIntel service worker: page and feeds.json network-first (always fresh), icons cache-first.
+const CACHE = "aerointel-v4.5";
 const SHELL = ["./", "index.html", "manifest.webmanifest",
   "icons/icon-192-v2.png", "icons/icon-512-v2.png", "icons/apple-touch-icon-v2.png"];
 
@@ -16,8 +16,9 @@ self.addEventListener("activate", e => {
 self.addEventListener("fetch", e => {
   const url = new URL(e.request.url);
   if (e.request.method !== "GET" || url.origin !== location.origin) return;
-  if (url.pathname.endsWith("feeds.json")) {
-    // network first, fall back to the last copy when offline
+  const isPage = e.request.mode === "navigate" || url.pathname.endsWith("/") || url.pathname.endsWith("index.html");
+  if (isPage || url.pathname.endsWith("feeds.json")) {
+    // page and data: network first, fall back to the last copy when offline
     e.respondWith(fetch(e.request).then(r => {
       const copy = r.clone();
       caches.open(CACHE).then(c => c.put(e.request, copy));
