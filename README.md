@@ -33,7 +33,7 @@ Create a free [GoatCounter](https://www.goatcounter.com) site, then set `const G
 
 ## Features
 
-- 18 curated sources in 5 categories, with live source health and 🔒 marks for paywalled publications
+- Curated sources in news, analysis, Europe/NATO and Türkiye categories, with live source health and 🔒 marks for paywalled publications
 - Automatic topic chips (CCA / Loyal Wingman, MUM-T, 6th Gen, SEAD / EW, Air Defence, C-UAS…)
 - **My Watchlist**: personal keywords, stored only on the device; matches highlighted with ★
 - "New for you" counter since the last visit, offline support, installable on iOS and Android

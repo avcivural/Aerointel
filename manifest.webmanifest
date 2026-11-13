@@ -1,7 +1,7 @@
 {
   "name": "AEROINTEL — Open-Source Defence Aviation News",
   "short_name": "AEROINTEL",
-  "description": "Live open-source defence aviation news from 18 curated sources, in one screen.",
+  "description": "Live open-source defence aviation news from curated sources, in one screen.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
