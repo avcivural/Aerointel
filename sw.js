@@ -1,5 +1,5 @@
 // AeroIntel service worker: app shell cache-first, feeds.json network-first.
-const CACHE = "aerointel-v4";
+const CACHE = "aerointel-v4.3";
 const SHELL = ["./", "index.html", "manifest.webmanifest",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
 
