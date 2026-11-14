@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T18:54:21Z",
+ "generated": "2026-11-14T22:49:02Z",
  "sources": [
   {
    "id": "defensenews",
@@ -188,7 +188,7 @@
    "count": 10,
    "latest": "2026-11-13T19:16:42Z",
    "error": null,
-   "ms": 349
+   "ms": 173
   },
   {
    "id": "breakingdefense",
@@ -196,7 +196,7 @@
    "count": 12,
    "latest": "2026-11-13T22:27:52Z",
    "error": null,
-   "ms": 140
+   "ms": 104
   },
   {
    "id": "defenseone",
@@ -204,7 +204,7 @@
    "count": 12,
    "latest": "2026-11-14T01:39:47Z",
    "error": null,
-   "ms": 529
+   "ms": 228
   },
   {
    "id": "afmag",
@@ -212,7 +212,7 @@
    "count": 9,
    "latest": "2026-11-13T20:57:55Z",
    "error": null,
-   "ms": 294
+   "ms": 368
   },
   {
    "id": "airforcetech",
@@ -220,7 +220,7 @@
    "count": 10,
    "latest": "2026-11-13T16:16:26Z",
    "error": null,
-   "ms": 126
+   "ms": 127
   },
   {
    "id": "twz",
@@ -228,7 +228,7 @@
    "count": 12,
    "latest": "2026-11-14T00:31:04Z",
    "error": null,
-   "ms": 395
+   "ms": 268
   },
   {
    "id": "warontherocks",
@@ -236,7 +236,7 @@
    "count": 12,
    "latest": "2026-11-12T18:30:19Z",
    "error": null,
-   "ms": 326
+   "ms": 345
   },
   {
    "id": "rand",
@@ -244,7 +244,7 @@
    "count": 7,
    "latest": "2026-11-09T16:45:00Z",
    "error": null,
-   "ms": 344
+   "ms": 182
   },
   {
    "id": "ukdj",
@@ -252,15 +252,15 @@
    "count": 10,
    "latest": "2026-11-14T16:59:08Z",
    "error": null,
-   "ms": 1243
+   "ms": 1084
   },
   {
    "id": "aviationist",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-13T22:20:09Z",
+   "latest": "2026-11-14T20:38:58Z",
    "error": null,
-   "ms": 121
+   "ms": 103
   },
   {
    "id": "rusi",
@@ -268,7 +268,7 @@
    "count": 12,
    "latest": "2026-11-13T00:00:00Z",
    "error": null,
-   "ms": 190
+   "ms": 171
   },
   {
    "id": "eurosd",
@@ -276,7 +276,7 @@
    "count": 6,
    "latest": "2026-11-13T22:00:47Z",
    "error": null,
-   "ms": 260
+   "ms": 464
   },
   {
    "id": "savunmasanayist",
@@ -284,7 +284,7 @@
    "count": 10,
    "latest": "2026-11-14T15:19:34Z",
    "error": null,
-   "ms": 833
+   "ms": 767
   },
   {
    "id": "defensehere",
@@ -292,13 +292,13 @@
    "count": 10,
    "latest": "2026-11-14T13:54:20Z",
    "error": null,
-   "ms": 2380
+   "ms": 2076
   }
  ],
  "trending": [
   {
    "term": "Northrop Grumman",
-   "n": 6,
+   "n": 5,
    "sources": 4
   },
   {
@@ -323,6 +323,14 @@
   }
  ],
  "items": [
+  {
+   "title": "Rafael Unveils ‘Super Ice’ Long-Range Stealth Cruise Missile",
+   "link": "https://theaviationist.com/2026/11/14/rafael-unveils-super-ice-long-range-stealth-cruise-missile/",
+   "date": "2026-11-14T20:38:58Z",
+   "desc": "Based on the Ice Breaker cruise missile, Super Ice combines a 1,000 lb warhead with improved navigation, guidance and seeker capabilities, according to Rafael. Israel’s Rafael Advanced Defense Systems has unveiled the Su",
+   "img": "https://theaviationist.com/wp-content/uploads/2026/11/Israel-Rafael-Super-Ice-5.jpg",
+   "source": "aviationist"
+  },
   {
    "title": "Hide and seek in the Baltic – inside NATO’s submarine hunt",
    "link": "https://ukdefencejournal.org.uk/hide-and-seek-in-the-baltic-inside-natos-submarine-hunt/",
@@ -1274,14 +1282,6 @@
    "desc": "What will the future of national security look like? On Defense One Futures, the new podcast from Defense One, host Patrick Tucker explores how rapid technological and geopolitical shifts are reshaping how the U.S. and i",
    "img": "https://cdn.defenseone.com/media/img/cd/2026/11/09/Screenshot_2026_11_09_at_5.07.13PM/large.png",
    "source": "defenseone"
-  },
-  {
-   "title": "Northrop Grumman’s Lake Charles Facility Selected as Certified C-130 Maintenance Depot",
-   "link": "https://theaviationist.com/2026/11/09/northrop-grumman-lake-charles-c-130-maintenance-depot/",
-   "date": "2026-11-09T21:28:46Z",
-   "desc": "The selection of Northrop Grumman’s facility, which already supports the U.S. Navy’s E-6B Mercury, expands depot-level maintenance capacity for the C-130 Hercules fleet. Northrop Grumman announced on Nov. 6, 2026, that i",
-   "img": "https://theaviationist.com/wp-content/uploads/2026/11/C-130J_10014107.jpg",
-   "source": "aviationist"
   },
   {
    "title": "Stained Glass and Sacred Spaces: Symbolism Abounds in Ukrainian Media",
