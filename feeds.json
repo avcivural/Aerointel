@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T13:52:34Z",
+ "generated": "2026-11-14T18:54:21Z",
  "sources": [
   {
    "id": "defensenews",
@@ -188,7 +188,7 @@
    "count": 10,
    "latest": "2026-11-13T19:16:42Z",
    "error": null,
-   "ms": 360
+   "ms": 349
   },
   {
    "id": "breakingdefense",
@@ -196,7 +196,7 @@
    "count": 12,
    "latest": "2026-11-13T22:27:52Z",
    "error": null,
-   "ms": 167
+   "ms": 140
   },
   {
    "id": "defenseone",
@@ -204,7 +204,7 @@
    "count": 12,
    "latest": "2026-11-14T01:39:47Z",
    "error": null,
-   "ms": 275
+   "ms": 529
   },
   {
    "id": "afmag",
@@ -212,7 +212,7 @@
    "count": 9,
    "latest": "2026-11-13T20:57:55Z",
    "error": null,
-   "ms": 416
+   "ms": 294
   },
   {
    "id": "airforcetech",
@@ -220,7 +220,7 @@
    "count": 10,
    "latest": "2026-11-13T16:16:26Z",
    "error": null,
-   "ms": 185
+   "ms": 126
   },
   {
    "id": "twz",
@@ -228,7 +228,7 @@
    "count": 12,
    "latest": "2026-11-14T00:31:04Z",
    "error": null,
-   "ms": 340
+   "ms": 395
   },
   {
    "id": "warontherocks",
@@ -236,23 +236,23 @@
    "count": 12,
    "latest": "2026-11-12T18:30:19Z",
    "error": null,
-   "ms": 239
+   "ms": 326
   },
   {
    "id": "rand",
    "status": "ok",
-   "count": 8,
+   "count": 7,
    "latest": "2026-11-09T16:45:00Z",
    "error": null,
-   "ms": 296
+   "ms": 344
   },
   {
    "id": "ukdj",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-13T16:08:28Z",
+   "latest": "2026-11-14T16:59:08Z",
    "error": null,
-   "ms": 1000
+   "ms": 1243
   },
   {
    "id": "aviationist",
@@ -260,7 +260,7 @@
    "count": 12,
    "latest": "2026-11-13T22:20:09Z",
    "error": null,
-   "ms": 105
+   "ms": 121
   },
   {
    "id": "rusi",
@@ -268,7 +268,7 @@
    "count": 12,
    "latest": "2026-11-13T00:00:00Z",
    "error": null,
-   "ms": 229
+   "ms": 190
   },
   {
    "id": "eurosd",
@@ -276,23 +276,23 @@
    "count": 6,
    "latest": "2026-11-13T22:00:47Z",
    "error": null,
-   "ms": 444
+   "ms": 260
   },
   {
    "id": "savunmasanayist",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-14T08:47:40Z",
+   "latest": "2026-11-14T15:19:34Z",
    "error": null,
-   "ms": 821
+   "ms": 833
   },
   {
    "id": "defensehere",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-14T11:59:24Z",
+   "latest": "2026-11-14T13:54:20Z",
    "error": null,
-   "ms": 2355
+   "ms": 2380
   }
  ],
  "trending": [
@@ -307,6 +307,11 @@
    "sources": 4
   },
   {
+   "term": "NATO",
+   "n": 5,
+   "sources": 3
+  },
+  {
    "term": "USAF",
    "n": 4,
    "sources": 2
@@ -315,14 +320,89 @@
    "term": "Pentagon",
    "n": 4,
    "sources": 4
-  },
-  {
-   "term": "Security",
-   "n": 4,
-   "sources": 4
   }
  ],
  "items": [
+  {
+   "title": "Hide and seek in the Baltic – inside NATO’s submarine hunt",
+   "link": "https://ukdefencejournal.org.uk/hide-and-seek-in-the-baltic-inside-natos-submarine-hunt/",
+   "date": "2026-11-14T16:59:08Z",
+   "desc": "It started not long after we reached the exercise area. On board the Swedish corvette HSwMS Helsingborg, the crew got louder and busier. Two men took the guns behind the bridge, orders were given and targets called out. ",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "On board the Dutch tanker leading a NATO task force",
+   "link": "https://ukdefencejournal.org.uk/on-board-the-dutch-tanker-leading-a-nato-task-force/",
+   "date": "2026-11-14T16:41:56Z",
+   "desc": "The flagship of the NATO task group hunting submarines in the Baltic is not a destroyer or a frigate. It’s a tanker. HNLMS Den Helder is a combat support ship, built to keep other warships supplied with fuel, food and am",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "A day at sea on Sweden’s stealth sub-hunting corvette",
+   "link": "https://ukdefencejournal.org.uk/a-day-at-sea-on-swedens-stealth-sub-hunting-corvette/",
+   "date": "2026-11-14T16:00:35Z",
+   "desc": "It started not long after we reached the undisclosed exercise area. The crew got louder. Busier. Two men took the guns behind the bridge. Orders were given. Targets were highlighted. They had spotted something. Then it c",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Türkiye’nin Yeni MİLGEM Hedefi: Mısır",
+   "link": "https://www.savunmasanayist.com/turkiyenin-yeni-milgem-hedefi-misir/",
+   "date": "2026-11-14T15:19:34Z",
+   "desc": "Deniz Kuvvetleri Komutanı Oramiral Ercüment Tatlıoğlu, Türkiye ile Mısır arasındaki denizcilik ve savunma sanayii işbirliğinin genişletilmesine yönelik hedefleri açıkladı. Tatlıoğlu, MİLGEM Projesi kapsamında Pakistan il",
+   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/Deniz-Kuvvetleri-Komutani-Oramiral-Ercument-Tatlioglu-Misir-Deniz-Kuvvetleri-Komutani-Koramiral-Mahmud-Adel-Fawzy.jpg",
+   "source": "savunmasanayist"
+  },
+  {
+   "title": "Halid Hafter’den Türk Özel Kuvvetleri’ne Ziyaret",
+   "link": "https://www.savunmasanayist.com/halid-hafterden-turk-ozel-kuvvetlerine-ziyaret/",
+   "date": "2026-11-14T15:05:39Z",
+   "desc": "Libya Ulusal Ordusu Genelkurmay Başkanı Orgeneral Halid Hafter, Türkiye ziyareti kapsamında Türk Özel Kuvvetler Komutanlığını ziyaret etti. Hafter, iki ülkenin özel kuvvetleri arasında askeri iş birliğinin, tecrübe payla",
+   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/Hafter-Bayraktaroglu.jpg",
+   "source": "savunmasanayist"
+  },
+  {
+   "title": "Inside Canada’s sub hunter on NATO Baltic exercise",
+   "link": "https://ukdefencejournal.org.uk/inside-canadas-sub-hunter-on-nato-baltic-exercise/",
+   "date": "2026-11-14T15:05:35Z",
+   "desc": "“Sometimes the submarine wins.” It’s a frank admission from the captain of a warship built to hunt them. But Commander Jason Knowles has been doing this for 30 years, and he knows what HMCS Ville de Québec, the ship he h",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "STM, taktik İHA ve otonom teknolojilerini DronTech Asia 2026’da tanıttı",
+   "link": "https://defensehere.com/tr/stm-taktik-iha-ve-otonom-teknolojilerini-drontech-asia-2026da-tanitti/",
+   "date": "2026-11-14T13:54:20Z",
+   "desc": "STM , sahada kendini kanıtlamış taktik insansız hava araçlarını (İHA) ve ileri otonom teknolojilerini DronTech Asia 2026’da Asya-Pasifik heyetlerine tanıttı. STM, DronTech Asia 2026 kapsamında taktik İHA sistemlerini ve ",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/HXEsMhJXYAATChB.jpeg",
+   "source": "defensehere"
+  },
+  {
+   "title": "Mavi Balina-2026 Tatbikatı Doğu Akdeniz’de sürüyor",
+   "link": "https://defensehere.com/tr/mavi-balina-2026-tatbikati-dogu-akdenizde-suruyor/",
+   "date": "2026-11-14T13:28:35Z",
+   "desc": "Millî Savunma Bakanlığı (MSB) , Doğu Akdeniz’de icra edilen Mavi Balina-2026 Davet Tatbikatı kapsamında gerçekleştirilen faaliyetlere ilişkin açıklama yaptı. 9 Kasım’da başlayan ve 20 Kasım 2026’ya kadar devam edecek tat",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "6. nesil savaş uçağı projesinde Almanya’ya İtalya vetosu! Tam ortaklığa kapı kapandı",
+   "link": "https://defensehere.com/tr/6-nesil-savas-ucagi-projesinde-almanyaya-italya-vetosu-tam-ortakliga-kapi-kapandi/",
+   "date": "2026-11-14T12:17:39Z",
+   "desc": "Avrupa’nın yeni nesil savaş uçağı geliştirme çalışmalarında ortaklık krizi yaşanıyor. İngiltere, İtalya ve Japonya tarafından yürütülen Küresel Muharebe Hava Programı (GCAP) kapsamında Almanya’nın projeye tam ortak olara",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/HXE737QXUAAQ6mr.png",
+   "source": "defensehere"
+  },
+  {
+   "title": "Defensehere Dergisi’nin 62’inci sayısı “İGEF 2026” özel baskısıyla yayında",
+   "link": "https://defensehere.com/tr/defensehere-dergisinin-62inci-sayisi-igef-2026-ozel-baskisiyla-yayinda/",
+   "date": "2026-11-14T12:16:36Z",
+   "desc": "Savunma ve güvenlik sektörünün nabzını tutan Defensehere Dergisi’nin 62. sayısı, İç Güvenlik Ekipmanları Fuarı (İGEF) 2026 Özel Baskısı ile okuyucularla buluştu. İç güvenlik alanında faaliyet gösteren kamu kurumlarını, s",
+   "img": null,
+   "source": "defensehere"
+  },
   {
    "title": "MKE, 300 bin ton metal atığını yeniden üretime kazandırıyor",
    "link": "https://defensehere.com/tr/mke-300-bin-ton-metal-atigini-yeniden-uretime-kazandiriyor/",
@@ -336,7 +416,7 @@
    "link": "https://defensehere.com/tr/turk-savunma-sanayisi-avrupadaki-turk-yeteneklerin-pesinde/",
    "date": "2026-11-14T11:41:59Z",
    "desc": "Türk savunma sanayisi, nitelikli insan kaynağını güçlendirmek ve Avrupa’da yaşayan Türk mühendislerin bilgi birikimini milli projelere kazandırmak amacıyla çalışmalarını sürdürüyor. Cumhurbaşkanlığı Savunma Sanayii Başka",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/AA-20261114-43074367-43074364-TURK_SAVUNMA_SANAYISI_AVRUPADAKI_TURK_YETENEKLERIN_PESINDE-300x189.jpg",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/AA-20261114-43074367-43074364-TURK_SAVUNMA_SANAYISI_AVRUPADAKI_TURK_YETENEKLERIN_PESINDE.jpg",
    "source": "defensehere"
   },
   {
@@ -492,14 +572,6 @@
    "source": "defensenews"
   },
   {
-   "title": "ASELSAN 51’inci yaşını duygulandıran özel filmle kutladı",
-   "link": "https://defensehere.com/tr/aselsan-51inci-yasini-duygulandiran-ozel-filmle-kutladi/",
-   "date": "2026-11-13T18:47:40Z",
-   "desc": "Türkiye’nin savunma sanayii alanındaki öncü kuruluşlarından ASELSAN , 51’inci kuruluş yıl dönümüne özel hazırladığı filmle yarım asrı aşan yolculuğunu insan ve sevgi odaklı bir hikâyeyle anlattı. 14 Kasım 1975’te kurulan",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/Film_Kareleri.pdf-image-002.png",
-   "source": "defensehere"
-  },
-  {
    "title": "US Air Force adopts new Force Design focusing on sensors and autonomy",
    "link": "https://www.defensenews.com/air/2026/11/13/us-air-force-adopts-new-force-design-focusing-on-sensors-and-autonomy/",
    "date": "2026-11-13T18:43:45Z",
@@ -508,28 +580,12 @@
    "source": "defensenews"
   },
   {
-   "title": "ASFAT ile Suudi Arabistan arasında savunma sanayii iş birliği görüşmesi",
-   "link": "https://defensehere.com/tr/asfat-ile-suudi-arabistan-arasinda-savunma-sanayii-is-birligi-gorusmesi/",
-   "date": "2026-11-13T18:27:10Z",
-   "desc": "ASFAT , Türkiye ile Suudi Arabistan arasındaki savunma sanayii iş birliğinin geliştirilmesine yönelik temaslarını sürdürüyor. İstanbul’da düzenlenen Türkiye–Suudi Arabistan Savunma Sanayii Günleri kapsamında ASFAT Genel ",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/asfat1.jpeg",
-   "source": "defensehere"
-  },
-  {
    "title": "Drones incoming! New innovations on offer in UAS tech | Defense News Weekly Full Episode 11.10.26",
    "link": "https://www.defensenews.com/video/2026/11/13/drones-incoming-new-innovations-on-offer-in-uas-tech-defense-news-weekly-full-episode-11-10-26/",
    "date": "2026-11-13T18:14:51Z",
    "desc": "New drone innovations are highlighted in Part 2 of our Business of Defense series. Plus, a sneak peek into a new Smithsonian military aviation exhibit, and tips to avoid scams.",
    "img": "https://cdn.jwplayer.com/videos/gmTezszS-5ZsksG4j.mp4",
    "source": "defensenews"
-  },
-  {
-   "title": "SAHA İstanbul, NATO ve ABD heyetini Türk savunma sanayi firmalarıyla buluşturdu",
-   "link": "https://defensehere.com/tr/saha-istanbul-nato-ve-abd-heyetini-turk-savunma-sanayi-firmalariyla-bulusturdu/",
-   "date": "2026-11-13T18:05:51Z",
-   "desc": "SAHA İstanbul, insansız deniz sistemleri alanında uluslararası iş birliğini geliştirmek amacıyla NATO ve ABD Türkiye Askerî Grubu Uluslararası Silahlanma İş Birliği (IAC) Ofisi temsilcileriyle Türk savunma sanayisi firma",
-   "img": null,
-   "source": "defensehere"
   },
   {
    "title": "Destroyer That Has Been Deployed Longer Than Any Since WWII Returns Home",
@@ -570,14 +626,6 @@
    "desc": "The redesignation follows President Donald Trump’s push to replace references to artificial intelligence with “super intelligence” across the federal government.",
    "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2022/05/220526_pentagon_AI_brain-e1653573962375-1024x576.png",
    "source": "breakingdefense"
-  },
-  {
-   "title": "BAE Systems, ABD Donanması ile 138 milyon dolar değerinde sözleşme imzaladı.",
-   "link": "https://defensehere.com/tr/bae-systems-abd-donanmasi-ile-138-milyon-dolar-degerinde-sozlesme-imzaladi/",
-   "date": "2026-11-13T16:42:42Z",
-   "desc": "BAE Systems, Virginia sınıfı denizaltılar için sevk sistemlerinin üretimini sürdürmek üzere ABD Donanması ile 138 milyon dolar değerinde sözleşme imzaladı. Şirketin açıklamasına göre sözleşme, sevk sistemi bileşenlerinin",
-   "img": null,
-   "source": "defensehere"
   },
   {
    "title": "US Army names officer held on ‘allegations of espionage’",
@@ -868,22 +916,6 @@
    "source": "ukdj"
   },
   {
-   "title": "Hybrid Navy could make Britain an autonomy export leader",
-   "link": "https://ukdefencejournal.org.uk/hybrid-navy-could-make-britain-an-autonomy-export-leader/",
-   "date": "2026-11-12T20:30:31Z",
-   "desc": "General Sir Gwyn Jenkins, the First Sea Lord, has said the Hybrid Navy can give Britain an industrial lead in one of the biggest global markets of the coming decades. Speaking on board HMS Prince of Wales at the Internat",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Britons want to be ready for crises, says Security Minister",
-   "link": "https://ukdefencejournal.org.uk/britons-want-to-be-ready-for-crises-says-security-minister/",
-   "date": "2026-11-12T20:28:13Z",
-   "desc": "Dan Jarvis, the Security Minister, has said 84 per cent of Britons expect the government to tell them how to be more resilient, and that ministers accept the need for a national conversation about the threat, according t",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "AFRICOM to Test Autonomous Cessna for Casualty Evacuation in December",
    "link": "https://www.airandspaceforces.com/africom-autonomous-cessna-casualty-evacuation-test/",
    "date": "2026-11-12T20:25:38Z",
@@ -906,14 +938,6 @@
    "desc": "Built by Game Aerospace Composites, the GB1 Gamebird — designated the T-19A by the Air Force — was funded through corporate and civilian donations and will form the foundation of a new aerobatic flying team.",
    "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Kestrel-scaled-e1794508418392-1024x577.jpg",
    "source": "breakingdefense"
-  },
-  {
-   "title": "Royal Navy has turned a corner, says First Sea Lord",
-   "link": "https://ukdefencejournal.org.uk/royal-navy-has-turned-a-corner-says-first-sea-lord/",
-   "date": "2026-11-12T19:58:48Z",
-   "desc": "General Sir Gwyn Jenkins, the First Sea Lord, has said the Royal Navy has turned a corner and entered a period of renewal, and that he leaves the Sea Power Conference with hope despite a rising risk of conflict. Closing ",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "L-39NG Skyfox Jets Could Give Ukraine A Critical New Russian Drone Hunting Capability",
@@ -994,14 +1018,6 @@
    "desc": "A consortium led by Guardian Dynamics has signed a memorandum of understanding (MoU) to develop the WARDEN missile, aiming to strengthen the Netherlands' sovereign air defence capabilities.",
    "img": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/11/Dutch-air-defence.jpg",
    "source": "airforcetech"
-  },
-  {
-   "title": "UK and Norway seal Royal Navy mine-hunting mothership deal",
-   "link": "https://ukdefencejournal.org.uk/uk-and-norway-seal-royal-navy-mine-hunting-mothership-deal/",
-   "date": "2026-11-12T15:05:25Z",
-   "desc": "Britain has confirmed it will buy three Norwegian standardised vessels as motherships for the Royal Navy’s uncrewed mine-hunting systems, with the first due in 2031 and an option for three more, according to the Ministry",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "Türkiye-Suudi Arabistan Arasında Ortak Üretim Hedefi",
@@ -1116,28 +1132,12 @@
    "source": "airforcetech"
   },
   {
-   "title": "STM NETA 300 Akdeniz’de Batık Tankı Görüntüledi",
-   "link": "https://www.savunmasanayist.com/stm-neta-300-akdenizde-batik-tanki-goruntuledi/",
-   "date": "2026-11-11T08:54:04Z",
-   "desc": "STM’nin geliştirdiği insansız otonom sualtı aracı NETA 300, Antalya’nın Kaş ilçesinde yürüttüğü keşifte deniz tabanındaki batık tankı görüntüledi. Arama kurtarma ve batık tespit çalışmalarını kapsayan görevde STM NETA 30",
-   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/STM-NETA-300-3.jpg",
-   "source": "savunmasanayist"
-  },
-  {
    "title": "Japan’s Most Dangerous Military Constraint Is Time",
    "link": "https://warontherocks.com/japans-most-dangerous-military-constraint-is-time/",
    "date": "2026-11-11T08:30:24Z",
    "desc": "During a 2022 wargame I ran, bilateral planners reached a familiar barrier. U.S. forces needed to disperse from concentrated bases before the adversary’s first missile salvo. Participants believed Japan could grant emerg",
    "img": null,
    "source": "warontherocks"
-  },
-  {
-   "title": "İtalya’nın F-35 Faturası Kabarıyor: 7,3 Milyar Euro Ek Bütçe Talebi",
-   "link": "https://www.savunmasanayist.com/italyanin-f-35-faturasi-kabariyor-73-milyar-euro-ek-butce-talebi/",
-   "date": "2026-11-11T08:08:24Z",
-   "desc": "İtalya hükümeti, F-35 programı ve Cameri’deki endüstriyel altyapının güçlendirilmesi için 7,3 milyar avroluk ek harcama talebinde bulundu. Talebin kabul edilmesi halinde programın toplam maliyeti 20,8 milyar avroya ulaşa",
-   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/F-35-Italya-3.jpg",
-   "source": "savunmasanayist"
   },
   {
    "title": "New USAF Force Design Bets on Technology, Remains Under Wraps",
@@ -1472,14 +1472,6 @@
    "link": "https://www.rand.org/pubs/commentary/2026/10/the-missing-link-in-drug-policy-why-whole-system-reform.html",
    "date": "2026-10-19T12:00:00Z",
    "desc": "The UK has made progress toward a whole-system approach to drug policy, but unclear accountability and persistent stigma are stalling reform.",
-   "img": null,
-   "source": "rand"
-  },
-  {
-   "title": "A Better Way to Use Criminal Records in Hiring",
-   "link": "https://www.rand.org/pubs/commentary/2026/10/a-better-way-to-use-criminal-records-in-hiring.html",
-   "date": "2026-10-15T15:30:00Z",
-   "desc": "Employers want to know whether an applicant is likely to commit another crime, possibly on the job. But the screening rules many of them use are often about as accurate as a coin toss, in part because they're based on da",
    "img": null,
    "source": "rand"
   }
