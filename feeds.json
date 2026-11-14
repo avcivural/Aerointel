@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-13T18:47:09Z",
+ "generated": "2026-11-14T00:02:57Z",
  "sources": [
   {
    "id": "defensenews",
@@ -186,17 +186,17 @@
    "id": "defensenews",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-13T18:43:45Z",
+   "latest": "2026-11-13T19:16:42Z",
    "error": null,
-   "ms": 342
+   "ms": 166
   },
   {
    "id": "breakingdefense",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-13T17:00:00Z",
+   "latest": "2026-11-13T22:27:52Z",
    "error": null,
-   "ms": 134
+   "ms": 169
   },
   {
    "id": "defenseone",
@@ -204,15 +204,15 @@
    "count": 12,
    "latest": "2026-11-13T11:00:00Z",
    "error": null,
-   "ms": 484
+   "ms": 570
   },
   {
    "id": "afmag",
    "status": "ok",
    "count": 9,
-   "latest": "2026-11-13T15:58:44Z",
+   "latest": "2026-11-13T20:57:55Z",
    "error": null,
-   "ms": 302
+   "ms": 251
   },
   {
    "id": "airforcetech",
@@ -220,15 +220,15 @@
    "count": 10,
    "latest": "2026-11-13T16:16:26Z",
    "error": null,
-   "ms": 134
+   "ms": 87
   },
   {
    "id": "twz",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-13T18:03:06Z",
+   "latest": "2026-11-13T22:54:03Z",
    "error": null,
-   "ms": 386
+   "ms": 190
   },
   {
    "id": "warontherocks",
@@ -236,7 +236,7 @@
    "count": 12,
    "latest": "2026-11-12T18:30:19Z",
    "error": null,
-   "ms": 620
+   "ms": 350
   },
   {
    "id": "rand",
@@ -244,7 +244,7 @@
    "count": 8,
    "latest": "2026-11-09T16:45:00Z",
    "error": null,
-   "ms": 169
+   "ms": 238
   },
   {
    "id": "ukdj",
@@ -252,15 +252,15 @@
    "count": 10,
    "latest": "2026-11-13T16:08:28Z",
    "error": null,
-   "ms": 1119
+   "ms": 835
   },
   {
    "id": "aviationist",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-13T15:21:15Z",
+   "latest": "2026-11-13T22:20:09Z",
    "error": null,
-   "ms": 208
+   "ms": 106
   },
   {
    "id": "rusi",
@@ -268,15 +268,15 @@
    "count": 12,
    "latest": "2026-11-13T00:00:00Z",
    "error": null,
-   "ms": 271
+   "ms": 73
   },
   {
    "id": "eurosd",
    "status": "ok",
    "count": 6,
-   "latest": "2026-11-13T13:03:06Z",
+   "latest": "2026-11-13T22:00:47Z",
    "error": null,
-   "ms": 350
+   "ms": 281
   },
   {
    "id": "savunmasanayist",
@@ -284,15 +284,15 @@
    "count": 10,
    "latest": "2026-11-13T14:25:03Z",
    "error": null,
-   "ms": 543
+   "ms": 881
   },
   {
    "id": "defensehere",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-13T11:34:39Z",
+   "latest": "2026-11-13T18:47:40Z",
    "error": null,
-   "ms": 2762
+   "ms": 2343
   }
  ],
  "trending": [
@@ -307,22 +307,126 @@
    "sources": 4
   },
   {
-   "term": "Pentagon",
-   "n": 5,
-   "sources": 4
-  },
-  {
    "term": "USAF",
-   "n": 3,
+   "n": 4,
    "sources": 2
   },
   {
-   "term": "Russian",
-   "n": 3,
-   "sources": 3
+   "term": "Pentagon",
+   "n": 4,
+   "sources": 4
+  },
+  {
+   "term": "Security",
+   "n": 4,
+   "sources": 4
   }
  ],
  "items": [
+  {
+   "title": "FAA Orders Ground Stop For All Flights Across The U.S. (Updated)",
+   "link": "https://www.twz.com/air/faa-orders-ground-stop-for-all-flights-across-the-u-s",
+   "date": "2026-11-13T22:54:03Z",
+   "desc": "The FAA has made the very rare move of halting all flights across the country. The agency announced that communications issues are to blame. “The FAA issued a nationwide ground stop for all U.S. airports following commun",
+   "img": "https://www.twz.com/wp-content/uploads/2026/11/ATC-stopped-FAA.jpg?quality=85",
+   "source": "twz"
+  },
+  {
+   "title": "Securing the Asia-Pacific digital battlespace: TechNet Indo-Pacific 2026",
+   "link": "https://breakingdefense.com/2026/11/securing-the-asia-pacific-digital-battlespace-technet-indo-pacific-2026/",
+   "date": "2026-11-13T22:27:52Z",
+   "desc": "From electronic warfare threats to coalition data sharing, discover how US and allied forces are strengthening the digital battlespace across the Indo-Pacific.",
+   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/TechNet-Indo-Pacific-featured-image-2026-2-1024x576.png",
+   "source": "breakingdefense"
+  },
+  {
+   "title": "RAF Lakenheath Sounds Alarm After Suspected Unauthorized Drone Activity",
+   "link": "https://theaviationist.com/2026/11/13/raf-lakenheath-sounds-alarm-drone-activity/",
+   "date": "2026-11-13T22:20:09Z",
+   "desc": "U.S. Air Force security forces responded to suspected unauthorized drone activity at RAF Lakenheath, prompting an alarm and reports of a lockdown. Videos emerged online in the evening of Nov. 13, 2026, reportedly noted a",
+   "img": "https://theaviationist.com/wp-content/uploads/2026/06/USAFUKUpgrades_1.jpg",
+   "source": "aviationist"
+  },
+  {
+   "title": "Dronetag launches Scout Gen",
+   "link": "https://euro-sd.com/2026/11/news/cyber-coms/54691/dronetag-scout-gen/",
+   "date": "2026-11-13T22:00:47Z",
+   "desc": "The new fixed receiver tracks Skydio aircraft out to 5+ miles (8+ km), covering the operating area of US Drone … mehr... The post Dronetag launches Scout Gen appeared first on European Security & Defence .",
+   "img": "https://euro-sd.com/wp-content/uploads/2026/11/6aedf2cc47854e28198b9a7e_Scout_Gen2_hero_banner-1-1-300x169.webp",
+   "source": "eurosd"
+  },
+  {
+   "title": "THEON Announces Q3 2026 / 9M 2026 Trading Update",
+   "link": "https://euro-sd.com/2026/11/allgemein/54640/theon-2/",
+   "date": "2026-11-13T22:00:39Z",
+   "desc": "09 November 2026 – Theon International Plc (THEON) publishes its Q3 2026 / 9M 2026 Trading Update for the period … mehr... The post THEON Announces Q3 2026 / 9M 2026 Trading Update appeared first on European Security & D",
+   "img": "https://euro-sd.com/wp-content/uploads/2026/11/theon-logo-300x150.jpg",
+   "source": "eurosd"
+  },
+  {
+   "title": "Senate appropriators resuscitate Commerce space tracking program",
+   "link": "https://breakingdefense.com/2026/11/senate-appropriators-resuscitate-commerce-space-tracking-program/",
+   "date": "2026-11-13T21:29:36Z",
+   "desc": "The Commerce Department effort was launched nearly a decade ago due to Defense Department concerns about the increasing drain on its space monitoring resources as commercial space traffic continues to skyrocket.",
+   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2012/01/space-debris-aerosapce-corps-1326921318.jpg",
+   "source": "breakingdefense"
+  },
+  {
+   "title": "Consolidating Code: USAF Seeks Software Integrator for KC-46 Tankers",
+   "link": "https://www.airandspaceforces.com/usaf-seeks-software-integrator-kc-46-tankers/",
+   "date": "2026-11-13T20:57:55Z",
+   "desc": "The Air Force Life Cycle Management Center wants a contractor to serve as integrator for all the software sustainment of current and future upgrades to the growing KC-46 Pegasus tanker fleet. AFLCMC posted a notice in la",
+   "img": "https://www.airandspaceforces.com/app/uploads/2026/11/close-up-belly-kc46-900x600.jpg",
+   "source": "afmag"
+  },
+  {
+   "title": "Suspected Drones Over RAF Lakenheath Just Triggered Security Response: U.S. Air Force (Updated)",
+   "link": "https://www.twz.com/air/suspected-drones-over-raf-lakenheath-just-triggered-security-response-u-s-air-force",
+   "date": "2026-11-13T20:45:42Z",
+   "desc": "The U.S. Air Force responded to “suspected unauthorized drone activity” over RAF Lakenheath, America’s master fighter base in England, the Air Force has confirmed to TWZ. The confirmation was in response to our questions",
+   "img": "https://www.twz.com/wp-content/uploads/2026/11/RAF-LAKENHEATH.jpg?quality=85",
+   "source": "twz"
+  },
+  {
+   "title": "Submarine maintenance delays saw ‘significant’ improvements in FY26, sub czar says",
+   "link": "https://breakingdefense.com/2026/11/submarine-maintenance-delays-saw-significant-improvements-in-fy26-sub-czar-says/",
+   "date": "2026-11-13T20:23:10Z",
+   "desc": "Vice Adm. Rob Gaucher, the direct reporting portfolio manager for submarines, said that the Navy faced roughly 780 days of maintenance delay for subs in FY26.",
+   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2025/07/PNSY-Hampton-superflood-basin-250308-N-QV316-1001-e1752845079436-1024x575.jpg",
+   "source": "breakingdefense"
+  },
+  {
+   "title": "B-21 Raider Conducts First Weapons Release Test",
+   "link": "https://www.airandspaceforces.com/b-21-raider-first-weapons-release-test/",
+   "date": "2026-11-13T20:00:40Z",
+   "desc": "The B-21 Raider this month conducted a weapons release test for the first time, the Air Force and manufacturer Northrop Grumman said Nov. 13. The weapons release, which took place the first week of November, marks the ai",
+   "img": "https://www.airandspaceforces.com/app/uploads/2025/09/9309829-900x600.jpg",
+   "source": "afmag"
+  },
+  {
+   "title": "Beretta’s New Counter-Drone System Packs Eight Benelli M4 Shotguns Onto A Remote Turret",
+   "link": "https://www.twz.com/land/berettas-new-counter-drone-system-packs-eight-benelli-m4-shotguns-onto-a-remote-turret",
+   "date": "2026-11-13T19:28:20Z",
+   "desc": "There is no shortage of ways to shoot down a drone , but putting eight shotguns on a remote-controlled turret is one of the more unusual approaches. That’s exactly what the LIVET Remote Controlled Weapon Station (RCWS) b",
+   "img": "https://www.twz.com/wp-content/uploads/2026/11/LIVET-C-UAS-SHOTGUN.jpg?quality=85",
+   "source": "twz"
+  },
+  {
+   "title": "Inside MSI’s Next Generation of Counter-Drone Defense",
+   "link": "https://www.defensenews.com/video/2026/11/13/inside-msis-next-generation-of-counter-drone-defense/",
+   "date": "2026-11-13T19:16:42Z",
+   "desc": "MSI discusses its EAGLS air defense platform, development of EAGLS X and new approaches to modular, cost-effective counter-drone capabilities.",
+   "img": "https://cdn.jwplayer.com/videos/ONvrwu8i-5ZsksG4j.mp4",
+   "source": "defensenews"
+  },
+  {
+   "title": "ASELSAN 51’inci yaşını duygulandıran özel filmle kutladı",
+   "link": "https://defensehere.com/tr/aselsan-51inci-yasini-duygulandiran-ozel-filmle-kutladi/",
+   "date": "2026-11-13T18:47:40Z",
+   "desc": "Türkiye’nin savunma sanayii alanındaki öncü kuruluşlarından ASELSAN , 51’inci kuruluş yıl dönümüne özel hazırladığı filmle yarım asrı aşan yolculuğunu insan ve sevgi odaklı bir hikâyeyle anlattı. 14 Kasım 1975’te kurulan",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/Film_Kareleri.pdf-image-002.png",
+   "source": "defensehere"
+  },
   {
    "title": "US Air Force adopts new Force Design focusing on sensors and autonomy",
    "link": "https://www.defensenews.com/air/2026/11/13/us-air-force-adopts-new-force-design-focusing-on-sensors-and-autonomy/",
@@ -330,6 +434,14 @@
    "desc": "The U.S. Air Force has changed its strategic outlook, announcing a new Force Design 2026 that replaces its previous standards established in 2024. “The U.S. Air Force Force Design 2026 provides an enduring framework for ",
    "img": "https://one.sightlinemg.com/wp-content/uploads/2026/08/F-15-refueling-KC-135-2.jpg.jpg",
    "source": "defensenews"
+  },
+  {
+   "title": "ASFAT ile Suudi Arabistan arasında savunma sanayii iş birliği görüşmesi",
+   "link": "https://defensehere.com/tr/asfat-ile-suudi-arabistan-arasinda-savunma-sanayii-is-birligi-gorusmesi/",
+   "date": "2026-11-13T18:27:10Z",
+   "desc": "ASFAT , Türkiye ile Suudi Arabistan arasındaki savunma sanayii iş birliğinin geliştirilmesine yönelik temaslarını sürdürüyor. İstanbul’da düzenlenen Türkiye–Suudi Arabistan Savunma Sanayii Günleri kapsamında ASFAT Genel ",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/asfat1.jpeg",
+   "source": "defensehere"
   },
   {
    "title": "Drones incoming! New innovations on offer in UAS tech | Defense News Weekly Full Episode 11.10.26",
@@ -340,20 +452,20 @@
    "source": "defensenews"
   },
   {
+   "title": "SAHA İstanbul, NATO ve ABD heyetini Türk savunma sanayi firmalarıyla buluşturdu",
+   "link": "https://defensehere.com/tr/saha-istanbul-nato-ve-abd-heyetini-turk-savunma-sanayi-firmalariyla-bulusturdu/",
+   "date": "2026-11-13T18:05:51Z",
+   "desc": "SAHA İstanbul, insansız deniz sistemleri alanında uluslararası iş birliğini geliştirmek amacıyla NATO ve ABD Türkiye Askerî Grubu Uluslararası Silahlanma İş Birliği (IAC) Ofisi temsilcileriyle Türk savunma sanayisi firma",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "Destroyer That Has Been Deployed Longer Than Any Since WWII Returns Home",
    "link": "https://www.twz.com/sea/destroyer-that-has-been-deployed-longer-than-any-since-wwii-returns-home",
    "date": "2026-11-13T18:03:06Z",
    "desc": "Two guided-missile destroyers assigned to the Abraham Lincoln Carrier Strike Group (CSG), USS Spruance and USS Michael Murphy , have returned home after 357- and 346-day deployments, respectively, more than a month after",
    "img": "https://www.twz.com/wp-content/uploads/2026/11/USS-Spruance-Returns-Home-To-San-Diego-After-Record-Setting-Deployment.jpg?quality=85",
    "source": "twz"
-  },
-  {
-   "title": "Inside MSI’s Next Generation of Counter-Drone Defense",
-   "link": "https://www.defensenews.com/video/2026/11/13/inside-msis-next-generation-of-counter-drone-defense/",
-   "date": "2026-11-13T18:00:04Z",
-   "desc": "MSI discusses its EAGLS air defense platform, development of EAGLS X and new approaches to modular, cost-effective counter-drone capabilities.",
-   "img": "https://cdn.jwplayer.com/videos/ONvrwu8i-5ZsksG4j.mp4",
-   "source": "defensenews"
   },
   {
    "title": "Judges close part of ICC Afghanistan investigations that could look at US troops",
@@ -380,12 +492,20 @@
    "source": "defensenews"
   },
   {
-   "title": "Pentagon rebrands principle AI shop as ‘Super Intelligence Office’",
+   "title": "Pentagon rebrands principal AI shop as ‘Super Intelligence Office’",
    "link": "https://breakingdefense.com/2026/11/pentagon-rebrands-principle-ai-shop-as-super-intelligence-office/",
    "date": "2026-11-13T17:00:00Z",
    "desc": "The redesignation follows President Donald Trump’s push to replace references to artificial intelligence with “super intelligence” across the federal government.",
    "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2022/05/220526_pentagon_AI_brain-e1653573962375-1024x576.png",
    "source": "breakingdefense"
+  },
+  {
+   "title": "BAE Systems, ABD Donanması ile 138 milyon dolar değerinde sözleşme imzaladı.",
+   "link": "https://defensehere.com/tr/bae-systems-abd-donanmasi-ile-138-milyon-dolar-degerinde-sozlesme-imzaladi/",
+   "date": "2026-11-13T16:42:42Z",
+   "desc": "BAE Systems, Virginia sınıfı denizaltılar için sevk sistemlerinin üretimini sürdürmek üzere ABD Donanması ile 138 milyon dolar değerinde sözleşme imzaladı. Şirketin açıklamasına göre sözleşme, sevk sistemi bileşenlerinin",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "US Army names officer held on ‘allegations of espionage’",
@@ -396,12 +516,28 @@
    "source": "defensenews"
   },
   {
+   "title": "Thales, Belçika’ya hava savunma radarları tedarik edecek",
+   "link": "https://defensehere.com/tr/thales-belcikaya-hava-savunma-radarlari-tedarik-edecek/",
+   "date": "2026-11-13T16:27:14Z",
+   "desc": "Avrupalı savunma ve teknoloji şirketi Thales, Belçika’ya Hollanda’da üretilen GM200 MM/C radarlarını tedarik edeceğini duyurdu. Radarlar, Belçika’nın yeni katmanlı hava savunma kabiliyeti Blue Dome kapsamında görev yapac",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "US Air Force debuts T-19A Kestrel for cadet aerobatic training",
    "link": "https://www.airforce-technology.com/news/us-airforce-t-19a-kestrel/",
    "date": "2026-11-13T16:16:26Z",
    "desc": "The US Air Force Academy unveiled the T-19A Kestrel, its first powered aerobatic aircraft, following final military certification flights.",
    "img": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/11/T-19A-Kestre.jpg",
    "source": "airforcetech"
+  },
+  {
+   "title": "Patria, Letonya’daki zırhlı araç üretim kapasitesini artıracak",
+   "link": "https://defensehere.com/tr/patria-letonyadaki-zirhli-arac-uretim-kapasitesini-artiracak/",
+   "date": "2026-11-13T16:16:09Z",
+   "desc": "Finlandiyalı savunma sanayii şirketi Patria, Letonya’daki yeni tesisiyle zırhlı araç üretim kapasitesini genişletiyor. Temeli 7 Ekim’de atılan tesisin inşaatının 2027 yılının üçüncü çeyreğinde tamamlanması bekleniyor. Ye",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "New American stealth bomber begins testing powerful weapons",
@@ -420,6 +556,14 @@
    "source": "breakingdefense"
   },
   {
+   "title": "Bolivya Cumhurbaşkanı Rodrigo Paz Pereira, ASELSAN’ı ziyaret etti",
+   "link": "https://defensehere.com/tr/bolivya-cumhurbaskani-rodrigo-paz-pereira-aselsani-ziyaret-etti/",
+   "date": "2026-11-13T15:59:53Z",
+   "desc": "Bolivya Cumhurbaşkanı Rodrigo Paz Pereira, ASELSAN’ı ziyaret etti. ASELSAN Genel Müdürü Ahmet Akyol, sosyal medya hesabından yaptığı paylaşımda, Bolivya Cumhurbaşkanı Pereira’yı ASELSAN’da ağırladıklarını bildirdi. Akyol",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "Air Force Academy Debuts New Trainer Aircraft for Advanced Airmanship, Aerobatics",
    "link": "https://www.airandspaceforces.com/air-force-academy-new-trainer-aircraft-advanced-airmanship-aerobatics/",
    "date": "2026-11-13T15:58:44Z",
@@ -436,12 +580,36 @@
    "source": "breakingdefense"
   },
   {
-   "title": "USAF and Northrop Grumman Confirm B-21 Raider’s First Weapon Release Capability Demonstration",
+   "title": "USAF and Northrop Grumman Confirm B-21 Raider’s First Weapon Release",
    "link": "https://theaviationist.com/2026/11/13/b-21-raider-first-weapon-release/",
    "date": "2026-11-13T15:21:15Z",
    "desc": "While details of the test remain undisclosed, the U.S. Air Force and Northrop Grumman have confirmed that the B-21 Raider has demonstrated its weapon release capability, marking another important milestone in the stealth",
    "img": "https://theaviationist.com/wp-content/uploads/2026/11/B-21-weapon-release.jpg",
    "source": "aviationist"
+  },
+  {
+   "title": "ASFAT: Pakistan MİLGEM Projesi’nde 3’üncü gemi teslimata hazır",
+   "link": "https://defensehere.com/tr/asfat-pakistan-milgem-projesinde-3uncu-gemi-teslimata-hazir/",
+   "date": "2026-11-13T15:19:51Z",
+   "desc": "ASFAT ana yükleniciliğinde yürütülen Pakistan MİLGEM Projesi kapsamında 3’üncü gemi teslimata hazır hale getirilirken, 4’üncü geminin liman testlerine devam edildiği bildirildi. ASFAT, sosyal medya hesabından yaptığı açı",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Türkiye ile Katar arasında 5 anlaşma imzalandı",
+   "link": "https://defensehere.com/tr/turkiye-ile-katar-arasinda-5-anlasma-imzalandi/",
+   "date": "2026-11-13T15:10:44Z",
+   "desc": "Türkiye ile Katar arasında ticaret, eğitim, diplomasi ve savunma alanlarını kapsayan 5 anlaşma imzalandı. Cumhurbaşkanı Recep Tayyip Erdoğan ile Katar Emiri Şeyh Temim bin Hamed Al Sani’nin Cumhurbaşkanlığı Dolmabahçe Of",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Namlock-10’la alkollü araç kullanmak mümkün değil",
+   "link": "https://defensehere.com/tr/namlock-10la-alkollu-arac-kullanmak-mumkun-degil/",
+   "date": "2026-11-13T15:10:23Z",
+   "desc": "Armas Elektronik, alkollü araç kullanımını önlemeye yönelik geliştirdiği Namlock-10 sistemiyle trafik güvenliğine teknolojik bir çözüm sunuyor. Sürücü alkolmetreye üflemeden araç çalışmıyor, ölçümde alkol tespit edilmesi",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "Damen points to Romania for ships UK said it would build",
@@ -500,38 +668,6 @@
    "source": "ukdj"
   },
   {
-   "title": "ASELSAN’ın KILIÇ ve DERİNGÖZ sistemleri Mavi Balina-2026 Tatbikatı’nda görev yaptı",
-   "link": "https://defensehere.com/tr/aselsanin-kilic-ve-deringoz-sistemleri-mavi-balina-2026-tatbikatinda-gorev-yapti/",
-   "date": "2026-11-13T11:34:39Z",
-   "desc": "ASELSAN, NATO ve müttefik ülkelerin katılımıyla gerçekleştirilen Mavi Balina-2026 Davet Tatbikatı’nda KILIÇ Kamikaze Otonom Su Altı Aracı ve DERİNGÖZ Otonom Su Altı Aracı’nın görevlerini başarıyla tamamladığını bildirdi.",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/aselsan2.jpg",
-   "source": "defensehere"
-  },
-  {
-   "title": "Mavi Balina-2026 Davet Tatbikatı’nın seçkin gözlemci günü başladı",
-   "link": "https://defensehere.com/tr/mavi-balina-2026-davet-tatbikatinin-seckin-gozlemci-gunu-basladi/",
-   "date": "2026-11-13T11:29:04Z",
-   "desc": "Türkiye’nin ev sahipliğinde Doğu Akdeniz’de düzenlenen Mavi Balina-2026 Davet Tatbikatı’nın basın ve seçkin gözlemci günü başladı. Deniz Kuvvetleri Komutanlığınca 9-20 Kasım’da gerçekleştirilen tatbikatın basın ve seçkin",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/AA-20261113-43066137-43066125-MAVI_BALINA2026_DAVET_TATBIKATININ_SECKIN_GOZLEMCI_GUNU_BASLADI.jpg",
-   "source": "defensehere"
-  },
-  {
-   "title": "Türkiye ile Suudi Arabistan arasında savunma sanayisi işbirliği yeni alanlara taşınıyor",
-   "link": "https://defensehere.com/tr/turkiye-ile-suudi-arabistan-arasinda-savunma-sanayisi-isbirligi-yeni-alanlara-tasiniyor/",
-   "date": "2026-11-13T11:15:41Z",
-   "desc": "Cumhurbaşkanlığı Savunma Sanayii Başkanı Haluk Görgün, Türkiye ile Suudi Arabistan arasında savunma sanayisi alanındaki işbirliğini geliştirmek amacıyla son üç yılda 75’i aşkın toplantı gerçekleştirdiklerini, Türk şirket",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Eski SAT komandoları Mali’de özel kuvvetler personeline eğitim veriyor",
-   "link": "https://defensehere.com/tr/eski-sat-komandolari-malide-ozel-kuvvetler-personeline-egitim-veriyor/",
-   "date": "2026-11-13T11:01:22Z",
-   "desc": "Mali ordusunun özel kuvvetler personeli, eski Türk SAT komandolarından eğitim alıyor. Eğitimi yürüten şirket, Mali Savunma Bakanlığı ile Türk şirketi The Peak Defense tarafından başkent Bamako’da düzenlenen BAMEX 2026 Sa",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
    "title": "Defense Business Brief: This Ukraine-founded drone maker is now worth $6 billion. What now?",
    "link": "https://www.defenseone.com/business/2026/11/defense-business-brief-ukraine-founded-drone-maker-now-worth-6-billion-what-now/417207/",
    "date": "2026-11-13T11:00:00Z",
@@ -564,31 +700,7 @@
    "source": "ukdj"
   },
   {
-   "title": "SoliCELL, −30 derecede şarj edilebilen batarya geliştirdi",
-   "link": "https://defensehere.com/tr/solicell-%e2%88%9230-derecede-sarj-edilebilen-batarya-gelistirdi/",
-   "date": "2026-11-13T07:23:58Z",
-   "desc": "Utarit bünyesinde faaliyet gösteren, enerji depolama çözümleri geliştiren SoliCELL, düşük sıcaklıklarda çalışan saha ekipmanları için Arctic-30 batarya sistemini geliştirdi. −30 °C’ye kadar şarjı destekleyen lityum demir",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Hava Kuvvetleri Komutanı Orgeneral Dalkıran, ASELSAN’ı ziyaret etti",
-   "link": "https://defensehere.com/tr/hava-kuvvetleri-komutani-orgeneral-dalkiran-aselsani-ziyaret-etti/",
-   "date": "2026-11-13T06:52:25Z",
-   "desc": "Hava Kuvvetleri Komutanı Orgeneral Rafet Dalkıran, ASELSAN’ı ziyaret etti. ASELSAN Genel Müdürü Ahmet Akyol, sosyal medyadan yaptığı paylaşımda ziyarette geliştirilen ileri teknolojiler, seri üretim faaliyetleri ve şirke",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Alman İHA üreticisi Quantum Systems’e siber saldırı",
-   "link": "https://defensehere.com/tr/alman-iha-ureticisi-quantum-systemse-siber-saldiri/",
-   "date": "2026-11-13T06:45:56Z",
-   "desc": "Almanya merkezli insansız hava aracı (İHA) üreticisi Quantum Systems’in şirket ağına siber saldırı düzenlendiği ve güncelleme sunucusuna zararlı yazılım yerleştirildiği bildirildi. Der Spiegel dergisinin güvenlik kaynakl",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "The Air Force’s Newest Trainer Is An Aerial Stunt Plane",
+   "title": "The Air Force’s Newest Trainer Is An Aerobatic Plane",
    "link": "https://www.twz.com/air/the-air-forces-newest-trainer-is-an-aerial-stunt-plane",
    "date": "2026-11-13T00:25:18Z",
    "desc": "The U.S. Air Force unveiled its newest aircraft today by flying them over the Air Force Academy , where they will be used to train a future generation of pilots and serve as the basis for a new aerial demonstration team.",
@@ -812,38 +924,6 @@
    "source": "afmag"
   },
   {
-   "title": "AUKUS on track, even ‘ahead of schedule’ for some parts, admiral says",
-   "link": "https://breakingdefense.com/2026/11/aukus-on-track-even-ahead-of-schedule-for-some-parts-admiral-says/",
-   "date": "2026-11-12T18:12:43Z",
-   "desc": "The USS Colorado will serve as the first submarine assigned to Submarine Rotational Force-West in support of AUKUS Pillar I.",
-   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/271027-N-NR343-9270-e1794506945842-1024x577.jpeg",
-   "source": "breakingdefense"
-  },
-  {
-   "title": "Çin’in güneş enerjili İHA’sı ilk uçuşunu yaptı: 30 saat havada kalabiliyor",
-   "link": "https://defensehere.com/tr/cinin-gunes-enerjili-ihasi-ilk-ucusunu-yapti-30-saat-havada-kalabiliyor/",
-   "date": "2026-11-12T18:11:40Z",
-   "desc": "Çin, tamamen güneş enerjisiyle çalışan yeni insansız hava aracı (İHA) Çingçibing’in ilk uçuşunu gerçekleştirdi. 30 saate kadar havada kalabilen İHA’nın kritik altyapıların denetlenmesi, doğal kaynakların takibi ve afet b",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Thales ve KONGSBERG, Arctic Hunter platformunda iş birliği yapacak",
-   "link": "https://defensehere.com/tr/thales-ve-kongsberg-arctic-hunter-platformunda-is-birligi-yapacak/",
-   "date": "2026-11-12T17:57:38Z",
-   "desc": "Thales’in İngiltere birimi, İngiliz Kraliyet Donanması için denizaltı savunma harbi gemisi geliştirmek üzere Norveçli teknoloji şirketi Kongsberg Maritime ile mutabakat zaptı imzaladığını duyurdu. Geliştirilecek deniz ar",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Instead of stockpiling small attack drones, Army looking to simply buy new ones",
-   "link": "https://breakingdefense.com/2026/11/instead-of-stockpiling-small-attack-drones-army-looking-to-simply-buy-new-ones/",
-   "date": "2026-11-12T17:30:00Z",
-   "desc": "“It’s literally fly it as close as you can between those two fence posts because you might have to hit a high value target that way. And, if you crash 10 of them until you can get [number] 11 through, do it,” Army Materi",
-   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/09/9301074-scaled-e1789676013843-1024x577.jpg",
-   "source": "breakingdefense"
-  },
-  {
    "title": "New Facilities To Pump Out Upgraded F/A-18E/F Super Hornets Eyed By Navy",
    "link": "https://www.twz.com/air/new-facilities-to-pump-out-upgraded-f-a-18e-f-super-hornets-eyed-by-navy",
    "date": "2026-11-12T17:28:09Z",
@@ -866,22 +946,6 @@
    "desc": "The Polish WB Group, a developer and manufacturer of, among other things, unmanned multi-domain systems, unveiled its new subsidiary, WB … mehr... The post WB GROUP Expands into Germany appeared first on European Securit",
    "img": "https://euro-sd.com/wp-content/uploads/2026/11/20261110_WB_GROUP-Expands-into-Germany_06-300x200.jpg",
    "source": "eurosd"
-  },
-  {
-   "title": "BAE Systems, LRASM füzeleri için RF güdüm sensörleri teslimatı yaptı",
-   "link": "https://defensehere.com/tr/bae-systems-lrasm-fuzeleri-icin-rf-gudum-sensorleri-teslimati-yapti/",
-   "date": "2026-11-12T16:52:18Z",
-   "desc": "Savunma ve teknoloji şirketi BAE Systems, Uzun Menzilli Gemisavar Füzesi (LRASM) için geliştirdiği gelişmiş radyo frekansı sensörlerini Lockheed Martin’e teslim ettiğini duyurdu. Şirket, hızlandırılmış üretim takvimine u",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Cry ‘drone,’ and let slip the fruit flies of war",
-   "link": "https://breakingdefense.com/2026/11/cry-drone-and-let-slip-the-fruit-flies-of-war/",
-   "date": "2026-11-12T16:29:34Z",
-   "desc": "The US military should focus on building drones that evolve so quickly an adversary’s defenses become obsolete before they can be deployed, two Air Force officers argue.",
-   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2025/01/5356116-scaled-e1738101657589-1024x577.jpg",
-   "source": "breakingdefense"
   },
   {
    "title": "MSB: S-70 Helikopteri Malatya’da Kaza Kırıma Uğradı",
@@ -1012,38 +1076,6 @@
    "source": "twz"
   },
   {
-   "title": "BAE Systems accelerates delivery of LRASM missile sensors",
-   "link": "https://euro-sd.com/2026/11/news/exclusive-news/54654/bae-systems-lrasm/",
-   "date": "2026-11-11T20:00:21Z",
-   "desc": "BAE Systems has delivered all Lot 8 units of its advanced radio-frequency (RF) sensor to Lockheed Martin for the Long-Range … mehr... The post BAE Systems accelerates delivery of LRASM missile sensors appeared first on E",
-   "img": "https://euro-sd.com/wp-content/uploads/2026/11/bae-Kopie-300x169.jpg",
-   "source": "eurosd"
-  },
-  {
-   "title": "F-35s Train In India For “Red Flag Of The East”",
-   "link": "https://www.twz.com/air/f-35s-train-in-india-for-red-flag-of-the-east",
-   "date": "2026-11-11T18:31:47Z",
-   "desc": "For the first time, F-35 stealth fighters have operated from Indian soil in an exercise with the Indian Air Force (IAF). Six of the U.S. Air Force jets joined Tarang Shakti 2026 at Jodhpur, in the northwest Indian state ",
-   "img": "https://www.twz.com/wp-content/uploads/2026/11/F-35-WITH-TEJAS-INDIA-1.jpg?quality=85",
-   "source": "twz"
-  },
-  {
-   "title": "NAVAIR Contract for DAIRCM Aircraft Survivability System",
-   "link": "https://euro-sd.com/2026/11/news/air/54658/leonardo-drs-navair-daircm/",
-   "date": "2026-11-11T18:00:11Z",
-   "desc": "Naval Air Systems Command (NAVAIR) has awarded Leonardo DRS a three-year indefinite-delivery/indefinite-quantity (IDIQ) contract for low-rate initial production of the … mehr... The post NAVAIR Contract for DAIRCM Aircra",
-   "img": "https://euro-sd.com/wp-content/uploads/2026/11/UH-1Y-Venom-and-AH-1Z-Viper-DAIRCM-1-300x200.jpg",
-   "source": "eurosd"
-  },
-  {
-   "title": "Autonomous Cessna Caravan Air Ambulance To Be Tested By U.S. Military",
-   "link": "https://www.twz.com/news-features/autonomous-cessna-caravan-air-ambulance-to-be-tested-by-u-s-military",
-   "date": "2026-11-11T17:46:17Z",
-   "desc": "U.S. Africa Command (AFRICOM) is set to demonstrate a potential autonomous casualty evacuation (CASEVAC) capability in Morocco. The test will involve a Cessna Model 208B Grand Caravan with an artificial intelligence (AI)",
-   "img": "https://www.twz.com/wp-content/uploads/2026/11/autonomous-casaulty-evacuation-demonstration-us-africa-command.jpg?quality=85",
-   "source": "twz"
-  },
-  {
    "title": "Merlin wins $8.9m contract to advance USSOCOM C-130J autonomy project",
    "link": "https://www.airforce-technology.com/news/merlin-ussocom-c130j-contract/",
    "date": "2026-11-11T15:14:56Z",
@@ -1108,36 +1140,12 @@
    "source": "afmag"
   },
   {
-   "title": "Army Wants New Palletized Short-Range Air Defenses In Service By The End Of 2029",
-   "link": "https://www.twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
-   "date": "2026-11-10T23:43:49Z",
-   "desc": "The U.S. Army is aiming to have new palletized short-range air defense systems in service before the 2029 calendar year comes to a close. The service expects these systems to be fielded on crewed and uncrewed vehicles, a",
-   "img": "https://www.twz.com/wp-content/uploads/2026/11/army-increment-4-shorad-plans-air-defense.jpg?quality=85",
-   "source": "twz"
-  },
-  {
-   "title": "With $1.5 Trillion Defense Bill Unlikely, Congress Weighs Options",
-   "link": "https://www.airandspaceforces.com/congress-pentagons-defense-budget-drills-think-tanks/",
-   "date": "2026-11-10T23:17:14Z",
-   "desc": "Getting back to business after the midterm elections, Congress has just weeks to try to hammer out the fiscal 2027 budget—and without a new spending bill or another continuing resolution, the government will run out of f",
-   "img": "https://www.airandspaceforces.com/app/uploads/2026/04/2634895-900x600.jpg",
-   "source": "afmag"
-  },
-  {
    "title": "Royal Navy to Fly Northrop Grumman’s YFQ-48A from Aircraft Carrier in 2027",
    "link": "https://theaviationist.com/2026/11/10/royal-navy-yfq-48a-aircraft-carrier-2027/",
    "date": "2026-11-10T22:42:39Z",
    "desc": "The Royal Navy plans to demonstrate Northrop Grumman’s YFQ-48A Talon Blue CCA from a Queen Elizabeth-class aircraft carrier in 2027, as part of efforts to develop a future Hybrid Air Wing combining crewed and uncrewed ai",
    "img": "https://theaviationist.com/wp-content/uploads/2026/10/833261806_1135289099184016_7146436393159998940_n-e1794349963857.jpg",
    "source": "aviationist"
-  },
-  {
-   "title": "Pentagon Warns Troops to Be Careful on Prediction Markets—but Enforcement Is Tricky",
-   "link": "https://www.airandspaceforces.com/hegseth-pentagon-prediction-markets-ban-enforcement/",
-   "date": "2026-11-10T20:06:36Z",
-   "desc": "A recent Pentagon memo barring troops from placing bets on prediction markets using classified or sensitive information is a necessary step toward clamping down on such activity in the ranks, but experts tell Air & Space",
-   "img": "https://www.airandspaceforces.com/app/uploads/2026/10/USAF-gavel-900x600.jpeg",
-   "source": "afmag"
   },
   {
    "title": "Pentagon Still Cannot Account for Billions of Dollars in F-35 Spare Parts, GAO Finds",
@@ -1322,14 +1330,6 @@
    "desc": "The incumbent appears to be using a national security foreign-funding inquiry to discredit 19 Arab-held seats and perhaps disrupt formation of a replacement government.",
    "img": null,
    "source": "rusi"
-  },
-  {
-   "title": "A320 ATRA Testbed is Now Flying with the Eurofighter’s AESA Radar",
-   "link": "https://theaviationist.com/2026/11/08/a320-atra-flying-eurofighters-aesa-radar/",
-   "date": "2026-11-08T18:31:49Z",
-   "desc": "The Airbus A320 ATRA has received the Eurofighter’s ECRS Mk1 AESA radar, together with the necessary structural modifications, cooling systems, data cabling and workstations, and has completed its commissioning flights. ",
-   "img": "https://theaviationist.com/wp-content/uploads/2026/11/Airbus-ATRA-Eurofighter-1.jpg",
-   "source": "aviationist"
   },
   {
    "title": "Tough choices, uncertainty, and scrutiny may lie ahead for defense contractors",
