@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T00:02:57Z",
+ "generated": "2026-11-14T06:49:02Z",
  "sources": [
   {
    "id": "defensenews",
@@ -188,7 +188,7 @@
    "count": 10,
    "latest": "2026-11-13T19:16:42Z",
    "error": null,
-   "ms": 166
+   "ms": 202
   },
   {
    "id": "breakingdefense",
@@ -196,15 +196,15 @@
    "count": 12,
    "latest": "2026-11-13T22:27:52Z",
    "error": null,
-   "ms": 169
+   "ms": 186
   },
   {
    "id": "defenseone",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-13T11:00:00Z",
+   "latest": "2026-11-14T01:39:47Z",
    "error": null,
-   "ms": 570
+   "ms": 279
   },
   {
    "id": "afmag",
@@ -212,7 +212,7 @@
    "count": 9,
    "latest": "2026-11-13T20:57:55Z",
    "error": null,
-   "ms": 251
+   "ms": 324
   },
   {
    "id": "airforcetech",
@@ -220,15 +220,15 @@
    "count": 10,
    "latest": "2026-11-13T16:16:26Z",
    "error": null,
-   "ms": 87
+   "ms": 183
   },
   {
    "id": "twz",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-13T22:54:03Z",
+   "latest": "2026-11-14T00:31:04Z",
    "error": null,
-   "ms": 190
+   "ms": 218
   },
   {
    "id": "warontherocks",
@@ -236,7 +236,7 @@
    "count": 12,
    "latest": "2026-11-12T18:30:19Z",
    "error": null,
-   "ms": 350
+   "ms": 299
   },
   {
    "id": "rand",
@@ -244,7 +244,7 @@
    "count": 8,
    "latest": "2026-11-09T16:45:00Z",
    "error": null,
-   "ms": 238
+   "ms": 268
   },
   {
    "id": "ukdj",
@@ -252,7 +252,7 @@
    "count": 10,
    "latest": "2026-11-13T16:08:28Z",
    "error": null,
-   "ms": 835
+   "ms": 1095
   },
   {
    "id": "aviationist",
@@ -260,7 +260,7 @@
    "count": 12,
    "latest": "2026-11-13T22:20:09Z",
    "error": null,
-   "ms": 106
+   "ms": 174
   },
   {
    "id": "rusi",
@@ -268,7 +268,7 @@
    "count": 12,
    "latest": "2026-11-13T00:00:00Z",
    "error": null,
-   "ms": 73
+   "ms": 1578
   },
   {
    "id": "eurosd",
@@ -276,7 +276,7 @@
    "count": 6,
    "latest": "2026-11-13T22:00:47Z",
    "error": null,
-   "ms": 281
+   "ms": 534
   },
   {
    "id": "savunmasanayist",
@@ -284,7 +284,7 @@
    "count": 10,
    "latest": "2026-11-13T14:25:03Z",
    "error": null,
-   "ms": 881
+   "ms": 774
   },
   {
    "id": "defensehere",
@@ -292,13 +292,13 @@
    "count": 10,
    "latest": "2026-11-13T18:47:40Z",
    "error": null,
-   "ms": 2343
+   "ms": 2103
   }
  ],
  "trending": [
   {
    "term": "Northrop Grumman",
-   "n": 7,
+   "n": 6,
    "sources": 4
   },
   {
@@ -323,6 +323,22 @@
   }
  ],
  "items": [
+  {
+   "title": "Destroyer returns from 11-month-deployment",
+   "link": "https://www.defenseone.com/threats/2026/11/destroyer-returns-11-month-deployment/417231/",
+   "date": "2026-11-14T01:39:47Z",
+   "desc": "PEARL HARBOR, Hawaii —After a 346-day deployment that included operations in the South China Sea, 12 contested transits of the Strait of Hormuz, 43 replenishments at sea and the removal of its commander 10 months in, the",
+   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/13/michael_261112_N_GS875_2073-1/large.jpg",
+   "source": "defenseone"
+  },
+  {
+   "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
+   "link": "https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-215",
+   "date": "2026-11-14T00:31:04Z",
+   "desc": "Welcome to Bunker Talk. This is a weekend open discussion post for the best commenting crew on the net, in which we can chat about all the stuff that went on this week that we didn’t cover. We can also talk about the stu",
+   "img": "https://www.twz.com/wp-content/uploads/2026/11/TRACON.jpg?quality=85",
+   "source": "twz"
+  },
   {
    "title": "FAA Orders Ground Stop For All Flights Across The U.S. (Updated)",
    "link": "https://www.twz.com/air/faa-orders-ground-stop-for-all-flights-across-the-u-s",
@@ -1068,14 +1084,6 @@
    "source": "defenseone"
   },
   {
-   "title": "Plans To Fly Talon Blue CCA Drone From British Carrier Confirmed By Northrop Grumman",
-   "link": "https://www.twz.com/news-features/plans-to-fly-talon-blue-cca-drone-from-british-carrier-confirmed-by-northrop-grumman",
-   "date": "2026-11-11T20:30:40Z",
-   "desc": "The Royal Navy is aiming to see Northrop Grumman’s Talon Blue collaborative combat aircraft (CCA) drone fly from a British aircraft carrier next year. The planned demonstration is another notable step toward a carrier-ba",
-   "img": "https://www.twz.com/wp-content/uploads/2026/11/talon-blue-front-quarter-lower.jpg?quality=85",
-   "source": "twz"
-  },
-  {
    "title": "Merlin wins $8.9m contract to advance USSOCOM C-130J autonomy project",
    "link": "https://www.airforce-technology.com/news/merlin-ussocom-c130j-contract/",
    "date": "2026-11-11T15:14:56Z",
@@ -1345,14 +1353,6 @@
    "date": "2026-11-06T21:24:24Z",
    "desc": "The Democrats' impending takeover of the House and the Senate will have sweeping effects on the Pentagon, from budgets to leadership to defense policy. The biggest near-term issue is the fate of the proposed reconciliati",
    "img": "https://cdn.defenseone.com/media/img/cd/2026/11/06/GettyImages_2273164014/large.jpg",
-   "source": "defenseone"
-  },
-  {
-   "title": "State Department's push to cancel hundreds of contracts left behind a trail of mistakes, watchdog finds",
-   "link": "https://www.defenseone.com/policy/2026/11/state-departments-push-cancel-hundreds-contracts-left-behind-trail-mistakes-watchdog-finds/417113/",
-   "date": "2026-11-06T21:00:00Z",
-   "desc": "Widespread errors in State Department efforts to terminate contracts may have wasted money and exposed the agency to lawsuits, its inspector general said in a report published on Monday. Within a month of Donald Trump ta",
-   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/06/110626_Getty_GovExec_State-2/large.jpg",
    "source": "defenseone"
   },
   {
