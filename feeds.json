@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T02:16:43Z",
+ "generated": "2026-11-15T09:40:11Z",
  "sources": [
   {
    "id": "defensenews",
@@ -188,7 +188,7 @@
    "count": 10,
    "latest": "2026-11-13T19:16:42Z",
    "error": null,
-   "ms": 327
+   "ms": 157
   },
   {
    "id": "breakingdefense",
@@ -196,7 +196,7 @@
    "count": 12,
    "latest": "2026-11-13T22:27:52Z",
    "error": null,
-   "ms": 225
+   "ms": 114
   },
   {
    "id": "defenseone",
@@ -204,7 +204,7 @@
    "count": 12,
    "latest": "2026-11-14T01:39:47Z",
    "error": null,
-   "ms": 533
+   "ms": 164
   },
   {
    "id": "afmag",
@@ -212,7 +212,7 @@
    "count": 9,
    "latest": "2026-11-13T20:57:55Z",
    "error": null,
-   "ms": 269
+   "ms": 223
   },
   {
    "id": "airforcetech",
@@ -220,7 +220,7 @@
    "count": 10,
    "latest": "2026-11-13T16:16:26Z",
    "error": null,
-   "ms": 141
+   "ms": 156
   },
   {
    "id": "twz",
@@ -228,7 +228,7 @@
    "count": 12,
    "latest": "2026-11-14T00:31:04Z",
    "error": null,
-   "ms": 596
+   "ms": 146
   },
   {
    "id": "warontherocks",
@@ -236,7 +236,7 @@
    "count": 12,
    "latest": "2026-11-12T18:30:19Z",
    "error": null,
-   "ms": 369
+   "ms": 179
   },
   {
    "id": "rand",
@@ -244,15 +244,15 @@
    "count": 7,
    "latest": "2026-11-09T16:45:00Z",
    "error": null,
-   "ms": 270
+   "ms": 116
   },
   {
    "id": "ukdj",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-14T16:59:08Z",
+   "latest": "2026-11-15T09:00:48Z",
    "error": null,
-   "ms": 731
+   "ms": 721
   },
   {
    "id": "aviationist",
@@ -260,7 +260,7 @@
    "count": 12,
    "latest": "2026-11-14T22:48:03Z",
    "error": null,
-   "ms": 123
+   "ms": 111
   },
   {
    "id": "rusi",
@@ -268,7 +268,7 @@
    "count": 12,
    "latest": "2026-11-13T00:00:00Z",
    "error": null,
-   "ms": 163
+   "ms": 260
   },
   {
    "id": "eurosd",
@@ -276,23 +276,23 @@
    "count": 6,
    "latest": "2026-11-13T22:00:47Z",
    "error": null,
-   "ms": 547
+   "ms": 181
   },
   {
    "id": "savunmasanayist",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-14T15:19:34Z",
+   "latest": "2026-11-15T08:47:47Z",
    "error": null,
-   "ms": 839
+   "ms": 646
   },
   {
    "id": "defensehere",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-14T17:03:21Z",
+   "latest": "2026-11-15T09:28:51Z",
    "error": null,
-   "ms": 2360
+   "ms": 2126
   }
  ],
  "trending": [
@@ -323,6 +323,86 @@
   }
  ],
  "items": [
+  {
+   "title": "ASELSAN’ın EJDERHA sisteminden dünya rekoru: 51 dron aynı anda etkisiz hâle getirildi",
+   "link": "https://defensehere.com/tr/aselsanin-ejderha-sisteminden-dunya-rekoru-51-dron-ayni-anda-etkisiz-hale-getirildi/",
+   "date": "2026-11-15T09:28:51Z",
+   "desc": "ASELSAN, Mini/Mikro İnsansız Hava Araçlarına (İHA) ve yeni nesil FPV dron tehditlerine karşı geliştirdiği EJDERHA AD Yüksek Güçlü Elektromanyetik (HPEM) İHA Savunma Sisteminin kabiliyetlerini sahada sergiledi. ASELSAN’da",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-15-at-12.00.14.jpeg",
+   "source": "defensehere"
+  },
+  {
+   "title": "Putin is doing our job with hybrid attacks, says Schäfer",
+   "link": "https://ukdefencejournal.org.uk/putin-is-doing-our-job-with-hybrid-attacks-says-schafer/",
+   "date": "2026-11-15T09:00:48Z",
+   "desc": "Dr Martin Schäfer, Defence Policy Director at Germany’s defence ministry, has said Vladimir Putin is in a sense doing Europe’s job by stepping up hybrid warfare, because his attacks show publics the real risks, according",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "ASELSAN EJDERHA 51 Dronu Aynı Anda Etkisiz Hale Getirdi",
+   "link": "https://www.savunmasanayist.com/aselsan-ejderha-dron-surusu-etkisiz-hale-getirdi/",
+   "date": "2026-11-15T08:47:47Z",
+   "desc": "ASELSAN, kuruluşunun 51. yıl dönümünde EJDERHA Yüksek Güçlü Elektromanyetik Karşı Tedbir Sistemi (YGEM) ile aynı anda havalanan 51 dronu saniyeler içinde etkisiz hale getirdi. Deneme, füze veya mühimmat kullanılmadan yap",
+   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/09/EJDERHA-AD210-KANGAL-FPV100.jpg",
+   "source": "savunmasanayist"
+  },
+  {
+   "title": "Canada’s bid to join JEF still under consideration",
+   "link": "https://ukdefencejournal.org.uk/canadas-bid-to-join-jef-still-under-consideration/",
+   "date": "2026-11-15T08:00:49Z",
+   "desc": "Britain and the other Joint Expeditionary Force nations are still considering Canada’s application to join the grouping and no timetable has been set for a decision, Louise Sandher-Jones, Minister for the Armed Forces, h",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "ASELSAN ile SAMI arasında yeni iş birliği fırsatları değerlendirildi",
+   "link": "https://defensehere.com/tr/aselsan-ile-sami-arasinda-yeni-is-birligi-firsatlari-degerlendirildi/",
+   "date": "2026-11-15T07:27:35Z",
+   "desc": "ASELSAN Genel Müdürü Ahmet Akyol, Suudi Arabistan Askeri Sanayileri (SAMI) CEO’su Thamer Almuhaid ile bir araya geldi. Akyol, görüşmeye ilişkin sosyal medya hesabından yaptığı paylaşımda, devam eden iş birlikleri ile yen",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Ozan Ahmet Gökçe, TSKGV Fuar Direktörlüğüne asaleten atandı",
+   "link": "https://defensehere.com/tr/ozan-ahmet-gokce-tskgv-fuar-direktorlugune-asaleten-atandi/",
+   "date": "2026-11-15T07:20:51Z",
+   "desc": "Türk Silahlı Kuvvetlerini Güçlendirme Vakfı (TSKGV) Fuar Direktörlüğü görevini yaklaşık bir yıldır vekâleten yürüten Ozan Ahmet Gökçe, göreve asaleten atandı. Gökçe, atamasına ilişkin gelişmeyi sosyal medya hesabından ya",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "SpaceX, uzaya gönderdiği Starship roketini Dünya’ya dönüşte havada yakalayarak tarihe geçti.",
+   "link": "https://defensehere.com/tr/spacex-uzaya-gonderdigi-starship-roketini-dunyaya-donuste-havada-yakalayarak-tarihe-gecti/",
+   "date": "2026-11-15T07:01:00Z",
+   "desc": "SpaceX, Starship’in 15. test uçuşunda uzay taşımacılığı açısından tarihi bir başarıya imza attı. Yörüngeye ulaştıktan sonra Dünya’ya dönen Starship, Teksas’taki Starbase tesisinde bulunan Mechazilla fırlatma kulesinin de",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Skynet satellite bidders must source key systems in Britain",
+   "link": "https://ukdefencejournal.org.uk/skynet-satellite-bidders-must-source-key-systems-in-britain/",
+   "date": "2026-11-15T07:00:42Z",
+   "desc": "The Skynet 6 wideband satellite competition requires key sub-systems to come from UK sources and the spacecraft to be assembled and tested in Britain, Luke Pollard, Minister for Defence Readiness and Industry, has said, ",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "UK again commits to 138 F-35 jets",
+   "link": "https://ukdefencejournal.org.uk/uk-again-commits-to-138-f-35-jets/",
+   "date": "2026-11-15T06:28:03Z",
+   "desc": "Britain has completed the first procurement phase of its F-35 programme with forty-eight F-35B Lightning jets delivered and operational with the Lightning Force, Luke Pollard, Minister for Defence Readiness and Industry,",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Smyrtos remains only shadow fleet tanker stopped by UK",
+   "link": "https://ukdefencejournal.org.uk/smyrtos-remains-only-shadow-fleet-tanker-stopped-by-uk/",
+   "date": "2026-11-15T05:42:18Z",
+   "desc": "The Smyrtos remains the only Russian shadow fleet vessel interdicted by British forces since the authority to board such ships was extended on 25 March, Louise Sandher-Jones, Minister for the Armed Forces, has said, acco",
+   "img": null,
+   "source": "ukdj"
+  },
   {
    "title": "Russia’s Mi-28 Attack Helicopter Officially Shown Launching Dan-T Low-Cost Cruise Missile",
    "link": "https://theaviationist.com/2026/11/14/mi-28-launching-dan-t-low-cost-cruise-missile/",
@@ -433,38 +513,6 @@
    "date": "2026-11-14T13:28:35Z",
    "desc": "Millî Savunma Bakanlığı (MSB) , Doğu Akdeniz’de icra edilen Mavi Balina-2026 Davet Tatbikatı kapsamında gerçekleştirilen faaliyetlere ilişkin açıklama yaptı. 9 Kasım’da başlayan ve 20 Kasım 2026’ya kadar devam edecek tat",
    "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Defensehere Dergisi’nin 62’inci sayısı “İGEF 2026” özel baskısıyla yayında",
-   "link": "https://defensehere.com/tr/defensehere-dergisinin-62inci-sayisi-igef-2026-ozel-baskisiyla-yayinda/",
-   "date": "2026-11-14T12:16:36Z",
-   "desc": "Savunma ve güvenlik sektörünün nabzını tutan Defensehere Dergisi’nin 62. sayısı, İç Güvenlik Ekipmanları Fuarı (İGEF) 2026 Özel Baskısı ile okuyucularla buluştu. İç güvenlik alanında faaliyet gösteren kamu kurumlarını, s",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "MKE, 300 bin ton metal atığını yeniden üretime kazandırıyor",
-   "link": "https://defensehere.com/tr/mke-300-bin-ton-metal-atigini-yeniden-uretime-kazandiriyor/",
-   "date": "2026-11-14T11:59:24Z",
-   "desc": "Makine ve Kimya Endüstrisi (MKE) , geri dönüşüm faaliyetleriyle hem çevrenin korunmasına hem de savunma sanayisinin ham madde ihtiyacının karşılanmasına katkı sağlıyor. MKE tarafından yapılan açıklamada, Kırıkkale, İzmir",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Türk savunma sanayisi Avrupa’daki Türk yeteneklerin peşinde",
-   "link": "https://defensehere.com/tr/turk-savunma-sanayisi-avrupadaki-turk-yeteneklerin-pesinde/",
-   "date": "2026-11-14T11:41:59Z",
-   "desc": "Türk savunma sanayisi, nitelikli insan kaynağını güçlendirmek ve Avrupa’da yaşayan Türk mühendislerin bilgi birikimini milli projelere kazandırmak amacıyla çalışmalarını sürdürüyor. Cumhurbaşkanlığı Savunma Sanayii Başka",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/AA-20261114-43074367-43074364-TURK_SAVUNMA_SANAYISI_AVRUPADAKI_TURK_YETENEKLERIN_PESINDE.jpg",
-   "source": "defensehere"
-  },
-  {
-   "title": "Otokar, Slovenya’da ARMA 8×8 ve COBRA II zırhlı araçlarını tanıttı",
-   "link": "https://defensehere.com/tr/otokar-slovenyada-arma-8x8-ve-cobra-ii-zirhli-araclarini-tanitti/",
-   "date": "2026-11-14T09:53:05Z",
-   "desc": "Türkiye’nin kara araçları ürün grubu ihracat lideri Otokar , 10-12 Kasım 2026 tarihlerinde Slovenya’nın Celje kentinde düzenlenen SIDEC 2026 Uluslararası Savunma Fuarı ve Konferansı’na katıldı. Koç Topluluğu bünyesinde f",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/otokar-arma-8x8-1.jpg",
    "source": "defensehere"
   },
   {
@@ -700,14 +748,6 @@
    "source": "aviationist"
   },
   {
-   "title": "Damen points to Romania for ships UK said it would build",
-   "link": "https://ukdefencejournal.org.uk/damen-points-to-romania-for-ships-uk-said-it-would-build/",
-   "date": "2026-11-13T14:31:10Z",
-   "desc": "Damen has said its next project at its Galati shipyard in Romania will be amphibious transport ships for the Royal Netherlands Navy, despite a UK minister saying Britain would build all eight Anglo-Dutch ships, according",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "Pist Yoksa Karayolu Var: AKINCI ve TB2 Manisa’da Yola İndi",
    "link": "https://www.savunmasanayist.com/akinci-bayraktar-tb2-karayolu-inis-kalkis/",
    "date": "2026-11-13T14:25:03Z",
@@ -748,14 +788,6 @@
    "source": "airforcetech"
   },
   {
-   "title": "Britain catching up with Germany on defence, says Rutte",
-   "link": "https://ukdefencejournal.org.uk/britain-catching-up-with-germany-on-defence-says-rutte/",
-   "date": "2026-11-13T12:20:00Z",
-   "desc": "Mark Rutte, NATO’s Secretary General, has said Britain will double its defence spending in ten years under commitments made in the recent Budget, and is now catching up with Germany, according to remarks made on board HM",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "Defense Business Brief: This Ukraine-founded drone maker is now worth $6 billion. What now?",
    "link": "https://www.defenseone.com/business/2026/11/defense-business-brief-ukraine-founded-drone-maker-now-worth-6-billion-what-now/417207/",
    "date": "2026-11-13T11:00:00Z",
@@ -778,14 +810,6 @@
    "desc": "Malezya, Norveç’ten tedarik etmeyi planladığı NSM gemisavar füzelerinin yerine ROKETSAN üretimi ATMACA’yı tercih etti. Malezya Savunma Bakanı Datuk Seri Mohamed Khaled Nordin, Maharaja Lela sınıfı Kıyı Muharebe Gemileri ",
    "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/ROKETSAN-ATMACA-Gemisavar-2.jpg",
    "source": "savunmasanayist"
-  },
-  {
-   "title": "Type 26 frigate work weighs on BAE maritime margins",
-   "link": "https://ukdefencejournal.org.uk/type-26-frigate-work-weighs-on-bae-maritime-margins/",
-   "date": "2026-11-13T07:51:10Z",
-   "desc": "BAE Systems has said growth and margins in its Maritime sector remain subdued as the Type 26 frigate programme works through its first-in-class stage, with stronger trading elsewhere in the group more than making up for ",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "The Air Force’s Newest Trainer Is An Aerobatic Plane",
@@ -916,22 +940,6 @@
    "source": "breakingdefense"
   },
   {
-   "title": "Russian activity in UK waters up two fifths, says Streeting",
-   "link": "https://ukdefencejournal.org.uk/russian-activity-in-uk-waters-up-two-fifths-says-streeting/",
-   "date": "2026-11-12T20:42:01Z",
-   "desc": "Russian activity in the UK’s maritime area of responsibility has risen by 41 per cent this year, Wes Streeting, the Defence Secretary, has said, warning that Britain shares an open sea border with Russia in the High Nort",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Atlantic Future Forum ends in Oslo with pacts and deals",
-   "link": "https://ukdefencejournal.org.uk/atlantic-future-forum-ends-in-oslo-with-pacts-and-deals/",
-   "date": "2026-11-12T20:39:29Z",
-   "desc": "The Atlantic Future Forum ended in Oslo on Thursday with a ten-nation naval pact, a Royal Navy deal for Norwegian mine-hunting motherships and a run of industry contracts, after two days on board HMS Prince of Wales. Wes",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "AFRICOM to Test Autonomous Cessna for Casualty Evacuation in December",
    "link": "https://www.airandspaceforces.com/africom-autonomous-cessna-casualty-evacuation-test/",
    "date": "2026-11-12T20:25:38Z",
@@ -1050,14 +1058,6 @@
    "desc": "As the old adage goes, “Amateurs talk strategy. Professionals talk logistics.” Military operations are utterly dependent on complex supply chains to move food, fuel, and other essential products across long distances and",
    "img": null,
    "source": "warontherocks"
-  },
-  {
-   "title": "Karanlıkta Görmediler mi? 30 Tonluk Obüse Arkadan Çarptılar",
-   "link": "https://www.savunmasanayist.com/karanlikta-gormediler-mi-30-tonluk-obuse-arkadan-carptilar/",
-   "date": "2026-11-12T08:05:26Z",
-   "desc": "Güney Kore’de kara yolunda eğitimden dönen K55A1 kundağı motorlu obüsüne 2 sivil araç arkadan çarptı. Kazada bir sürücü hayatını kaybetti, diğer sürücü yaralandı. Polis, zincirleme kazanın nedenini ve obüsün güvenlik pro",
-   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/guney-kore-kaza-2.jpg",
-   "source": "savunmasanayist"
   },
   {
    "title": "U.S. Marine Corps orders additional UC-12W+ aircraft",
