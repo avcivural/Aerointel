@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T16:43:09Z",
+ "generated": "2026-11-15T21:25:41Z",
  "sources": [
   {
    "id": "defensenews",
@@ -188,7 +188,7 @@
    "count": 10,
    "latest": "2026-11-13T19:16:42Z",
    "error": null,
-   "ms": 382
+   "ms": 360
   },
   {
    "id": "breakingdefense",
@@ -196,15 +196,15 @@
    "count": 12,
    "latest": "2026-11-13T22:27:52Z",
    "error": null,
-   "ms": 151
+   "ms": 189
   },
   {
    "id": "defenseone",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-15T13:00:00Z",
+   "latest": "2026-11-15T18:41:11Z",
    "error": null,
-   "ms": 490
+   "ms": 400
   },
   {
    "id": "afmag",
@@ -212,7 +212,7 @@
    "count": 9,
    "latest": "2026-11-13T20:57:55Z",
    "error": null,
-   "ms": 215
+   "ms": 442
   },
   {
    "id": "airforcetech",
@@ -220,7 +220,7 @@
    "count": 10,
    "latest": "2026-11-13T16:16:26Z",
    "error": null,
-   "ms": 100
+   "ms": 223
   },
   {
    "id": "twz",
@@ -228,7 +228,7 @@
    "count": 12,
    "latest": "2026-11-14T00:31:04Z",
    "error": null,
-   "ms": 452
+   "ms": 434
   },
   {
    "id": "warontherocks",
@@ -236,7 +236,7 @@
    "count": 12,
    "latest": "2026-11-12T18:30:19Z",
    "error": null,
-   "ms": 360
+   "ms": 380
   },
   {
    "id": "rand",
@@ -244,15 +244,15 @@
    "count": 7,
    "latest": "2026-11-09T16:45:00Z",
    "error": null,
-   "ms": 303
+   "ms": 424
   },
   {
    "id": "ukdj",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-15T16:00:28Z",
+   "latest": "2026-11-15T19:00:32Z",
    "error": null,
-   "ms": 1073
+   "ms": 1008
   },
   {
    "id": "aviationist",
@@ -260,7 +260,7 @@
    "count": 12,
    "latest": "2026-11-15T12:14:40Z",
    "error": null,
-   "ms": 137
+   "ms": 175
   },
   {
    "id": "rusi",
@@ -268,7 +268,7 @@
    "count": 12,
    "latest": "2026-11-13T00:00:00Z",
    "error": null,
-   "ms": 147
+   "ms": 254
   },
   {
    "id": "eurosd",
@@ -276,7 +276,7 @@
    "count": 6,
    "latest": "2026-11-13T22:00:47Z",
    "error": null,
-   "ms": 573
+   "ms": 556
   },
   {
    "id": "savunmasanayist",
@@ -284,7 +284,7 @@
    "count": 10,
    "latest": "2026-11-15T14:10:37Z",
    "error": null,
-   "ms": 914
+   "ms": 484
   },
   {
    "id": "defensehere",
@@ -292,7 +292,7 @@
    "count": 10,
    "latest": "2026-11-15T10:22:10Z",
    "error": null,
-   "ms": 2357
+   "ms": 2151
   }
  ],
  "trending": [
@@ -323,6 +323,38 @@
   }
  ],
  "items": [
+  {
+   "title": "Rutte recalls Norway telling US it is Russia’s sub target",
+   "link": "https://ukdefencejournal.org.uk/rutte-recalls-norway-telling-us-it-is-russias-sub-target/",
+   "date": "2026-11-15T19:00:32Z",
+   "desc": "Mark Rutte, NATO’s Secretary General, has described Norway’s prime minister telling the American president that Russia’s submarines in the far north are there to attack the United States, not Norway, according to remarks",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "The military needs strategic thinkers, not just operators",
+   "link": "https://www.defenseone.com/ideas/2026/11/military-strategic-thinkers-hegseth-education/417238/",
+   "date": "2026-11-15T18:41:11Z",
+   "desc": "The debate over impeaching Defense Secretary Pete Hegseth has largely drowned out discussion of the professional military education (PME) reforms he rolled out on Monday in a 33-point memorandum and a companion speech at",
+   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/15/10083874/large.jpg",
+   "source": "defenseone"
+  },
+  {
+   "title": "Coulport nuclear base strike suspended after new pay offer",
+   "link": "https://ukdefencejournal.org.uk/coulport-nuclear-base-strike-suspended-after-new-pay-offer/",
+   "date": "2026-11-15T18:00:24Z",
+   "desc": "Strike action by workers who maintain weapons systems for the Royal Navy’s nuclear-armed submarine fleet at Coulport has been suspended after the ABL Alliance companies tabled an enhanced pay offer, according to Unite . ",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Kongsberg chief warns of undersea countermeasures gap",
+   "link": "https://ukdefencejournal.org.uk/kongsberg-chief-warns-of-undersea-countermeasures-gap/",
+   "date": "2026-11-15T17:00:40Z",
+   "desc": "Eirik Lie, president and chief executive of Kongsberg, has said the drone warfare seen over Ukraine will spread to the sea and under it, and that countermeasures need more work, according to remarks made at the Atlantic ",
+   "img": null,
+   "source": "ukdj"
+  },
   {
    "title": "UK Atlantic Net sub-hunting network to go live within months",
    "link": "https://ukdefencejournal.org.uk/uk-atlantic-net-sub-hunting-network-to-go-live-within-months/",
@@ -400,30 +432,6 @@
    "link": "https://ukdefencejournal.org.uk/new-surveillance-drone-lands-on-hms-queen-elizabeth/",
    "date": "2026-11-15T11:34:05Z",
    "desc": "The TEKEVER AR5, the long-endurance drone being bought for the British Army under Project Corvus, has landed on and taken off from HMS Queen Elizabeth, the first time it has operated from a Royal Navy carrier, according ",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "HMS Vengeance returns after likely longest ever patrol",
-   "link": "https://ukdefencejournal.org.uk/hms-vengeance-returns-after-likely-longest-ever-patrol/",
-   "date": "2026-11-15T11:30:11Z",
-   "desc": "The Trident submarine HMS Vengeance has returned to the Clyde after what unofficial estimates suggest has been the longest patrol ever carried out by a Royal Navy ballistic missile submarine, according to images shared b",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Russia sandbagging border posts near Norway, says admiral",
-   "link": "https://ukdefencejournal.org.uk/russia-sandbagging-border-posts-near-norway-says-admiral/",
-   "date": "2026-11-15T11:00:31Z",
-   "desc": "Vice Admiral Rune Andersen, chief of the Norwegian Joint Headquarters, has said he saw Russian border posts protected with sandbags and anti-drone nets last week, and that Russia’s navy is stressed, according to remarks ",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "British troops fire off Javelin missiles",
-   "link": "https://ukdefencejournal.org.uk/british-troops-fire-off-javelin-missiles/",
-   "date": "2026-11-15T10:24:34Z",
-   "desc": "Soldiers from the British Army’s Combined Arms Manoeuvre School have live fired Javelin and NLAW anti-tank missiles this week, with footage showing a pair of Javelins striking their targets, according to the Royal Armour",
    "img": null,
    "source": "ukdj"
   },
@@ -1346,14 +1354,6 @@
    "desc": "The incumbent appears to be using a national security foreign-funding inquiry to discredit 19 Arab-held seats and perhaps disrupt formation of a replacement government.",
    "img": null,
    "source": "rusi"
-  },
-  {
-   "title": "Tough choices, uncertainty, and scrutiny may lie ahead for defense contractors",
-   "link": "https://www.defenseone.com/business/2026/11/tough-choices-uncertainty-and-scrutiny-may-lay-ahead-defense-contractors/417116/",
-   "date": "2026-11-08T13:00:00Z",
-   "desc": "New and existing defense programs may face funding delays or challenges, and companies could see a flurry of Congressional anti-corruption inquiries when the new Democrat-majority Congress takes office next year, experts",
-   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/07/GettyImages_2302959375/large.jpg",
-   "source": "defenseone"
   },
   {
    "title": "Talks, Attacks, and a Heist",
