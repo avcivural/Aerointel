@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T09:40:11Z",
+ "generated": "2026-11-15T16:43:09Z",
  "sources": [
   {
    "id": "defensenews",
@@ -188,7 +188,7 @@
    "count": 10,
    "latest": "2026-11-13T19:16:42Z",
    "error": null,
-   "ms": 157
+   "ms": 382
   },
   {
    "id": "breakingdefense",
@@ -196,15 +196,15 @@
    "count": 12,
    "latest": "2026-11-13T22:27:52Z",
    "error": null,
-   "ms": 114
+   "ms": 151
   },
   {
    "id": "defenseone",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-14T01:39:47Z",
+   "latest": "2026-11-15T13:00:00Z",
    "error": null,
-   "ms": 164
+   "ms": 490
   },
   {
    "id": "afmag",
@@ -212,7 +212,7 @@
    "count": 9,
    "latest": "2026-11-13T20:57:55Z",
    "error": null,
-   "ms": 223
+   "ms": 215
   },
   {
    "id": "airforcetech",
@@ -220,7 +220,7 @@
    "count": 10,
    "latest": "2026-11-13T16:16:26Z",
    "error": null,
-   "ms": 156
+   "ms": 100
   },
   {
    "id": "twz",
@@ -228,7 +228,7 @@
    "count": 12,
    "latest": "2026-11-14T00:31:04Z",
    "error": null,
-   "ms": 146
+   "ms": 452
   },
   {
    "id": "warontherocks",
@@ -236,7 +236,7 @@
    "count": 12,
    "latest": "2026-11-12T18:30:19Z",
    "error": null,
-   "ms": 179
+   "ms": 360
   },
   {
    "id": "rand",
@@ -244,23 +244,23 @@
    "count": 7,
    "latest": "2026-11-09T16:45:00Z",
    "error": null,
-   "ms": 116
+   "ms": 303
   },
   {
    "id": "ukdj",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-15T09:00:48Z",
+   "latest": "2026-11-15T16:00:28Z",
    "error": null,
-   "ms": 721
+   "ms": 1073
   },
   {
    "id": "aviationist",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-14T22:48:03Z",
+   "latest": "2026-11-15T12:14:40Z",
    "error": null,
-   "ms": 111
+   "ms": 137
   },
   {
    "id": "rusi",
@@ -268,7 +268,7 @@
    "count": 12,
    "latest": "2026-11-13T00:00:00Z",
    "error": null,
-   "ms": 260
+   "ms": 147
   },
   {
    "id": "eurosd",
@@ -276,31 +276,26 @@
    "count": 6,
    "latest": "2026-11-13T22:00:47Z",
    "error": null,
-   "ms": 181
+   "ms": 573
   },
   {
    "id": "savunmasanayist",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-15T08:47:47Z",
+   "latest": "2026-11-15T14:10:37Z",
    "error": null,
-   "ms": 646
+   "ms": 914
   },
   {
    "id": "defensehere",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-15T09:28:51Z",
+   "latest": "2026-11-15T10:22:10Z",
    "error": null,
-   "ms": 2126
+   "ms": 2357
   }
  ],
  "trending": [
-  {
-   "term": "NATO",
-   "n": 6,
-   "sources": 4
-  },
   {
    "term": "Northrop Grumman",
    "n": 5,
@@ -320,9 +315,126 @@
    "term": "Pentagon",
    "n": 4,
    "sources": 4
+  },
+  {
+   "term": "ASELSAN",
+   "n": 4,
+   "sources": 2
   }
  ],
  "items": [
+  {
+   "title": "UK Atlantic Net sub-hunting network to go live within months",
+   "link": "https://ukdefencejournal.org.uk/uk-atlantic-net-sub-hunting-network-to-go-live-within-months/",
+   "date": "2026-11-15T16:00:28Z",
+   "desc": "Atlantic Net, the Royal Navy’s new drone and sensor network for hunting submarines in the North Atlantic, will be operational within months and will benefit NATO and JEF allies, General Sir Gwyn Jenkins, the First Sea Lo",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Royal Navy buys Saab radars for drone-hunting boats",
+   "link": "https://ukdefencejournal.org.uk/royal-navy-buys-saab-radars-for-drone-hunting-boats/",
+   "date": "2026-11-15T15:00:02Z",
+   "desc": "The Royal Navy has awarded Saab a £15 million contract for several Sea Giraffe 1X radars to fit to Kraken’s K3 Scout uncrewed boats, creating an autonomous drone seeker for the service’s hybrid fleet, according to Saab .",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Karayolları İHA ve SİHA Pisti Oluyor: 52 Kesim Belirlendi",
+   "link": "https://www.savunmasanayist.com/karayollari-iha-ve-siha-pisti-oluyor-52-kesim-belirlendi/",
+   "date": "2026-11-15T14:10:37Z",
+   "desc": "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu, afet, acil durum ve olağanüstü lojistik operasyonlarda karayollarının insansız hava araçlarının iniş, kalkış ve konuşlanması için kullanılmasına yönelik çalışma yürüttükle",
+   "img": null,
+   "source": "savunmasanayist"
+  },
+  {
+   "title": "Birkenhead lined up to build Arctic Hunter drone sub hunters",
+   "link": "https://ukdefencejournal.org.uk/birkenhead-lined-up-to-build-arctic-hunter-drone-sub-hunters/",
+   "date": "2026-11-15T14:00:52Z",
+   "desc": "Balaena has signed a memorandum of understanding with Kongsberg Maritime to build the Arctic Hunter uncrewed anti-submarine vessel at its Birkenhead shipyard, aiming to have ships ready for military integration before th",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "BAE picks Echodyne radar for its BATS drone defence system",
+   "link": "https://ukdefencejournal.org.uk/bae-picks-echodyne-radar-for-its-bats-drone-defence-system/",
+   "date": "2026-11-15T13:00:49Z",
+   "desc": "Echodyne’s EchoShield radar has been selected and integrated into the BAE Systems Anti Threat System, a modular counter-drone system that recently completed live trials in Scotland, according to Echodyne . BATS connects ",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "The civilian office overseeing special operations forces could get $45 million budget, 100 staffers",
+   "link": "https://www.defenseone.com/policy/2026/11/civilian-office-overseeing-special-operations-forces-could-get-45-million-budget-100-staffers/417234/",
+   "date": "2026-11-15T13:00:00Z",
+   "desc": "Defense Secretary Pete Hegseth is pushing for an elevation of the civilian special operations chief and a name change for the office, while allocating $45 million and 100 staffers to man it—the latest of a series of move",
+   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/15/9616749/large.jpg",
+   "source": "defenseone"
+  },
+  {
+   "title": "Lockheed delivers one hundred thousandth GMLRS rocket",
+   "link": "https://ukdefencejournal.org.uk/lockheed-delivers-one-hundred-thousandth-gmlrs-rocket/",
+   "date": "2026-11-15T12:34:49Z",
+   "desc": "Lockheed Martin has delivered its 100,000th GMLRS rocket and is now producing nearly 14,000 a year, a rate reached ahead of schedule, according to the company . The company also said General Dynamics Ordnance and Tactica",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Kadena Welcomes Its First F-15EX Eagle II Fighters",
+   "link": "https://theaviationist.com/2026/11/15/kadena-welcomes-its-first-f-15ex-eagle-ii-fighters/",
+   "date": "2026-11-15T12:14:40Z",
+   "desc": "The first permanently stationed U.S. Air Force F-15EX Eagle IIs assigned to the 67th Fighter Squadron arrived at Kadena Air Base, Japan. The first two U.S. Air Force F-15EX Eagle II fighters jets permanently stationed at",
+   "img": "https://theaviationist.com/wp-content/uploads/2026/11/F-15EX_Kadena_10095268.jpg",
+   "source": "aviationist"
+  },
+  {
+   "title": "Peers urge Prime Minister to lead defence industry shake-up",
+   "link": "https://ukdefencejournal.org.uk/peers-urge-prime-minister-to-lead-defence-industry-shake-up/",
+   "date": "2026-11-15T12:00:45Z",
+   "desc": "A House of Lords committee has said political leadership driven by the Prime Minister is needed to force a culture change at the Ministry of Defence, warning the government must move faster to be ready for military actio",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "New surveillance drone lands on HMS Queen Elizabeth",
+   "link": "https://ukdefencejournal.org.uk/new-surveillance-drone-lands-on-hms-queen-elizabeth/",
+   "date": "2026-11-15T11:34:05Z",
+   "desc": "The TEKEVER AR5, the long-endurance drone being bought for the British Army under Project Corvus, has landed on and taken off from HMS Queen Elizabeth, the first time it has operated from a Royal Navy carrier, according ",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "HMS Vengeance returns after likely longest ever patrol",
+   "link": "https://ukdefencejournal.org.uk/hms-vengeance-returns-after-likely-longest-ever-patrol/",
+   "date": "2026-11-15T11:30:11Z",
+   "desc": "The Trident submarine HMS Vengeance has returned to the Clyde after what unofficial estimates suggest has been the longest patrol ever carried out by a Royal Navy ballistic missile submarine, according to images shared b",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Russia sandbagging border posts near Norway, says admiral",
+   "link": "https://ukdefencejournal.org.uk/russia-sandbagging-border-posts-near-norway-says-admiral/",
+   "date": "2026-11-15T11:00:31Z",
+   "desc": "Vice Admiral Rune Andersen, chief of the Norwegian Joint Headquarters, has said he saw Russian border posts protected with sandbags and anti-drone nets last week, and that Russia’s navy is stressed, according to remarks ",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "British troops fire off Javelin missiles",
+   "link": "https://ukdefencejournal.org.uk/british-troops-fire-off-javelin-missiles/",
+   "date": "2026-11-15T10:24:34Z",
+   "desc": "Soldiers from the British Army’s Combined Arms Manoeuvre School have live fired Javelin and NLAW anti-tank missiles this week, with footage showing a pair of Javelins striking their targets, according to the Royal Armour",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Kara yolları İHA ve SİHA’lara pist olacak! 52 potansiyel yol kesimi belirlendi",
+   "link": "https://defensehere.com/tr/kara-yollari-iha-ve-sihalara-pist-olacak-52-potansiyel-yol-kesimi-belirlendi/",
+   "date": "2026-11-15T10:22:10Z",
+   "desc": "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu , Türkiye’nin kara yolu altyapısının afet, acil durum ve olağanüstü lojistik operasyonlarda insansız hava araçları için pist olarak kullanılmasına yönelik çalışmalar yürütt",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/turk-sihalarindan-tarihi-hamle-otoyola-inis-ve-kalkis-yaptilar.webp",
+   "source": "defensehere"
+  },
   {
    "title": "ASELSAN’ın EJDERHA sisteminden dünya rekoru: 51 dron aynı anda etkisiz hâle getirildi",
    "link": "https://defensehere.com/tr/aselsanin-ejderha-sisteminden-dunya-rekoru-51-dron-ayni-anda-etkisiz-hale-getirildi/",
@@ -332,28 +444,12 @@
    "source": "defensehere"
   },
   {
-   "title": "Putin is doing our job with hybrid attacks, says Schäfer",
-   "link": "https://ukdefencejournal.org.uk/putin-is-doing-our-job-with-hybrid-attacks-says-schafer/",
-   "date": "2026-11-15T09:00:48Z",
-   "desc": "Dr Martin Schäfer, Defence Policy Director at Germany’s defence ministry, has said Vladimir Putin is in a sense doing Europe’s job by stepping up hybrid warfare, because his attacks show publics the real risks, according",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "ASELSAN EJDERHA 51 Dronu Aynı Anda Etkisiz Hale Getirdi",
    "link": "https://www.savunmasanayist.com/aselsan-ejderha-dron-surusu-etkisiz-hale-getirdi/",
    "date": "2026-11-15T08:47:47Z",
    "desc": "ASELSAN, kuruluşunun 51. yıl dönümünde EJDERHA Yüksek Güçlü Elektromanyetik Karşı Tedbir Sistemi (YGEM) ile aynı anda havalanan 51 dronu saniyeler içinde etkisiz hale getirdi. Deneme, füze veya mühimmat kullanılmadan yap",
    "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/09/EJDERHA-AD210-KANGAL-FPV100.jpg",
    "source": "savunmasanayist"
-  },
-  {
-   "title": "Canada’s bid to join JEF still under consideration",
-   "link": "https://ukdefencejournal.org.uk/canadas-bid-to-join-jef-still-under-consideration/",
-   "date": "2026-11-15T08:00:49Z",
-   "desc": "Britain and the other Joint Expeditionary Force nations are still considering Canada’s application to join the grouping and no timetable has been set for a decision, Louise Sandher-Jones, Minister for the Armed Forces, h",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "ASELSAN ile SAMI arasında yeni iş birliği fırsatları değerlendirildi",
@@ -380,30 +476,6 @@
    "source": "defensehere"
   },
   {
-   "title": "Skynet satellite bidders must source key systems in Britain",
-   "link": "https://ukdefencejournal.org.uk/skynet-satellite-bidders-must-source-key-systems-in-britain/",
-   "date": "2026-11-15T07:00:42Z",
-   "desc": "The Skynet 6 wideband satellite competition requires key sub-systems to come from UK sources and the spacecraft to be assembled and tested in Britain, Luke Pollard, Minister for Defence Readiness and Industry, has said, ",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "UK again commits to 138 F-35 jets",
-   "link": "https://ukdefencejournal.org.uk/uk-again-commits-to-138-f-35-jets/",
-   "date": "2026-11-15T06:28:03Z",
-   "desc": "Britain has completed the first procurement phase of its F-35 programme with forty-eight F-35B Lightning jets delivered and operational with the Lightning Force, Luke Pollard, Minister for Defence Readiness and Industry,",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Smyrtos remains only shadow fleet tanker stopped by UK",
-   "link": "https://ukdefencejournal.org.uk/smyrtos-remains-only-shadow-fleet-tanker-stopped-by-uk/",
-   "date": "2026-11-15T05:42:18Z",
-   "desc": "The Smyrtos remains the only Russian shadow fleet vessel interdicted by British forces since the authority to board such ships was extended on 25 March, Louise Sandher-Jones, Minister for the Armed Forces, has said, acco",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "Russia’s Mi-28 Attack Helicopter Officially Shown Launching Dan-T Low-Cost Cruise Missile",
    "link": "https://theaviationist.com/2026/11/14/mi-28-launching-dan-t-low-cost-cruise-missile/",
    "date": "2026-11-14T22:48:03Z",
@@ -426,30 +498,6 @@
    "desc": "Macaristan öncülüğünde düzenlenen “BLACK SWAN 2026” tatbikatında, Türkiye, Macaristan ve Kuzey Makedonya özel kuvvetleri simüle edilmiş şehir operasyonu senaryosunda ortak eğitim gerçekleştirdi. NATO, Macaristan öncülüğü",
    "img": null,
    "source": "defensehere"
-  },
-  {
-   "title": "Hide and seek in the Baltic – inside NATO’s submarine hunt",
-   "link": "https://ukdefencejournal.org.uk/hide-and-seek-in-the-baltic-inside-natos-submarine-hunt/",
-   "date": "2026-11-14T16:59:08Z",
-   "desc": "It started not long after we reached the exercise area. On board the Swedish corvette HSwMS Helsingborg, the crew got louder and busier. Two men took the guns behind the bridge, orders were given and targets called out. ",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "On board the Dutch tanker leading a NATO task force",
-   "link": "https://ukdefencejournal.org.uk/on-board-the-dutch-tanker-leading-a-nato-task-force/",
-   "date": "2026-11-14T16:41:56Z",
-   "desc": "The flagship of the NATO task group hunting submarines in the Baltic is not a destroyer or a frigate. It’s a tanker. HNLMS Den Helder is a combat support ship, built to keep other warships supplied with fuel, food and am",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "A day at sea on Sweden’s stealth sub-hunting corvette",
-   "link": "https://ukdefencejournal.org.uk/a-day-at-sea-on-swedens-stealth-sub-hunting-corvette/",
-   "date": "2026-11-14T16:00:35Z",
-   "desc": "It started not long after we reached the undisclosed exercise area. The crew got louder. Busier. Two men took the guns behind the bridge. Orders were given. Targets were highlighted. They had spotted something. Then it c",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "Türk F-16’ları Estonya’da NATO hava sahasının güvenliğini sağlıyor",
@@ -476,14 +524,6 @@
    "source": "savunmasanayist"
   },
   {
-   "title": "Inside Canada’s sub hunter on NATO Baltic exercise",
-   "link": "https://ukdefencejournal.org.uk/inside-canadas-sub-hunter-on-nato-baltic-exercise/",
-   "date": "2026-11-14T15:05:35Z",
-   "desc": "“Sometimes the submarine wins.” It’s a frank admission from the captain of a warship built to hunt them. But Commander Jason Knowles has been doing this for 30 years, and he knows what HMCS Ville de Québec, the ship he h",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "TİSAŞ, “MG762″nin seri üretimi için geri sayımda",
    "link": "https://defensehere.com/tr/tisas-biksi-mg762nin-seri-uretimi-icin-geri-sayimda/",
    "date": "2026-11-14T14:53:09Z",
@@ -505,14 +545,6 @@
    "date": "2026-11-14T13:54:20Z",
    "desc": "STM , sahada kendini kanıtlamış taktik insansız hava araçlarını (İHA) ve ileri otonom teknolojilerini DronTech Asia 2026’da Asya-Pasifik heyetlerine tanıttı. STM, DronTech Asia 2026 kapsamında taktik İHA sistemlerini ve ",
    "img": "https://defensehere.com/wp-content/uploads/2026/11/HXEsMhJXYAATChB.jpeg",
-   "source": "defensehere"
-  },
-  {
-   "title": "Mavi Balina-2026 Tatbikatı Doğu Akdeniz’de sürüyor",
-   "link": "https://defensehere.com/tr/mavi-balina-2026-tatbikati-dogu-akdenizde-suruyor/",
-   "date": "2026-11-14T13:28:35Z",
-   "desc": "Millî Savunma Bakanlığı (MSB) , Doğu Akdeniz’de icra edilen Mavi Balina-2026 Davet Tatbikatı kapsamında gerçekleştirilen faaliyetlere ilişkin açıklama yaptı. 9 Kasım’da başlayan ve 20 Kasım 2026’ya kadar devam edecek tat",
-   "img": null,
    "source": "defensehere"
   },
   {
@@ -706,14 +738,6 @@
    "desc": "The US Air Force Academy unveiled the T-19A Kestrel, its first powered aerobatic aircraft, following final military certification flights.",
    "img": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/11/T-19A-Kestre.jpg",
    "source": "airforcetech"
-  },
-  {
-   "title": "New American stealth bomber begins testing powerful weapons",
-   "link": "https://ukdefencejournal.org.uk/new-american-stealth-bomber-begins-testing-powerful-weapons/",
-   "date": "2026-11-13T16:08:28Z",
-   "desc": "The US Air Force’s B-21 Raider stealth bomber has demonstrated weapons release, taking the aircraft into weapons testing as Northrop Grumman expands production ahead of the first bombers arriving at Ellsworth Air Force B",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "Hermeus recruits Northrop Grumman to Quarterhorse drone program",
@@ -1044,14 +1068,6 @@
    "source": "airforcetech"
   },
   {
-   "title": "Türkiye-Suudi Arabistan Arasında Ortak Üretim Hedefi",
-   "link": "https://www.savunmasanayist.com/turkiye-suudi-arabistan-arasinda-ortak-uretim-hedefi/",
-   "date": "2026-11-12T13:02:49Z",
-   "desc": "Türkiye-Suudi Arabistan Savunma Sanayii Günleri İstanbul’da gerçekleştirildi. Etkinlikte iki ülke arası ortak savunma sanayii vurgusu öne çıktı. Vadi İstanbul’da 11-12 Kasım tarihlerinde düzenlenen etkinlik iki ülkenin s",
-   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/tr-suudi-savunma-san.-gunleri.jpg",
-   "source": "savunmasanayist"
-  },
-  {
    "title": "The Promise of Biomanufacturing at the Edge",
    "link": "https://warontherocks.com/cogs-of-war/the-promise-of-biomanufacturing-at-the-edge/",
    "date": "2026-11-12T09:00:53Z",
@@ -1228,14 +1244,6 @@
    "source": "aviationist"
   },
   {
-   "title": "Spanish NH90 Helicopters Conduct First Alpha Scramble in Romania Against Drone Threat",
-   "link": "https://theaviationist.com/2026/11/10/spanish-nh90-helicopters-alpha-scramble/",
-   "date": "2026-11-10T12:39:13Z",
-   "desc": "Two NH90 helicopters were launched after unidentified drones were detected near Romania’s Black Sea coast, marking the first Alpha Scramble of a Spanish helicopter deployed on a NATO mission. Two Spanish NH90 helicopters",
-   "img": "https://theaviationist.com/wp-content/uploads/2026/11/Spain_NH90_Alpha_Scramble.jpg",
-   "source": "aviationist"
-  },
-  {
    "title": "To Implement Acquisition Transformation, Empower Military Mavericks",
    "link": "https://warontherocks.com/cogs-of-war/to-implement-acquisition-transformation-empower-military-mavericks/",
    "date": "2026-11-10T09:00:47Z",
@@ -1345,14 +1353,6 @@
    "date": "2026-11-08T13:00:00Z",
    "desc": "New and existing defense programs may face funding delays or challenges, and companies could see a flurry of Congressional anti-corruption inquiries when the new Democrat-majority Congress takes office next year, experts",
    "img": "https://cdn.defenseone.com/media/img/cd/2026/11/07/GettyImages_2302959375/large.jpg",
-   "source": "defenseone"
-  },
-  {
-   "title": "Blue wave presages a defense-spending showdown",
-   "link": "https://www.defenseone.com/policy/2026/11/blue-wave-presages-defense-spending-showdown/417111/",
-   "date": "2026-11-06T21:24:24Z",
-   "desc": "The Democrats' impending takeover of the House and the Senate will have sweeping effects on the Pentagon, from budgets to leadership to defense policy. The biggest near-term issue is the fate of the proposed reconciliati",
-   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/06/GettyImages_2273164014/large.jpg",
    "source": "defenseone"
   },
   {
