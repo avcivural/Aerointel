@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T22:49:02Z",
+ "generated": "2026-11-15T02:16:43Z",
  "sources": [
   {
    "id": "defensenews",
@@ -188,7 +188,7 @@
    "count": 10,
    "latest": "2026-11-13T19:16:42Z",
    "error": null,
-   "ms": 173
+   "ms": 327
   },
   {
    "id": "breakingdefense",
@@ -196,7 +196,7 @@
    "count": 12,
    "latest": "2026-11-13T22:27:52Z",
    "error": null,
-   "ms": 104
+   "ms": 225
   },
   {
    "id": "defenseone",
@@ -204,7 +204,7 @@
    "count": 12,
    "latest": "2026-11-14T01:39:47Z",
    "error": null,
-   "ms": 228
+   "ms": 533
   },
   {
    "id": "afmag",
@@ -212,7 +212,7 @@
    "count": 9,
    "latest": "2026-11-13T20:57:55Z",
    "error": null,
-   "ms": 368
+   "ms": 269
   },
   {
    "id": "airforcetech",
@@ -220,7 +220,7 @@
    "count": 10,
    "latest": "2026-11-13T16:16:26Z",
    "error": null,
-   "ms": 127
+   "ms": 141
   },
   {
    "id": "twz",
@@ -228,7 +228,7 @@
    "count": 12,
    "latest": "2026-11-14T00:31:04Z",
    "error": null,
-   "ms": 268
+   "ms": 596
   },
   {
    "id": "warontherocks",
@@ -236,7 +236,7 @@
    "count": 12,
    "latest": "2026-11-12T18:30:19Z",
    "error": null,
-   "ms": 345
+   "ms": 369
   },
   {
    "id": "rand",
@@ -244,7 +244,7 @@
    "count": 7,
    "latest": "2026-11-09T16:45:00Z",
    "error": null,
-   "ms": 182
+   "ms": 270
   },
   {
    "id": "ukdj",
@@ -252,15 +252,15 @@
    "count": 10,
    "latest": "2026-11-14T16:59:08Z",
    "error": null,
-   "ms": 1084
+   "ms": 731
   },
   {
    "id": "aviationist",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-14T20:38:58Z",
+   "latest": "2026-11-14T22:48:03Z",
    "error": null,
-   "ms": 103
+   "ms": 123
   },
   {
    "id": "rusi",
@@ -268,7 +268,7 @@
    "count": 12,
    "latest": "2026-11-13T00:00:00Z",
    "error": null,
-   "ms": 171
+   "ms": 163
   },
   {
    "id": "eurosd",
@@ -276,7 +276,7 @@
    "count": 6,
    "latest": "2026-11-13T22:00:47Z",
    "error": null,
-   "ms": 464
+   "ms": 547
   },
   {
    "id": "savunmasanayist",
@@ -284,18 +284,23 @@
    "count": 10,
    "latest": "2026-11-14T15:19:34Z",
    "error": null,
-   "ms": 767
+   "ms": 839
   },
   {
    "id": "defensehere",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-14T13:54:20Z",
+   "latest": "2026-11-14T17:03:21Z",
    "error": null,
-   "ms": 2076
+   "ms": 2360
   }
  ],
  "trending": [
+  {
+   "term": "NATO",
+   "n": 6,
+   "sources": 4
+  },
   {
    "term": "Northrop Grumman",
    "n": 5,
@@ -305,11 +310,6 @@
    "term": "Ukraine",
    "n": 6,
    "sources": 4
-  },
-  {
-   "term": "NATO",
-   "n": 5,
-   "sources": 3
   },
   {
    "term": "USAF",
@@ -324,12 +324,28 @@
  ],
  "items": [
   {
+   "title": "Russia’s Mi-28 Attack Helicopter Officially Shown Launching Dan-T Low-Cost Cruise Missile",
+   "link": "https://theaviationist.com/2026/11/14/mi-28-launching-dan-t-low-cost-cruise-missile/",
+   "date": "2026-11-14T22:48:03Z",
+   "desc": "The newly released footage confirms the Mi-28NM as a launch platform for the compact missile, which Russia says can also be deployed from other aircraft and ground-based systems. The Russian Ministry of Defense (MoD) has",
+   "img": "https://theaviationist.com/wp-content/uploads/2026/11/Russia-Mi-28-Dan-T-1.jpg",
+   "source": "aviationist"
+  },
+  {
    "title": "Rafael Unveils ‘Super Ice’ Long-Range Stealth Cruise Missile",
    "link": "https://theaviationist.com/2026/11/14/rafael-unveils-super-ice-long-range-stealth-cruise-missile/",
    "date": "2026-11-14T20:38:58Z",
    "desc": "Based on the Ice Breaker cruise missile, Super Ice combines a 1,000 lb warhead with improved navigation, guidance and seeker capabilities, according to Rafael. Israel’s Rafael Advanced Defense Systems has unveiled the Su",
    "img": "https://theaviationist.com/wp-content/uploads/2026/11/Israel-Rafael-Super-Ice-5.jpg",
    "source": "aviationist"
+  },
+  {
+   "title": "Türk Özel Kuvvetleri’nden “BLACK SWAN 2026″da nefes kesen operasyon!",
+   "link": "https://defensehere.com/tr/turk-ozel-kuvvetlerinden-black-swan-2026da-nefes-kesen-operasyon/",
+   "date": "2026-11-14T17:03:21Z",
+   "desc": "Macaristan öncülüğünde düzenlenen “BLACK SWAN 2026” tatbikatında, Türkiye, Macaristan ve Kuzey Makedonya özel kuvvetleri simüle edilmiş şehir operasyonu senaryosunda ortak eğitim gerçekleştirdi. NATO, Macaristan öncülüğü",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "Hide and seek in the Baltic – inside NATO’s submarine hunt",
@@ -356,6 +372,14 @@
    "source": "ukdj"
   },
   {
+   "title": "Türk F-16’ları Estonya’da NATO hava sahasının güvenliğini sağlıyor",
+   "link": "https://defensehere.com/tr/turk-f-16lari-estonyada-nato-hava-sahasinin-guvenligini-sagliyor/",
+   "date": "2026-11-14T15:30:40Z",
+   "desc": "Milli Savunma Bakanlığı , Türk Hava Kuvvetleri nin NATO kapsamındaki hava savunma faaliyetlerine ilişkin görüntüleri paylaştı. Bakanlığın sosyal medya hesabından yapılan açıklamada, Hava Kuvvetleri Komutanlığına bağlı 18",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "Türkiye’nin Yeni MİLGEM Hedefi: Mısır",
    "link": "https://www.savunmasanayist.com/turkiyenin-yeni-milgem-hedefi-misir/",
    "date": "2026-11-14T15:19:34Z",
@@ -380,6 +404,22 @@
    "source": "ukdj"
   },
   {
+   "title": "TİSAŞ, “MG762″nin seri üretimi için geri sayımda",
+   "link": "https://defensehere.com/tr/tisas-biksi-mg762nin-seri-uretimi-icin-geri-sayimda/",
+   "date": "2026-11-14T14:53:09Z",
+   "desc": "İç Güvenlik Ekipmanları Fuarı (İGEF) 2026 kapsamında sektör temsilcileriyle bir araya gelen TİSAŞ, fuarda PKM MG762 biksi tüfeğini ön plana çıkardı. TİSAŞ Dış Ticaret Sorumlusu Ahmet Gökay Akdeniz, ürünün prototip aşamas",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "İtalya’dan 6. nesil savaş uçağı iddialarına yalanlama: Almanya’nın katılımına karşı değiliz",
+   "link": "https://defensehere.com/tr/italyadan-6-nesil-savas-ucagi-iddialarina-yalanlama-almanyanin-katilimina-karsi-degiliz/",
+   "date": "2026-11-14T14:08:08Z",
+   "desc": "İtalya Savunma Bakanlığı, İngiltere ve Japonya ile birlikte geliştirilen Küresel Hava Muharebe Programı (GCAP) kapsamında Almanya’nın projeye katılımına karşı çıkıldığı yönündeki iddialara yanıt verdi. İngiltere merkezli",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "STM, taktik İHA ve otonom teknolojilerini DronTech Asia 2026’da tanıttı",
    "link": "https://defensehere.com/tr/stm-taktik-iha-ve-otonom-teknolojilerini-drontech-asia-2026da-tanitti/",
    "date": "2026-11-14T13:54:20Z",
@@ -393,14 +433,6 @@
    "date": "2026-11-14T13:28:35Z",
    "desc": "Millî Savunma Bakanlığı (MSB) , Doğu Akdeniz’de icra edilen Mavi Balina-2026 Davet Tatbikatı kapsamında gerçekleştirilen faaliyetlere ilişkin açıklama yaptı. 9 Kasım’da başlayan ve 20 Kasım 2026’ya kadar devam edecek tat",
    "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "6. nesil savaş uçağı projesinde Almanya’ya İtalya vetosu! Tam ortaklığa kapı kapandı",
-   "link": "https://defensehere.com/tr/6-nesil-savas-ucagi-projesinde-almanyaya-italya-vetosu-tam-ortakliga-kapi-kapandi/",
-   "date": "2026-11-14T12:17:39Z",
-   "desc": "Avrupa’nın yeni nesil savaş uçağı geliştirme çalışmalarında ortaklık krizi yaşanıyor. İngiltere, İtalya ve Japonya tarafından yürütülen Küresel Muharebe Hava Programı (GCAP) kapsamında Almanya’nın projeye tam ortak olara",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/HXE737QXUAAQ6mr.png",
    "source": "defensehere"
   },
   {
@@ -436,36 +468,12 @@
    "source": "defensehere"
   },
   {
-   "title": "DHMİ’nin yerli radarı FODRAD, pistlerdeki tehlikeleri 2 dakikada tespit ediyor",
-   "link": "https://defensehere.com/tr/dhminin-yerli-radari-fodrad-pistlerdeki-tehlikeleri-2-dakikada-tespit-ediyor/",
-   "date": "2026-11-14T09:42:34Z",
-   "desc": "Devlet Hava Meydanları İşletmesi (DHMİ) Genel Müdürlüğü , havalimanlarında uçuş emniyetini artırmaya yönelik geliştirilen yerli ve millî Yabancı Madde Tespit Radarı (FODRAD) sisteminin kabiliyetlerini paylaştı. Yerli ve ",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Mekke Anlaşması Resmi Gazete’de yayımlandı",
-   "link": "https://defensehere.com/tr/mekke-anlasmasi-resmi-gazetede-yayimlandi/",
-   "date": "2026-11-14T09:34:35Z",
-   "desc": "Türkiye, Pakistan ve Suudi Arabistan arasında ortak savunma alanında imzalanan Mekke Anlaşması’nın onaylanmasının uygun bulunduğuna dair kanun, Resmi Gazete’de yayımlandı. Türkiye Cumhuriyeti, Pakistan İslam Cumhuriyeti ",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
    "title": "ABD’nin Yeni Fırkateyn Yarışında 6 Ülke: Türkiye de Listede",
    "link": "https://www.savunmasanayist.com/abdnin-yeni-firkateyn-yarisinda-6-ulke-turkiye-de-listede/",
    "date": "2026-11-14T08:47:40Z",
    "desc": "ABD Donanması, yeni nesil su üstü muharip gemi ihtiyacını karşılamak üzere uluslararası pazardaki 6 fırkateyn tasarımını gündemine aldı. Türkiye’nin İSTİF sınıfı firkateyni de değerlendirmeye alınan seçenekler arasında y",
    "img": "http://www.savunmasanayist.com/wp-content/uploads/2024/01/TCG-ISTANBUL.jpg",
    "source": "savunmasanayist"
-  },
-  {
-   "title": "DASAL Havacılık’tan 30 İHA’lı yeni savunma konsepti: Arı Kovanı",
-   "link": "https://defensehere.com/tr/dasal-havaciliktan-30-ihali-yeni-savunma-konsepti-ari-kovani/",
-   "date": "2026-11-14T06:24:00Z",
-   "desc": "DASAL Havacılık , kritik tesislerin, sınır karakollarının ve ileri üs bölgelerinin güvenliğini artırmak amacıyla geliştirdiği Arı Kovanı konseptini tanıttı. MİKON Gözükara İHA sistemlerinin monoblok nöbet kulübelerine en",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/mikon-family1.webp",
-   "source": "defensehere"
   },
   {
    "title": "Destroyer returns from 11-month-deployment",
@@ -1266,14 +1274,6 @@
    "desc": "Ukraine should ditch the idea and focus on getting its partners to commit to a structured programme of long-term support for its armed forces.",
    "img": null,
    "source": "rusi"
-  },
-  {
-   "title": "Our Best Look Yet at China’s GJ-11 UCAV",
-   "link": "https://theaviationist.com/2026/11/09/our-best-look-yet-at-chinas-gj-11-ucav/",
-   "date": "2026-11-09T22:48:31Z",
-   "desc": "New official footage released ahead of the PLA Air Force’s 77th anniversary reveals additional details of the GJ-11’s design and configuration. China released new official footage of the GJ-11 ‘Sharp Sword’ unmanned comb",
-   "img": "https://theaviationist.com/wp-content/uploads/2026/11/GJ-11videoframe_22354.png",
-   "source": "aviationist"
   },
   {
    "title": "Trailer: Defense One Futures, our new podcast",
