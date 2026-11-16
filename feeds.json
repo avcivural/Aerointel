@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T21:25:41Z",
+ "generated": "2026-11-16T01:14:33Z",
  "sources": [
   {
    "id": "defensenews",
@@ -188,7 +188,7 @@
    "count": 10,
    "latest": "2026-11-13T19:16:42Z",
    "error": null,
-   "ms": 360
+   "ms": 206
   },
   {
    "id": "breakingdefense",
@@ -196,7 +196,7 @@
    "count": 12,
    "latest": "2026-11-13T22:27:52Z",
    "error": null,
-   "ms": 189
+   "ms": 123
   },
   {
    "id": "defenseone",
@@ -204,15 +204,15 @@
    "count": 12,
    "latest": "2026-11-15T18:41:11Z",
    "error": null,
-   "ms": 400
+   "ms": 335
   },
   {
    "id": "afmag",
    "status": "ok",
    "count": 9,
-   "latest": "2026-11-13T20:57:55Z",
+   "latest": "2026-11-15T23:02:49Z",
    "error": null,
-   "ms": 442
+   "ms": 380
   },
   {
    "id": "airforcetech",
@@ -220,15 +220,15 @@
    "count": 10,
    "latest": "2026-11-13T16:16:26Z",
    "error": null,
-   "ms": 223
+   "ms": 176
   },
   {
    "id": "twz",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-14T00:31:04Z",
+   "latest": "2026-11-15T21:44:47Z",
    "error": null,
-   "ms": 434
+   "ms": 222
   },
   {
    "id": "warontherocks",
@@ -236,7 +236,7 @@
    "count": 12,
    "latest": "2026-11-12T18:30:19Z",
    "error": null,
-   "ms": 380
+   "ms": 308
   },
   {
    "id": "rand",
@@ -244,7 +244,7 @@
    "count": 7,
    "latest": "2026-11-09T16:45:00Z",
    "error": null,
-   "ms": 424
+   "ms": 245
   },
   {
    "id": "ukdj",
@@ -252,7 +252,7 @@
    "count": 10,
    "latest": "2026-11-15T19:00:32Z",
    "error": null,
-   "ms": 1008
+   "ms": 768
   },
   {
    "id": "aviationist",
@@ -260,7 +260,7 @@
    "count": 12,
    "latest": "2026-11-15T12:14:40Z",
    "error": null,
-   "ms": 175
+   "ms": 176
   },
   {
    "id": "rusi",
@@ -268,7 +268,7 @@
    "count": 12,
    "latest": "2026-11-13T00:00:00Z",
    "error": null,
-   "ms": 254
+   "ms": 226
   },
   {
    "id": "eurosd",
@@ -276,7 +276,7 @@
    "count": 6,
    "latest": "2026-11-13T22:00:47Z",
    "error": null,
-   "ms": 556
+   "ms": 487
   },
   {
    "id": "savunmasanayist",
@@ -284,15 +284,14 @@
    "count": 10,
    "latest": "2026-11-15T14:10:37Z",
    "error": null,
-   "ms": 484
+   "ms": 675
   },
   {
    "id": "defensehere",
-   "status": "ok",
-   "count": 10,
-   "latest": "2026-11-15T10:22:10Z",
-   "error": null,
-   "ms": 2151
+   "status": "error",
+   "count": 0,
+   "latest": null,
+   "error": "ParseError: mismatched tag: line 1, column 167"
   }
  ],
  "trending": [
@@ -303,13 +302,8 @@
   },
   {
    "term": "Ukraine",
-   "n": 6,
+   "n": 5,
    "sources": 4
-  },
-  {
-   "term": "USAF",
-   "n": 4,
-   "sources": 2
   },
   {
    "term": "Pentagon",
@@ -317,12 +311,33 @@
    "sources": 4
   },
   {
-   "term": "ASELSAN",
-   "n": 4,
+   "term": "B-21 Raider",
+   "n": 3,
+   "sources": 3
+  },
+  {
+   "term": "USAF",
+   "n": 3,
    "sources": 2
   }
  ],
  "items": [
+  {
+   "title": "Air Force Maps Path for Connectivity Upgrades to Tanker and Airlift Fleets",
+   "link": "https://www.airandspaceforces.com/air-force-maps-path-connectivity-upgrades-mobility-fleet/",
+   "date": "2026-11-15T23:02:49Z",
+   "desc": "KISSIMMEE, Fla. —The Air Force now has a plan to enhance communications and data sharing for every aerial refueler and cargo aircraft in its fleet—addressing a longstanding issue that gained renewed attention after a fat",
+   "img": "https://www.airandspaceforces.com/app/uploads/2025/07/dle-4-900x562.jpg",
+   "source": "afmag"
+  },
+  {
+   "title": "‘Davidson Window’ Admiral Hopes He Was Wrong On China’s Ability To Take Taiwan By 2027",
+   "link": "https://www.twz.com/news-features/davidson-window-admiral-hopes-he-was-wrong-on-chinas-ability-to-take-taiwan-by-2027",
+   "date": "2026-11-15T21:44:47Z",
+   "desc": "The man whose congressional testimony five years ago led to what’s known as the “Davidson Window” for China being capable of launching a credible invasion of Taiwan by 2027 is offering some insights into what he is think",
+   "img": "https://www.twz.com/wp-content/uploads/2026/11/China-Beach-landing-3.jpg?quality=85",
+   "source": "twz"
+  },
   {
    "title": "Rutte recalls Norway telling US it is Russia’s sub target",
    "link": "https://ukdefencejournal.org.uk/rutte-recalls-norway-telling-us-it-is-russias-sub-target/",
@@ -436,52 +451,12 @@
    "source": "ukdj"
   },
   {
-   "title": "Kara yolları İHA ve SİHA’lara pist olacak! 52 potansiyel yol kesimi belirlendi",
-   "link": "https://defensehere.com/tr/kara-yollari-iha-ve-sihalara-pist-olacak-52-potansiyel-yol-kesimi-belirlendi/",
-   "date": "2026-11-15T10:22:10Z",
-   "desc": "Ulaştırma ve Altyapı Bakanı Abdulkadir Uraloğlu , Türkiye’nin kara yolu altyapısının afet, acil durum ve olağanüstü lojistik operasyonlarda insansız hava araçları için pist olarak kullanılmasına yönelik çalışmalar yürütt",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/turk-sihalarindan-tarihi-hamle-otoyola-inis-ve-kalkis-yaptilar.webp",
-   "source": "defensehere"
-  },
-  {
-   "title": "ASELSAN’ın EJDERHA sisteminden dünya rekoru: 51 dron aynı anda etkisiz hâle getirildi",
-   "link": "https://defensehere.com/tr/aselsanin-ejderha-sisteminden-dunya-rekoru-51-dron-ayni-anda-etkisiz-hale-getirildi/",
-   "date": "2026-11-15T09:28:51Z",
-   "desc": "ASELSAN, Mini/Mikro İnsansız Hava Araçlarına (İHA) ve yeni nesil FPV dron tehditlerine karşı geliştirdiği EJDERHA AD Yüksek Güçlü Elektromanyetik (HPEM) İHA Savunma Sisteminin kabiliyetlerini sahada sergiledi. ASELSAN’da",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/WhatsApp-Image-2026-11-15-at-12.00.14.jpeg",
-   "source": "defensehere"
-  },
-  {
    "title": "ASELSAN EJDERHA 51 Dronu Aynı Anda Etkisiz Hale Getirdi",
    "link": "https://www.savunmasanayist.com/aselsan-ejderha-dron-surusu-etkisiz-hale-getirdi/",
    "date": "2026-11-15T08:47:47Z",
    "desc": "ASELSAN, kuruluşunun 51. yıl dönümünde EJDERHA Yüksek Güçlü Elektromanyetik Karşı Tedbir Sistemi (YGEM) ile aynı anda havalanan 51 dronu saniyeler içinde etkisiz hale getirdi. Deneme, füze veya mühimmat kullanılmadan yap",
    "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/09/EJDERHA-AD210-KANGAL-FPV100.jpg",
    "source": "savunmasanayist"
-  },
-  {
-   "title": "ASELSAN ile SAMI arasında yeni iş birliği fırsatları değerlendirildi",
-   "link": "https://defensehere.com/tr/aselsan-ile-sami-arasinda-yeni-is-birligi-firsatlari-degerlendirildi/",
-   "date": "2026-11-15T07:27:35Z",
-   "desc": "ASELSAN Genel Müdürü Ahmet Akyol, Suudi Arabistan Askeri Sanayileri (SAMI) CEO’su Thamer Almuhaid ile bir araya geldi. Akyol, görüşmeye ilişkin sosyal medya hesabından yaptığı paylaşımda, devam eden iş birlikleri ile yen",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Ozan Ahmet Gökçe, TSKGV Fuar Direktörlüğüne asaleten atandı",
-   "link": "https://defensehere.com/tr/ozan-ahmet-gokce-tskgv-fuar-direktorlugune-asaleten-atandi/",
-   "date": "2026-11-15T07:20:51Z",
-   "desc": "Türk Silahlı Kuvvetlerini Güçlendirme Vakfı (TSKGV) Fuar Direktörlüğü görevini yaklaşık bir yıldır vekâleten yürüten Ozan Ahmet Gökçe, göreve asaleten atandı. Gökçe, atamasına ilişkin gelişmeyi sosyal medya hesabından ya",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "SpaceX, uzaya gönderdiği Starship roketini Dünya’ya dönüşte havada yakalayarak tarihe geçti.",
-   "link": "https://defensehere.com/tr/spacex-uzaya-gonderdigi-starship-roketini-dunyaya-donuste-havada-yakalayarak-tarihe-gecti/",
-   "date": "2026-11-15T07:01:00Z",
-   "desc": "SpaceX, Starship’in 15. test uçuşunda uzay taşımacılığı açısından tarihi bir başarıya imza attı. Yörüngeye ulaştıktan sonra Dünya’ya dönen Starship, Teksas’taki Starbase tesisinde bulunan Mechazilla fırlatma kulesinin de",
-   "img": null,
-   "source": "defensehere"
   },
   {
    "title": "Russia’s Mi-28 Attack Helicopter Officially Shown Launching Dan-T Low-Cost Cruise Missile",
@@ -500,22 +475,6 @@
    "source": "aviationist"
   },
   {
-   "title": "Türk Özel Kuvvetleri’nden “BLACK SWAN 2026″da nefes kesen operasyon!",
-   "link": "https://defensehere.com/tr/turk-ozel-kuvvetlerinden-black-swan-2026da-nefes-kesen-operasyon/",
-   "date": "2026-11-14T17:03:21Z",
-   "desc": "Macaristan öncülüğünde düzenlenen “BLACK SWAN 2026” tatbikatında, Türkiye, Macaristan ve Kuzey Makedonya özel kuvvetleri simüle edilmiş şehir operasyonu senaryosunda ortak eğitim gerçekleştirdi. NATO, Macaristan öncülüğü",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Türk F-16’ları Estonya’da NATO hava sahasının güvenliğini sağlıyor",
-   "link": "https://defensehere.com/tr/turk-f-16lari-estonyada-nato-hava-sahasinin-guvenligini-sagliyor/",
-   "date": "2026-11-14T15:30:40Z",
-   "desc": "Milli Savunma Bakanlığı , Türk Hava Kuvvetleri nin NATO kapsamındaki hava savunma faaliyetlerine ilişkin görüntüleri paylaştı. Bakanlığın sosyal medya hesabından yapılan açıklamada, Hava Kuvvetleri Komutanlığına bağlı 18",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
    "title": "Türkiye’nin Yeni MİLGEM Hedefi: Mısır",
    "link": "https://www.savunmasanayist.com/turkiyenin-yeni-milgem-hedefi-misir/",
    "date": "2026-11-14T15:19:34Z",
@@ -530,30 +489,6 @@
    "desc": "Libya Ulusal Ordusu Genelkurmay Başkanı Orgeneral Halid Hafter, Türkiye ziyareti kapsamında Türk Özel Kuvvetler Komutanlığını ziyaret etti. Hafter, iki ülkenin özel kuvvetleri arasında askeri iş birliğinin, tecrübe payla",
    "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/Hafter-Bayraktaroglu.jpg",
    "source": "savunmasanayist"
-  },
-  {
-   "title": "TİSAŞ, “MG762″nin seri üretimi için geri sayımda",
-   "link": "https://defensehere.com/tr/tisas-biksi-mg762nin-seri-uretimi-icin-geri-sayimda/",
-   "date": "2026-11-14T14:53:09Z",
-   "desc": "İç Güvenlik Ekipmanları Fuarı (İGEF) 2026 kapsamında sektör temsilcileriyle bir araya gelen TİSAŞ, fuarda PKM MG762 biksi tüfeğini ön plana çıkardı. TİSAŞ Dış Ticaret Sorumlusu Ahmet Gökay Akdeniz, ürünün prototip aşamas",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "İtalya’dan 6. nesil savaş uçağı iddialarına yalanlama: Almanya’nın katılımına karşı değiliz",
-   "link": "https://defensehere.com/tr/italyadan-6-nesil-savas-ucagi-iddialarina-yalanlama-almanyanin-katilimina-karsi-degiliz/",
-   "date": "2026-11-14T14:08:08Z",
-   "desc": "İtalya Savunma Bakanlığı, İngiltere ve Japonya ile birlikte geliştirilen Küresel Hava Muharebe Programı (GCAP) kapsamında Almanya’nın projeye katılımına karşı çıkıldığı yönündeki iddialara yanıt verdi. İngiltere merkezli",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "STM, taktik İHA ve otonom teknolojilerini DronTech Asia 2026’da tanıttı",
-   "link": "https://defensehere.com/tr/stm-taktik-iha-ve-otonom-teknolojilerini-drontech-asia-2026da-tanitti/",
-   "date": "2026-11-14T13:54:20Z",
-   "desc": "STM , sahada kendini kanıtlamış taktik insansız hava araçlarını (İHA) ve ileri otonom teknolojilerini DronTech Asia 2026’da Asya-Pasifik heyetlerine tanıttı. STM, DronTech Asia 2026 kapsamında taktik İHA sistemlerini ve ",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/HXEsMhJXYAATChB.jpeg",
-   "source": "defensehere"
   },
   {
    "title": "ABD’nin Yeni Fırkateyn Yarışında 6 Ülke: Türkiye de Listede",
@@ -1092,14 +1027,6 @@
    "source": "eurosd"
   },
   {
-   "title": "Wolfe Pledges More Manpower for Maintenance amid Career Field Overhaul",
-   "link": "https://www.airandspaceforces.com/wolfe-air-force-maintenance-manpower-career-field-overhaul/",
-   "date": "2026-11-12T01:34:26Z",
-   "desc": "KISSIMMEE, Fla. —Chief Master Sergeant of the Air Force David R. Wolfe recently pledged “a plus-up in manpower” for the maintainer ranks, as the service prepares to launch a major overhaul of its maintenance career field",
-   "img": "https://www.airandspaceforces.com/app/uploads/2025/03/f-35-900x600.jpeg",
-   "source": "afmag"
-  },
-  {
    "title": "Maritime Jurisdiction and Undersea Security in Europe",
    "link": "https://www.rusi.org/explore-our-research/publications/rusi-newsbrief/maritime-jurisdiction-and-undersea-security-europe",
    "date": "2026-11-12T00:00:00Z",
@@ -1122,14 +1049,6 @@
    "desc": "Although often used interchangeably, the F-16V and the F-16C Block 70/72 designations describe two sides of the Viper’s evolution, with important differences between upgraded and newly built aircraft. The F-16 Fighting F",
    "img": "https://theaviationist.com/wp-content/uploads/2026/11/F-16_Block70_6725-taking-off.jpg",
    "source": "aviationist"
-  },
-  {
-   "title": "Ukraine Regretting White House-Brokered Temporary Ceasefire In Strategic Riverside Town Of Oleshky",
-   "link": "https://www.twz.com/news-features/ukraine-regretting-white-house-brokered-temporary-ceasefire-in-strategic-riverside-town-of-oleshky",
-   "date": "2026-11-11T21:23:00Z",
-   "desc": "Ukrainian officials are expressing major regrets about a White House-brokered temporary ceasefire in Oleshky, which sits on the Russian-held side of the Dnipro River, the body of water that serves as a dividing line betw",
-   "img": "https://www.twz.com/wp-content/uploads/2026/11/Oleshky-in-ruins.jpg?quality=85",
-   "source": "twz"
   },
   {
    "title": "Keep US troops in NATO’s KFOR",
@@ -1178,14 +1097,6 @@
    "desc": "During a 2022 wargame I ran, bilateral planners reached a familiar barrier. U.S. forces needed to disperse from concentrated bases before the adversary’s first missile salvo. Participants believed Japan could grant emerg",
    "img": null,
    "source": "warontherocks"
-  },
-  {
-   "title": "New USAF Force Design Bets on Technology, Remains Under Wraps",
-   "link": "https://www.airandspaceforces.com/air-force-secret-new-force-design-technological-change/",
-   "date": "2026-11-11T01:05:02Z",
-   "desc": "The Air Force announced Nov. 10 it has finished an updated force design plan , intended to spell out how it will use combat power in a future war against capable adversaries. “Our Force Design is about the capabilities w",
-   "img": "https://www.airandspaceforces.com/app/uploads/2026/11/F-16s-Kunsan-900x600.jpeg",
-   "source": "afmag"
   },
   {
    "title": "Royal Navy to Fly Northrop Grumman’s YFQ-48A from Aircraft Carrier in 2027",
@@ -1290,6 +1201,14 @@
    "desc": "Ukraine should ditch the idea and focus on getting its partners to commit to a structured programme of long-term support for its armed forces.",
    "img": null,
    "source": "rusi"
+  },
+  {
+   "title": "In First, Two CCAs Fly Air Combat Maneuvers Using Autonomy Software",
+   "link": "https://www.airandspaceforces.com/cca-drones-fly-air-combat-maneuvers-autonomy-software/",
+   "date": "2026-11-09T22:13:47Z",
+   "desc": "Two of the Air Force’s semi-autonomous drones flew air combat maneuvers coordinated by an “ AI pilot ,” or mission autonomy software, in a test Oct. 26, a first for the Air Force’s Collaborative Combat Aircraft program. ",
+   "img": "https://www.airandspaceforces.com/app/uploads/2026/04/YFQ-44A-test-flight-1-900x600.jpeg",
+   "source": "afmag"
   },
   {
    "title": "Trailer: Defense One Futures, our new podcast",
