@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T02:13:03Z",
+ "generated": "2026-11-17T10:54:49Z",
  "sources": [
   {
    "id": "defensenews",
@@ -186,9 +186,9 @@
    "id": "defensenews",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-16T23:23:56Z",
+   "latest": "2026-11-17T08:07:28Z",
    "error": null,
-   "ms": 478
+   "ms": 341
   },
   {
    "id": "breakingdefense",
@@ -196,7 +196,7 @@
    "count": 12,
    "latest": "2026-11-17T01:17:58Z",
    "error": null,
-   "ms": 70
+   "ms": 144
   },
   {
    "id": "defenseone",
@@ -204,7 +204,7 @@
    "count": 12,
    "latest": "2026-11-16T23:33:40Z",
    "error": null,
-   "ms": 118
+   "ms": 273
   },
   {
    "id": "afmag",
@@ -212,7 +212,7 @@
    "count": 9,
    "latest": "2026-11-17T01:47:21Z",
    "error": null,
-   "ms": 295
+   "ms": 258
   },
   {
    "id": "airforcetech",
@@ -220,23 +220,23 @@
    "count": 10,
    "latest": "2026-11-16T17:05:18Z",
    "error": null,
-   "ms": 217
+   "ms": 144
   },
   {
    "id": "twz",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-17T01:24:43Z",
+   "latest": "2026-11-17T06:03:53Z",
    "error": null,
-   "ms": 148
+   "ms": 161
   },
   {
    "id": "warontherocks",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-16T19:30:13Z",
+   "latest": "2026-11-17T09:00:48Z",
    "error": null,
-   "ms": 198
+   "ms": 277
   },
   {
    "id": "rand",
@@ -244,15 +244,15 @@
    "count": 7,
    "latest": "2026-11-09T16:45:00Z",
    "error": null,
-   "ms": 214
+   "ms": 216
   },
   {
    "id": "ukdj",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-16T18:30:53Z",
+   "latest": "2026-11-17T10:00:24Z",
    "error": null,
-   "ms": 1056
+   "ms": 897
   },
   {
    "id": "aviationist",
@@ -260,7 +260,7 @@
    "count": 12,
    "latest": "2026-11-16T22:24:55Z",
    "error": null,
-   "ms": 151
+   "ms": 152
   },
   {
    "id": "rusi",
@@ -268,37 +268,37 @@
    "count": 12,
    "latest": "2026-11-16T00:00:00Z",
    "error": null,
-   "ms": 157
+   "ms": 227
   },
   {
    "id": "eurosd",
    "status": "ok",
    "count": 6,
-   "latest": "2026-11-16T22:10:44Z",
+   "latest": "2026-11-17T09:29:55Z",
    "error": null,
-   "ms": 215
+   "ms": 225
   },
   {
    "id": "savunmasanayist",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-16T14:42:37Z",
+   "latest": "2026-11-17T10:25:54Z",
    "error": null,
-   "ms": 487
+   "ms": 665
   },
   {
    "id": "defensehere",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-16T17:07:09Z",
+   "latest": "2026-11-17T08:35:25Z",
    "error": null,
-   "ms": 1765
+   "ms": 2303
   }
  ],
  "trending": [
   {
    "term": "Russia",
-   "n": 6,
+   "n": 5,
    "sources": 4
   },
   {
@@ -307,14 +307,14 @@
    "sources": 5
   },
   {
+   "term": "ABD",
+   "n": 5,
+   "sources": 2
+  },
+  {
    "term": "USAF",
    "n": 4,
    "sources": 3
-  },
-  {
-   "term": "Time",
-   "n": 4,
-   "sources": 2
   },
   {
    "term": "Security",
@@ -324,20 +324,164 @@
  ],
  "items": [
   {
+   "title": "1,1 Trilyon Dolar Nereye Gidiyor? ABD’nin Yeni Savunma Planı",
+   "link": "https://www.savunmasanayist.com/11-trilyon-dolar-nereye-gidiyor-abdnin-yeni-savunma-plani/",
+   "date": "2026-11-17T10:25:54Z",
+   "desc": "Amerika Birleşik Devletleri Senatosu Cumhuriyetçileri, 2027 mali yılı için 1,1 trilyon dolarlık savunma bütçesi teklifini sundu. Bütçede ABD ordusuna silah sistemleri tedariki, İHA sistemleri ve hava savunmasına yönelik ",
+   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/03/Patriot-PAC-3-MSE.jpg",
+   "source": "savunmasanayist"
+  },
+  {
+   "title": "UK and Norway must be inside EU defence base, says minister",
+   "link": "https://ukdefencejournal.org.uk/uk-and-norway-must-be-inside-eu-defence-base-says-minister/",
+   "date": "2026-11-17T10:00:24Z",
+   "desc": "Lord Wood of Anfield, a Foreign Office minister, has said it is absolutely central that Britain and Norway are part of the EU’s push to consolidate Europe’s defence industrial base, according to remarks made at the Atlan",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Babcock and ST Engineering sign MOU",
+   "link": "https://euro-sd.com/2026/11/news/sea/54712/babcock-st-engineering/",
+   "date": "2026-11-17T09:29:55Z",
+   "desc": "Babcock International Group (Babcock), the defence company, has signed a Memorandum of Understanding (MoU) with ST Engineering, a global technology, … mehr... The post Babcock and ST Engineering sign MOU appeared first o",
+   "img": "https://euro-sd.com/wp-content/uploads/2026/11/Babcock-and-ST-Engineering-Signing-300x200.jpg",
+   "source": "eurosd"
+  },
+  {
+   "title": "BAE completes thousandth repair for US Air Force tankers",
+   "link": "https://ukdefencejournal.org.uk/bae-completes-thousandth-repair-for-us-air-force-tankers/",
+   "date": "2026-11-17T09:20:44Z",
+   "desc": "BAE Systems has completed its 1,000th repair for the US Air Force’s KC-135 Stratotanker fleet at its facility in Endicott, New York, according to the company . BAE is the sole provider of the tanker’s safety-critical Fue",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Spending Isn’t Deterrence: Fixing Germany’s Procurement Machine",
+   "link": "https://warontherocks.com/cogs-of-war/spending-isnt-deterrence-fixing-germanys-procurement-machine/",
+   "date": "2026-11-17T09:00:48Z",
+   "desc": "In 2026, Germany is spending a record €125 billion on defense, second only to the United States among NATO allies, and its core defense budget is set to reach €170 billion by 2029. Its military strategy promises Europe’s",
+   "img": null,
+   "source": "warontherocks"
+  },
+  {
+   "title": "Talking Britain down is a national pastime, says Streeting",
+   "link": "https://ukdefencejournal.org.uk/talking-britain-down-is-a-national-pastime-says-streeting/",
+   "date": "2026-11-17T09:00:45Z",
+   "desc": "Wes Streeting, the Defence Secretary, has said talking Britain and its military capabilities down has become something of a national pastime, insisting the UK still has one of the most powerful navies in the world. Speak",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "ABD’de Cumhuriyetçiler’den 1,1 trilyon dolarlık savunma ödeneği tasarısı",
+   "link": "https://defensehere.com/tr/cumhuriyetcilerden-11-trilyon-dolarlik-savunma-odenegi-tasarisi/",
+   "date": "2026-11-17T08:35:25Z",
+   "desc": "ABD Senatosundaki Cumhuriyetçiler, 2027 mali yılı için yaklaşık 1,1 trilyon dolarlık savunma harcamasını öngören ödenek tasarısını sundu. The Hill gazetesinin haberine göre, Senato Ödenekler Komitesindeki Cumhuriyetçiler",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Nammo UK Confirms RELIANCE Engine Test Success for ESA Argonaut Lunar Lander",
+   "link": "https://euro-sd.com/2026/11/news/space/54708/nammo-reliance/",
+   "date": "2026-11-17T08:31:15Z",
+   "desc": "Spacecraft propulsion specialist Nammo UK has successfully completed the hot-fire test campaign for the prototype version of its RELIANCE lunar … mehr... The post Nammo UK Confirms RELIANCE Engine Test Success for ESA Ar",
+   "img": "https://euro-sd.com/wp-content/uploads/2026/11/Nammo-UK-RELIANCE-Testing-300x158.jpg",
+   "source": "eurosd"
+  },
+  {
+   "title": "The Military Strategic Drivers Behind China’s Nuclear Expansion",
+   "link": "https://warontherocks.com/the-military-strategic-drivers-behind-chinas-nuclear-expansion/",
+   "date": "2026-11-17T08:30:21Z",
+   "desc": "In June 1993, a group of Second Artillery Corps senior leaders gathered at the Jiuquan Satellite Launch Center. The organizers brought Li Xuge, recently retired commander of the Second Artillery, as a special guest for t",
+   "img": null,
+   "source": "warontherocks"
+  },
+  {
+   "title": "Romanya’dan Rheinmetall’e 8,7 Milyon Euroluk Ceza",
+   "link": "https://www.savunmasanayist.com/romanyadan-rheinmetalle-87-milyon-euroluk-ceza/",
+   "date": "2026-11-17T08:11:13Z",
+   "desc": "Romanya, Oerlikon GDF 103 hava savunma sistemlerinin modernizasyonunda yaşanan gecikmeler nedeniyle Rheinmetall’e 8,7 milyon euro ceza uyguladı. İlk iki sistem teknik şartnameyi karşılayamayarak kabul testlerini geçemedi",
+   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/Oerlikon-GDF-103.jpg",
+   "source": "savunmasanayist"
+  },
+  {
+   "title": "French troops operating in non-combat roles in Ukraine, broadcaster RFI reports",
+   "link": "https://www.defensenews.com/global/europe/2026/11/17/french-troops-operating-in-non-combat-roles-in-ukraine-broadcaster-rfi-reports/",
+   "date": "2026-11-17T08:07:28Z",
+   "desc": "PARIS — French troops have been operating in Ukraine in non-combat roles since at least the summer of 2026 to maintain equipment used by the Ukrainian armed forces and provide training, Radio France Internationale report",
+   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-2283343334.jpg",
+   "source": "defensenews"
+  },
+  {
+   "title": "NATO using OpenAI models to defend allied networks",
+   "link": "https://ukdefencejournal.org.uk/nato-using-openai-models-to-defend-allied-networks/",
+   "date": "2026-11-17T08:01:45Z",
+   "desc": "NATO has been using OpenAI’s advanced cyber security models to help protect allied networks, consuming up to 300 billion tokens a month, the company has said. OpenAI said it works with the NATO Communications and Informa",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Russia churning out jet strike munitions, says Helsing",
+   "link": "https://ukdefencejournal.org.uk/russia-churning-out-jet-strike-munitions-says-helsing/",
+   "date": "2026-11-17T08:00:21Z",
+   "desc": "Ned Baker, UK managing director of Helsing, has said intelligence suggests Russia produces about four thousand jet-powered long-range strike munitions a month, according to remarks made at the Atlantic Future Forum in Os",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Ukraine tells allies to stop asking whether to use AI",
+   "link": "https://ukdefencejournal.org.uk/ukraine-tells-allies-to-stop-asking-whether-to-use-ai/",
+   "date": "2026-11-17T07:35:57Z",
+   "desc": "European allies should stop debating whether to use AI at scale and focus on using it faster than their enemies, Ukraine’s digital transformation minister has said. Speaking at NATO Edge 26 in İzmir, Oksana Ferchuk said ",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Defence industry must deliver product, not PowerPoint",
+   "link": "https://ukdefencejournal.org.uk/defence-industry-must-deliver-product-not-powerpoint/",
+   "date": "2026-11-17T07:00:30Z",
+   "desc": "Admiral Sir Philip Jones, the former First Sea Lord, has said defence firms must deliver product, not just PowerPoint, and focus on what they can field within three years, according to remarks made at the Atlantic Future",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "KPA, TUSAŞ Yardımcı Sanayi Zirvesi 2026’da 3 ödül kazandı",
+   "link": "https://defensehere.com/tr/kpa-tusas-yardimci-sanayi-zirvesi-2026da-3-odul-kazandi/",
+   "date": "2026-11-17T06:53:56Z",
+   "desc": "Küçükpazarlı Havacılık ve Uzay (KPA), 14 Kasım 2026 tarihinde Ankara’da düzenlenen TUSAŞ Yardımcı Sanayi Zirvesi 2026 kapsamında 3 ödüle layık görüldü. Türk Havacılık ve Uzay Sanayii (TUSAŞ) tarafından “Ortak Güçten Orta",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "UK among nations part of NATO StarLift launch plan",
+   "link": "https://ukdefencejournal.org.uk/uk-among-nations-part-of-nato-starlift-launch-plan/",
+   "date": "2026-11-17T06:53:52Z",
+   "desc": "NATO has begun implementing StarLift, a multinational initiative to help allies get military satellites into orbit by booking slots on commercial rockets. The move was announced at NATO Edge 26 in İzmir by NATO Deputy Se",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Russia’s Kerch Bridge Road Vehicle Span Has Been Destroyed By Ukraine",
+   "link": "https://www.twz.com/news-features/kerch-bridge-struck-for-the-second-time-in-less-than-24-hours-russia",
+   "date": "2026-11-17T06:03:53Z",
+   "desc": "UPDATE: 12:40 AM EST— The road vehicle span of the Kerch Strait Bridge has been destroyed by Ukraine. Imagery now circulating after the sun came up shows the bridge section that was struck yesterday has now been totally ",
+   "img": "https://www.twz.com/wp-content/uploads/2026/11/kirch-bridge-destroyed.jpg?quality=85",
+   "source": "twz"
+  },
+  {
+   "title": "Don’t make Russians ten feet tall, says Estonia’s adviser",
+   "link": "https://ukdefencejournal.org.uk/dont-make-russians-ten-feet-tall-says-estonias-adviser/",
+   "date": "2026-11-17T06:00:26Z",
+   "desc": "Erkki Tori, Estonia’s national security adviser, has said most Russian sabotage attempts in Europe fail and urged allies to be more confident, adding that Russia raised its tempo after Ukraine struck deeper, according to",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
    "title": "Trainees Will Fly T-38s Another Decade While T-7 Matures",
    "link": "https://www.airandspaceforces.com/aetc-boss-t-38-late-2030s-t-7/",
    "date": "2026-11-17T01:47:21Z",
    "desc": "The Air Force will keep flying its 1960s-era T-38C Talon trainer into the late 2030s, the head of Air Education and Training Command said Nov. 16. The T-7A Red Hawk is making progress, but slowly, as its replacement. Lt.",
    "img": "https://www.airandspaceforces.com/app/uploads/2025/03/t-38-900x600.jpg",
    "source": "afmag"
-  },
-  {
-   "title": "Kerch Bridge Struck For The Second Time In Less Than 24 Hours: Russia",
-   "link": "https://www.twz.com/news-features/kerch-bridge-struck-for-the-second-time-in-less-than-24-hours-russia",
-   "date": "2026-11-17T01:24:43Z",
-   "desc": "Ukraine has launched a second attack on the Kerch Bridge in less than 24 hours. The latest strike on Vladimir Putin’s prized span linking occupied Crimean with Russia was confirmed by the Russian-installed head of Crimea",
-   "img": "https://www.twz.com/wp-content/uploads/2026/11/Kerch-Bridge-strike.jpg?quality=85",
-   "source": "twz"
   },
   {
    "title": "Senate appropriators unveil $1.1T Pentagon spending bill, folding in reconciliation priorities",
@@ -383,7 +527,7 @@
    "title": "Rare Footage Shows B61 Nuclear Bomb on B-2 Stealth Bomber’s Rotary Launcher",
    "link": "https://theaviationist.com/2026/11/16/b-2-footage-the-watch/",
    "date": "2026-11-16T22:24:55Z",
-   "desc": "The B61-11 is a decades-old nuclear weapon, but footage showing it being loaded inside the B-2 Spirit’s weapons bay is exceptionally rare. Jeff Bolton’s new documentary series The Watch offers a close-up look at an opera",
+   "desc": "The B61-11 is a decades-old nuclear weapon, but footage showing it being loaded inside the B-2 Spirit’s weapons bay is exceptionally rare. Jeff Bolton’s new documentary series THE WATCH offers a close-up look at an opera",
    "img": "https://theaviationist.com/wp-content/uploads/2026/11/B-61-top.jpg",
    "source": "aviationist"
   },
@@ -428,6 +572,14 @@
    "source": "twz"
   },
   {
+   "title": "Güney Kore ve Filipinler savunma sanayisi ve yapay zekada stratejik işbirliğini artırıyor",
+   "link": "https://defensehere.com/tr/guney-kore-ve-filipinler-savunma-sanayisi-ve-yapay-zekada-stratejik-isbirligini-artiriyor/",
+   "date": "2026-11-16T21:05:26Z",
+   "desc": "Güney Kore ve Filipinler, savunma sanayisi, yapay zeka, gemi inşası, nükleer enerji ve havacılık başta olmak üzere stratejik sektörlerde işbirliğini geliştirme kararı aldı. Yonhap’ın haberine göre, Güney Kore Devlet Başk",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "US Army takes ‘urgent’ action to build concrete bunkers across the Middle East",
    "link": "https://www.defensenews.com/global/mideast-africa/2026/11/16/us-army-takes-urgent-action-to-build-concrete-bunkers-across-the-middle-east/",
    "date": "2026-11-16T20:43:10Z",
@@ -452,6 +604,14 @@
    "source": "aviationist"
   },
   {
+   "title": "ABD, F-15EX Eagle II savaş uçaklarını ilk kez Japonya’ya konuşlandırdı",
+   "link": "https://defensehere.com/tr/abd-f-15ex-eagle-ii-savas-ucaklarini-ilk-kez-japonyaya-konuslandirdi/",
+   "date": "2026-11-16T20:10:57Z",
+   "desc": "ABD Hava Kuvvetleri, Pasifik bölgesindeki hava gücünü artırmak amacıyla F-15EX Eagle II savaş uçaklarını Japonya’ya konuşlandırmaya başladı. 15 Kasım 2026’da Kadena Hava Üssü’ne ulaşan 22-0022 ve 22-0023 seri numaralı ik",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/gauXTH5hOsossVZMKtDc5gXIQUi1tXDlPWitgyu-kpI_UR73S2mizIPuMekBGhd4mc0KtcdVAWUgTrXZcZpaPMpJK8TUgM8_CH7g3ijcdZjUDFN10mSZkwG-HvFaP8NPcQOcSyRuFVFNPEU2mL5xqOvACluel1taK3LgOqV_1HIS2MxQyHMjhcvZ2S6iygsG-scaled.jpeg",
+   "source": "defensehere"
+  },
+  {
    "title": "Vulcan failure deepens concerns over US military launch capacity",
    "link": "https://breakingdefense.com/2026/11/vulcan-failure-deepens-concerns-over-us-military-launch-capacity/",
    "date": "2026-11-16T20:07:47Z",
@@ -466,6 +626,14 @@
    "desc": "A new Eagle is in the nest on Okinawa, Japan—the 18th Wing at Kadena Air Base received its first permanently stationed F-15EX Eagle II on Nov. 15. The first aircraft’s arrival comes four years after the U.S. Air Force st",
    "img": "https://www.airandspaceforces.com/app/uploads/2026/11/F15EX-on-landing-on-the-airstrip-900x600.jpeg",
    "source": "afmag"
+  },
+  {
+   "title": "ABD Hava Kuvvetleri, füze fırlatma sistemi geliştirme görevini Anduril’e verdi",
+   "link": "https://defensehere.com/tr/abd-hava-kuvvetleri-fuze-firlatma-sistemi-gelistirme-gorevini-andurile-verdi/",
+   "date": "2026-11-16T19:55:06Z",
+   "desc": "ABD Hava Kuvvetleri, yüksek yoğunluklu çatışmalarda hava savunma kapasitesini artırmak ve daha fazla sayıda füzenin ekonomik koşullarda kullanılmasını sağlamak amacıyla yürüttüğü Hava Savunma Füze Programı (CAMP) kapsamı",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "Theater in Abu Dhabi, Everyday Life at Home: Why the War Still Shapes Every Story",
@@ -508,12 +676,12 @@
    "source": "ukdj"
   },
   {
-   "title": "BAE wins US Marine Corps deal for armoured recovery vehicles",
-   "link": "https://ukdefencejournal.org.uk/bae-wins-us-marine-corps-deal-for-armoured-recovery-vehicles/",
-   "date": "2026-11-16T18:29:37Z",
-   "desc": "BAE Systems has received a $230.1 million contract to produce 32 Amphibious Combat Vehicle chassis in the Recovery Mission Role variant for the US Marine Corps, according to the company . The ACV-R adds recovery capabili",
-   "img": null,
-   "source": "ukdj"
+   "title": "Türk sivil havacılığı dünya sahnesinde: Hedef ICAO Konsey üyeliği",
+   "link": "https://defensehere.com/tr/turk-sivil-havaciligi-dunya-sahnesinde-hedef-icao-konsey-uyeligi/",
+   "date": "2026-11-16T18:30:30Z",
+   "desc": "Uluslararası Sivil Havacılık Örgütü (ICAO) tarafından düzenlenen 7. Dünya Hava Ulaştırma Konferansı (ATConf/7), Kanada’nın Montréal kentindeki ICAO Genel Merkezi’nde başladı. 16-20 Kasım 2026 tarihleri arasında gerçekleş",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/HXQbXUWW0AAy1od.jpeg",
+   "source": "defensehere"
   },
   {
    "title": "Italy unveils plans to develop a new naval missile launcher",
@@ -530,14 +698,6 @@
    "desc": "The visceral threat of cheap drones delivering pinpoint, guided anti-personnel munitions continues to spawn new protection systems. Plus, an interview with a Medal of Honor recipient.",
    "img": "https://cdn.jwplayer.com/videos/2uRrt87Q-5ZsksG4j.mp4",
    "source": "defensenews"
-  },
-  {
-   "title": "Senior German official brands Europe’s populists traitors",
-   "link": "https://ukdefencejournal.org.uk/senior-german-official-brands-europes-populists-traitors/",
-   "date": "2026-11-16T18:00:51Z",
-   "desc": "Dr Martin Schäfer, Defence Policy Director at Germany’s Federal Ministry of Defence, has said populists who would abandon NATO and Ukraine are traitors who must never be allowed to take power in Europe, according to rema",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "Europe hunts for Palantir alternatives as militaries seek to limit US dependence",
@@ -612,14 +772,6 @@
    "source": "breakingdefense"
   },
   {
-   "title": "Weapons demand still outstrips supply, Rutte tells industry",
-   "link": "https://ukdefencejournal.org.uk/weapons-demand-still-outstrips-supply-rutte-tells-industry/",
-   "date": "2026-11-16T16:00:38Z",
-   "desc": "Mark Rutte, NATO’s Secretary General, has told defence companies that demand still exceeds supply and urged them to increase production further, according to remarks made on board HMS Prince of Wales in Oslo . Speaking a",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "Pentagon, F-16 radarları için Northrop Grumman ile 79,6 milyon dolarlık ek sözleşme imzaladı",
    "link": "https://defensehere.com/tr/pentagon-f-16-radarlari-icin-northrop-grumman-ile-796-milyon-dolarlik-ek-sozlesme-imzaladi/",
    "date": "2026-11-16T15:40:04Z",
@@ -642,14 +794,6 @@
    "desc": "Avrupa Birliği (AB) Komisyonu, Ukrayna’ya 90 milyar avroluk Destek Kredisi kapsamında acil askeri ihtiyaçlar için 1,71 milyar avro ödeme yaptı. AB Komisyonundan Ukrayna’ya askeri desteğe ilişkin yazılı açıklama yapıldı. ",
    "img": null,
    "source": "defensehere"
-  },
-  {
-   "title": "Streeting calls for military backchannel with Russia",
-   "link": "https://ukdefencejournal.org.uk/streeting-calls-for-military-backchannel-with-russia/",
-   "date": "2026-11-16T15:00:01Z",
-   "desc": "Wes Streeting, the Defence Secretary, has called for new military-to-military lines of communication with Russia to avoid the risk of miscalculation, and described Russia’s hybrid attacks on Britain as state-sponsored te",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "China’s Fourth Aircraft Carrier Continues to Take Shape in New Satellite Images",
@@ -708,108 +852,12 @@
    "source": "defensenews"
   },
   {
-   "title": "‘Stop talking about it and start doing something about it’: Medal of Honor recipient on advocating for mental health",
-   "link": "https://www.defensenews.com/video/2026/11/16/stop-talking-about-it-and-start-doing-something-about-it-medal-of-honor-recipient-on-advocating-for-mental-health/",
-   "date": "2026-11-16T14:17:00Z",
-   "desc": "Medal of Honor recipient Maj. (ret.) Nicholas Dockery talks about how everyday people can make a difference in aiding those around them facing mental health struggles.",
-   "img": "https://cdn.jwplayer.com/videos/O8XAcljV-5ZsksG4j.mp4",
-   "source": "defensenews"
-  },
-  {
-   "title": "Fife innovation campus funding still awaits business case",
-   "link": "https://ukdefencejournal.org.uk/fife-innovation-campus-funding-still-awaits-business-case/",
-   "date": "2026-11-16T14:00:43Z",
-   "desc": "The £5 million allocated to the Arrol Gibb Innovation Campus in Fife under the Scotland Defence Growth Deal still needs business case approval, Luke Pollard, Minister for Defence Readiness and Industry, has said, accordi",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Bursa Uludağ Üniversitesi Rektörü Yılmaz: “TSKGV, sistemin dönüşümünde somut örneklerden biri”",
-   "link": "https://defensehere.com/tr/bursa-uludag-universitesi-rektoru-yilmaz-tskgv-sistemin-donusumunde-somut-orneklerden-biri/",
-   "date": "2026-11-16T13:21:16Z",
-   "desc": "Türk Silahlı Kuvvetlerini Güçlendirme Vakfı (TSKGV), sosyal medya hesabından “Akademik Savunma” serisinin ilk bölümünü paylaştı. Serinin ilk konuğu olan Bursa Uludağ Üniversitesi Rektörü Prof. Dr. Ferudun Yılmaz, savunma",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Russia needn’t hide grey zone attacks, says Airbus UK chief",
-   "link": "https://ukdefencejournal.org.uk/russia-neednt-hide-grey-zone-attacks-says-airbus-uk-chief/",
-   "date": "2026-11-16T13:00:38Z",
-   "desc": "Kata Escott, UK managing director of Airbus Defence and Space, has said hostile states do not need grey zone attacks to go undetected because they aim to exploit Western hesitancy, according to remarks made at the Atlant",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Hostile cyber threat moving faster, says National Grid chief",
-   "link": "https://ukdefencejournal.org.uk/hostile-cyber-threat-moving-faster-says-national-grid-chief/",
-   "date": "2026-11-16T12:27:00Z",
-   "desc": "Zoë Yujnovich, chief executive of National Grid, has warned that hostile states’ offensive cyber capability is moving faster, and declined to say whether the company’s subsea power cables have faced attacks, according to",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Somali’nin komandoları Kayseri’den mezun oldu",
-   "link": "https://defensehere.com/tr/somalinin-komandolari-kayseriden-mezun-oldu/",
-   "date": "2026-11-16T12:20:37Z",
-   "desc": "Türk Silahlı Kuvvetleri tarafından Somali Silahlı Kuvvetleri personeline verilen askeri eğitimler devam ediyor. Kayseri’deki 1’inci Hava İndirme ve Komando Tugay Komutanlığında eğitimlerini tamamlayan 275 Somalili asker ",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "İran Devrim Muhafızları: ABD’ye ait MQM-170 tipi İHA sağlam şekilde ele geçirildi",
-   "link": "https://defensehere.com/tr/iran-devrim-muhafizlari-abdye-ait-mqm-170-tipi-iha-saglam-sekilde-ele-gecirildi/",
-   "date": "2026-11-16T12:15:18Z",
-   "desc": "İran Devrim Muhafızları Ordusu, Keşm Adası’nın güneyinde ABD ordusuna ait MQM-170 tipi bir insansız hava aracını (İHA) elektronik harp operasyonuyla sağlam şekilde ele geçirdiklerini duyurdu. Devrim Muhafızları Ordusu Ba",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Türk Telekom’un dijital altyapısını üstlendiği COP31’de eş zamanlı bağlı cihaz rekoru kırıldı",
-   "link": "https://defensehere.com/tr/turk-telekomun-dijital-altyapisini-ustlendigi-cop31de-es-zamanli-bagli-cihaz-rekoru-kirildi/",
-   "date": "2026-11-16T12:05:29Z",
-   "desc": "Türk Telekom’un “Küresel Dijital Dönüşüm ve Teknoloji Destekçisi” olarak yer aldığı Birleşmiş Milletler İklim Değişikliği Çerçeve Sözleşmesi 31. Taraflar Konferansı’nda (COP31), Mavi Bölge’de eş zamanlı bağlı cihaz sayıs",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Defence nuclear push targets twenty-two thousand apprentices",
-   "link": "https://ukdefencejournal.org.uk/defence-nuclear-push-targets-twenty-two-thousand-apprentices/",
-   "date": "2026-11-16T12:00:50Z",
-   "desc": "The defence nuclear sector aims to create around 22,000 apprenticeship opportunities by 2034-35, backed by £290 million in the Defence Investment Plan, Luke Pollard, Minister for Defence Readiness and Industry, has said,",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Somali’de 5 Afrika Birliği askeri üssü ulusal orduya devredildi",
-   "link": "https://defensehere.com/tr/somalide-5-afrika-birligi-askeri-ussu-ulusal-orduya-devredildi/",
-   "date": "2026-11-16T11:58:36Z",
-   "desc": "Afrika Birliği Somali Destek ve İstikrar Misyonu (AUSSOM), Somali’nin güneyindeki Aşağı Şabele bölgesinde bulunan Barave kentindeki 5 ileri harekat üssünün Somali Ulusal Ordusuna devredildiğini duyurdu. AUSSOM’dan yapıla",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
    "title": "French Navy Falcon 10s Retire After 51 Years",
    "link": "https://theaviationist.com/2026/11/16/french-navy-falcon-10-retirement/",
    "date": "2026-11-16T11:57:18Z",
    "desc": "The venerable Dassault Falcon 10MER jets, which entered service in 1975, are being replaced in their training and liaison role by leased Pilatus PC-24s. Designated Falcon 10MER, with MER standing for Marine Entraînement ",
    "img": "https://theaviationist.com/wp-content/uploads/2026/11/FrenchFA10Retirement_1.jpg",
    "source": "aviationist"
-  },
-  {
-   "title": "MERTSAV, İGEF 2026’da ürünlerini sektör temsilcileriyle buluşturdu",
-   "link": "https://defensehere.com/tr/mertsav-igef-2026da-urunlerini-sektor-temsilcileriyle-bulusturdu/",
-   "date": "2026-11-16T11:48:26Z",
-   "desc": "Türk savunma sanayii şirketi MERTSAV Savunma Sistemleri, Ankara’da düzenlenen 3. Uluslararası İç Güvenlik Ekipmanları Fuarı (İGEF’26) kapsamında ürün ve teknolojilerini ziyaretçilerin beğenisine sundu. 2006 yılından bu y",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Family defence firms show more patriotism, says Schäfer",
-   "link": "https://ukdefencejournal.org.uk/family-defence-firms-show-more-patriotism-says-schafer/",
-   "date": "2026-11-16T11:30:51Z",
-   "desc": "Dr Martin Schäfer, Defence Policy Director at Germany’s defence ministry, has said family-owned defence firms show more of the patriotism Europe needs than multinationals run on financial market logic, according to remar",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "Estonian drone company targeted in alleged Russian sabotage attempt",
@@ -844,18 +892,18 @@
    "source": "warontherocks"
   },
   {
-   "title": "CBRN Supply Chains: The Strategic Enablers Missing from Resilience",
-   "link": "https://www.rusi.org/explore-our-research/publications/commentary/cbrn-supply-chains-strategic-enablers-missing-resilience",
-   "date": "2026-11-16T00:00:00Z",
-   "desc": "CBRN preparedness depends on dispersed supply chains. Resilience frameworks should recognise them as strategic enablers, even if they are not critical infrastructure.",
-   "img": null,
-   "source": "rusi"
-  },
-  {
    "title": "Recording: The Atlantic Brief: After the US Midterms, Transatlantic Defence Cooperation",
    "link": "https://www.rusi.org/members-event-recordings/recording-atlantic-brief-after-us-midterms-transatlantic-defence-cooperation",
    "date": "2026-11-16T00:00:00Z",
    "desc": "The third joint webinar by RUSI and War on the Rocks: Two leading defence publications from both sides of the Atlantic present their expert panel.",
+   "img": null,
+   "source": "rusi"
+  },
+  {
+   "title": "CBRN Supply Chains: The Strategic Enablers Missing from Resilience",
+   "link": "https://www.rusi.org/explore-our-research/publications/commentary/cbrn-supply-chains-strategic-enablers-missing-resilience",
+   "date": "2026-11-16T00:00:00Z",
+   "desc": "CBRN preparedness depends on dispersed supply chains. Resilience frameworks should recognise them as strategic enablers, even if they are not critical infrastructure.",
    "img": null,
    "source": "rusi"
   },
@@ -1132,22 +1180,6 @@
    "source": "defenseone"
   },
   {
-   "title": "STM’nin Ukrayna’ya 2. Korveti Teslimat Yolunda",
-   "link": "https://www.savunmasanayist.com/stmnin-ukraynaya-2-korveti-teslimat-yolunda/",
-   "date": "2026-11-13T10:58:32Z",
-   "desc": "STM’nin Ukrayna için inşa ettiği ikinci Ada sınıfı korvet Hetman Ivan Vyhovskyi’nin yapımında son aşamaya gelindi. Geminin 2027’de teslim edilmesi planlanıyor. Ukrayna Cumhurbaşkanlığı Ofisi Başkanı Kyrylo Budanov, İstan",
-   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/STM-Ukrayna-korvet-Hetman-Ivan-Vyhovskyi.jpg",
-   "source": "savunmasanayist"
-  },
-  {
-   "title": "Malezya NSM Yerine ROKETSAN ATMACA’yı Seçti",
-   "link": "https://www.savunmasanayist.com/malezya-nsm-yerine-roketsan-atmacayi-secti/",
-   "date": "2026-11-13T09:35:48Z",
-   "desc": "Malezya, Norveç’ten tedarik etmeyi planladığı NSM gemisavar füzelerinin yerine ROKETSAN üretimi ATMACA’yı tercih etti. Malezya Savunma Bakanı Datuk Seri Mohamed Khaled Nordin, Maharaja Lela sınıfı Kıyı Muharebe Gemileri ",
-   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/ROKETSAN-ATMACA-Gemisavar-2.jpg",
-   "source": "savunmasanayist"
-  },
-  {
    "title": "Episode 6: The Shops That Don’t Add Up",
    "link": "https://www.rusi.org/podcasts/suspicious-transaction-report/episode-6-shops-dont-add",
    "date": "2026-11-13T00:00:00Z",
@@ -1196,28 +1228,12 @@
    "source": "warontherocks"
   },
   {
-   "title": "Drone and Counter-Drone Capabilities for U.S. Forces",
-   "link": "https://euro-sd.com/2026/11/news/land/54678/counter-drone-ordnanc-arquimea/",
-   "date": "2026-11-12T18:20:10Z",
-   "desc": "Global Ordnance Holdings and ARQUIMEA USA have signed a teaming agreement to expand the drone and counter-drone systems available to … mehr... The post Drone and Counter-Drone Capabilities for U.S. Forces appeared first ",
-   "img": "https://euro-sd.com/wp-content/uploads/2026/11/image001-002-300x200.jpg",
-   "source": "eurosd"
-  },
-  {
    "title": "'Robot Wars': Defense One Futures, Ep. 1",
    "link": "https://www.defenseone.com/technology/2026/11/defense-one-futures-robot-wars-ep-1/417183/",
    "date": "2026-11-12T17:14:55Z",
    "desc": "Welcome to Defense One Futures, our new podcast about the people and technology shaping the future of national security. In this debut episode, we explore how robotic autonomy is altering warfare, with firsthand accounts",
    "img": "https://cdn.defenseone.com/media/img/cd/2026/11/12/D1_Futures_Initial_Slate_v2/large.png",
    "source": "defenseone"
-  },
-  {
-   "title": "WB GROUP Expands into Germany",
-   "link": "https://euro-sd.com/2026/11/news/land/54683/wb-group-germany/",
-   "date": "2026-11-12T16:53:15Z",
-   "desc": "The Polish WB Group, a developer and manufacturer of, among other things, unmanned multi-domain systems, unveiled its new subsidiary, WB … mehr... The post WB GROUP Expands into Germany appeared first on European Securit",
-   "img": "https://euro-sd.com/wp-content/uploads/2026/11/20261110_WB_GROUP-Expands-into-Germany_06-300x200.jpg",
-   "source": "eurosd"
   },
   {
    "title": "Kratos completes SRR for US Space Force missile-warning programme",
@@ -1364,28 +1380,12 @@
    "source": "rusi"
   },
   {
-   "title": "Stained Glass and Sacred Spaces: Symbolism Abounds in Ukrainian Media",
-   "link": "https://warontherocks.com/stained-glass-and-sacred-spaces-symbolism-abounds-in-ukrainian-media/",
-   "date": "2026-11-09T19:15:33Z",
-   "desc": "Welcome to The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum, only for War on the Rocks members. Each week, we bring you a curated selection of articles from Ukr",
-   "img": null,
-   "source": "warontherocks"
-  },
-  {
    "title": "Veterans, Families, and Life After Military Service: Q&A with RAND Experts",
    "link": "https://www.rand.org/pubs/commentary/2026/11/veterans-families-and-life-after-military-service-qa.html",
    "date": "2026-11-09T16:45:00Z",
    "desc": "For veterans, leaving the U.S. military can open new doors and raise new questions. In this Q&A, Carrie Farmer and Rajeev Ramchand share what RAND's research reveals about life after military service and the questions th",
    "img": null,
    "source": "rand"
-  },
-  {
-   "title": "The Record Budgets and Missing Suppliers Shaping America’s Munitions Ramp",
-   "link": "https://warontherocks.com/cogs-of-war/the-record-budgets-and-missing-suppliers-shaping-americas-munitions-ramp/",
-   "date": "2026-11-09T09:00:45Z",
-   "desc": "The Pentagon is sending a record demand signal for munitions, but turning it into deliveries depends on suppliers several tiers below the primes, many of which disappeared over the last two decades. Marc Andersen (Army a",
-   "img": null,
-   "source": "warontherocks"
   },
   {
    "title": "Israel’s Foreign Funding Inquiry is Not Evidence of a Stolen Election",
