@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T10:54:49Z",
+ "generated": "2026-11-17T19:29:08Z",
  "sources": [
   {
    "id": "defensenews",
@@ -186,25 +186,25 @@
    "id": "defensenews",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-17T08:07:28Z",
+   "latest": "2026-11-17T19:13:19Z",
    "error": null,
-   "ms": 341
+   "ms": 159
   },
   {
    "id": "breakingdefense",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-17T01:17:58Z",
+   "latest": "2026-11-17T19:02:00Z",
    "error": null,
-   "ms": 144
+   "ms": 432
   },
   {
    "id": "defenseone",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-16T23:33:40Z",
+   "latest": "2026-11-17T17:17:00Z",
    "error": null,
-   "ms": 273
+   "ms": 172
   },
   {
    "id": "afmag",
@@ -212,31 +212,31 @@
    "count": 9,
    "latest": "2026-11-17T01:47:21Z",
    "error": null,
-   "ms": 258
+   "ms": 161
   },
   {
    "id": "airforcetech",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-16T17:05:18Z",
+   "latest": "2026-11-17T17:20:28Z",
    "error": null,
-   "ms": 144
+   "ms": 205
   },
   {
    "id": "twz",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-17T06:03:53Z",
+   "latest": "2026-11-17T19:22:29Z",
    "error": null,
-   "ms": 161
+   "ms": 150
   },
   {
    "id": "warontherocks",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-17T09:00:48Z",
+   "latest": "2026-11-17T18:30:16Z",
    "error": null,
-   "ms": 277
+   "ms": 796
   },
   {
    "id": "rand",
@@ -244,61 +244,71 @@
    "count": 7,
    "latest": "2026-11-09T16:45:00Z",
    "error": null,
-   "ms": 216
+   "ms": 244
   },
   {
    "id": "ukdj",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-17T10:00:24Z",
+   "latest": "2026-11-17T17:00:01Z",
    "error": null,
-   "ms": 897
+   "ms": 872
   },
   {
    "id": "aviationist",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-16T22:24:55Z",
+   "latest": "2026-11-17T16:57:31Z",
    "error": null,
-   "ms": 152
+   "ms": 183
   },
   {
    "id": "rusi",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-16T00:00:00Z",
+   "latest": "2026-11-17T00:00:00Z",
    "error": null,
-   "ms": 227
+   "ms": 290
   },
   {
    "id": "eurosd",
    "status": "ok",
    "count": 6,
-   "latest": "2026-11-17T09:29:55Z",
+   "latest": "2026-11-17T12:30:02Z",
    "error": null,
-   "ms": 225
+   "ms": 473
   },
   {
    "id": "savunmasanayist",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-17T10:25:54Z",
+   "latest": "2026-11-17T16:46:42Z",
    "error": null,
-   "ms": 665
+   "ms": 766
   },
   {
    "id": "defensehere",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-17T08:35:25Z",
+   "latest": "2026-11-17T13:49:30Z",
    "error": null,
-   "ms": 2303
+   "ms": 1924
   }
  ],
  "trending": [
   {
+   "term": "NATO",
+   "n": 14,
+   "sources": 5
+  },
+  {
    "term": "Russia",
-   "n": 5,
+   "n": 6,
+   "sources": 4
+  },
+  {
+   "term": "Ukraine",
+   "n": 6,
    "sources": 4
   },
   {
@@ -307,22 +317,292 @@
    "sources": 5
   },
   {
-   "term": "ABD",
-   "n": 5,
-   "sources": 2
-  },
-  {
    "term": "USAF",
    "n": 4,
    "sources": 3
-  },
-  {
-   "term": "Security",
-   "n": 4,
-   "sources": 4
   }
  ],
  "items": [
+  {
+   "title": "These Are The Weapons Ukraine Used To Drop The Kerch Bridge",
+   "link": "https://www.twz.com/news-features/these-are-the-weapons-ukraine-used-to-drop-the-kerch-bridge",
+   "date": "2026-11-17T19:22:29Z",
+   "desc": "Ukraine has revealed a remarkably diverse collection of domestically developed weapons, and at least two foreign-supplied ones, used in its latest attack on the Kerch Bridge , the critical road and rail link connecting o",
+   "img": "https://www.twz.com/wp-content/uploads/2026/11/kerch_bridge_Missile.jpg?quality=85",
+   "source": "twz"
+  },
+  {
+   "title": "Finland’s Iceye bids €2 billion for Italian rocket maker Avio",
+   "link": "https://www.defensenews.com/global/europe/2026/11/17/finlands-iceye-bids-e2-billion-for-italian-rocket-maker-avio/",
+   "date": "2026-11-17T19:13:19Z",
+   "desc": "ROME — Finnish operator Iceye has a made €2 billion cash offer ($2.2 billion) for Italian rocket maker Avio which would integrate Europe’s space capabilities as well as putting Iceye in charge of Avio’s expansion into th",
+   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/10/pzFQ4T3kUU6ZZCOkrJL38V96aQpD10eyD7YZUwXm.5u0n.webp_.jpg",
+   "source": "defensenews"
+  },
+  {
+   "title": "Biodata, AI and the future of command: Getting it right",
+   "link": "https://breakingdefense.com/2026/11/biodata-ai-and-the-future-of-command-getting-it-right/",
+   "date": "2026-11-17T19:02:00Z",
+   "desc": "Fitness trackers and AI diagnostics are here to stay. They can provide valuable data for operational planning — if security and privacy are handled properly.",
+   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2024/10/1355058-scaled-e1727970123356-1024x577.jpg",
+   "source": "breakingdefense"
+  },
+  {
+   "title": "Keeping America Out: Revisiting China’s Deterrence Strategy for Taiwan",
+   "link": "https://warontherocks.com/keeping-america-out-revisiting-chinas-deterrence-strategy-for-taiwan/",
+   "date": "2026-11-17T18:30:16Z",
+   "desc": "In 2025, Joel Wuthnow wrote “How China Could Counter U.S. Intervention in War Over Taiwan,” arguing that Beijing’s best option might be to deter Washington from coming to Taiwan’s aid by raising the risks to the U.S. hom",
+   "img": null,
+   "source": "warontherocks"
+  },
+  {
+   "title": "White House officially nominates LaNeve for Army Chief",
+   "link": "https://breakingdefense.com/2026/11/white-house-officially-nominates-laneve-for-army-chief/",
+   "date": "2026-11-17T17:55:54Z",
+   "desc": "The White House has also nominated Lt. Gen. Marcus Evans to fill LaNeve’s current role as the service’s vice chief.",
+   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/10007219-scaled-e1791915072360-1024x577.jpg",
+   "source": "breakingdefense"
+  },
+  {
+   "title": "Russia reportedly wants Finland to leave NATO as part of Ukraine deal. History, geography explain why.",
+   "link": "https://breakingdefense.com/2026/11/russia-reportedly-wants-finland-to-leave-nato-as-part-of-ukraine-deal-history-geography-explain-why/",
+   "date": "2026-11-17T17:39:17Z",
+   "desc": "Finland’s historical experience with Russia, shaped by centuries of territorial disputes, war and changing borders, is fundamentally different from that of other nations, for instance, Sweden, which joined NATO only a ye",
+   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2024/11/GettyImages-2184728824-scaled-e1732052343476-1024x577.jpg",
+   "source": "breakingdefense"
+  },
+  {
+   "title": "Dominion Dynamics taps Pratt & Whitney to power Scout Arctic UAV",
+   "link": "https://www.airforce-technology.com/news/dominion-dynamics-scout-acp/",
+   "date": "2026-11-17T17:20:28Z",
+   "desc": "Dominion Dynamics has teamed up with Pratt & Whitney Canada to develop the propulsion and airframe of its Dominion Scout autonomous aircraft.",
+   "img": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/11/Dominion.jpg",
+   "source": "airforcetech"
+  },
+  {
+   "title": "Three bids in as India near selection of AMCA stealth fighter partner",
+   "link": "https://www.airforce-technology.com/news/india-amca-fighter-bids/",
+   "date": "2026-11-17T17:18:40Z",
+   "desc": "India’s defence ministry expects to select an industry partner to build five prototypes of the Advanced Medium Combat Aircraft.",
+   "img": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/11/AMCA-1.jpg",
+   "source": "airforcetech"
+  },
+  {
+   "title": "Classified NSA communications network down, people familiar say",
+   "link": "https://www.defenseone.com/threats/2026/11/classified-nsa-communications-network-down-people-familiar-say/417278/",
+   "date": "2026-11-17T17:17:00Z",
+   "desc": "The National Security Agency’s classified internal communications network has gone down, slowing analysts’ work and forcing employees to rearrange their arrivals at the agency’s campus, according to six people familiar w",
+   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/17/GettyImages_918219856-1/large.jpg",
+   "source": "defenseone"
+  },
+  {
+   "title": "Lithuanian president says US troop rotations will continue beyond latest deployment",
+   "link": "https://www.defensenews.com/global/europe/2026/11/17/lithuanian-president-says-us-troop-rotations-will-continue-beyond-latest-deployment/",
+   "date": "2026-11-17T17:04:13Z",
+   "desc": "Lithuanian President Gitanas Nauseda said on Monday that U.S. troop rotations in Lithuania would continue beyond the current nine-month deployment, speaking at a ceremony marking the arrival of the latest two U.S. battal",
+   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/2026-11-16T120501Z_1_LYNXNPEMAF146_RTROPTP_4_LITHUANIA-DEFENCE.jpg",
+   "source": "defensenews"
+  },
+  {
+   "title": "Silence on threats is bigger danger, Norway’s chief warns",
+   "link": "https://ukdefencejournal.org.uk/silence-on-threats-is-bigger-danger-norways-chief-warns/",
+   "date": "2026-11-17T17:00:01Z",
+   "desc": "General Eirik Kristoffersen, Norway’s Chief of Defence, has said failing to talk about the real threats is more dangerous than scaring the public, and that backing Ukraine is Europe’s best deterrence, according to remark",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Italy’s New Defense Plan Prioritizes GCAP, F-35s and Next-Generation Military Capabilities",
+   "link": "https://theaviationist.com/2026/11/17/italys-new-defense-plan/",
+   "date": "2026-11-17T16:57:31Z",
+   "desc": "The multiyear defense planning document for 2026-2028 outlines more than €42 billion in planned investments for the aerospace sector, while acknowledging that available resources are insufficient. The Italian Ministry of",
+   "img": "https://theaviationist.com/wp-content/uploads/2026/11/Italian_Air_Force_F-35A_Ghedi.jpg",
+   "source": "aviationist"
+  },
+  {
+   "title": "F-16’lar Somali’den Bandırma’ya İniş Yapmadan Uçtu!",
+   "link": "https://www.savunmasanayist.com/f-16lar-somaliden-bandirmaya-inis-yapmadan-uctu/",
+   "date": "2026-11-17T16:46:42Z",
+   "desc": "Somali Türk Görev Kuvveti Hava Unsur Komutanlığı bünyesinde görev yapan F-16’lar, bakım zamanı gelen uçakların rotasyonu kapsamında Mogadişu ile Bandırma arasında ara iniş yapmadan intikal etti. İki sortide toplam 5 bin ",
+   "img": null,
+   "source": "savunmasanayist"
+  },
+  {
+   "title": "Trump seeks nuclear cuts at summit with Putin and Xi, but prospects are low",
+   "link": "https://www.defensenews.com/global/the-americas/2026/11/17/trump-seeks-nuclear-cuts-at-summit-with-putin-and-xi-but-prospects-are-low/",
+   "date": "2026-11-17T16:10:34Z",
+   "desc": "VIENNA — The leaders of the U.S., Russia and China are set to meet in the Chinese tech metropolis of Shenzhen on Thursday in an event that has been hailed as “historic” by all sides. Among the topics raised for discussio",
+   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/2026-11-16T142521Z_59012794_RC2XOOAOEYHD_RTRMADP_3_APEC-SUMMIT-YALTA-ARTWORK.jpg",
+   "source": "defensenews"
+  },
+  {
+   "title": "A new Air Force stunt plane, plus a shakeup for special operations",
+   "link": "https://breakingdefense.com/2026/11/a-new-air-force-stunt-plane-plus-a-shakeup-for-special-operations/",
+   "date": "2026-11-17T16:00:00Z",
+   "desc": "The Air Force has a new training plane, while the special operations forces could be in line for a major bureaucratic overhaul.",
+   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/BO241-pb-e1794927294158-1024x576.png",
+   "source": "breakingdefense"
+  },
+  {
+   "title": "What We Know About Ukraine’s Strikes That Cut Russia’s Kerch Bridge (Updated)",
+   "link": "https://www.twz.com/news-features/what-we-know-about-ukraines-strikes-that-cut-russias-kerch-bridge-road-vehicle-span",
+   "date": "2026-11-17T15:48:55Z",
+   "desc": "The scale and scope of Ukraine’s missile and drone strikes overnight that destroyed a key section of the Kerch Bridge’s road span and caused other damage continue to come into sharper focus. For their part, Russian autho",
+   "img": "https://www.twz.com/wp-content/uploads/2026/11/what-we-know-about-kerch-bridge-strikes.jpg?quality=85",
+   "source": "twz"
+  },
+  {
+   "title": "NATO kicks off 11-nation Starlift satellite launch program",
+   "link": "https://breakingdefense.com/2026/11/nato-kicks-off-11-nation-starlift-satellite-launch-program/",
+   "date": "2026-11-17T15:34:16Z",
+   "desc": "Notably, four countries that were original participants of the space effort were left out of today’s announcement — France, Hungary, Luxembourg and the United States.",
+   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/NATO-space-e1794917446837-1024x576.jpeg",
+   "source": "breakingdefense"
+  },
+  {
+   "title": "Allies and industry together can out-innovate anyone say NATO",
+   "link": "https://ukdefencejournal.org.uk/allies-and-industry-together-can-out-innovate-anyone-say-nato/",
+   "date": "2026-11-17T15:00:55Z",
+   "desc": "NATO and its industrial partners form an alliance that “no one can out-innovate” , the Alliance’s Deputy Secretary General has told companies gathered at NATO Edge 26, in an upbeat keynote on what allies and industry hav",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Pentagon fails ninth straight audit despite progress in organizing finances",
+   "link": "https://www.defensenews.com/pentagon/2026/11/17/pentagon-fails-ninth-straight-audit-despite-progress-in-organizing-finances/",
+   "date": "2026-11-17T14:35:23Z",
+   "desc": "The Pentagon failed a financial audit for the ninth consecutive year, according to an inspector general report released Monday, but an official said a majority of its units passed for the first time. Defense Department C",
+   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/08/635678227898585208-177649177jpg.jpg",
+   "source": "defensenews"
+  },
+  {
+   "title": "Senate docs reveal new B94 nuclear bomb. But what is it?",
+   "link": "https://breakingdefense.com/2026/11/senate-docs-reveal-new-b94-nuclear-bomb-but-what-is-it/",
+   "date": "2026-11-17T14:01:17Z",
+   "desc": "Experts believe the B94 will eventually be a penetrating replacement for the B83.",
+   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/b83-bomb-e1794923943392.jpg",
+   "source": "breakingdefense"
+  },
+  {
+   "title": "NATO tells firms: you will be a bigger target in a war",
+   "link": "https://ukdefencejournal.org.uk/nato-tells-firms-you-will-be-a-bigger-target-in-a-war/",
+   "date": "2026-11-17T14:00:22Z",
+   "desc": "Private companies must prepare to operate in a crisis or conflict, not just in peacetime, because they are already targets and will become bigger ones if war comes, NATO’s Deputy Secretary General has told industry. Spea",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Türk Özel Kuvvetleri’nden “BLACK SWAN 2026″da nefes kesen operasyon!",
+   "link": "https://defensehere.com/tr/turk-ozel-kuvvetlerinden-black-swan-2026da-nefes-kesen-operasyon/",
+   "date": "2026-11-17T13:49:30Z",
+   "desc": "Macaristan öncülüğünde düzenlenen “BLACK SWAN 2026” tatbikatında, Türkiye, Macaristan ve Kuzey Makedonya özel kuvvetleri simüle edilmiş şehir operasyonu senaryosunda ortak eğitim gerçekleştirdi. NATO, Macaristan öncülüğü",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "NATO warns of secret backdoors built into its weapons",
+   "link": "https://ukdefencejournal.org.uk/nato-warns-of-secret-backdoors-built-into-its-weapons/",
+   "date": "2026-11-17T13:30:23Z",
+   "desc": "NATO must secure every step of its defence supply chain to stop adversaries planting hidden weaknesses in allied weapons, the Alliance’s Deputy Secretary General has warned, as she set out how completely modern military ",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Saab launches Ocean Barrier to watch for underwater threats",
+   "link": "https://ukdefencejournal.org.uk/saab-launches-ocean-barrier-to-watch-for-underwater-threats/",
+   "date": "2026-11-17T13:29:43Z",
+   "desc": "Saab has launched Ocean Barrier, a scalable underwater surveillance system intended to detect, track and analyse activity around coastlines, ports and offshore installations, after demonstrating it at the REPMUS 2026 exe",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Friend or foe becomes the question as skies fill with potential adversaries",
+   "link": "https://breakingdefense.com/2026/11/friend-or-foe-becomes-the-question-as-skies-fill-with-potential-adversaries/",
+   "date": "2026-11-17T13:24:00Z",
+   "desc": "[Sponsored] Quickly and accurately identifying friendly forces requires IFF attuned to drones.",
+   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/BAE-1-1024x576.png",
+   "source": "breakingdefense"
+  },
+  {
+   "title": "NATO EDGE 2026 başladı",
+   "link": "https://defensehere.com/tr/nato-edge-2026-basladi/",
+   "date": "2026-11-17T13:10:35Z",
+   "desc": "NATO İletişim ve Enformasyon Ajansının (NCIA) ilk kez Türkiye’de düzenlediği NATO’nun en büyük teknoloji ve sanayi buluşması “NATO EDGE 2026” İzmir’de başladı. Çeşitli panel ve toplantıların düzenlendiği fuarda NATO kara",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Stringer wants NATO to train leaders for the digital age",
+   "link": "https://ukdefencejournal.org.uk/stringer-wants-nato-to-train-leaders-for-the-digital-age/",
+   "date": "2026-11-17T13:00:24Z",
+   "desc": "NATO should give its senior leaders targeted digital education so that their ambition can catch up with, and get ahead of, the technology now on offer from industry, NATO’s Deputy Supreme Allied Commander Europe has said",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Russia is top threat NATO Deputy Secretary General warns",
+   "link": "https://ukdefencejournal.org.uk/russia-is-top-threat-nato-deputy-secretary-general-warns/",
+   "date": "2026-11-17T12:58:09Z",
+   "desc": "Russia remains the most significant long-term threat to allied security and is stepping up its campaign of hybrid attacks against NATO, the Alliance’s Deputy Secretary General has said, warning that the threats facing al",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Europe ‘not at war, but not at peace’, says top NATO officer",
+   "link": "https://ukdefencejournal.org.uk/europe-not-at-war-but-not-at-peace-says-top-nato-officer/",
+   "date": "2026-11-17T12:46:20Z",
+   "desc": "Europe is “not at war, but it’s not at peace either” , NATO’s Deputy Supreme Allied Commander Europe has said, describing the pressure on the continent as “a very hard edge of contested” while warning against blaming eve",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "MS&D and GSIS to create a joint platform in 2027",
+   "link": "https://euro-sd.com/2026/11/news/industry-news/54717/msd-gsis/",
+   "date": "2026-11-17T12:30:02Z",
+   "desc": "Independent conferences and a joint expo bring together maritime security and defence, technology, innovation and finance Th e MS&D – … mehr... The post MS&D and GSIS to create a joint platform in 2027 appeared first on ",
+   "img": "https://euro-sd.com/wp-content/uploads/2026/11/SM26_RZ_030926_2668_-1-300x200.jpg",
+   "source": "eurosd"
+  },
+  {
+   "title": "ABD Ordusu’ndan R3NEGADE ile 18 dronluk sürü taarruzu",
+   "link": "https://defensehere.com/tr/abd-ordusundan-r3negade-ile-18-dronluk-suru-taarruzu/",
+   "date": "2026-11-17T11:59:48Z",
+   "desc": "ABD Ordusu, Almanya’daki Grafenwoehr Eğitim Alanı’nda insansız kara aracından kamikaze İHA’lar fırlatarak sürü saldırısı kabiliyetini sergiledi. 12 Kasım 2026’da gerçekleştirilen gösteride, insansız kara sistemleri ile h",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "NATO EDGE 26 İzmir’de: Türk Savunma Sanayii NATO Vitrininde",
+   "link": "https://www.savunmasanayist.com/nato-edge-26-izmirde-turk-savunma-sanayii-nato-vitrininde/",
+   "date": "2026-11-17T11:45:45Z",
+   "desc": "NATO’nun en kapsamlı teknoloji ve sanayi buluşması NATO EDGE 26, NATO İletişim ve Bilgi Ajansı (NCIA) ev sahipliğinde Türkiye’de ilk kez düzenlendi. Açılışta konuşan Cumhurbaşkanlığı Savunma Sanayii Başkanı Prof. Dr. Hal",
+   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/NATO-EDGE-26-4.jpg",
+   "source": "savunmasanayist"
+  },
+  {
+   "title": "New pact positions the Philippines as a defense hub for Australian troops",
+   "link": "https://www.defensenews.com/global/asia-pacific/2026/11/17/new-pact-positions-the-philippines-as-a-defense-hub-for-australian-troops/",
+   "date": "2026-11-17T11:29:34Z",
+   "desc": "MANILA, Philippines — Top officials from Australia and the Philippines have inked a defense pact to accelerate military coordination, paving the way for rotational troop deployment and Australian investments in Philippin",
+   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-2272845376.jpg",
+   "source": "defensenews"
+  },
+  {
+   "title": "NATO Genel Sekreter Yardımcısı Shekerinska’dan siber tehditlere karşı hükümetlere ve sanayiye işbirliği çağrısı",
+   "link": "https://defensehere.com/tr/nato-genel-sekreter-yardimcisi-shekerinskadan-siber-tehditlere-karsi-hukumetlere-ve-sanayiye-isbirligi-cagrisi/",
+   "date": "2026-11-17T11:18:47Z",
+   "desc": "NATO Genel Sekreter Yardımcısı Radmila Shekerinska, müttefiklerin karşı karşıya olduğu tehditlerin giderek daha ciddi ve tehlikeli hale geldiğini belirterek, savunma kabiliyetlerinin ve kritik altyapının kriz ve savaş ko",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Haluk Görgün, NATO Genel Sekreter Yardımcısı Tarja Jaakkola ile görüştü",
+   "link": "https://defensehere.com/tr/haluk-gorgun-nato-genel-sekreter-yardimcisi-tarja-jaakkola-ile-gorustu/",
+   "date": "2026-11-17T10:40:17Z",
+   "desc": "Savunma Sanayii Başkanı Prof. Dr. Haluk Görgün, NATO Savunma Sanayii, İnovasyon ve Silahlanmadan Sorumlu Genel Sekreter Yardımcısı ve Millî Silahlanma Direktörleri Konferansı (CNAD) Daimi Başkanı Tarja Jaakkola ile İzmir",
+   "img": null,
+   "source": "defensehere"
+  },
   {
    "title": "1,1 Trilyon Dolar Nereye Gidiyor? ABD’nin Yeni Savunma Planı",
    "link": "https://www.savunmasanayist.com/11-trilyon-dolar-nereye-gidiyor-abdnin-yeni-savunma-plani/",
@@ -348,6 +628,14 @@
    "source": "eurosd"
   },
   {
+   "title": "Bayraktar TB3, Blue Whale-2026 Tatbikatı’nda sonobuoy atışı gerçekleştirdi",
+   "link": "https://defensehere.com/tr/bayraktar-tb3-blue-whale-2026-tatbikatinda-sonobuoy-atisi-gerceklestirdi/",
+   "date": "2026-11-17T09:26:15Z",
+   "desc": "Baykar, Bayraktar TB3 Silahlı İnsansız Hava Aracı’nın (SİHA), Blue Whale-2026 Davet Tatbikatı kapsamında BAYKAR SAS POD kullanarak sonobuoy atışı gerçekleştirdiğini duyurdu. Baykar’ın sosyal medya hesabından yapılan payl",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "BAE completes thousandth repair for US Air Force tankers",
    "link": "https://ukdefencejournal.org.uk/bae-completes-thousandth-repair-for-us-air-force-tankers/",
    "date": "2026-11-17T09:20:44Z",
@@ -356,20 +644,20 @@
    "source": "ukdj"
   },
   {
+   "title": "Haluk Görgün, NATO EDGE 26’da Türkiye’nin savunma sanayii kabiliyetlerini anlattı",
+   "link": "https://defensehere.com/tr/haluk-gorgun-nato-edge-26da-turkiyenin-savunma-sanayii-kabiliyetlerini-anlatti/",
+   "date": "2026-11-17T09:09:22Z",
+   "desc": "NATO’nun teknoloji ve sanayi etkinliği NATO EDGE 26, ilk kez Türkiye’de, İzmir’de düzenleniyor. Savunma Sanayii Başkanlığından (SSB) yapılan açıklamaya göre, 17-19 Kasım tarihleri arasında Fuar İzmir’de gerçekleştirilen ",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "Spending Isn’t Deterrence: Fixing Germany’s Procurement Machine",
    "link": "https://warontherocks.com/cogs-of-war/spending-isnt-deterrence-fixing-germanys-procurement-machine/",
    "date": "2026-11-17T09:00:48Z",
    "desc": "In 2026, Germany is spending a record €125 billion on defense, second only to the United States among NATO allies, and its core defense budget is set to reach €170 billion by 2029. Its military strategy promises Europe’s",
    "img": null,
    "source": "warontherocks"
-  },
-  {
-   "title": "Talking Britain down is a national pastime, says Streeting",
-   "link": "https://ukdefencejournal.org.uk/talking-britain-down-is-a-national-pastime-says-streeting/",
-   "date": "2026-11-17T09:00:45Z",
-   "desc": "Wes Streeting, the Defence Secretary, has said talking Britain and its military capabilities down has become something of a national pastime, insisting the UK still has one of the most powerful navies in the world. Speak",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "ABD’de Cumhuriyetçiler’den 1,1 trilyon dolarlık savunma ödeneği tasarısı",
@@ -399,7 +687,7 @@
    "title": "Romanya’dan Rheinmetall’e 8,7 Milyon Euroluk Ceza",
    "link": "https://www.savunmasanayist.com/romanyadan-rheinmetalle-87-milyon-euroluk-ceza/",
    "date": "2026-11-17T08:11:13Z",
-   "desc": "Romanya, Oerlikon GDF 103 hava savunma sistemlerinin modernizasyonunda yaşanan gecikmeler nedeniyle Rheinmetall’e 8,7 milyon euro ceza uyguladı. İlk iki sistem teknik şartnameyi karşılayamayarak kabul testlerini geçemedi",
+   "desc": "Romanya, Oerlikon GDF 103 hava savunma sistemlerinin modernizasyonunda yaşanan gecikmeler nedeniyle Alman savunma sanayii şirketi Rheinmetall’e 8,7 milyon euro ceza uyguladı. İlk iki sistem teknik şartnameyi karşılayamay",
    "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/Oerlikon-GDF-103.jpg",
    "source": "savunmasanayist"
   },
@@ -412,38 +700,6 @@
    "source": "defensenews"
   },
   {
-   "title": "NATO using OpenAI models to defend allied networks",
-   "link": "https://ukdefencejournal.org.uk/nato-using-openai-models-to-defend-allied-networks/",
-   "date": "2026-11-17T08:01:45Z",
-   "desc": "NATO has been using OpenAI’s advanced cyber security models to help protect allied networks, consuming up to 300 billion tokens a month, the company has said. OpenAI said it works with the NATO Communications and Informa",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Russia churning out jet strike munitions, says Helsing",
-   "link": "https://ukdefencejournal.org.uk/russia-churning-out-jet-strike-munitions-says-helsing/",
-   "date": "2026-11-17T08:00:21Z",
-   "desc": "Ned Baker, UK managing director of Helsing, has said intelligence suggests Russia produces about four thousand jet-powered long-range strike munitions a month, according to remarks made at the Atlantic Future Forum in Os",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Ukraine tells allies to stop asking whether to use AI",
-   "link": "https://ukdefencejournal.org.uk/ukraine-tells-allies-to-stop-asking-whether-to-use-ai/",
-   "date": "2026-11-17T07:35:57Z",
-   "desc": "European allies should stop debating whether to use AI at scale and focus on using it faster than their enemies, Ukraine’s digital transformation minister has said. Speaking at NATO Edge 26 in İzmir, Oksana Ferchuk said ",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Defence industry must deliver product, not PowerPoint",
-   "link": "https://ukdefencejournal.org.uk/defence-industry-must-deliver-product-not-powerpoint/",
-   "date": "2026-11-17T07:00:30Z",
-   "desc": "Admiral Sir Philip Jones, the former First Sea Lord, has said defence firms must deliver product, not just PowerPoint, and focus on what they can field within three years, according to remarks made at the Atlantic Future",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "KPA, TUSAŞ Yardımcı Sanayi Zirvesi 2026’da 3 ödül kazandı",
    "link": "https://defensehere.com/tr/kpa-tusas-yardimci-sanayi-zirvesi-2026da-3-odul-kazandi/",
    "date": "2026-11-17T06:53:56Z",
@@ -452,28 +708,12 @@
    "source": "defensehere"
   },
   {
-   "title": "UK among nations part of NATO StarLift launch plan",
-   "link": "https://ukdefencejournal.org.uk/uk-among-nations-part-of-nato-starlift-launch-plan/",
-   "date": "2026-11-17T06:53:52Z",
-   "desc": "NATO has begun implementing StarLift, a multinational initiative to help allies get military satellites into orbit by booking slots on commercial rockets. The move was announced at NATO Edge 26 in İzmir by NATO Deputy Se",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "Russia’s Kerch Bridge Road Vehicle Span Has Been Destroyed By Ukraine",
    "link": "https://www.twz.com/news-features/kerch-bridge-struck-for-the-second-time-in-less-than-24-hours-russia",
    "date": "2026-11-17T06:03:53Z",
    "desc": "UPDATE: 12:40 AM EST— The road vehicle span of the Kerch Strait Bridge has been destroyed by Ukraine. Imagery now circulating after the sun came up shows the bridge section that was struck yesterday has now been totally ",
    "img": "https://www.twz.com/wp-content/uploads/2026/11/kirch-bridge-destroyed.jpg?quality=85",
    "source": "twz"
-  },
-  {
-   "title": "Don’t make Russians ten feet tall, says Estonia’s adviser",
-   "link": "https://ukdefencejournal.org.uk/dont-make-russians-ten-feet-tall-says-estonias-adviser/",
-   "date": "2026-11-17T06:00:26Z",
-   "desc": "Erkki Tori, Estonia’s national security adviser, has said most Russian sabotage attempts in Europe fail and urged allies to be more confident, adding that Russia raised its tempo after Ukraine struck deeper, according to",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "Trainees Will Fly T-38s Another Decade While T-7 Matures",
@@ -506,6 +746,22 @@
    "desc": "The U.S. Air Force now has two F-15EX Eagle II fighters permanently forward-deployed at Kadena Air Base on the Japanese island of Okinawa. The 18th Wing has been awaiting the arrival of F-15EXs as replacements for its re",
    "img": "https://www.twz.com/wp-content/uploads/2026/11/f-15exs-in-japan-eagle-ii-fleet-grows.jpg?quality=85",
    "source": "twz"
+  },
+  {
+   "title": "Episode 5: Are we in another Pre-War Era, reliving the 1910s? Professor Margaret MacMillan OM CC CH",
+   "link": "https://www.rusi.org/podcasts/talking-strategy/episode-5-are-we-another-pre-war-era-reliving-1910s-professor-margaret-macmillan-om-cc-ch",
+   "date": "2026-11-17T00:00:00Z",
+   "desc": "Professor Margaret MacMillan describes the lead up to World War I and the important differences that can be missed when reaching for historical parallels.",
+   "img": null,
+   "source": "rusi"
+  },
+  {
+   "title": "The Last Mile of Rearmament: Turning New Equipment into Fighting Power",
+   "link": "https://www.rusi.org/explore-our-research/publications/commentary/last-mile-rearmament-turning-new-equipment-fighting-power",
+   "date": "2026-11-17T00:00:00Z",
+   "desc": "Europe is spending more on defence than ever, but real capability is built after the equipment arrives. Hungary's experience shows what the hard part involves.",
+   "img": null,
+   "source": "rusi"
   },
   {
    "title": "Air Force bets on hybrid-electric aircraft for transport",
@@ -604,14 +860,6 @@
    "source": "aviationist"
   },
   {
-   "title": "ABD, F-15EX Eagle II savaş uçaklarını ilk kez Japonya’ya konuşlandırdı",
-   "link": "https://defensehere.com/tr/abd-f-15ex-eagle-ii-savas-ucaklarini-ilk-kez-japonyaya-konuslandirdi/",
-   "date": "2026-11-16T20:10:57Z",
-   "desc": "ABD Hava Kuvvetleri, Pasifik bölgesindeki hava gücünü artırmak amacıyla F-15EX Eagle II savaş uçaklarını Japonya’ya konuşlandırmaya başladı. 15 Kasım 2026’da Kadena Hava Üssü’ne ulaşan 22-0022 ve 22-0023 seri numaralı ik",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/gauXTH5hOsossVZMKtDc5gXIQUi1tXDlPWitgyu-kpI_UR73S2mizIPuMekBGhd4mc0KtcdVAWUgTrXZcZpaPMpJK8TUgM8_CH7g3ijcdZjUDFN10mSZkwG-HvFaP8NPcQOcSyRuFVFNPEU2mL5xqOvACluel1taK3LgOqV_1HIS2MxQyHMjhcvZ2S6iygsG-scaled.jpeg",
-   "source": "defensehere"
-  },
-  {
    "title": "Vulcan failure deepens concerns over US military launch capacity",
    "link": "https://breakingdefense.com/2026/11/vulcan-failure-deepens-concerns-over-us-military-launch-capacity/",
    "date": "2026-11-16T20:07:47Z",
@@ -626,14 +874,6 @@
    "desc": "A new Eagle is in the nest on Okinawa, Japan—the 18th Wing at Kadena Air Base received its first permanently stationed F-15EX Eagle II on Nov. 15. The first aircraft’s arrival comes four years after the U.S. Air Force st",
    "img": "https://www.airandspaceforces.com/app/uploads/2026/11/F15EX-on-landing-on-the-airstrip-900x600.jpeg",
    "source": "afmag"
-  },
-  {
-   "title": "ABD Hava Kuvvetleri, füze fırlatma sistemi geliştirme görevini Anduril’e verdi",
-   "link": "https://defensehere.com/tr/abd-hava-kuvvetleri-fuze-firlatma-sistemi-gelistirme-gorevini-andurile-verdi/",
-   "date": "2026-11-16T19:55:06Z",
-   "desc": "ABD Hava Kuvvetleri, yüksek yoğunluklu çatışmalarda hava savunma kapasitesini artırmak ve daha fazla sayıda füzenin ekonomik koşullarda kullanılmasını sağlamak amacıyla yürüttüğü Hava Savunma Füze Programı (CAMP) kapsamı",
-   "img": null,
-   "source": "defensehere"
   },
   {
    "title": "Theater in Abu Dhabi, Everyday Life at Home: Why the War Still Shapes Every Story",
@@ -668,30 +908,6 @@
    "source": "breakingdefense"
   },
   {
-   "title": "HII and US Navy break ground on shipyard complex",
-   "link": "https://ukdefencejournal.org.uk/hii-and-us-navy-break-ground-on-shipyard-complex/",
-   "date": "2026-11-16T18:30:53Z",
-   "desc": "HII’s Ingalls Shipbuilding and the US Navy’s Supervisor of Shipbuilding, Conversion and Repair Gulf Coast have broken ground on a $50 million, 101,000 square foot customer support complex in Pascagoula, Mississippi, acco",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Türk sivil havacılığı dünya sahnesinde: Hedef ICAO Konsey üyeliği",
-   "link": "https://defensehere.com/tr/turk-sivil-havaciligi-dunya-sahnesinde-hedef-icao-konsey-uyeligi/",
-   "date": "2026-11-16T18:30:30Z",
-   "desc": "Uluslararası Sivil Havacılık Örgütü (ICAO) tarafından düzenlenen 7. Dünya Hava Ulaştırma Konferansı (ATConf/7), Kanada’nın Montréal kentindeki ICAO Genel Merkezi’nde başladı. 16-20 Kasım 2026 tarihleri arasında gerçekleş",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/HXQbXUWW0AAy1od.jpeg",
-   "source": "defensehere"
-  },
-  {
-   "title": "Italy unveils plans to develop a new naval missile launcher",
-   "link": "https://breakingdefense.com/2026/11/italy-unveils-plans-to-develop-a-new-naval-missile-launcher/",
-   "date": "2026-11-16T18:07:01Z",
-   "desc": "The 2026-2028 Documento Programmatico Pluriennale outlined that the new system must be able to fire the Stratus LO, a land-strike cruise missile under development by MBDA for the French, British, and Italian militaries.",
-   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/7797356-e1794847247350-1024x576.jpg",
-   "source": "breakingdefense"
-  },
-  {
    "title": "New tools for troops to gun down drones | Defense News Weekly Full Episode 11.17.26",
    "link": "https://www.defensenews.com/video/2026/11/16/new-tools-for-troops-to-gun-down-drones-defense-news-weekly-full-episode-11-17-26/",
    "date": "2026-11-16T18:03:38Z",
@@ -708,14 +924,6 @@
    "source": "defensenews"
   },
   {
-   "title": "NASA’nın Voyager 1 uzay aracı, 18 Kasım’da Dünya’dan bir ışık günü uzaklığa ulaşacak",
-   "link": "https://defensehere.com/tr/nasanin-voyager-1-uzay-araci-18-kasimda-dunyadan-bir-isik-gunu-uzakliga-ulasacak/",
-   "date": "2026-11-16T17:07:09Z",
-   "desc": "NASA, yaklaşık 50 yıldır uzayda yolculuğunu sürdüren Voyager 1 uzay aracının 18 Kasım’da Dünya’dan bir ışık günü uzaklığa ulaşacağını açıkladı. 25,9 milyar kilometreyi (16 milyar mil) aşan bu mesafeyle Voyager 1, insan e",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
    "title": "US Air Force B-21 Raider completes first weapons release test",
    "link": "https://www.airforce-technology.com/news/usaf-b-21-raider-2/",
    "date": "2026-11-16T17:05:18Z",
@@ -724,28 +932,12 @@
    "source": "airforcetech"
   },
   {
-   "title": "China has ‘normalized’ naval presence near Japan since political spat of 2025",
-   "link": "https://www.defensenews.com/global/asia-pacific/2026/11/16/china-has-normalized-naval-presence-near-japan-since-political-spat-of-2025/",
-   "date": "2026-11-16T17:02:51Z",
-   "desc": "NEW TAIPEI CITY, Taiwan — In early November, Taiwan’s National Security Council secretary-general tracked more than 100 Chinese military-linked vessels near his island. But given its scale, the massive flotilla that incl",
-   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-2285568855.jpg",
-   "source": "defensenews"
-  },
-  {
    "title": "Italy Backs Germany’s GCAP Full Membership Ambitions",
    "link": "https://theaviationist.com/2026/11/16/italy-backs-germanys-gcap-full-membership-ambitions/",
    "date": "2026-11-16T16:58:05Z",
    "desc": "Italy says it supports Germany’s participation in the sixth-generation fighter program, with the proposed observer status meant to accelerate the road to the full membership. Italy has reaffirmed its support for Germany ",
    "img": "https://theaviationist.com/wp-content/uploads/2025/06/GCAP-Edgewing-JV.jpg",
    "source": "aviationist"
-  },
-  {
-   "title": "US and Russia to oppose talks on limiting autonomous weapons",
-   "link": "https://www.defensenews.com/industry/techwatch/2026/11/16/us-and-russia-to-oppose-talks-on-limiting-autonomous-weapons/",
-   "date": "2026-11-16T16:53:41Z",
-   "desc": "Major arms producers the United States and Russia look set to oppose a push at a global meeting in Geneva this week to launch negotiations on legally binding rules for autonomous weapons, diplomats and rights groups said",
-   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/2026-11-16T000334Z_1_LYNXNPEMAF00F_RTROPTP_4_ARMS-AI.jpg",
-   "source": "defensenews"
   },
   {
    "title": "US Air Force permanently deploys F-15EX jets to Kadena Air Base in Japan",
@@ -764,52 +956,12 @@
    "source": "defenseone"
   },
   {
-   "title": "Army’s G-TEAD expands OTA awards to push more vendors to prototyping stage",
-   "link": "https://breakingdefense.com/2026/11/armys-g-tead-expands-ota-awards-to-push-more-vendors-to-prototyping-stage/",
-   "date": "2026-11-16T16:06:18Z",
-   "desc": "The Army’s Global Tactical Edge Acquisition Directorate is now awarding up to six Other Transaction Authorities as opposed to just one following its Accelerated Capability Events.",
-   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/10084831-scaled-e1794604584548-1024x577.jpg",
-   "source": "breakingdefense"
-  },
-  {
-   "title": "Pentagon, F-16 radarları için Northrop Grumman ile 79,6 milyon dolarlık ek sözleşme imzaladı",
-   "link": "https://defensehere.com/tr/pentagon-f-16-radarlari-icin-northrop-grumman-ile-796-milyon-dolarlik-ek-sozlesme-imzaladi/",
-   "date": "2026-11-16T15:40:04Z",
-   "desc": "ABD Hava Kuvvetleri, savunma sanayii devi Northrop Grumman ile F-16 savaş uçaklarına yönelik aktif elektronik taramalı dizi (AESA) radarlarının tedariki kapsamında imzalanan mevcut sözleşmede 79 milyon 608 bin 480 dolarl",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "HD Hyundai ve Anduril, 600 tonluk insansız deniz aracını denize indirdi",
-   "link": "https://defensehere.com/tr/hd-hyundai-ve-anduril-600-tonluk-insansiz-deniz-aracini-denize-indirdi/",
-   "date": "2026-11-16T15:21:14Z",
-   "desc": "Güney Koreli gemi inşa şirketi HD Hyundai, ABD’li savunma sanayisi devi Anduril Industries ile ortaklaşa geliştirdiği Alpha otonom insansız deniz aracını denize indirdi. Yonhap Haber Ajansı, gelişmeyi şirketten edinilen ",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "AB, Ukrayna’ya acil askeri ihtiyaçlar için 1,71 milyar avro ödeme yaptı",
-   "link": "https://defensehere.com/tr/ab-ukraynaya-acil-askeri-ihtiyaclar-icin-171-milyar-avro-odeme-yapti/",
-   "date": "2026-11-16T15:09:26Z",
-   "desc": "Avrupa Birliği (AB) Komisyonu, Ukrayna’ya 90 milyar avroluk Destek Kredisi kapsamında acil askeri ihtiyaçlar için 1,71 milyar avro ödeme yaptı. AB Komisyonundan Ukrayna’ya askeri desteğe ilişkin yazılı açıklama yapıldı. ",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
    "title": "China’s Fourth Aircraft Carrier Continues to Take Shape in New Satellite Images",
    "link": "https://theaviationist.com/2026/11/16/chinas-fourth-aircraft-carrier-satellite-images/",
    "date": "2026-11-16T14:50:18Z",
    "desc": "Satellite imagery shows further progress on the Type 004 aircraft carrier at Dalian, with additional sections of the flight deck and hull now rapidly taking shape. China’s fourth aircraft carrier, currently under constru",
    "img": "https://theaviationist.com/wp-content/uploads/2026/11/China-Fourth-Carrier-1.jpg",
    "source": "aviationist"
-  },
-  {
-   "title": "Navy eyes ‘operational employment’ of key UUV programs, admiral says",
-   "link": "https://breakingdefense.com/2026/11/navy-eyes-operational-employment-of-key-uuv-programs-admiral-says/",
-   "date": "2026-11-16T14:47:07Z",
-   "desc": "The Navy is expected to receive its third Orca prototype vessel “soon,” according to a service official.",
-   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2020/06/Boeing-ORCA-XLUUV-e1794840313551-1024x575.jpg",
-   "source": "breakingdefense"
   },
   {
    "title": "MKE’den MAP DUAL: Çift Makineli Tüfek!",
@@ -828,44 +980,12 @@
    "source": "twz"
   },
   {
-   "title": "Italy backs rapid German membership path into GCAP fighter program",
-   "link": "https://www.defensenews.com/global/europe/2026/11/16/italy-backs-rapid-german-membership-path-into-gcap-fighter-program/",
-   "date": "2026-11-16T14:37:54Z",
-   "desc": "ROME — Italy has strongly denied a press report suggesting it opposes granting Germany partner status on the GCAP fighter program, claiming instead it fully backs German membership. The unusually long rebuttal from the I",
-   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-2286426338.jpg",
-   "source": "defensenews"
-  },
-  {
-   "title": "Marine Corps doubles, extends contract for M27 rifles",
-   "link": "https://www.defensenews.com/industry/2026/11/16/marine-corps-doubles-extends-contract-for-m27-rifles/",
-   "date": "2026-11-16T14:26:54Z",
-   "desc": "The Marine Corps more than doubled the contract ceiling with gunmaker Heckler & Koch for the M27 Infantry Automatic Rifle, or IAR. According to the Nov. 6 notice , the contract value increased by $45.4 million, a jump fr",
-   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/m27-cover.jpg",
-   "source": "defensenews"
-  },
-  {
-   "title": "Drone, meet bullet — companies develop new counter UAS capability | Business of Defense – Part 3",
-   "link": "https://www.defensenews.com/video/2026/11/16/drone-meet-bullet-companies-develop-new-counter-uas-capability-business-of-defense-part-3/",
-   "date": "2026-11-16T14:18:00Z",
-   "desc": "Developers turn to advancing tech to help troops shoot down incoming small drone threats. Or what about a truck-mounted laser to do the job?",
-   "img": "https://cdn.jwplayer.com/videos/a6eD8jNz-5ZsksG4j.mp4",
-   "source": "defensenews"
-  },
-  {
    "title": "French Navy Falcon 10s Retire After 51 Years",
    "link": "https://theaviationist.com/2026/11/16/french-navy-falcon-10-retirement/",
    "date": "2026-11-16T11:57:18Z",
    "desc": "The venerable Dassault Falcon 10MER jets, which entered service in 1975, are being replaced in their training and liaison role by leased Pilatus PC-24s. Designated Falcon 10MER, with MER standing for Marine Entraînement ",
    "img": "https://theaviationist.com/wp-content/uploads/2026/11/FrenchFA10Retirement_1.jpg",
    "source": "aviationist"
-  },
-  {
-   "title": "Estonian drone company targeted in alleged Russian sabotage attempt",
-   "link": "https://breakingdefense.com/2026/11/estonian-drone-company-targeted-in-sabotage-attempt-as-part-of-russias-hybrid-war-against-europe-prime-minister-michal/",
-   "date": "2026-11-16T10:25:57Z",
-   "desc": "Estonian Prime Minister Kristen Michal said in a statement on X that the attack was “GRU-ordered,” an abbreviation for the Russian military intelligence agency.",
-   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/02/260211_WDS_estonia_booth_BD-scaled-e1770795514587-1024x577.jpg",
-   "source": "breakingdefense"
   },
   {
    "title": "ASELSAN ve ROKETSAN’dan Dev Anlaşma: 1,28 Milyar Euro",
@@ -996,14 +1116,6 @@
    "source": "savunmasanayist"
   },
   {
-   "title": "ABD’nin Yeni Fırkateyn Yarışında 6 Ülke: Türkiye de Listede",
-   "link": "https://www.savunmasanayist.com/abdnin-yeni-firkateyn-yarisinda-6-ulke-turkiye-de-listede/",
-   "date": "2026-11-14T08:47:40Z",
-   "desc": "ABD Donanması, yeni nesil su üstü muharip gemi ihtiyacını karşılamak üzere uluslararası pazardaki 6 fırkateyn tasarımını gündemine aldı. Türkiye’nin İSTİF sınıfı firkateyni de değerlendirmeye alınan seçenekler arasında y",
-   "img": "http://www.savunmasanayist.com/wp-content/uploads/2024/01/TCG-ISTANBUL.jpg",
-   "source": "savunmasanayist"
-  },
-  {
    "title": "Destroyer returns from 11-month-deployment",
    "link": "https://www.defenseone.com/threats/2026/11/destroyer-returns-11-month-deployment/417231/",
    "date": "2026-11-14T01:39:47Z",
@@ -1026,14 +1138,6 @@
    "desc": "The FAA has made the very rare move of halting all flights across the country. The agency announced that communications issues are to blame. “The FAA issued a nationwide ground stop for all U.S. airports following commun",
    "img": "https://www.twz.com/wp-content/uploads/2026/11/ATC-stopped-FAA.jpg?quality=85",
    "source": "twz"
-  },
-  {
-   "title": "Securing the Asia-Pacific digital battlespace: TechNet Indo-Pacific 2026",
-   "link": "https://breakingdefense.com/2026/11/securing-the-asia-pacific-digital-battlespace-technet-indo-pacific-2026/",
-   "date": "2026-11-13T22:27:52Z",
-   "desc": "From electronic warfare threats to coalition data sharing, discover how US and allied forces are strengthening the digital battlespace across the Indo-Pacific.",
-   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/TechNet-Indo-Pacific-featured-image-2026-2-1024x576.png",
-   "source": "breakingdefense"
   },
   {
    "title": "RAF Lakenheath Sounds Alarm After Suspected Unauthorized Drone Activity",
@@ -1060,14 +1164,6 @@
    "source": "eurosd"
   },
   {
-   "title": "Senate appropriators resuscitate Commerce space tracking program",
-   "link": "https://breakingdefense.com/2026/11/senate-appropriators-resuscitate-commerce-space-tracking-program/",
-   "date": "2026-11-13T21:29:36Z",
-   "desc": "The Commerce Department effort was launched nearly a decade ago due to Defense Department concerns about the increasing drain on its space monitoring resources as commercial space traffic continues to skyrocket.",
-   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2012/01/space-debris-aerosapce-corps-1326921318.jpg",
-   "source": "breakingdefense"
-  },
-  {
    "title": "Consolidating Code: USAF Seeks Software Integrator for KC-46 Tankers",
    "link": "https://www.airandspaceforces.com/usaf-seeks-software-integrator-kc-46-tankers/",
    "date": "2026-11-13T20:57:55Z",
@@ -1084,14 +1180,6 @@
    "source": "twz"
   },
   {
-   "title": "Submarine maintenance delays saw ‘significant’ improvements in FY26, sub czar says",
-   "link": "https://breakingdefense.com/2026/11/submarine-maintenance-delays-saw-significant-improvements-in-fy26-sub-czar-says/",
-   "date": "2026-11-13T20:23:10Z",
-   "desc": "Vice Adm. Rob Gaucher, the direct reporting portfolio manager for submarines, said that the Navy faced roughly 780 days of maintenance delay for subs in FY26.",
-   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2025/07/PNSY-Hampton-superflood-basin-250308-N-QV316-1001-e1752845079436-1024x575.jpg",
-   "source": "breakingdefense"
-  },
-  {
    "title": "B-21 Raider Conducts First Weapons Release Test",
    "link": "https://www.airandspaceforces.com/b-21-raider-first-weapons-release-test/",
    "date": "2026-11-13T20:00:40Z",
@@ -1100,28 +1188,12 @@
    "source": "afmag"
   },
   {
-   "title": "Beretta’s New Counter-Drone System Packs Eight Benelli M4 Shotguns Onto A Remote Turret",
-   "link": "https://www.twz.com/land/berettas-new-counter-drone-system-packs-eight-benelli-m4-shotguns-onto-a-remote-turret",
-   "date": "2026-11-13T19:28:20Z",
-   "desc": "There is no shortage of ways to shoot down a drone , but putting eight shotguns on a remote-controlled turret is one of the more unusual approaches. That’s exactly what the LIVET Remote Controlled Weapon Station (RCWS) b",
-   "img": "https://www.twz.com/wp-content/uploads/2026/11/LIVET-C-UAS-SHOTGUN.jpg?quality=85",
-   "source": "twz"
-  },
-  {
    "title": "UK MoD does not centrally track AI use in policy documents, FoI reveals",
    "link": "https://www.airforce-technology.com/news/uk-mod-does-not-centrally-track-ai-use-in-policy-documents-foi-reveals/",
    "date": "2026-11-13T18:50:23Z",
    "desc": "A Freedom of Information request has found that the UK Ministry of Defence leaves individual staff to verify AI-generate information.",
    "img": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/03/main-building.jpg",
    "source": "airforcetech"
-  },
-  {
-   "title": "Destroyer That Has Been Deployed Longer Than Any Since WWII Returns Home",
-   "link": "https://www.twz.com/sea/destroyer-that-has-been-deployed-longer-than-any-since-wwii-returns-home",
-   "date": "2026-11-13T18:03:06Z",
-   "desc": "Two guided-missile destroyers assigned to the Abraham Lincoln Carrier Strike Group (CSG), USS Spruance and USS Michael Murphy , have returned home after 357- and 346-day deployments, respectively, more than a month after",
-   "img": "https://www.twz.com/wp-content/uploads/2026/11/USS-Spruance-Returns-Home-To-San-Diego-After-Record-Setting-Deployment.jpg?quality=85",
-   "source": "twz"
   },
   {
    "title": "US Air Force debuts T-19A Kestrel for cadet aerobatic training",
@@ -1146,22 +1218,6 @@
    "desc": "While details of the test remain undisclosed, the U.S. Air Force and Northrop Grumman have confirmed that the B-21 Raider has demonstrated its weapon release capability, marking another important milestone in the stealth",
    "img": "https://theaviationist.com/wp-content/uploads/2026/11/B-21-weapon-release.jpg",
    "source": "aviationist"
-  },
-  {
-   "title": "Pist Yoksa Karayolu Var: AKINCI ve TB2 Manisa’da Yola İndi",
-   "link": "https://www.savunmasanayist.com/akinci-bayraktar-tb2-karayolu-inis-kalkis/",
-   "date": "2026-11-13T14:25:03Z",
-   "desc": "AKINCI TİHA ile iki Bayraktar TB2 SİHA, Manisa-Balıkesir Karayolu’na iniş ve kalkış yaptı. Milli Savunma Bakanlığı (MSB), Karayolları Genel Müdürlüğü (KGM) ve Baykar koordinasyonunda 12 Kasım’da yapılan tatbikat, pistler",
-   "img": null,
-   "source": "savunmasanayist"
-  },
-  {
-   "title": "GSIS 2026: From Summit to International Platform for Security and Innovation",
-   "link": "https://euro-sd.com/2026/11/news/industry-news/54671/gsis-2026-2/",
-   "date": "2026-11-13T13:03:06Z",
-   "desc": "Geopolitical tensions, technological upheaval and new vulnerabilities are fundamentally reshaping the international security architecture. The decisive factor is no longer … mehr... The post GSIS 2026: From Summit to Int",
-   "img": "https://euro-sd.com/wp-content/uploads/2026/11/GSIS_JW_22.10.25_1236-300x200.jpg",
-   "source": "eurosd"
   },
   {
    "title": "Hermeus and Northrop Grumman team on high-Mach aircraft systems",
@@ -1276,14 +1332,6 @@
    "source": "rusi"
   },
   {
-   "title": "F-16V vs F-16C Block 70/72: Understanding The Differences Between The Latest Viper Variants",
-   "link": "https://theaviationist.com/2026/11/11/f-16v-vs-f-16c-block-70-72/",
-   "date": "2026-11-11T22:08:27Z",
-   "desc": "Although often used interchangeably, the F-16V and the F-16C Block 70/72 designations describe two sides of the Viper’s evolution, with important differences between upgraded and newly built aircraft. The F-16 Fighting F",
-   "img": "https://theaviationist.com/wp-content/uploads/2026/11/F-16_Block70_6725-taking-off.jpg",
-   "source": "aviationist"
-  },
-  {
    "title": "Keep US troops in NATO’s KFOR",
    "link": "https://www.defenseone.com/ideas/2026/11/keep-us-troops-natos-kfor/417171/",
    "date": "2026-11-11T21:04:13Z",
@@ -1308,14 +1356,6 @@
    "source": "airforcetech"
   },
   {
-   "title": "Spanish NH-90s conduct first Nato drone response scramble in Romania",
-   "link": "https://www.airforce-technology.com/news/spain-nato-nh-90-romania/",
-   "date": "2026-11-11T12:55:10Z",
-   "desc": "Two NH-90 helicopters from the Spanish Air and Space Force conducted an Alpha Scramble on 5 November in response to unidentified drones detected over Romania.",
-   "img": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/11/Spanish-NH-90.jpg",
-   "source": "airforcetech"
-  },
-  {
    "title": "Japan’s Most Dangerous Military Constraint Is Time",
    "link": "https://warontherocks.com/japans-most-dangerous-military-constraint-is-time/",
    "date": "2026-11-11T08:30:24Z",
@@ -1332,34 +1372,10 @@
    "source": "warontherocks"
   },
   {
-   "title": "US agencies form ‘whole-of-government’ pact to counter drone threats",
-   "link": "https://www.airforce-technology.com/news/us-agencies-counter-drone-threats/",
-   "date": "2026-11-10T16:22:41Z",
-   "desc": "Five US federal departments have agreed an expanded approach to coordinating counter-uncrewed aircraft system operations, including a process for evaluating technologies before their deployment.",
-   "img": "https://www.airforce-technology.com/wp-content/uploads/sites/6/2026/11/US-counter-drone.jpg",
-   "source": "airforcetech"
-  },
-  {
-   "title": "Hegseth denounces impeachment charges in rare press briefing",
-   "link": "https://www.defenseone.com/threats/2026/11/hegseth-returns-pentagon-briefing-room-defend-himself-against-impeachment-charges/417148/",
-   "date": "2026-11-10T15:41:08Z",
-   "desc": "Defense Secretary Pete Hegseth publicly defended his record Tuesday in the face of an impending impeachment vote, throwing off any remaining pretense that he views the defense secretary job as a nonpartisan role subject ",
-   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/10/GettyImages_2304434288/large.jpg",
-   "source": "defenseone"
-  },
-  {
    "title": "To Implement Acquisition Transformation, Empower Military Mavericks",
    "link": "https://warontherocks.com/cogs-of-war/to-implement-acquisition-transformation-empower-military-mavericks/",
    "date": "2026-11-10T09:00:47Z",
    "desc": "“I wanted disciplined but not regimented thinking. Commanders must encourage intellectual risk-taking to preclude a lethargic environment. Leaders must shelter those challenging nonconformists and mavericks who make inst",
-   "img": null,
-   "source": "warontherocks"
-  },
-  {
-   "title": "Winning Time: Ukraine’s Unmanned Systems Forces and the New Dimension of War",
-   "link": "https://warontherocks.com/winning-time-ukraines-unmanned-systems-forces-and-the-new-dimension-of-war/",
-   "date": "2026-11-10T08:30:35Z",
-   "desc": "In late 2023, Ukraine’s military leadership faced an institutional choice: establish a dedicated branch of the armed forces for unmanned systems or integrate drones into existing branches. Most senior officers I knew opp",
    "img": null,
    "source": "warontherocks"
   },
@@ -1408,22 +1424,6 @@
    "link": "https://www.rusi.org/explore-our-research/publications/rusi-newsbrief/who-calls-shots-institutional-conflicts-ukraines-defence-sector",
    "date": "2026-11-05T00:00:00Z",
    "desc": "The dismissals of Mykhailo Fedorov and Oleksandr Syrskyi exposed institutional flaws in how Ukraine manages its war that new appointments alone cannot fix.",
-   "img": null,
-   "source": "rusi"
-  },
-  {
-   "title": "Europe’s Defence Coalitions Need Someone to Own the Outcome",
-   "link": "https://www.rusi.org/explore-our-research/publications/commentary/europes-defence-coalitions-need-someone-own-outcome",
-   "date": "2026-11-05T00:00:00Z",
-   "desc": "EU leaders are pushing capability coalitions. The next question is who is responsible when the capability does not materialise.",
-   "img": null,
-   "source": "rusi"
-  },
-  {
-   "title": "The Long War: Rethinking Defence Strategy in Prolonged Conflict",
-   "link": "https://www.rusi.org/news-and-comment/video-commentary/long-war-rethinking-defence-strategy-prolonged-conflict",
-   "date": "2026-11-05T00:00:00Z",
-   "desc": "Modern defence strategy must shift from preparing for short, decisive conflicts to building the infrastructure needed for wars that extend far beyond initial expectations.",
    "img": null,
    "source": "rusi"
   },
