@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T17:29:11Z",
+ "generated": "2026-11-19T23:42:37Z",
  "sources": [
   {
    "id": "defensenews",
@@ -186,33 +186,33 @@
    "id": "defensenews",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-19T17:03:28Z",
+   "latest": "2026-11-19T21:23:13Z",
    "error": null,
-   "ms": 121
+   "ms": 346
   },
   {
    "id": "breakingdefense",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-19T17:24:48Z",
+   "latest": "2026-11-19T21:08:27Z",
    "error": null,
-   "ms": 147
+   "ms": 136
   },
   {
    "id": "defenseone",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-19T14:00:00Z",
+   "latest": "2026-11-19T22:03:09Z",
    "error": null,
-   "ms": 135
+   "ms": 341
   },
   {
    "id": "afmag",
    "status": "ok",
    "count": 9,
-   "latest": "2026-11-18T21:51:11Z",
+   "latest": "2026-11-19T21:31:18Z",
    "error": null,
-   "ms": 231
+   "ms": 267
   },
   {
    "id": "airforcetech",
@@ -220,23 +220,23 @@
    "count": 10,
    "latest": "2026-11-19T17:25:55Z",
    "error": null,
-   "ms": 187
+   "ms": 186
   },
   {
    "id": "twz",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-19T00:49:07Z",
+   "latest": "2026-11-19T22:08:02Z",
    "error": null,
-   "ms": 190
+   "ms": 600
   },
   {
    "id": "warontherocks",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-19T08:30:45Z",
+   "latest": "2026-11-19T20:17:57Z",
    "error": null,
-   "ms": 307
+   "ms": 482
   },
   {
    "id": "rand",
@@ -244,7 +244,7 @@
    "count": 7,
    "latest": "2026-11-18T16:00:00Z",
    "error": null,
-   "ms": 864
+   "ms": 293
   },
   {
    "id": "ukdj",
@@ -252,15 +252,15 @@
    "count": 10,
    "latest": "2026-11-19T16:19:00Z",
    "error": null,
-   "ms": 1049
+   "ms": 970
   },
   {
    "id": "aviationist",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-19T15:00:48Z",
+   "latest": "2026-11-19T21:54:50Z",
    "error": null,
-   "ms": 170
+   "ms": 373
   },
   {
    "id": "rusi",
@@ -268,7 +268,7 @@
    "count": 12,
    "latest": "2026-11-19T00:00:00Z",
    "error": null,
-   "ms": 404
+   "ms": 290
   },
   {
    "id": "eurosd",
@@ -276,7 +276,7 @@
    "count": 6,
    "latest": "2026-11-19T14:15:14Z",
    "error": null,
-   "ms": 239
+   "ms": 926
   },
   {
    "id": "savunmasanayist",
@@ -284,7 +284,7 @@
    "count": 10,
    "latest": "2026-11-19T15:58:48Z",
    "error": null,
-   "ms": 618
+   "ms": 912
   },
   {
    "id": "defensehere",
@@ -292,7 +292,7 @@
    "count": 10,
    "latest": "2026-11-19T15:13:29Z",
    "error": null,
-   "ms": 1928
+   "ms": 2519
   }
  ],
  "trending": [
@@ -303,26 +303,178 @@
   },
   {
    "term": "Ukraine",
-   "n": 8,
+   "n": 6,
    "sources": 4
   },
   {
    "term": "Pentagon",
-   "n": 6,
+   "n": 5,
    "sources": 4
   },
   {
    "term": "China",
-   "n": 6,
+   "n": 5,
    "sources": 4
   },
   {
-   "term": "Senate",
-   "n": 5,
-   "sources": 4
+   "term": "Trump",
+   "n": 4,
+   "sources": 3
   }
  ],
  "items": [
+  {
+   "title": "Regent Squire Wing-In-Ground Effect Drone To Patrol Middle East Waters",
+   "link": "https://www.twz.com/news-features/regent-squire-wing-in-ground-effect-drone-to-patrol-middle-east-waters",
+   "date": "2026-11-19T22:08:02Z",
+   "desc": "Regent has reached a deal to sell an unspecified number of its autonomous Squire Seagliders to a U.S. government customer, Regent CEO Billy Thalheimer announced on X . The electric-powered drones will make up “a small fl",
+   "img": "https://www.twz.com/wp-content/uploads/2026/04/Squire5.scaled.jpg?quality=85",
+   "source": "twz"
+  },
+  {
+   "title": "The Army wants its units to use more data, but many aren’t built to do so",
+   "link": "https://www.defenseone.com/technology/2026/11/army-wants-its-units-use-more-data-many-arent-built-do-so/417355/",
+   "date": "2026-11-19T22:03:09Z",
+   "desc": "Recent Army field exercises keep revealing a missing key to the data-driven future envisioned by service leaders: the ability to move information quickly and effectively between echelons. Some put it this way: “The Army ",
+   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/19/9687977-1/large.jpg",
+   "source": "defenseone"
+  },
+  {
+   "title": "Taiwan and Japan Intercept Russian Tu-95 Bombers Flying Back from Vietnam",
+   "link": "https://theaviationist.com/2026/11/19/taiwan-japan-intercept-russian-tu-95/",
+   "date": "2026-11-19T21:54:50Z",
+   "desc": "Two Tu-95s, along with two Il-76MDs, appeared in Vietnam at Da Nang International Airport on Nov. 17, and were detected by Japan and Taiwan as they flew from Russia and back. The two Russian Tu-95 Bear bombers that visit",
+   "img": "https://theaviationist.com/wp-content/uploads/2026/11/Russia-Tu-95-Vietnam-1.jpg",
+   "source": "aviationist"
+  },
+  {
+   "title": "ULA’s Latest Launch Failure Spells Trouble for Space Force",
+   "link": "https://www.airandspaceforces.com/ula-launch-failure-trouble-space-force/",
+   "date": "2026-11-19T21:31:18Z",
+   "desc": "When a United Launch Alliance rocket failed Nov. 15, the explosion did more than destroy one rocket and the 40 Amazon LEO satellites it was carrying: It tightened the bottleneck already constraining Space Force launch ca",
+   "img": "https://www.airandspaceforces.com/app/uploads/2026/11/55650660917_c9e186c9db_o-900x600.jpg",
+   "source": "afmag"
+  },
+  {
+   "title": "US missile shortages create a range problem, report shows",
+   "link": "https://www.defensenews.com/air/2026/11/19/us-missile-shortages-create-a-range-problem-report-shows/",
+   "date": "2026-11-19T21:23:13Z",
+   "desc": "The U.S. has burned through stockpiles of critical long-range missiles, which may force military forces to fall back on munitions with ranges of under 300 miles, according to an analysis this month by the Center for Stra",
+   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/08/GettyImages-2265017141.jpg.jpg",
+   "source": "defensenews"
+  },
+  {
+   "title": "‘I was seriously wrong’: Experts say superintelligent AI may arrive as soon as next year",
+   "link": "https://www.defenseone.com/threats/2026/11/i-was-seriously-wrong-ai-experts-say-superintelligent-ai-may-arrive-soon-next-year/417348/",
+   "date": "2026-11-19T21:22:08Z",
+   "desc": "Some forecasters who closely track AI developments have drastically revised predictions this month, saying that “ artificial superintelligence ” may arrive years earlier than they thought. Sentinel , a forecasting group,",
+   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/19/GettyImages_2223649020/large.jpg",
+   "source": "defenseone"
+  },
+  {
+   "title": "Toti pushes new foreign-built shipyard in the US to focus on frigates, large surface combatants",
+   "link": "https://breakingdefense.com/2026/11/toti-pushes-new-foreign-built-shipyard-in-the-us-to-focus-on-frigates-large-surface-combatants/",
+   "date": "2026-11-19T21:08:27Z",
+   "desc": "Foreign shipbuilding has emerged as a sticking point between Congress and the Trump administration, with the administration pushing for an expansion of the so-called “Finland model.”",
+   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2025/07/IMG_5929-scaled-e1751502454360-1024x577.jpeg",
+   "source": "breakingdefense"
+  },
+  {
+   "title": "Denmark ratifies Trump deal over Greenland, hoping to end conflict",
+   "link": "https://www.defensenews.com/global/europe/2026/11/19/denmark-ratifies-trump-deal-over-greenland-hoping-to-end-conflict/",
+   "date": "2026-11-19T20:57:05Z",
+   "desc": "Denmark’s parliament unanimously ratified a security agreement with the United States on Greenland on Thursday, hoping to end a standoff over the Arctic island’s future that has rattled transatlantic relations. The U.S.,",
+   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/2026-11-19T181802Z_3_LYNXNPEMAI0DF_RTROPTP_4_USA-TRUMP-GREENLAND.jpg",
+   "source": "defensenews"
+  },
+  {
+   "title": "Department of the Air Force Fails Audit, Won’t Publish Its Own Financial Report",
+   "link": "https://www.airandspaceforces.com/department-of-air-force-fails-audit-wont-publish-financial-report/",
+   "date": "2026-11-19T20:41:44Z",
+   "desc": "The Department of the Air Force failed its latest financial audit in fiscal 2026 along with the overall Pentagon, though officials claim they’re making progress ahead of a 2028 deadline to pass one. This is also the firs",
+   "img": "https://www.airandspaceforces.com/app/uploads/2026/02/The_Pentagon_US_Department_of_Defense_building_EL-900x600.jpg",
+   "source": "afmag"
+  },
+  {
+   "title": "Handshakes Without Headway",
+   "link": "https://warontherocks.com/handshakes-without-headway/",
+   "date": "2026-11-19T20:17:57Z",
+   "desc": "Welcome to The Adversarial. Every other week, we’ll provide you with expert analysis on America’s greatest challengers: China, Russia, Iran, North Korea, and jihadists. Read more below.***Iran Washington and Tehran are s",
+   "img": null,
+   "source": "warontherocks"
+  },
+  {
+   "title": "Trump’s CISA nominee denies Capitol was attacked on Jan. 6",
+   "link": "https://www.defenseone.com/threats/2026/11/trumps-cisa-nominee-denies-capitol-was-attacked-jan-6/417337/",
+   "date": "2026-11-19T20:00:00Z",
+   "desc": "Updated: 3:33 p.m. ET. President Donald Trump’s nominee to lead the Cybersecurity and Infrastructure Security Agency denied Thursday that the U.S. Capitol building was attacked on Jan. 6, 2021, and refused to say who won",
+   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/19/GettyImages_2305904561-2/large.jpg",
+   "source": "defenseone"
+  },
+  {
+   "title": "New tools for troops to gun down drones | Defense News Weekly Full Episode 11.17.26",
+   "link": "https://www.defensenews.com/video/2026/11/19/new-tools-for-troops-to-gun-down-drones-defense-news-weekly-full-episode-11-17-26/",
+   "date": "2026-11-19T19:57:54Z",
+   "desc": "The visceral threat of cheap drones delivering pinpoint, guided anti-personnel munitions continues to spawn new protection systems. Plus, an interview with a Medal of Honor recipient.",
+   "img": "https://cdn.jwplayer.com/videos/2uRrt87Q-5ZsksG4j.mp4",
+   "source": "defensenews"
+  },
+  {
+   "title": "Candidates are lining up to be the next top HASC Republican.",
+   "link": "https://breakingdefense.com/2026/11/new-leadership-new-tensions-for-top-house-defense-panel/",
+   "date": "2026-11-19T19:54:46Z",
+   "desc": "With Democrats preparing to take control of the House Armed Services Committee, a Republican leadership race could shape the next round of Pentagon oversight.",
+   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/CRU40-pb-1024x576.png",
+   "source": "breakingdefense"
+  },
+  {
+   "title": "Army extends Data Operations Center pilot to Oct. 2027",
+   "link": "https://breakingdefense.com/2026/11/army-extends-data-operations-center-pilot-to-oct-2027/",
+   "date": "2026-11-19T19:01:34Z",
+   "desc": "The service is using the additional time to evaluate the center’s workload, refine its processes and determine the staffing and organizational structure needed to make it permanent.",
+   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/94902611-scaled-e1792076499416-1024x577.jpg",
+   "source": "breakingdefense"
+  },
+  {
+   "title": "Pentagon lacks ‘overarching plan’ for munitions production, watchdog warns",
+   "link": "https://www.defensenews.com/industry/techwatch/2026/11/19/pentagon-lacks-overarching-plan-for-munitions-production-watchdog-warns/",
+   "date": "2026-11-19T18:59:12Z",
+   "desc": "Facing depleted stockpiles, the Pentagon is briskly trying to ramp up manufacturing of munitions. The problem is that it is ordering missiles, artillery shells and other munitions without regard to what the military actu",
+   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/9009985.jpg",
+   "source": "defensenews"
+  },
+  {
+   "title": "Ukraine Wants More Mirage 2000 Fighters. Where Could They Come From?",
+   "link": "https://www.twz.com/air/ukraine-wants-more-mirage-2000-fighters-where-could-they-come-from",
+   "date": "2026-11-19T18:57:09Z",
+   "desc": "Kyiv is asking for additional French-made Mirage 2000 fighters that it says the Ukrainian Air Force could put to work more quickly than the Rafales that it also plans to acquire . But the countries still operating the Mi",
+   "img": "https://www.twz.com/wp-content/uploads/2026/11/MIRAGE-2000-5F.jpg?quality=85",
+   "source": "twz"
+  },
+  {
+   "title": "France and Sweden hold first joint nuclear-deterrence exercise",
+   "link": "https://www.defensenews.com/global/europe/2026/11/19/france-and-sweden-hold-first-joint-nuclear-deterrence-exercise/",
+   "date": "2026-11-19T18:24:10Z",
+   "desc": "PARIS — France and Sweden held their first joint exercise under the forward deterrence initiative proposed by French President Emmanuel Macron, with French nuclear-capable Rafale jets and an Airbus A330 MRTT tanker aircr",
+   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-2266528379.jpg",
+   "source": "defensenews"
+  },
+  {
+   "title": "Impacts Of Latest Neptune Missile Strike On Kerch Bridge Seen In Satellite Imagery",
+   "link": "https://www.twz.com/news-features/impacts-of-latest-neptune-missile-strike-on-kerch-bridge-seen-in-satellite-imagery",
+   "date": "2026-11-19T18:14:45Z",
+   "desc": "TWZ has obtained satellite imagery taken today of the Kerch Bridge. It shows damage from recent strikes to the rail span, as well as the section of the road span that was knocked out earlier in the week . The rail line w",
+   "img": "https://www.twz.com/wp-content/uploads/2026/11/kerch-bridge-rail-span-strikes-imagery.jpg?quality=85",
+   "source": "twz"
+  },
+  {
+   "title": "F-35C completes first launch and recovery trials on a Ford-class carrier",
+   "link": "https://www.defensenews.com/air/2026/11/19/f-35c-completes-first-launch-and-recovery-trials-on-a-ford-class-carrier/",
+   "date": "2026-11-19T17:38:00Z",
+   "desc": "Two Navy F-35C Lightning II fighters have completed the jet’s first round of launch and recovery testing aboard the future USS John F. Kennedy, the Navy’s second Gerald R. Ford-class aircraft carrier, Lockheed Martin sai",
+   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/i-t8rw6td-X4.jpg",
+   "source": "defensenews"
+  },
   {
    "title": "Schiebel demonstrates S-100 ‘mothership’ role for small drone operations",
    "link": "https://www.airforce-technology.com/news/schiebel-s-100-mothership-demonstration/",
@@ -652,14 +804,6 @@
    "source": "rusi"
   },
   {
-   "title": "US surges power projection to westernmost island chain as Russia, China loom",
-   "link": "https://www.defensenews.com/global/the-americas/2026/11/18/us-surges-power-projection-to-westernmost-island-chain-as-russia-china-loom/",
-   "date": "2026-11-18T22:40:38Z",
-   "desc": "The U.S. Air Force is stepping up its training on the country’s westernmost islands as it seeks to develop more places from which to project power and monitor adversaries across the Pacific and the Arctic. Those efforts ",
-   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/10058898.jpg",
-   "source": "defensenews"
-  },
-  {
    "title": "Tehran Widens Attacks On Gulf Nations After Latest U.S. Strike On Iranian Island",
    "link": "https://www.twz.com/news-features/tehran-widens-attacks-on-gulf-nations-after-latest-u-s-strike-on-iranian-island",
    "date": "2026-11-18T22:06:41Z",
@@ -708,14 +852,6 @@
    "source": "afmag"
   },
   {
-   "title": "US Navy used expired munitions during Iran war, Cao says",
-   "link": "https://www.defensenews.com/naval/2026/11/18/us-navy-used-expired-munitions-during-iran-war-cao-says/",
-   "date": "2026-11-18T21:05:34Z",
-   "desc": "Acting Navy Secretary Hung Cao told lawmakers Tuesday that the U.S. Navy recoded and fired missiles he described as “expired” during the war with Iran. Cao made the disclosure during a Senate Armed Services Committee hea",
-   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/2026-11-17T144012Z_584925145_RC2QPOAZE4TT_RTRMADP_3_USA-TRUMP-NAVY.jpg",
-   "source": "defensenews"
-  },
-  {
    "title": "Navy taps one-star admiral to advance hypersonic weapons, SLCM-N integration at Crane",
    "link": "https://breakingdefense.com/2026/11/navy-taps-one-star-admiral-to-advance-hypersonic-weapons-slcm-n-integration-at-crane/",
    "date": "2026-11-18T20:41:54Z",
@@ -746,14 +882,6 @@
    "desc": "Scotland’s state-owned ferry agency is now “openly hostile to Scotland’s shipbuilding industry” , Scottish Labour’s Paul Sweeney has said, after its chief executive told MSPs he is “100%” against giving two small ferries",
    "img": null,
    "source": "ukdj"
-  },
-  {
-   "title": "Watchdog flags fraud, failed Pentagon audit as defense priorities",
-   "link": "https://www.defensenews.com/news/pentagon-congress/2026/11/18/watchdog-flags-fraud-failed-pentagon-audit-as-defense-priorities/",
-   "date": "2026-11-18T19:40:43Z",
-   "desc": "Days after the Pentagon failed its ninth consecutive audit, its oversight office ranked eliminating fraud and achieving a clean financial audit among the Defense Department’s most pressing strategic challenges for the up",
-   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/08/GettyImages-2189090576.jpg.jpg",
-   "source": "defensenews"
   },
   {
    "title": "First Flight of New Royal Air Force H-47ER Special Ops Chinook",
@@ -884,28 +1012,12 @@
    "source": "rand"
   },
   {
-   "title": "As UNIFIL winds down, Israeli presence in Lebanon complicates handover process",
-   "link": "https://www.defensenews.com/global/mideast-africa/2026/11/18/as-unifil-winds-down-israeli-presence-in-lebanon-complicates-handover-process/",
-   "date": "2026-11-18T15:49:03Z",
-   "desc": "BEIRUT — Officials with the United Nations Interim Force in Lebanon (UNIFIL) are finalizing an exit plan after 48 years of mission operations along the Blue Line, the demarcation line separating Lebanon and Israel. The p",
-   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-2303917541.jpg",
-   "source": "defensenews"
-  },
-  {
    "title": "Nato launches STARLIFT initiative to secure military satellite launches",
    "link": "https://www.airforce-technology.com/news/nato-starlift-military-satellite/",
    "date": "2026-11-18T15:27:27Z",
    "desc": "Nato has announced the launch of the STARLIFT initiative, a multinational space project aimed at strengthening secure military satellite launches among member states and partners.",
    "img": null,
    "source": "airforcetech"
-  },
-  {
-   "title": "Britain has the frigate the US needs, and Americans should build it: UK minister",
-   "link": "https://breakingdefense.com/2026/11/britain-has-the-frigate-the-us-needs-and-americans-should-build-it-uk-minister/",
-   "date": "2026-11-18T15:15:00Z",
-   "desc": "In a new op-ed, Britain’s Minister for Defence Readiness and Industry makes the case that the US should procure a UK frigate design and produce it in America.",
-   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/luke-pollard-ship-e1795011501164-1024x577.jpg",
-   "source": "breakingdefense"
   },
   {
    "title": "Collins Aerospace breaks ground on India C295 propeller MRO facility",
@@ -916,36 +1028,12 @@
    "source": "airforcetech"
   },
   {
-   "title": "The Pentagon fails another audit. Can it turn things around by 2028?",
-   "link": "https://breakingdefense.com/2026/11/the-pentagon-fails-another-audit-can-it-turn-things-around-by-2028/",
-   "date": "2026-11-18T14:23:52Z",
-   "desc": "The Defense Department has struggled for years to get its books in order. Now, officials say a new approach could change that.",
-   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/PB20-pb-1024x576.png",
-   "source": "breakingdefense"
-  },
-  {
    "title": "Gulf militaries rewrite procurement priorities",
    "link": "https://www.airforce-technology.com/analyst-comment/gulf-militaries-rewrite-procurement-priorities/",
    "date": "2026-11-18T14:05:37Z",
    "desc": "Gulf Cooperation Council member states are assessing their defence needs in light of the US-Iran war and impact on the region.",
    "img": null,
    "source": "airforcetech"
-  },
-  {
-   "title": "From mine to magnet: What defense buyers need to verify before 2027",
-   "link": "https://breakingdefense.com/2026/11/from-mine-to-magnet-what-defense-buyers-need-to-verify-before-2027/",
-   "date": "2026-11-18T13:25:00Z",
-   "desc": "[Sponsored] January’s expanded magnet-sourcing restrictions will require defense contractors to trace each finished magnet back to its raw materials and document how and where it was produced.",
-   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Processing-in-a-vacuum-autoclave.png",
-   "source": "breakingdefense"
-  },
-  {
-   "title": "EU proposes €45 billion Ukraine loan, to be repaid after Russia pays reparations",
-   "link": "https://www.defensenews.com/global/europe/2026/11/18/eu-proposes-e45-billion-ukraine-loan-to-be-repaid-after-russia-pays-reparations/",
-   "date": "2026-11-18T13:20:41Z",
-   "desc": "BRUSSELS — The European Commission on Wednesday proposed a new €45 billion ($49.5 billion) loan to Ukraine to help fill a funding gap of €70 billion for next year as Kyiv continues its fight against Russia’s 2022 invasio",
-   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-2305033463.jpg",
-   "source": "defensenews"
   },
   {
    "title": "Turkish Akinci and TB2 UCAVs Conduct Highway Operations",
@@ -1012,14 +1100,6 @@
    "source": "defenseone"
   },
   {
-   "title": "Acting Navy Secretary Hung Cao faces transparency questions in Senate confirmation hearing",
-   "link": "https://www.defensenews.com/video/2026/11/17/acting-navy-secretary-hung-cao-faces-transparency-questions-in-senate-confirmation-hearing/",
-   "date": "2026-11-18T00:58:34Z",
-   "desc": "Hung Cao, the Acting Navy secretary, fielded questions about his handling of updates to Congress, and got into a verbal scuffle about suicide “mitigations” during his Senate confirmation hearing.",
-   "img": "https://cdn.jwplayer.com/videos/Lz4vm83r-5ZsksG4j.mp4",
-   "source": "defensenews"
-  },
-  {
    "title": "OpenAI gives NATO access to most advanced cybersecurity AI",
    "link": "https://www.defenseone.com/technology/2026/11/openai-gives-nato-access-most-advanced-cybersecurity-ai/417296/",
    "date": "2026-11-18T00:39:24Z",
@@ -1060,28 +1140,12 @@
    "source": "aviationist"
   },
   {
-   "title": "First F-15EX at Kadena Signals End in Sight for Fighter Rotations: ‘Can’t Happen Fast Enough’",
-   "link": "https://www.airandspaceforces.com/first-f-15ex-kadena-end-in-sight-fighter-rotations/",
-   "date": "2026-11-17T22:20:34Z",
-   "desc": "The arrival of the first permanently stationed F-15EX Eagle II at Kadena Air Base this week doesn’t just give the strategically vital base an advanced new fighter; it also signals a small step toward relieving pressure o",
-   "img": "https://www.airandspaceforces.com/app/uploads/2026/11/take-off-close-up-900x600.jpeg",
-   "source": "afmag"
-  },
-  {
    "title": "Trump’s Demand For Steam Catapults On New Carriers Is A “Non-Starter”: Senate Armed Forces Chair",
    "link": "https://www.twz.com/sea/trumps-demand-for-steam-catapults-on-new-carriers-is-a-non-starter-senate-armed-forces-chair",
    "date": "2026-11-17T22:16:24Z",
    "desc": "Senator Roger Wicker, the current chairman of the Senate Armed Services Committee, has said unequivocally that the idea of bringing back steam-powered catapults on U.S. Navy aircraft carriers is a “non-starter.” Earlier ",
    "img": "https://www.twz.com/wp-content/uploads/2026/11/wicker-steam-capaults-new-aircraft-carriers-non-starter.jpg?quality=85",
    "source": "twz"
-  },
-  {
-   "title": "US Fighters Strike Iranian Missile Site After Base in Bahrain Targeted",
-   "link": "https://www.airandspaceforces.com/us-fighters-strike-iranian-missile-site/",
-   "date": "2026-11-17T21:34:29Z",
-   "desc": "U.S. fighter jets struck an Iranian missile launch site operated by Iran’s Islamic Revolutionary Guard Corps Nov. 17 in “self-defense,” a U.S. military official told Air & Space Forces Magazine. The latest strike comes a",
-   "img": "https://www.airandspaceforces.com/app/uploads/2026/11/261013-F-AI717-1342-900x600.jpg",
-   "source": "afmag"
   },
   {
    "title": "B-1B Bomber’s New External Pylons Clear Critical Design Review",
@@ -1148,14 +1212,6 @@
    "source": "savunmasanayist"
   },
   {
-   "title": "What We Know About Ukraine’s Strikes That Cut Russia’s Kerch Bridge (Updated)",
-   "link": "https://www.twz.com/news-features/what-we-know-about-ukraines-strikes-that-cut-russias-kerch-bridge-road-vehicle-span",
-   "date": "2026-11-17T15:48:55Z",
-   "desc": "The scale and scope of Ukraine’s missile and drone strikes overnight that destroyed a key section of the Kerch Bridge’s road span and caused other damage continue to come into sharper focus. For their part, Russian autho",
-   "img": "https://www.twz.com/wp-content/uploads/2026/11/what-we-know-about-kerch-bridge-strikes.jpg?quality=85",
-   "source": "twz"
-  },
-  {
    "title": "MS&D and GSIS to create a joint platform in 2027",
    "link": "https://euro-sd.com/2026/11/news/industry-news/54717/msd-gsis/",
    "date": "2026-11-17T12:30:02Z",
@@ -1210,22 +1266,6 @@
    "desc": "Romanya, Oerlikon GDF 103 hava savunma sistemlerinin modernizasyonunda yaşanan gecikmeler nedeniyle Alman savunma sanayii şirketi Rheinmetall’e 8,7 milyon euro ceza uyguladı. İlk iki sistem teknik şartnameyi karşılayamay",
    "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/Oerlikon-GDF-103.jpg",
    "source": "savunmasanayist"
-  },
-  {
-   "title": "Russia’s Kerch Bridge Road Vehicle Span Has Been Destroyed By Ukraine",
-   "link": "https://www.twz.com/news-features/kerch-bridge-struck-for-the-second-time-in-less-than-24-hours-russia",
-   "date": "2026-11-17T06:03:53Z",
-   "desc": "UPDATE: 12:40 AM EST— The road vehicle span of the Kerch Strait Bridge has been destroyed by Ukraine. Imagery now circulating after the sun came up shows the bridge section that was struck yesterday has now been totally ",
-   "img": "https://www.twz.com/wp-content/uploads/2026/11/kirch-bridge-destroyed.jpg?quality=85",
-   "source": "twz"
-  },
-  {
-   "title": "Russia’s Prized Kerch Bridge Struck In Ukrainian Drone Onslaught (Updated)",
-   "link": "https://www.twz.com/news-features/russias-prized-kerch-bridge-struck-in-ukrainian-drone-onslaught",
-   "date": "2026-11-17T01:11:09Z",
-   "desc": "The Kerch Bridge, one of Russia’s most strategically important and heavily defended pieces of infrastructure, spanning the Kerch Strait between Krasnodar Krai in Russia and the Kerch Peninsula of Crimea, has been struck ",
-   "img": "https://www.twz.com/wp-content/uploads/2026/11/Kerch-Bridge-Attack.jpg?quality=85",
-   "source": "twz"
   },
   {
    "title": "Episode 5: Are we in another Pre-War Era, reliving the 1910s? Professor Margaret MacMillan OM CC CH",
@@ -1308,14 +1348,6 @@
    "source": "airforcetech"
   },
   {
-   "title": "The secret terms of Trump’s Venezuelan oil deal",
-   "link": "https://www.defenseone.com/policy/2026/11/secret-terms-trumps-venezuelan-oil-deal/417246/",
-   "date": "2026-11-16T16:12:46Z",
-   "desc": "This story was originally published by ProPublica . In late August, President Donald Trump announced what he called the “biggest oil deal in world history.” Since then, the full text of the accord — which grants the U.S.",
-   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/16/GettyImages_2303431705/large.jpg",
-   "source": "defenseone"
-  },
-  {
    "title": "China’s Fourth Aircraft Carrier Continues to Take Shape in New Satellite Images",
    "link": "https://theaviationist.com/2026/11/16/chinas-fourth-aircraft-carrier-satellite-images/",
    "date": "2026-11-16T14:50:18Z",
@@ -1372,44 +1404,12 @@
    "source": "rusi"
   },
   {
-   "title": "The military needs strategic thinkers, not just operators",
-   "link": "https://www.defenseone.com/ideas/2026/11/military-strategic-thinkers-hegseth-education/417238/",
-   "date": "2026-11-15T18:41:11Z",
-   "desc": "The debate over impeaching Defense Secretary Pete Hegseth has largely drowned out discussion of the professional military education (PME) reforms he rolled out on Monday in a 33-point memorandum and a companion speech at",
-   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/15/10083874/large.jpg",
-   "source": "defenseone"
-  },
-  {
-   "title": "The civilian office overseeing special operations forces could get $45 million budget, 100 staffers",
-   "link": "https://www.defenseone.com/policy/2026/11/civilian-office-overseeing-special-operations-forces-could-get-45-million-budget-100-staffers/417234/",
-   "date": "2026-11-15T13:00:00Z",
-   "desc": "Defense Secretary Pete Hegseth is pushing for an elevation of the civilian special operations chief and a name change for the office, while allocating $45 million and 100 staffers to man it—the latest of a series of move",
-   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/15/9616749/large.jpg",
-   "source": "defenseone"
-  },
-  {
-   "title": "Kadena Welcomes Its First F-15EX Eagle II Fighters",
-   "link": "https://theaviationist.com/2026/11/15/kadena-welcomes-its-first-f-15ex-eagle-ii-fighters/",
-   "date": "2026-11-15T12:14:40Z",
-   "desc": "The first permanently stationed U.S. Air Force F-15EX Eagle IIs assigned to the 67th Fighter Squadron arrived at Kadena Air Base, Japan. The first two U.S. Air Force F-15EX Eagle II fighters jets permanently stationed at",
-   "img": "https://theaviationist.com/wp-content/uploads/2026/11/F-15EX_Kadena_10095268.jpg",
-   "source": "aviationist"
-  },
-  {
    "title": "Episode 6: The Shops That Don’t Add Up",
    "link": "https://www.rusi.org/podcasts/suspicious-transaction-report/episode-6-shops-dont-add",
    "date": "2026-11-13T00:00:00Z",
    "desc": "Why some of Britain’s strangest-looking businesses survive – and what they reveal about tax evasion, money laundering and weak enforcement.",
    "img": null,
    "source": "rusi"
-  },
-  {
-   "title": "How Purges Are Affecting Chinese Military Readiness and Taiwan Contingencies",
-   "link": "https://warontherocks.com/how-purges-are-affecting-chinese-military-readiness-and-taiwan-contingencies/",
-   "date": "2026-11-12T18:30:19Z",
-   "desc": "Since 2022, Chinese General Secretary Xi Jinping has purged at least 100 senior military officials, according to a February report from the Center for Strategic and International Studies, with more cases occurring since ",
-   "img": null,
-   "source": "warontherocks"
   },
   {
    "title": "Maritime Jurisdiction and Undersea Security in Europe",
