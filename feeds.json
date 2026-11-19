@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T00:36:57Z",
+ "generated": "2026-11-19T08:10:40Z",
  "sources": [
   {
    "id": "defensenews",
@@ -188,7 +188,7 @@
    "count": 10,
    "latest": "2026-11-18T22:40:38Z",
    "error": null,
-   "ms": 109
+   "ms": 145
   },
   {
    "id": "breakingdefense",
@@ -196,15 +196,15 @@
    "count": 12,
    "latest": "2026-11-18T21:56:01Z",
    "error": null,
-   "ms": 103
+   "ms": 92
   },
   {
    "id": "defenseone",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-18T18:03:56Z",
+   "latest": "2026-11-19T07:36:22Z",
    "error": null,
-   "ms": 154
+   "ms": 120
   },
   {
    "id": "afmag",
@@ -212,7 +212,7 @@
    "count": 9,
    "latest": "2026-11-18T21:51:11Z",
    "error": null,
-   "ms": 162
+   "ms": 210
   },
   {
    "id": "airforcetech",
@@ -220,15 +220,15 @@
    "count": 10,
    "latest": "2026-11-18T15:27:27Z",
    "error": null,
-   "ms": 163
+   "ms": 146
   },
   {
    "id": "twz",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-18T22:06:41Z",
+   "latest": "2026-11-19T00:49:07Z",
    "error": null,
-   "ms": 232
+   "ms": 177
   },
   {
    "id": "warontherocks",
@@ -236,7 +236,7 @@
    "count": 12,
    "latest": "2026-11-18T18:46:20Z",
    "error": null,
-   "ms": 223
+   "ms": 145
   },
   {
    "id": "rand",
@@ -244,15 +244,15 @@
    "count": 7,
    "latest": "2026-11-18T16:00:00Z",
    "error": null,
-   "ms": 136
+   "ms": 325
   },
   {
    "id": "ukdj",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-18T20:14:26Z",
+   "latest": "2026-11-19T07:30:27Z",
    "error": null,
-   "ms": 763
+   "ms": 816
   },
   {
    "id": "aviationist",
@@ -260,31 +260,31 @@
    "count": 12,
    "latest": "2026-11-18T19:21:33Z",
    "error": null,
-   "ms": 152
+   "ms": 114
   },
   {
    "id": "rusi",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-19T00:00:00Z",
+   "latest": "2026-11-18T00:00:00Z",
    "error": null,
-   "ms": 106
+   "ms": 370
   },
   {
    "id": "eurosd",
    "status": "ok",
    "count": 6,
-   "latest": "2026-11-18T12:01:31Z",
+   "latest": "2026-11-19T07:29:34Z",
    "error": null,
-   "ms": 484
+   "ms": 174
   },
   {
    "id": "savunmasanayist",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-18T10:20:04Z",
+   "latest": "2026-11-19T07:37:10Z",
    "error": null,
-   "ms": 374
+   "ms": 610
   },
   {
    "id": "defensehere",
@@ -292,17 +292,22 @@
    "count": 10,
    "latest": "2026-11-18T20:32:57Z",
    "error": null,
-   "ms": 1878
+   "ms": 2145
   }
  ],
  "trending": [
   {
    "term": "NATO",
-   "n": 9,
-   "sources": 6
+   "n": 10,
+   "sources": 5
   },
   {
    "term": "Russia",
+   "n": 6,
+   "sources": 3
+  },
+  {
+   "term": "Ukraine",
    "n": 6,
    "sources": 3
   },
@@ -312,24 +317,67 @@
    "sources": 4
   },
   {
-   "term": "Ukraine",
-   "n": 5,
-   "sources": 3
-  },
-  {
-   "term": "Pentagon",
+   "term": "Trump",
    "n": 4,
    "sources": 3
   }
  ],
  "items": [
   {
-   "title": "Can Drones Replace Soldiers? NATO's Uncrewed Strategy",
-   "link": "https://www.rusi.org/news-and-comment/video-commentary/can-drones-replace-soldiers-natos-uncrewed-strategy",
-   "date": "2026-11-19T00:00:00Z",
-   "desc": "FPV (first-person view) drones have become indelibaly associated with the killing of masses of soldiers, as well as the destruction of armoured vehicles and other war material in Ukraine.",
+   "title": "KAAN’da 100 Uçaklık Hedef: Teslimat Tarihi Belli Oldu",
+   "link": "https://www.savunmasanayist.com/kaanda-100-ucaklik-hedef-teslimat-tarihi-belli-oldu/",
+   "date": "2026-11-19T07:37:10Z",
+   "desc": "Milli Savunma Bakanı Yaşar Güler, Hava Kuvvetleri Komutanlığı’na 2030 yılı sonuna kadar 20 uçağın teslim edilmesini, 2035 yılı sonuna kadar bu sayının 100’e ulaşmasının öngörüldüğünü belirtti. Güler, TBMM Plan ve Bütçe K",
+   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/10/F-35A.jpg",
+   "source": "savunmasanayist"
+  },
+  {
+   "title": "Appropriators slash Trump’s $17B Golden Dome request in draft bill",
+   "link": "https://www.defenseone.com/policy/2026/11/appropriators-slash-trumps-17b-golden-dome-request-draft-bill/417326/",
+   "date": "2026-11-19T07:36:22Z",
+   "desc": "Senate appropriators reined in President Donald Trump's $17 billion-plus Golden Dome ask this week, pushing roughly half the administration’s request into a draft defense bill that budget experts said is unlikely to pass",
+   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/19/GettyImages_2215581220/large.jpg",
+   "source": "defenseone"
+  },
+  {
+   "title": "NATO turning digital tools on Russian hybrid attacks",
+   "link": "https://ukdefencejournal.org.uk/nato-turning-digital-tools-on-russian-hybrid-attacks/",
+   "date": "2026-11-19T07:30:27Z",
+   "desc": "NATO is using new digital tools, including real-time maritime surveillance, to push back against a rise in Russian hybrid attacks on allies, senior officials have said. Asked at a joint press engagement at NATO Edge 26 i",
    "img": null,
-   "source": "rusi"
+   "source": "ukdj"
+  },
+  {
+   "title": "SCHIEBEL demonstrates CAMCOPTER® S-100 as drone mothership",
+   "link": "https://euro-sd.com/2026/11/news/air/54737/schiebel-camcopter-s-100/",
+   "date": "2026-11-19T07:29:34Z",
+   "desc": "Schiebel, together with OSIRIS Poland, has successfully demonstrated the CAMCOPTER® S-100 Unmanned Air System (UAS) as an airborne carrier, deployer … mehr... The post SCHIEBEL demonstrates CAMCOPTER® S-100 as drone moth",
+   "img": "https://euro-sd.com/wp-content/uploads/2026/11/SCHIEBEL-DEMONSTRATES-CAMCOPTER-S-100-AS-DRONE-MOTHERSHIP-_-2-300x169.jpg",
+   "source": "eurosd"
+  },
+  {
+   "title": "NATO Innovation Fund backs nine unicorns in three years",
+   "link": "https://ukdefencejournal.org.uk/nato-innovation-fund-backs-nine-unicorns-in-three-years/",
+   "date": "2026-11-19T07:00:57Z",
+   "desc": "The NATO Innovation Fund has invested in 25 companies and 10 other funds in around three years of operation, with nine of its portfolio companies now valued at over €1 billion, the fund has said. Joel Noutere, Adoption A",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "NATO leaders say the Alliance must adapt or be a dinosaur",
+   "link": "https://ukdefencejournal.org.uk/nato-leaders-say-the-alliance-must-adapt-or-be-a-dinosaur/",
+   "date": "2026-11-19T06:00:42Z",
+   "desc": "NATO is facing what its Supreme Allied Commander Transformation called “a Darwin moment” , with five of the Alliance’s most senior civilian and military leaders using a joint press engagement at the end of the first day ",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Ukraine Strikes Kerch Bridge Once Again: Crimea Governor",
+   "link": "https://www.twz.com/news-features/ukraine-strikes-kerch-bridge-once-again-crimea-governor",
+   "date": "2026-11-19T00:49:07Z",
+   "desc": "Ukraine has carried out another attack on the already badly damaged Kerch Bridge, according to the Russian-installed head of Crimea, Sergey Aksyonov. The latest strike took place two days after a large section of the spa",
+   "img": "https://www.twz.com/wp-content/uploads/2026/11/Kerch-Bridge-x.jpg?quality=85",
+   "source": "twz"
   },
   {
    "title": "US surges power projection to westernmost island chain as Russia, China loom",
@@ -684,14 +732,6 @@
    "source": "ukdj"
   },
   {
-   "title": "Digital Targeting Web funding due by end of financial year",
-   "link": "https://ukdefencejournal.org.uk/digital-targeting-web-funding-due-by-end-of-financial-year/",
-   "date": "2026-11-18T15:00:57Z",
-   "desc": "The funding profile for the Digital Targeting Web should be confirmed by the end of the 2026-27 financial year, Luke Pollard, Minister for Defence Readiness and Industry, has said, according to an answer given in Parliam",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "Collins Aerospace breaks ground on India C295 propeller MRO facility",
    "link": "https://www.airforce-technology.com/news/collin-aerospace-c295-mro-india/",
    "date": "2026-11-18T14:54:15Z",
@@ -700,28 +740,12 @@
    "source": "airforcetech"
   },
   {
-   "title": "Over a thousand military homes below Decent Homes Standard",
-   "link": "https://ukdefencejournal.org.uk/over-a-thousand-military-homes-below-decent-homes-standard/",
-   "date": "2026-11-18T14:30:55Z",
-   "desc": "More than a thousand military family homes were assessed as falling below the Decent Homes Standard as of 3 November, Calvin Bailey, Minister for Veterans and People, has said, according to an answer given in Parliament ",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "The Pentagon fails another audit. Can it turn things around by 2028?",
    "link": "https://breakingdefense.com/2026/11/the-pentagon-fails-another-audit-can-it-turn-things-around-by-2028/",
    "date": "2026-11-18T14:23:52Z",
    "desc": "The Defense Department has struggled for years to get its books in order. Now, officials say a new approach could change that.",
    "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/PB20-pb-1024x576.png",
    "source": "breakingdefense"
-  },
-  {
-   "title": "NATO counter-drone marketplace offers 24-hour contracts",
-   "link": "https://ukdefencejournal.org.uk/nato-counter-drone-marketplace-offers-24-hour-contracts/",
-   "date": "2026-11-18T14:15:56Z",
-   "desc": "NATO has launched its first marketplace for counter-drone systems, offering pre-competed products at fixed prices with contracts that can be signed in 24 hours, the Alliance’s director of innovation has said. Speaking to",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "Gulf militaries rewrite procurement priorities",
@@ -828,18 +852,18 @@
    "source": "defenseone"
   },
   {
-   "title": "Episode 133: Lithuania's EU Presidency: Leading Europe in a Contested World",
-   "link": "https://www.rusi.org/podcasts/global-security-briefing/episode-133-lithuanias-eu-presidency-leading-europe-contested-world",
-   "date": "2026-11-18T00:00:00Z",
-   "desc": "Kęstutis Budrys, Lithuania's Minister of Foreign Affairs, joins Petras Katinas to discuss Lithuania's priorities for its Presidency of the Council of the EU.",
-   "img": null,
-   "source": "rusi"
-  },
-  {
    "title": "Ukraine Straddles Diverging Fronts",
    "link": "https://www.rusi.org/explore-our-research/publications/commentary/ukraine-straddles-diverging-fronts",
    "date": "2026-11-18T00:00:00Z",
    "desc": "Ukraine’s battlefield prospects are improving while Russian forces deteriorate, but damage is accumulating in the rear and funding for its resistance is far from assured.",
+   "img": null,
+   "source": "rusi"
+  },
+  {
+   "title": "Episode 133: Lithuania's EU Presidency: Leading Europe in a Contested World",
+   "link": "https://www.rusi.org/podcasts/global-security-briefing/episode-133-lithuanias-eu-presidency-leading-europe-contested-world",
+   "date": "2026-11-18T00:00:00Z",
+   "desc": "Kęstutis Budrys, Lithuania's Minister of Foreign Affairs, joins Petras Katinas to discuss Lithuania's priorities for its Presidency of the Council of the EU.",
    "img": null,
    "source": "rusi"
   },
@@ -890,14 +914,6 @@
    "desc": "The bipartisan pushback came during Acting Navy Secretary Hung Cao’s confirmation hearing, where senators questioned the cost and capability trade-offs of returning future Ford-class carriers to steam-powered catapults.",
    "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/03/9493393-scaled-e1772661283927-1024x577.jpg",
    "source": "breakingdefense"
-  },
-  {
-   "title": "US Fighters Strike Iranian Missile Site After Base in Bahrain Targeted",
-   "link": "https://www.airandspaceforces.com/us-fighters-strike-iranian-missile-site/",
-   "date": "2026-11-17T21:34:29Z",
-   "desc": "U.S. fighter jets struck an Iranian missile launch site operated by Iran’s Islamic Revolutionary Guard Corps Nov. 17 in “self-defense,” a U.S. military official told Air & Space Forces Magazine. The latest strike comes a",
-   "img": "https://www.airandspaceforces.com/app/uploads/2026/11/261013-F-AI717-1342-900x600.jpg",
-   "source": "afmag"
   },
   {
    "title": "ICEYE makes $2B bid for Italian rocket firm Avio",
@@ -1100,19 +1116,19 @@
    "source": "twz"
   },
   {
+   "title": "Trainees Will Fly T-38s Another Decade While T-7 Matures",
+   "link": "https://www.airandspaceforces.com/aetc-boss-t-38-late-2030s-t-7/",
+   "date": "2026-11-17T01:47:21Z",
+   "desc": "The Air Force will keep flying its 1960s-era T-38C Talon trainer into the late 2030s, the head of Air Education and Training Command said Nov. 16. The T-7A Red Hawk is making progress, but slowly, as its replacement. Lt.",
+   "img": "https://www.airandspaceforces.com/app/uploads/2025/03/t-38-900x600.jpg",
+   "source": "afmag"
+  },
+  {
    "title": "Russia’s Prized Kerch Bridge Struck In Ukrainian Drone Onslaught (Updated)",
    "link": "https://www.twz.com/news-features/russias-prized-kerch-bridge-struck-in-ukrainian-drone-onslaught",
    "date": "2026-11-17T01:11:09Z",
    "desc": "The Kerch Bridge, one of Russia’s most strategically important and heavily defended pieces of infrastructure, spanning the Kerch Strait between Krasnodar Krai in Russia and the Kerch Peninsula of Crimea, has been struck ",
    "img": "https://www.twz.com/wp-content/uploads/2026/11/Kerch-Bridge-Attack.jpg?quality=85",
-   "source": "twz"
-  },
-  {
-   "title": "First F-15EXs Arrive At Kadena Air Base In Japan, 25 Now Delivered To The USAF",
-   "link": "https://www.twz.com/air/first-f-15exs-arrive-in-okinawa-25-now-delivered-to-the-usaf",
-   "date": "2026-11-17T00:26:47Z",
-   "desc": "The U.S. Air Force now has two F-15EX Eagle II fighters permanently forward-deployed at Kadena Air Base on the Japanese island of Okinawa. The 18th Wing has been awaiting the arrival of F-15EXs as replacements for its re",
-   "img": "https://www.twz.com/wp-content/uploads/2026/11/f-15exs-in-japan-eagle-ii-fleet-grows.jpg?quality=85",
    "source": "twz"
   },
   {
@@ -1146,14 +1162,6 @@
    "desc": "The B61-11 is a decades-old nuclear weapon, but footage showing it being loaded inside the B-2 Spirit’s weapons bay is exceptionally rare. Jeff Bolton’s new documentary series THE WATCH offers a close-up look at an opera",
    "img": "https://theaviationist.com/wp-content/uploads/2026/11/B-61-top.jpg",
    "source": "aviationist"
-  },
-  {
-   "title": "World Record: ASELSAN’s EJDERHA HPEM System Neutralizes 51 Drones Simultaneously",
-   "link": "https://euro-sd.com/2026/11/news/exclusive-news/54700/aselsan-ejderha-hpem/",
-   "date": "2026-11-16T22:10:44Z",
-   "desc": "Marking its 51st anniversary, ASELSAN demonstrates the power of directed-energy technology by neutralising 51 drones within seconds. ASELSAN has successfully … mehr... The post World Record: ASELSAN’s EJDERHA HPEM System",
-   "img": "https://www.youtube.com/embed/EDbHojZ8z28",
-   "source": "eurosd"
   },
   {
    "title": "Canadian Snowbirds Fly Final Flypasts with the CT-114 Tutor",
@@ -1324,14 +1332,6 @@
    "source": "aviationist"
   },
   {
-   "title": "Türkiye’nin Yeni MİLGEM Hedefi: Mısır",
-   "link": "https://www.savunmasanayist.com/turkiyenin-yeni-milgem-hedefi-misir/",
-   "date": "2026-11-14T15:19:34Z",
-   "desc": "Deniz Kuvvetleri Komutanı Oramiral Ercüment Tatlıoğlu, Türkiye ile Mısır arasındaki denizcilik ve savunma sanayii işbirliğinin genişletilmesine yönelik hedefleri açıkladı. Tatlıoğlu, MİLGEM Projesi kapsamında Pakistan il",
-   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/Deniz-Kuvvetleri-Komutani-Oramiral-Ercument-Tatlioglu-Misir-Deniz-Kuvvetleri-Komutani-Koramiral-Mahmud-Adel-Fawzy.jpg",
-   "source": "savunmasanayist"
-  },
-  {
    "title": "Destroyer returns from 11-month-deployment",
    "link": "https://www.defenseone.com/threats/2026/11/destroyer-returns-11-month-deployment/417231/",
    "date": "2026-11-14T01:39:47Z",
@@ -1362,14 +1362,6 @@
    "desc": "Hermeus and Northrop Grumman have signed a strategic teaming agreement to develop uncrewed, high-Mach aircraft intended to meet US military requirements.",
    "img": null,
    "source": "airforcetech"
-  },
-  {
-   "title": "Defense Business Brief: This Ukraine-founded drone maker is now worth $6 billion. What now?",
-   "link": "https://www.defenseone.com/business/2026/11/defense-business-brief-ukraine-founded-drone-maker-now-worth-6-billion-what-now/417207/",
-   "date": "2026-11-13T11:00:00Z",
-   "desc": "Build more, faster—and then integrate it all together. That was the gist of my conversation with Oleg Rogynskyy, CEO of Ukraine-founded drone company UFORCE , that’s now valued at more than $6 billion after landing a $70",
-   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/13/DBB_lander/large.jpg",
-   "source": "defenseone"
   },
   {
    "title": "Episode 6: The Shops That Don’t Add Up",
@@ -1434,6 +1426,14 @@
    "desc": "For veterans, leaving the U.S. military can open new doors and raise new questions. In this Q&A, Carrie Farmer and Rajeev Ramchand share what RAND's research reveals about life after military service and the questions th",
    "img": null,
    "source": "rand"
+  },
+  {
+   "title": "Israel’s Foreign Funding Inquiry is Not Evidence of a Stolen Election",
+   "link": "https://www.rusi.org/explore-our-research/publications/commentary/israels-foreign-funding-inquiry-not-evidence-stolen-election",
+   "date": "2026-11-09T00:00:00Z",
+   "desc": "The incumbent appears to be using a national security foreign-funding inquiry to discredit 19 Arab-held seats and perhaps disrupt formation of a replacement government.",
+   "img": null,
+   "source": "rusi"
   },
   {
    "title": "Preparedness for the AI Era Requires a Reserve of Critical Workers",
