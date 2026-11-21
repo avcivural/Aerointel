@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T17:43:18Z",
+ "generated": "2026-11-21T22:36:06Z",
  "sources": [
   {
    "id": "defensenews",
@@ -188,15 +188,15 @@
    "count": 10,
    "latest": "2026-11-20T17:54:27Z",
    "error": null,
-   "ms": 161
+   "ms": 353
   },
   {
    "id": "breakingdefense",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-21T15:06:51Z",
+   "latest": "2026-11-21T18:06:38Z",
    "error": null,
-   "ms": 133
+   "ms": 160
   },
   {
    "id": "defenseone",
@@ -204,7 +204,7 @@
    "count": 12,
    "latest": "2026-11-21T01:18:33Z",
    "error": null,
-   "ms": 146
+   "ms": 565
   },
   {
    "id": "afmag",
@@ -212,7 +212,7 @@
    "count": 9,
    "latest": "2026-11-21T01:34:54Z",
    "error": null,
-   "ms": 138
+   "ms": 359
   },
   {
    "id": "airforcetech",
@@ -220,15 +220,15 @@
    "count": 10,
    "latest": "2026-11-19T17:25:55Z",
    "error": null,
-   "ms": 147
+   "ms": 246
   },
   {
    "id": "twz",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-20T23:12:57Z",
+   "latest": "2026-11-21T18:11:09Z",
    "error": null,
-   "ms": 128
+   "ms": 405
   },
   {
    "id": "warontherocks",
@@ -236,7 +236,7 @@
    "count": 12,
    "latest": "2026-11-20T17:18:04Z",
    "error": null,
-   "ms": 75
+   "ms": 299
   },
   {
    "id": "rand",
@@ -244,7 +244,7 @@
    "count": 6,
    "latest": "2026-11-18T16:00:00Z",
    "error": null,
-   "ms": 41
+   "ms": 248
   },
   {
    "id": "ukdj",
@@ -252,15 +252,15 @@
    "count": 10,
    "latest": "2026-11-21T13:03:11Z",
    "error": null,
-   "ms": 893
+   "ms": 838
   },
   {
    "id": "aviationist",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-21T14:49:11Z",
+   "latest": "2026-11-21T22:14:08Z",
    "error": null,
-   "ms": 40
+   "ms": 117
   },
   {
    "id": "rusi",
@@ -268,7 +268,7 @@
    "count": 12,
    "latest": "2026-11-20T00:00:00Z",
    "error": null,
-   "ms": 47
+   "ms": 254
   },
   {
    "id": "eurosd",
@@ -276,7 +276,7 @@
    "count": 6,
    "latest": "2026-11-20T16:41:30Z",
    "error": null,
-   "ms": 335
+   "ms": 538
   },
   {
    "id": "savunmasanayist",
@@ -284,14 +284,15 @@
    "count": 10,
    "latest": "2026-11-21T13:22:17Z",
    "error": null,
-   "ms": 570
+   "ms": 819
   },
   {
    "id": "defensehere",
-   "status": "error",
-   "count": 0,
-   "latest": null,
-   "error": "ParseError: mismatched tag: line 1, column 165"
+   "status": "ok",
+   "count": 10,
+   "latest": "2026-11-20T18:37:22Z",
+   "error": null,
+   "ms": 2720
   }
  ],
  "trending": [
@@ -302,8 +303,8 @@
   },
   {
    "term": "NATO",
-   "n": 7,
-   "sources": 3
+   "n": 8,
+   "sources": 4
   },
   {
    "term": "Trump",
@@ -316,12 +317,36 @@
    "sources": 3
   },
   {
-   "term": "Weapons",
-   "n": 3,
-   "sources": 3
+   "term": "Karpat",
+   "n": 4,
+   "sources": 4
   }
  ],
  "items": [
+  {
+   "title": "Here’s What The F130 Engines Will Change For B-52 Pilots During Aerial Refueling",
+   "link": "https://theaviationist.com/2026/11/21/b-52-the-watch/",
+   "date": "2026-11-21T22:14:08Z",
+   "desc": "Footage from THE WATCH: America’s Nuclear Mission shows how demanding tanking is for B-52 crews, just as the B-52J’s new engines are about to change the way the bomber responds to the throttles. The B-52 episode of THE W",
+   "img": "https://theaviationist.com/wp-content/uploads/2026/11/The-Watch-B-52-2.jpg",
+   "source": "aviationist"
+  },
+  {
+   "title": "USS Theodore Roosevelt Arrives In The Middle East, Relieving USS George Washington",
+   "link": "https://www.twz.com/sea/theodore-roosevelt-strike-group-arrives-in-the-middle-east-relieving-uss-george-washington",
+   "date": "2026-11-21T18:11:09Z",
+   "desc": "Reinforcements and relief have arrived in the Middle East. USS Theodore Roosevelt chopped into the 5th Fleet-U.S. Central Command (CENTCOM) area of responsibility (AOR) and was pictured sailing alongside USS George Washi",
+   "img": "https://www.twz.com/wp-content/uploads/2026/11/TWZ-American-Aircraft-Carrier-Fleet-Tracker-As-Of-November-20-2026.png?quality=85",
+   "source": "twz"
+  },
+  {
+   "title": "Despite Hegseth memo, Canada hasn’t seen changes to defense relationship with US, says DefMin",
+   "link": "https://breakingdefense.com/2026/11/canada-hasnt-seen-changes-to-defense-relationship-with-us-says-mcguinty/",
+   "date": "2026-11-21T18:06:38Z",
+   "desc": "Chief Pentagon Spokesman Sean Parnell told Breaking Defense the department is “taking steps to ensure its engagements with Canada advance tangible US defense objectives and ultimately support a reinvigorated defense rela",
+   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/IMG_3267-scaled-e1795282026322-1024x576.jpeg",
+   "source": "breakingdefense"
+  },
   {
    "title": "Senate gearing up to investigate Ukraine’s access to Starshield",
    "link": "https://breakingdefense.com/2026/11/senate-gearing-up-to-investigate-ukraines-access-to-starshield/",
@@ -547,12 +572,36 @@
    "source": "twz"
   },
   {
+   "title": "Arjantin, İtalyan yapımı FCX20 korvetleri tedarik etmeyi planlıyor",
+   "link": "https://defensehere.com/tr/arjantin-italyan-yapimi-fcx20-korvetleri-tedarik-etmeyi-planliyor/",
+   "date": "2026-11-20T18:37:22Z",
+   "desc": "Arjantin Donanması, İtalyan gemi inşa şirketi Fincantieri tarafından geliştirilen üç adet FCX20 korvetini tedarik etmeyi planlıyor. Fincantieri tarafından 19 Kasım’da yapılan açıklamada, iki ülkenin savunma bakanlarının ",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Mitsubishi Electric, MIURA 5 roketiyle uzaya uydu gönderecek",
+   "link": "https://defensehere.com/tr/mitsubishi-electric-miura-5-roketiyle-uzaya-uydu-gonderecek/",
+   "date": "2026-11-20T18:29:40Z",
+   "desc": "Mitsubishi Electric, İspanyol fırlatma hizmetleri sağlayıcısı PLD Space tarafından geliştirilen MIURA 5 roketiyle küçük bir uyduyu yörüngeye gönderecek. PLD Space tarafından 18 Kasım’da yapılan açıklamada, iki şirket ara",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "Autonomy firm Auterion to launch joint venture with Ukrainian drone maker Skyfall",
    "link": "https://breakingdefense.com/2026/11/autonomy-firm-auterion-to-launch-joint-venture-with-ukrainian-drone-maker-skyfall/",
    "date": "2026-11-20T18:24:00Z",
    "desc": "The new venture, called Skyfall X Auterion, will produce Skyfall drones with Auterion software in Germany, “outside the range of air strikes,” Auterion said.",
    "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2025/11/251120_skyfall_booth_dubai_BD-scaled-e1763649791541-1024x577.jpg",
    "source": "breakingdefense"
+  },
+  {
+   "title": "FNSS Kaplan tabanlı Karpat tankı, ilk atışlı gösterimini gerçekleştirdi",
+   "link": "https://defensehere.com/tr/fnss-kaplan-tabanli-karpat-tanki-ilk-atisli-gosterimini-gerceklestirdi/",
+   "date": "2026-11-20T17:54:58Z",
+   "desc": "Çekya merkezli Czechoslovak Group (CSG), Türk savunma sanayii şirketi FNSS tarafından geliştirilen Kaplan paletli platformu temel alan CFL-120 Karpat orta sınıf tankını Slovakya’da düzenlenen dinamik gösterimde potansiye",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "Trump, Xi agreed that military AI decisions should involve humans, Bessent says",
@@ -585,6 +634,22 @@
    "desc": "After moving to Hill AFB in 2019, the U.S. Air Force’s F-35A Lightning II Demo Team is now returning to Luke AFB, where it was originally created in 2016. The U.S. Air Force’s F-35A Lightning II Demonstration Team announ",
    "img": "https://theaviationist.com/wp-content/uploads/2026/11/F-35A_Demo_Team.jpg",
    "source": "aviationist"
+  },
+  {
+   "title": "Polonya’daki hava sahası ihlallerine karşılık NATO savaş uçakları havalandı",
+   "link": "https://defensehere.com/tr/polonyadaki-hava-sahasi-ihlallerine-karsilik-nato-savas-ucaklari-havalandi/",
+   "date": "2026-11-20T17:07:07Z",
+   "desc": "NATO Genel Sekreteri Mark Rutte, Polonya’nın hava sahasının ihlal edilmesini “tehlikeli” olarak nitelendirerek, olay üzerine NATO savaş uçaklarının havalandırıldığını ve müttefiklerin caydırıcılık ve savunma kabiliyetler",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Malezya, Thales Alenia Space ile imzaladığı yeni anlaşmalarla uzay kabiliyetlerini geliştirmeyi planlıyor",
+   "link": "https://defensehere.com/tr/malezya-thales-alenia-space-ile-imzaladigi-yeni-anlasmalarla-uzay-kabiliyetlerini-gelistirmeyi-planliyor/",
+   "date": "2026-11-20T17:00:50Z",
+   "desc": "Malezya, bu yıl yürürlüğe koyduğu Ulusal Savunma Sanayi Politikası (NDIP) doğrultusunda uydu haberleşme kabiliyetlerini geliştirmeyi hedefliyor. Bu kapsamda, merkezi Kuala Lumpur’da bulunan Weststar Group, Avrupalı savun",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "German attack drones pass live-fire tests, with first deliveries planned this year",
@@ -627,12 +692,44 @@
    "source": "breakingdefense"
   },
   {
+   "title": "STM’den KARGU’lu paylaşım: Dağların üstünden doğdu bir yıldız",
+   "link": "https://defensehere.com/tr/stmden-kargulu-paylasim-daglarin-ustunden-dogdu-bir-yildiz/",
+   "date": "2026-11-20T15:32:26Z",
+   "desc": "STM, milli vurucu insansız hava aracı (İHA) KARGU’ya ilişkin görüntüleri sosyal medya hesabından paylaştı. Paylaşımda, “Dağların üstünden doğdu bir yıldız” ifadelerine yer verilirken, videoda Barış Manço’nun “Vur Ha Vur”",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Hollanda, Patria’nın CAVS programına katıldı: 6×6 zırhlı araç işbirliği genişliyor",
+   "link": "https://defensehere.com/tr/hollanda-patrianin-cavs-programina-katildi-6x6-zirhli-arac-isbirligi-genisliyor/",
+   "date": "2026-11-20T15:29:56Z",
+   "desc": "Finlandiyalı savunma şirketi Patria tarafından yapılan açıklamada, Hollanda’nın Ortak Zırhlı Araç Sistemi (CAVS) programına katıldığı duyuruldu. Hollanda’nın katılımıyla Avrupa ülkeleri arasındaki ortak korunmalı hareket",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/1-2.jpg",
+   "source": "defensehere"
+  },
+  {
+   "title": "Baykar’dan “İlk tasarımdan ilk teslimata Bayraktar KIZILELMA” paylaşımı",
+   "link": "https://defensehere.com/tr/baykardan-ilk-tasarimdan-ilk-teslimata-bayraktar-kizilelma-paylasimi/",
+   "date": "2026-11-20T15:09:11Z",
+   "desc": "Baykar tarafından geliştirilen Bayraktar KIZILELMA, 19 Kasım 2026 itibarıyla göreve hazır şekilde güvenlik güçlerine teslim edildi. Baykar Yönetim Kurulu Başkanı Selçuk Bayraktar, teslimatın dünya havacılık tarihinde bir",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/kizilelma.webp",
+   "source": "defensehere"
+  },
+  {
    "title": "Mayınlı Arazilere MKE Çözümü: ALPAY D ile Güvenli Koridor",
    "link": "https://www.savunmasanayist.com/mayinli-arazilere-mke-cozumu-alpay-d-ile-guvenli-koridor/",
    "date": "2026-11-20T13:46:29Z",
    "desc": "MKE, mayınlı arazilerde piyade birliklerinin güvenli geçişini sağlamak amacıyla geliştirdiği ALPAY-D sisteminin saha testlerini başarıyla tamamladı. Türk Silahlı Kuvvetleri’nin saha ihtiyaçlarına yönelik silah ve sisteml",
    "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/MKE-ALPAY-D-2.jpg",
    "source": "savunmasanayist"
+  },
+  {
+   "title": "SKYDAGGER HUNTER ve TOYCA-05, SKY SHOW 2026’da hedefleri vurdu",
+   "link": "https://defensehere.com/tr/skydagger-hunter-ve-toyca-05-sky-show-2026da-hedefleri-vurdu/",
+   "date": "2026-11-20T13:36:28Z",
+   "desc": "SKYDAGGER, Konya’nın Karapınar ilçesinde düzenlenen SKY SHOW 2026 kapsamında gerçekleştirdiği gösterimde HUNTER önleyici İHA ve TOYCA-05 kamikaze İHA’nın hedeflerini başarıyla vurduğunu duyurdu. Şirketin tarafından payla",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "Skylark Labs demonstrates humanoid search for explosive hazards",
@@ -649,6 +746,14 @@
    "desc": "FNSS ve CSG Grubu’nun ortak girişimi Danube Defence Systems’in geliştirdiği CFL-120 KARPAT Orta Sınıf Tankı, atış gösterimini başarıyla tamamladı. Slovakya’daki Záhorie Askerî Test Sahası’nda potansiyel kullanıcıların ka",
    "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/FNSS-KAPLAN-KARPAT-cfl-120.jpg",
    "source": "savunmasanayist"
+  },
+  {
+   "title": "ABD ile Honduras arasında savunma ve sınır güvenliği işbirliği anlaşmaları imzalandı",
+   "link": "https://defensehere.com/tr/abd-ile-honduras-arasinda-savunma-ve-sinir-guvenligi-isbirligi-anlasmalari-imzalandi/",
+   "date": "2026-11-20T12:47:22Z",
+   "desc": "ABD Savunma Bakanı Pete Hegseth, Honduras Devlet Başkanı Nasry Asfura ile savunma, sınır güvenliği ve narko-terörizmle mücadele alanlarında işbirliğinin güçlendirilmesini ele almak üzere bir araya geldi. Honduras’taki En",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030",
@@ -793,14 +898,6 @@
    "desc": "Some forecasters who closely track AI developments have drastically revised predictions this month, saying that “ artificial superintelligence ” may arrive years earlier than they thought. Sentinel , a forecasting group,",
    "img": "https://cdn.defenseone.com/media/img/cd/2026/11/19/GettyImages_2223649020/large.jpg",
    "source": "defenseone"
-  },
-  {
-   "title": "Toti pushes new foreign-built shipyard in the US to focus on frigates, large surface combatants",
-   "link": "https://breakingdefense.com/2026/11/toti-pushes-new-foreign-built-shipyard-in-the-us-to-focus-on-frigates-large-surface-combatants/",
-   "date": "2026-11-19T21:08:27Z",
-   "desc": "Foreign shipbuilding has emerged as a sticking point between Congress and the Trump administration, with the administration pushing for an expansion of the so-called “Finland model.”",
-   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2025/07/IMG_5929-scaled-e1751502454360-1024x577.jpeg",
-   "source": "breakingdefense"
   },
   {
    "title": "Denmark ratifies Trump deal over Greenland, hoping to end conflict",
@@ -1033,14 +1130,6 @@
    "desc": "A sliver of moon hung low in the sky: blood red, eerie, and ominous. Already 18 hours into their mission, the two pilots were, for now, focused and alert. They checked their switches, eyed the moving map display, watched",
    "img": "https://www.airandspaceforces.com/app/uploads/2026/11/9127323-900x600.jpg",
    "source": "afmag"
-  },
-  {
-   "title": "Europe Is Exploring Orbital Deep Strike Weapons",
-   "link": "https://www.twz.com/space/europe-is-exploring-orbital-deep-strike-weapons",
-   "date": "2026-11-18T21:50:08Z",
-   "desc": "Europe is beginning to explore the possibility of delivering conventional military payloads from orbit , with the German arm of defense behemoth MBDA and space transportation company ATMOS Space Cargo teaming up to inves",
-   "img": "https://www.twz.com/wp-content/uploads/2026/11/ATMOS-space-capsule-rendering.jpg?quality=85",
-   "source": "twz"
   },
   {
    "title": "Hegseth Makes Surprise Visit to Venezuela to Strengthen Military Ties",
@@ -1305,14 +1394,6 @@
    "desc": "The USAF has conducted the first weapons release test of the B-21 Raider, marking a transition from flight testing to a functional weapons platform.",
    "img": null,
    "source": "airforcetech"
-  },
-  {
-   "title": "Italy Backs Germany’s GCAP Full Membership Ambitions",
-   "link": "https://theaviationist.com/2026/11/16/italy-backs-germanys-gcap-full-membership-ambitions/",
-   "date": "2026-11-16T16:58:05Z",
-   "desc": "Italy says it supports Germany’s participation in the sixth-generation fighter program, with the proposed observer status meant to accelerate the road to the full membership. Italy has reaffirmed its support for Germany ",
-   "img": "https://theaviationist.com/wp-content/uploads/2025/06/GCAP-Edgewing-JV.jpg",
-   "source": "aviationist"
   },
   {
    "title": "US Air Force permanently deploys F-15EX jets to Kadena Air Base in Japan",
