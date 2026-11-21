@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T21:38:00Z",
+ "generated": "2026-11-21T02:55:01Z",
  "sources": [
   {
    "id": "defensenews",
@@ -188,31 +188,31 @@
    "count": 10,
    "latest": "2026-11-20T17:54:27Z",
    "error": null,
-   "ms": 301
+   "ms": 206
   },
   {
    "id": "breakingdefense",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-20T20:53:46Z",
+   "latest": "2026-11-20T23:52:57Z",
    "error": null,
-   "ms": 102
+   "ms": 97
   },
   {
    "id": "defenseone",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-20T19:42:56Z",
+   "latest": "2026-11-21T01:18:33Z",
    "error": null,
-   "ms": 128
+   "ms": 81
   },
   {
    "id": "afmag",
    "status": "ok",
    "count": 9,
-   "latest": "2026-11-20T20:39:27Z",
+   "latest": "2026-11-21T01:34:54Z",
    "error": null,
-   "ms": 218
+   "ms": 252
   },
   {
    "id": "airforcetech",
@@ -220,15 +220,15 @@
    "count": 10,
    "latest": "2026-11-19T17:25:55Z",
    "error": null,
-   "ms": 166
+   "ms": 129
   },
   {
    "id": "twz",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-20T21:26:26Z",
+   "latest": "2026-11-20T23:12:57Z",
    "error": null,
-   "ms": 294
+   "ms": 122
   },
   {
    "id": "warontherocks",
@@ -236,7 +236,7 @@
    "count": 12,
    "latest": "2026-11-20T17:18:04Z",
    "error": null,
-   "ms": 136
+   "ms": 104
   },
   {
    "id": "rand",
@@ -244,7 +244,7 @@
    "count": 6,
    "latest": "2026-11-18T16:00:00Z",
    "error": null,
-   "ms": 127
+   "ms": 296
   },
   {
    "id": "ukdj",
@@ -252,7 +252,7 @@
    "count": 10,
    "latest": "2026-11-20T13:00:03Z",
    "error": null,
-   "ms": 756
+   "ms": 537
   },
   {
    "id": "aviationist",
@@ -260,7 +260,7 @@
    "count": 12,
    "latest": "2026-11-20T17:08:21Z",
    "error": null,
-   "ms": 117
+   "ms": 86
   },
   {
    "id": "rusi",
@@ -268,7 +268,7 @@
    "count": 12,
    "latest": "2026-11-20T00:00:00Z",
    "error": null,
-   "ms": 387
+   "ms": 212
   },
   {
    "id": "eurosd",
@@ -276,7 +276,7 @@
    "count": 6,
    "latest": "2026-11-20T16:41:30Z",
    "error": null,
-   "ms": 232
+   "ms": 359
   },
   {
    "id": "savunmasanayist",
@@ -284,25 +284,31 @@
    "count": 10,
    "latest": "2026-11-20T13:46:29Z",
    "error": null,
-   "ms": 647
+   "ms": 586
   },
   {
    "id": "defensehere",
-   "status": "error",
-   "count": 0,
-   "latest": null,
-   "error": "ParseError: mismatched tag: line 1, column 167"
+   "status": "ok",
+   "count": 10,
+   "latest": "2026-11-20T17:07:07Z",
+   "error": null,
+   "ms": 1873
   }
  ],
  "trending": [
   {
    "term": "Ukraine",
-   "n": 6,
-   "sources": 5
+   "n": 7,
+   "sources": 6
   },
   {
    "term": "Trump",
    "n": 5,
+   "sources": 3
+  },
+  {
+   "term": "Nuclear",
+   "n": 4,
    "sources": 3
   },
   {
@@ -311,17 +317,68 @@
    "sources": 4
   },
   {
-   "term": "Test",
-   "n": 3,
-   "sources": 3
-  },
-  {
-   "term": "Tank",
-   "n": 3,
+   "term": "China",
+   "n": 4,
    "sources": 3
   }
  ],
  "items": [
+  {
+   "title": "B-2 Wings Receive US Military’s Highest Unit-Level Award for Midnight Hammer",
+   "link": "https://www.airandspaceforces.com/b-2-presidential-unit-citation-operation-midnight-hammer/",
+   "date": "2026-11-21T01:34:54Z",
+   "desc": "The B-2 bomb wings that planned and flew Operation Midnight Hammer, the punishing June 2025 attacks that struck two of Iran’s deeply buried nuclear facilities, received the U.S. military’s highest unit-level award, the P",
+   "img": "https://www.airandspaceforces.com/app/uploads/2026/11/261120-F-XP318-1112-900x600.jpg",
+   "source": "afmag"
+  },
+  {
+   "title": "The military lacks an ‘overarching plan’ to improve munition stockpiles—partly because it’s no one’s job",
+   "link": "https://www.defenseone.com/threats/2026/11/military-lacks-munitions-plan/417390/",
+   "date": "2026-11-21T01:18:33Z",
+   "desc": "The Defense Department has no “overarching plan” to identify, achieve, or measure its progress toward long-term munition production goals, according to a Government Accountability Office study released on Thursday, which",
+   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/20/9736344/large.jpg",
+   "source": "defenseone"
+  },
+  {
+   "title": "Europeans, with Ukraine’s help, brace for more Russian attacks",
+   "link": "https://www.defenseone.com/threats/2026/11/europeans-ukraines-help-brace-more-russian-attacks/417389/",
+   "date": "2026-11-21T00:58:14Z",
+   "desc": "IZMIR, Turkey— Vladimir Putin would “love to end the war,” as Donald Trump asserted on Friday, but European NATO members and Ukrainians are working to make sure Russia’s invasion of Ukraine doesn’t end on Moscow’s terms.",
+   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/20/GettyImages_2305266300/large.jpg",
+   "source": "defenseone"
+  },
+  {
+   "title": "Army 3-Star to Lead NORAD; Air Force Picks New Head at Nuclear Weapons Center",
+   "link": "https://www.airandspaceforces.com/army-3-star-norad-air-force-nuclear-weapons-center-boss/",
+   "date": "2026-11-21T00:37:01Z",
+   "desc": "The White House is nominating Army Lt. Gen. Patrick D. Frank to become commander of U.S. Northern Command and North American Aerospace Defense Command, a role traditionally held by Air Force officers. If confirmed, Frank",
+   "img": "https://www.airandspaceforces.com/app/uploads/2026/11/7932504-900x600.jpg",
+   "source": "afmag"
+  },
+  {
+   "title": "Air Force issues massive $16B contract for engine work to dozens of companies",
+   "link": "https://breakingdefense.com/2026/11/air-force-issues-massive-16b-contract-for-engine-work-to-dozens-of-companies/",
+   "date": "2026-11-20T23:52:57Z",
+   "desc": "A Pentagon notice said 58 companies were selected to participate in a broad contract for “advanced propulsion enterprise work” through 2041.",
+   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/261120_DVIDS_engine_test_USA_9748180-scaled-e1795218202160-1024x577.jpg",
+   "source": "breakingdefense"
+  },
+  {
+   "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
+   "link": "https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-216",
+   "date": "2026-11-20T23:12:57Z",
+   "desc": "Welcome to Bunker Talk. This is a weekend open discussion post for the best commenting crew on the net, in which we can chat about all the stuff that went on this week that we didn’t cover. We can also talk about the stu",
+   "img": "https://www.twz.com/wp-content/uploads/2026/11/GettyImages-517453122-copy.jpg?quality=85",
+   "source": "twz"
+  },
+  {
+   "title": "There Is More To Air Force One’s Long Flight From China Than Just Breaking Records",
+   "link": "https://www.twz.com/air/there-is-more-to-air-force-ones-long-flight-from-china-than-just-breaking-records",
+   "date": "2026-11-20T22:39:44Z",
+   "desc": "Just back from his trip to Shenzhen, where he met with leaders from China and Russia , President Donald Trump boasted about the U.S. Air Force’s new VC-25B Bridge aircraft that took him home. The return from China was “t",
+   "img": "https://www.twz.com/wp-content/uploads/2026/11/VC-25B-Bridge-Air-Force-One-copy.jpg?quality=85",
+   "source": "twz"
+  },
   {
    "title": "Oddball CFL-120 Karpat Medium Tank With A Big Gun Faces A Battlefield Increasingly Hostile To Armor",
    "link": "https://www.twz.com/land/oddball-cfl-120-karpat-medium-tank-with-a-big-120mm-gun-faces-a-battlefield-increasingly-hostile-to-armor",
@@ -419,6 +476,22 @@
    "source": "aviationist"
   },
   {
+   "title": "Polonya’daki hava sahası ihlallerine karşılık NATO savaş uçakları havalandı",
+   "link": "https://defensehere.com/tr/polonyadaki-hava-sahasi-ihlallerine-karsilik-nato-savas-ucaklari-havalandi/",
+   "date": "2026-11-20T17:07:07Z",
+   "desc": "NATO Genel Sekreteri Mark Rutte, Polonya’nın hava sahasının ihlal edilmesini “tehlikeli” olarak nitelendirerek, olay üzerine NATO savaş uçaklarının havalandırıldığını ve müttefiklerin caydırıcılık ve savunma kabiliyetler",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Malezya, Thales Alenia Space ile imzaladığı yeni anlaşmalarla uzay kabiliyetlerini geliştirmeyi planlıyor",
+   "link": "https://defensehere.com/tr/malezya-thales-alenia-space-ile-imzaladigi-yeni-anlasmalarla-uzay-kabiliyetlerini-gelistirmeyi-planliyor/",
+   "date": "2026-11-20T17:00:50Z",
+   "desc": "Malezya, bu yıl yürürlüğe koyduğu Ulusal Savunma Sanayi Politikası (NDIP) doğrultusunda uydu haberleşme kabiliyetlerini geliştirmeyi hedefliyor. Bu kapsamda, merkezi Kuala Lumpur’da bulunan Weststar Group, Avrupalı savun",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "German attack drones pass live-fire tests, with first deliveries planned this year",
    "link": "https://www.defensenews.com/global/europe/2026/11/20/german-attack-drones-pass-live-fire-tests-with-first-deliveries-planned-this-year/",
    "date": "2026-11-20T16:55:38Z",
@@ -443,6 +516,14 @@
    "source": "breakingdefense"
   },
   {
+   "title": "Arjantin, İtalyan yapımı FCX20 korvetleri tedarik etmeyi planlıyor",
+   "link": "https://defensehere.com/tr/arjantin-italyan-yapimi-fcx20-korvetleri-tedarik-etmeyi-planliyor/",
+   "date": "2026-11-20T16:46:47Z",
+   "desc": "Arjantin Donanması, İtalyan gemi inşa şirketi Fincantieri tarafından geliştirilen üç adet FCX20 korvetini tedarik etmeyi planlıyor. Fincantieri tarafından 19 Kasım’da yapılan açıklamada, iki ülkenin savunma bakanlarının ",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "Poland Hit by Russian Weapons",
    "link": "https://euro-sd.com/2026/11/news/exclusive-news/54755/poland-hit-by-russian-weapons/",
    "date": "2026-11-20T16:41:30Z",
@@ -459,12 +540,44 @@
    "source": "breakingdefense"
   },
   {
+   "title": "STM’den KARGU’lu paylaşım: Dağların üstünden doğdu bir yıldız",
+   "link": "https://defensehere.com/tr/stmden-kargulu-paylasim-daglarin-ustunden-dogdu-bir-yildiz/",
+   "date": "2026-11-20T15:32:26Z",
+   "desc": "STM, milli vurucu insansız hava aracı (İHA) KARGU’ya ilişkin görüntüleri sosyal medya hesabından paylaştı. Paylaşımda, “Dağların üstünden doğdu bir yıldız” ifadelerine yer verilirken, videoda Barış Manço’nun “Vur Ha Vur”",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Hollanda, Patria’nın CAVS programına katıldı: 6×6 zırhlı araç işbirliği genişliyor",
+   "link": "https://defensehere.com/tr/hollanda-patrianin-cavs-programina-katildi-6x6-zirhli-arac-isbirligi-genisliyor/",
+   "date": "2026-11-20T15:29:56Z",
+   "desc": "Finlandiyalı savunma şirketi Patria tarafından yapılan açıklamada, Hollanda’nın Ortak Zırhlı Araç Sistemi (CAVS) programına katıldığı duyuruldu. Hollanda’nın katılımıyla Avrupa ülkeleri arasındaki ortak korunmalı hareket",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/1-2.jpg",
+   "source": "defensehere"
+  },
+  {
+   "title": "Baykar’dan “İlk tasarımdan ilk teslimata Bayraktar KIZILELMA” paylaşımı",
+   "link": "https://defensehere.com/tr/baykardan-ilk-tasarimdan-ilk-teslimata-bayraktar-kizilelma-paylasimi/",
+   "date": "2026-11-20T15:09:11Z",
+   "desc": "Baykar tarafından geliştirilen Bayraktar KIZILELMA, 19 Kasım 2026 itibarıyla göreve hazır şekilde güvenlik güçlerine teslim edildi. Baykar Yönetim Kurulu Başkanı Selçuk Bayraktar, teslimatın dünya havacılık tarihinde bir",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/kizilelma.webp",
+   "source": "defensehere"
+  },
+  {
    "title": "Mayınlı Arazilere MKE Çözümü: ALPAY D ile Güvenli Koridor",
    "link": "https://www.savunmasanayist.com/mayinli-arazilere-mke-cozumu-alpay-d-ile-guvenli-koridor/",
    "date": "2026-11-20T13:46:29Z",
    "desc": "MKE, mayınlı arazilerde piyade birliklerinin güvenli geçişini sağlamak amacıyla geliştirdiği ALPAY-D sisteminin saha testlerini başarıyla tamamladı. Türk Silahlı Kuvvetleri’nin saha ihtiyaçlarına yönelik silah ve sisteml",
    "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/MKE-ALPAY-D-2.jpg",
    "source": "savunmasanayist"
+  },
+  {
+   "title": "SKYDAGGER HUNTER ve TOYCA-05, SKY SHOW 2026’da hedefleri vurdu",
+   "link": "https://defensehere.com/tr/skydagger-hunter-ve-toyca-05-sky-show-2026da-hedefleri-vurdu/",
+   "date": "2026-11-20T13:36:28Z",
+   "desc": "SKYDAGGER, Konya’nın Karapınar ilçesinde düzenlenen SKY SHOW 2026 kapsamında gerçekleştirdiği gösterimde HUNTER önleyici İHA ve TOYCA-05 kamikaze İHA’nın hedeflerini başarıyla vurduğunu duyurdu. Şirketin tarafından payla",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "Skylark Labs demonstrates humanoid search for explosive hazards",
@@ -491,6 +604,14 @@
    "source": "ukdj"
   },
   {
+   "title": "ABD ile Honduras arasında savunma ve sınır güvenliği işbirliği anlaşmaları imzalandı",
+   "link": "https://defensehere.com/tr/abd-ile-honduras-arasinda-savunma-ve-sinir-guvenligi-isbirligi-anlasmalari-imzalandi/",
+   "date": "2026-11-20T12:47:22Z",
+   "desc": "ABD Savunma Bakanı Pete Hegseth, Honduras Devlet Başkanı Nasry Asfura ile savunma, sınır güvenliği ve narko-terörizmle mücadele alanlarında işbirliğinin güçlendirilmesini ele almak üzere bir araya geldi. Honduras’taki En",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "Meteor successor study with France due next summer",
    "link": "https://ukdefencejournal.org.uk/meteor-successor-study-with-france-due-next-summer/",
    "date": "2026-11-20T12:00:02Z",
@@ -499,12 +620,28 @@
    "source": "ukdj"
   },
   {
+   "title": "Rusya, yeni roketatar sistemini sahaya sürdü",
+   "link": "https://defensehere.com/tr/rusya-yeni-roketatar-sistemitos-1a-bm-2m-solntsepeki-sahaya-surdu/",
+   "date": "2026-11-20T11:59:34Z",
+   "desc": "Rusya, T-72 tankı şasisi yerine T-80 tankı şasisi üzerine inşa edilen TOS-1A BM-2M Solntsepek termobarik roketatar sisteminin yeni versiyonunu Dnipropetrovsk yönündeki operasyonlarda kullanmaya başladı. Rusya Savunma Bak",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030",
    "link": "https://www.defensenews.com/global/europe/2026/11/20/dutch-defense-industry-plan-targets-40-growth-e15-billion-revenue-by-2030/",
    "date": "2026-11-20T11:56:51Z",
    "desc": "PARIS — The Netherlands presented a defense-industrial plan with a target to grow its defense technological and industrial base by 40% by 2030, with local defense industry revenue reaching around €15 billion ($16.5 billi",
    "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-2304258717.jpg",
    "source": "defensenews"
+  },
+  {
+   "title": "Yenice Metal, savunma sanayisinde bitmiş ürün üretimine hazırlanıyor",
+   "link": "https://defensehere.com/tr/yenice-metal-savunma-sanayisinde-bitmis-urun-uretimine-hazirlaniyor/",
+   "date": "2026-11-20T11:43:56Z",
+   "desc": "1973 yılında İstanbul’da kurulan Yenice Metal, otomotiv, inşaat, mobilya ve mimari proje sektörlerinin ardından savunma sanayisine yönelik üretimlerini de sürdürüyor. Metal işleme alanında faaliyet gösteren şirket; lazer",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "No decision on ordering more Boxer vehicles, says minister",
@@ -755,14 +892,6 @@
    "source": "breakingdefense"
   },
   {
-   "title": "Army extends Data Operations Center pilot to Oct. 2027",
-   "link": "https://breakingdefense.com/2026/11/army-extends-data-operations-center-pilot-to-oct-2027/",
-   "date": "2026-11-19T19:01:34Z",
-   "desc": "The service is using the additional time to evaluate the center’s workload, refine its processes and determine the staffing and organizational structure needed to make it permanent.",
-   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/10/94902611-scaled-e1792076499416-1024x577.jpg",
-   "source": "breakingdefense"
-  },
-  {
    "title": "Pentagon lacks ‘overarching plan’ for munitions production, watchdog warns",
    "link": "https://www.defensenews.com/industry/techwatch/2026/11/19/pentagon-lacks-overarching-plan-for-munitions-production-watchdog-warns/",
    "date": "2026-11-19T18:59:12Z",
@@ -987,28 +1116,12 @@
    "source": "afmag"
   },
   {
-   "title": "Feds: Irish National Vandalized C-130 So Thoroughly It Was ‘Effectively Destroyed’",
-   "link": "https://www.airandspaceforces.com/feds-irish-national-vandalized-c-130-so-thoroughly-it-was-effectively-destroyed/",
-   "date": "2026-11-18T20:28:10Z",
-   "desc": "Federal prosecutors have charged an Irish man with methodically vandalizing a U.S. Air Force C-130H so extensively that the $60 million transport aircraft is effectively totaled. The U.S. Department of Justice announced ",
-   "img": "https://www.airandspaceforces.com/app/uploads/2026/11/C-130H-Ireland-vandalism-1.jpg",
-   "source": "afmag"
-  },
-  {
    "title": "First Flight of New Royal Air Force H-47ER Special Ops Chinook",
    "link": "https://theaviationist.com/2026/11/18/new-raf-chinook-first-flight/",
    "date": "2026-11-18T19:21:33Z",
    "desc": "The first H-47ER Chinook – modeled on the U.S. Army’s MH-47G – for the Royal Air Force, the first overseas customer to get Block II Chinooks, took to the skies at Boeing’s facility in Philadelphia. Video footage showing ",
    "img": "https://theaviationist.com/wp-content/uploads/2026/11/newukchinooks_1-scaled.jpg",
    "source": "aviationist"
-  },
-  {
-   "title": "Flying Stripped-Down F-15 “Silver Eagles” To Their Limits",
-   "link": "https://www.twz.com/air/flying-stripped-down-f-15-silver-eagles-to-their-limits",
-   "date": "2026-11-18T19:03:37Z",
-   "desc": "Driving across the vast flightline at Robins Air Force Base in Georgia, a prominent hangar bears the title “Welcome to Eagle Country.” A row of nearby smaller ‘barn’ hangars each reveals the telltale silhouette of an F-1",
-   "img": "https://www.twz.com/wp-content/uploads/2026/11/Silver-Eagle-youtube-3-copy.jpg?quality=85",
-   "source": "twz"
   },
   {
    "title": "Is Dollar Dominance in Decline?",
@@ -1019,14 +1132,6 @@
    "source": "warontherocks"
   },
   {
-   "title": "U.S. Air Force’s Containerized Surface-To-Air Missile Program Comes Into Sharper Focus",
-   "link": "https://www.twz.com/land/u-s-air-forces-containerized-surface-to-air-missile-program-comes-into-sharper-focus",
-   "date": "2026-11-18T18:45:21Z",
-   "desc": "The U.S. Air Force has awarded a flurry of contracts to support its pursuit of a new, lower-cost anti-air missile, as well as containerized launchers to fire them. The Counter-Air Missile Program (CAMP) is targeting desi",
-   "img": "https://www.twz.com/wp-content/uploads/2026/11/air-force-low-cost-anti-air-interceptor-program-moves-ahead.jpg?quality=85",
-   "source": "twz"
-  },
-  {
    "title": "Need range time? The Army now has an online reservation system",
    "link": "https://www.defenseone.com/defense-systems/2026/11/need-range-time-army-now-has-online-reservation-system/417309/",
    "date": "2026-11-18T18:03:56Z",
@@ -1035,27 +1140,11 @@
    "source": "defenseone"
   },
   {
-   "title": "Senate Backs Bigger Space Force, but Trims Pentagon Plans",
-   "link": "https://www.airandspaceforces.com/senate-backs-bigger-space-force-but-trims-pentagon-plans/",
-   "date": "2026-11-18T17:51:45Z",
-   "desc": "The Senate Appropriations Committee approved a plan to raise investment in the Space Force by 73 percent over 2026—but its bid falls well short of the Pentagon’s request. Under the plan, the Space Force would get $54.7 b",
-   "img": "https://www.airandspaceforces.com/app/uploads/2026/02/55089428584_0a7f4008be_c.jpg",
-   "source": "afmag"
-  },
-  {
    "title": "Major AI platforms generated viable plans for terrorist attacks, GAO finds",
    "link": "https://www.defenseone.com/threats/2026/11/major-ai-platforms-generated-viable-plans-terrorist-attacks-gao-finds/417308/",
    "date": "2026-11-18T17:51:00Z",
    "desc": "Four of the most widely used artificial intelligence platforms generated viable plans for attacks on U.S. critical infrastructure and mass-casualty events during covert government testing, despite safeguards designed to ",
    "img": "https://cdn.defenseone.com/media/img/cd/2026/11/18/GettyImages_2189472651-1/large.jpg",
-   "source": "defenseone"
-  },
-  {
-   "title": "Senate grills acting Navy secretary on Iran war costs, extended deployments",
-   "link": "https://www.defenseone.com/defense-systems/2026/11/senate-grills-acting-navy-secretary-iran-war-costs-extended-deployments/417307/",
-   "date": "2026-11-18T17:43:11Z",
-   "desc": "The White House’s pick to lead the Navy didn’t have clear answers Tuesday when lawmakers pressed him about ballooning Iran war costs, the resulting toll on troops deployed to the region, and the service’s overall readine",
-   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/18/GettyImages_2305042198/large.jpg",
    "source": "defenseone"
   },
   {
@@ -1137,14 +1226,6 @@
    "desc": "U.S. President Donald Trump, who has sought nuclear arms control with Russia and China since his first term, may finally have his chance. The first-ever U.S.-Chinese-Russian leaders’ summit is set to take place in Shenzh",
    "img": null,
    "source": "warontherocks"
-  },
-  {
-   "title": "NATO aims to spur space industry, help militaries by joining data marketplace",
-   "link": "https://www.defenseone.com/threats/2026/11/nato-aims-spur-space-industry-help-militaries-new-data-marketplace/417283/",
-   "date": "2026-11-18T01:03:52Z",
-   "desc": "IZMIR, Turkey— NATO allies hope that joining a marketplace for orbital data will nurture Europe’s growing space industry and help militaries keep the satellites they rely on safe from attack. On Tuesday, alliance officia",
-   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/17/GettyImages_1648725322/large.jpg",
-   "source": "defenseone"
   },
   {
    "title": "Ukraine Straddles Diverging Fronts",
