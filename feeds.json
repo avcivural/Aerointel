@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-21T02:55:01Z",
+ "generated": "2026-11-21T10:27:22Z",
  "sources": [
   {
    "id": "defensenews",
@@ -188,7 +188,7 @@
    "count": 10,
    "latest": "2026-11-20T17:54:27Z",
    "error": null,
-   "ms": 206
+   "ms": 109
   },
   {
    "id": "breakingdefense",
@@ -196,7 +196,7 @@
    "count": 12,
    "latest": "2026-11-20T23:52:57Z",
    "error": null,
-   "ms": 97
+   "ms": 69
   },
   {
    "id": "defenseone",
@@ -204,7 +204,7 @@
    "count": 12,
    "latest": "2026-11-21T01:18:33Z",
    "error": null,
-   "ms": 81
+   "ms": 131
   },
   {
    "id": "afmag",
@@ -212,7 +212,7 @@
    "count": 9,
    "latest": "2026-11-21T01:34:54Z",
    "error": null,
-   "ms": 252
+   "ms": 190
   },
   {
    "id": "airforcetech",
@@ -220,7 +220,7 @@
    "count": 10,
    "latest": "2026-11-19T17:25:55Z",
    "error": null,
-   "ms": 129
+   "ms": 103
   },
   {
    "id": "twz",
@@ -228,7 +228,7 @@
    "count": 12,
    "latest": "2026-11-20T23:12:57Z",
    "error": null,
-   "ms": 122
+   "ms": 98
   },
   {
    "id": "warontherocks",
@@ -236,7 +236,7 @@
    "count": 12,
    "latest": "2026-11-20T17:18:04Z",
    "error": null,
-   "ms": 104
+   "ms": 103
   },
   {
    "id": "rand",
@@ -244,15 +244,15 @@
    "count": 6,
    "latest": "2026-11-18T16:00:00Z",
    "error": null,
-   "ms": 296
+   "ms": 311
   },
   {
    "id": "ukdj",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-20T13:00:03Z",
+   "latest": "2026-11-21T10:00:09Z",
    "error": null,
-   "ms": 537
+   "ms": 599
   },
   {
    "id": "aviationist",
@@ -260,7 +260,7 @@
    "count": 12,
    "latest": "2026-11-20T17:08:21Z",
    "error": null,
-   "ms": 86
+   "ms": 93
   },
   {
    "id": "rusi",
@@ -268,7 +268,7 @@
    "count": 12,
    "latest": "2026-11-20T00:00:00Z",
    "error": null,
-   "ms": 212
+   "ms": 332
   },
   {
    "id": "eurosd",
@@ -276,23 +276,23 @@
    "count": 6,
    "latest": "2026-11-20T16:41:30Z",
    "error": null,
-   "ms": 359
+   "ms": 322
   },
   {
    "id": "savunmasanayist",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-20T13:46:29Z",
+   "latest": "2026-11-21T08:01:19Z",
    "error": null,
-   "ms": 586
+   "ms": 309
   },
   {
    "id": "defensehere",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-20T17:07:07Z",
+   "latest": "2026-11-20T18:37:22Z",
    "error": null,
-   "ms": 1873
+   "ms": 2057
   }
  ],
  "trending": [
@@ -317,12 +317,68 @@
    "sources": 4
   },
   {
-   "term": "China",
+   "term": "Karpat",
    "n": 4,
-   "sources": 3
+   "sources": 4
   }
  ],
  "items": [
+  {
+   "title": "Brave1 was ‘fresh air’ for NATO innovation, says official",
+   "link": "https://ukdefencejournal.org.uk/brave1-was-fresh-air-for-nato-innovation-says-official/",
+   "date": "2026-11-21T10:00:09Z",
+   "desc": "Ukraine’s defence technology cluster Brave1 has been described as a breath of “fresh air” for NATO’s own efforts to innovate, as the two sides push ahead with a joint grant programme that only funds teams made up of Ukra",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Countries on waiting list for Ukraine’s Delta battle system",
+   "link": "https://ukdefencejournal.org.uk/countries-on-waiting-list-for-ukraines-delta-battle-system/",
+   "date": "2026-11-21T09:00:07Z",
+   "desc": "A list of countries is waiting to receive Ukraine’s Delta battlefield management system, with the first expected to be given access next year under a scheme that would share its source code with allies, according to the ",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Adversary could weaponise own satellite debris, MPs warned",
+   "link": "https://ukdefencejournal.org.uk/adversary-could-weaponise-own-satellite-debris-mps-warned/",
+   "date": "2026-11-21T08:45:09Z",
+   "desc": "A hostile state could destroy one of its own satellites to shower debris on Western constellations without it counting as an armed attack, Dr Adam Bower of the University of St Andrews has told Parliament’s Joint Committ",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Ex-Space Command chief doubts UK could ride out space attack",
+   "link": "https://ukdefencejournal.org.uk/ex-space-command-chief-doubts-uk-could-ride-out-space-attack/",
+   "date": "2026-11-21T08:30:23Z",
+   "desc": "Britain cannot be confident it could absorb a first strike in space and still deliver the capabilities its forces depend on, Major General Paul Tedman, who commanded UK Space Command until this summer, has told Parliamen",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "RAF Typhoons flew over twenty thousand hours last year",
+   "link": "https://ukdefencejournal.org.uk/raf-typhoons-flew-over-twenty-thousand-hours-last-year/",
+   "date": "2026-11-21T08:26:13Z",
+   "desc": "The RAF’s Typhoon fleet flew 20,522 hours in 2025-26, down from 21,138 the year before but above the contractual baseline in both years, according to a parliamentary answer from Louise Sandher-Jones, Minister for the Arm",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Hedefi ASELSAN Radarı Gösterdi, SKYDAGGER HUNTER Vurdu",
+   "link": "https://www.savunmasanayist.com/hedefi-aselsan-radari-gosterdi-skydagger-hunter-vurdu/",
+   "date": "2026-11-21T08:01:19Z",
+   "desc": "SKYDAGGER’ın geliştirdiği HUNTER önleme dronu ASELSAN AURA 200-G radar sistemi verileriyle hedef uçağı imha etti. Denemede TOYCA-05 dronu da hedefine dalış gerçekleştirerek direkt vuruş yaptı. SKYDAGGER , SKY SHOW 2026 k",
+   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/ASELSAN-AURA-200-G.jpg",
+   "source": "savunmasanayist"
+  },
+  {
+   "title": "British frigate HMS Active takes shape in Scotland",
+   "link": "https://ukdefencejournal.org.uk/british-frigate-hms-active-takes-shape-in-scotland/",
+   "date": "2026-11-21T07:56:41Z",
+   "desc": "The forward and mid masts have been installed on HMS Active, the second of five Type 31 frigates being built at Rosyth for the Royal Navy, moving the ship into the final stages of structural assembly, according to Babcoc",
+   "img": null,
+   "source": "ukdj"
+  },
   {
    "title": "B-2 Wings Receive US Military’s Highest Unit-Level Award for Midnight Hammer",
    "link": "https://www.airandspaceforces.com/b-2-presidential-unit-citation-operation-midnight-hammer/",
@@ -436,12 +492,36 @@
    "source": "twz"
   },
   {
+   "title": "Arjantin, İtalyan yapımı FCX20 korvetleri tedarik etmeyi planlıyor",
+   "link": "https://defensehere.com/tr/arjantin-italyan-yapimi-fcx20-korvetleri-tedarik-etmeyi-planliyor/",
+   "date": "2026-11-20T18:37:22Z",
+   "desc": "Arjantin Donanması, İtalyan gemi inşa şirketi Fincantieri tarafından geliştirilen üç adet FCX20 korvetini tedarik etmeyi planlıyor. Fincantieri tarafından 19 Kasım’da yapılan açıklamada, iki ülkenin savunma bakanlarının ",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Mitsubishi Electric, MIURA 5 roketiyle uzaya uydu gönderecek",
+   "link": "https://defensehere.com/tr/mitsubishi-electric-miura-5-roketiyle-uzaya-uydu-gonderecek/",
+   "date": "2026-11-20T18:29:40Z",
+   "desc": "Mitsubishi Electric, İspanyol fırlatma hizmetleri sağlayıcısı PLD Space tarafından geliştirilen MIURA 5 roketiyle küçük bir uyduyu yörüngeye gönderecek. PLD Space tarafından 18 Kasım’da yapılan açıklamada, iki şirket ara",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "Autonomy firm Auterion to launch joint venture with Ukrainian drone maker Skyfall",
    "link": "https://breakingdefense.com/2026/11/autonomy-firm-auterion-to-launch-joint-venture-with-ukrainian-drone-maker-skyfall/",
    "date": "2026-11-20T18:24:00Z",
    "desc": "The new venture, called Skyfall X Auterion, will produce Skyfall drones with Auterion software in Germany, “outside the range of air strikes,” Auterion said.",
    "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2025/11/251120_skyfall_booth_dubai_BD-scaled-e1763649791541-1024x577.jpg",
    "source": "breakingdefense"
+  },
+  {
+   "title": "FNSS Kaplan tabanlı Karpat tankı, ilk atışlı gösterimini gerçekleştirdi",
+   "link": "https://defensehere.com/tr/fnss-kaplan-tabanli-karpat-tanki-ilk-atisli-gosterimini-gerceklestirdi/",
+   "date": "2026-11-20T17:54:58Z",
+   "desc": "Çekya merkezli Czechoslovak Group (CSG), Türk savunma sanayii şirketi FNSS tarafından geliştirilen Kaplan paletli platformu temel alan CFL-120 Karpat orta sınıf tankını Slovakya’da düzenlenen dinamik gösterimde potansiye",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "Trump, Xi agreed that military AI decisions should involve humans, Bessent says",
@@ -514,14 +594,6 @@
    "desc": "Across the Indo-Pacific, the Army is testing how shared data and open systems can speed battlefield decisions.",
    "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Lockheed-wrap-1-1024x683.jpg",
    "source": "breakingdefense"
-  },
-  {
-   "title": "Arjantin, İtalyan yapımı FCX20 korvetleri tedarik etmeyi planlıyor",
-   "link": "https://defensehere.com/tr/arjantin-italyan-yapimi-fcx20-korvetleri-tedarik-etmeyi-planliyor/",
-   "date": "2026-11-20T16:46:47Z",
-   "desc": "Arjantin Donanması, İtalyan gemi inşa şirketi Fincantieri tarafından geliştirilen üç adet FCX20 korvetini tedarik etmeyi planlıyor. Fincantieri tarafından 19 Kasım’da yapılan açıklamada, iki ülkenin savunma bakanlarının ",
-   "img": null,
-   "source": "defensehere"
   },
   {
    "title": "Poland Hit by Russian Weapons",
@@ -620,28 +692,12 @@
    "source": "ukdj"
   },
   {
-   "title": "Rusya, yeni roketatar sistemini sahaya sürdü",
-   "link": "https://defensehere.com/tr/rusya-yeni-roketatar-sistemitos-1a-bm-2m-solntsepeki-sahaya-surdu/",
-   "date": "2026-11-20T11:59:34Z",
-   "desc": "Rusya, T-72 tankı şasisi yerine T-80 tankı şasisi üzerine inşa edilen TOS-1A BM-2M Solntsepek termobarik roketatar sisteminin yeni versiyonunu Dnipropetrovsk yönündeki operasyonlarda kullanmaya başladı. Rusya Savunma Bak",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
    "title": "Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030",
    "link": "https://www.defensenews.com/global/europe/2026/11/20/dutch-defense-industry-plan-targets-40-growth-e15-billion-revenue-by-2030/",
    "date": "2026-11-20T11:56:51Z",
    "desc": "PARIS — The Netherlands presented a defense-industrial plan with a target to grow its defense technological and industrial base by 40% by 2030, with local defense industry revenue reaching around €15 billion ($16.5 billi",
    "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-2304258717.jpg",
    "source": "defensenews"
-  },
-  {
-   "title": "Yenice Metal, savunma sanayisinde bitmiş ürün üretimine hazırlanıyor",
-   "link": "https://defensehere.com/tr/yenice-metal-savunma-sanayisinde-bitmis-urun-uretimine-hazirlaniyor/",
-   "date": "2026-11-20T11:43:56Z",
-   "desc": "1973 yılında İstanbul’da kurulan Yenice Metal, otomotiv, inşaat, mobilya ve mimari proje sektörlerinin ardından savunma sanayisine yönelik üretimlerini de sürdürüyor. Metal işleme alanında faaliyet gösteren şirket; lazer",
-   "img": null,
-   "source": "defensehere"
   },
   {
    "title": "No decision on ordering more Boxer vehicles, says minister",
@@ -660,28 +716,12 @@
    "source": "ukdj"
   },
   {
-   "title": "Thales packs naval mission system into a shipping container",
-   "link": "https://ukdefencejournal.org.uk/thales-packs-naval-mission-system-into-a-shipping-container/",
-   "date": "2026-11-20T10:00:41Z",
-   "desc": "Thales has unveiled its Maritime Modular Capability, placing radar, sonar, electronic warfare and combat management functions inside a single 20-foot container for use on ships, low-crewed or uncrewed platforms, or on la",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "Damen Naval and Alewijnse strengthen collaboration for future Royal Netherlands Navy programmes",
    "link": "https://euro-sd.com/2026/11/news/sea/54750/damen-naval-alewijnse/",
    "date": "2026-11-20T09:19:06Z",
    "desc": "Damen Naval and Alewijnse are further strengthening their collaboration on future programmes for the Royal Netherlands Navy, including the Amphibious … mehr... The post Damen Naval and Alewijnse strengthen collaboration ",
    "img": "https://euro-sd.com/wp-content/uploads/2026/11/Amphibious-Transport-Ship-artists-impression-300x186.jpg",
    "source": "eurosd"
-  },
-  {
-   "title": "Bowman radio upgrade contract expected by end of year",
-   "link": "https://ukdefencejournal.org.uk/bowman-radio-upgrade-contract-expected-by-end-of-year/",
-   "date": "2026-11-20T09:00:58Z",
-   "desc": "A contract to upgrade the Army’s Bowman tactical communications system is expected to be signed by December, after the Treasury approved the project’s full business case in July, according to a written answer from Luke P",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "Why the Next Bioterrorists May Not Make the Same Mistakes as Aum Shinrikyo",
@@ -708,14 +748,6 @@
    "source": "defenseone"
   },
   {
-   "title": "UK-Dutch amphibious ships still ‘potential’, says minister",
-   "link": "https://ukdefencejournal.org.uk/uk-dutch-amphibious-ships-still-potential-says-minister/",
-   "date": "2026-11-20T08:00:48Z",
-   "desc": "The UK and the Netherlands are “exploring” the Amphibious Transport Ship as a “potential joint programme”, subject to national approvals, four months after the government announced a signed £2.4 billion agreement, accord",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "CSG Group Presents New CFL-120 Karpat Tank in a Dynamic Demonstration",
    "link": "https://euro-sd.com/2026/11/news/land/54746/csgcfl-120-karpat/",
    "date": "2026-11-20T07:04:29Z",
@@ -724,28 +756,12 @@
    "source": "eurosd"
   },
   {
-   "title": "Britain to give Ukraine a thousand long-range drones",
-   "link": "https://ukdefencejournal.org.uk/britain-to-give-ukraine-a-thousand-long-range-drones/",
-   "date": "2026-11-20T07:00:10Z",
-   "desc": "Britain will supply Ukraine with 1,000 British-built long-range drones and, working with Norway, British-built fast attack boats, Prime Minister Andy Burnham has announced at a Coalition of the Willing meeting in Berlin,",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "Australia receives first 2 of 13 additional Seahawk helicopters",
    "link": "https://breakingdefense.com/2026/11/australia-receives-first-2-of-13-additional-seahawk-helicopters/",
    "date": "2026-11-20T07:00:00Z",
    "desc": "The deliveries will expand the Royal Australian Navy’s MH-60R fleet to 36 aircraft by early 2028 as part of a broader effort to modernize Australia’s naval aviation capabilities.",
    "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/20261002ran8649366_0337-e1795101323795-1024x577.jpg",
    "source": "breakingdefense"
-  },
-  {
-   "title": "British Army orders new counter-fire radars in SERPENS deal",
-   "link": "https://ukdefencejournal.org.uk/british-army-orders-new-counter-fire-radars-in-serpens-deal/",
-   "date": "2026-11-20T06:00:45Z",
-   "desc": "SRC UK has won a £74 million Ministry of Defence contract to supply Gryphon R1430 radars to 5th Regiment Royal Artillery under the British Army’s SERPENS programme, replacing ageing systems with a new weapon-locating rad",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "Air Force Announces E-9 Promotions, Declined Slots to Be Backfilled",
@@ -948,14 +964,6 @@
    "source": "defensenews"
   },
   {
-   "title": "Design for Britain’s new amphibious warship unveiled",
-   "link": "https://ukdefencejournal.org.uk/design-for-britains-new-amphibious-warship-unveiled/",
-   "date": "2026-11-19T16:19:00Z",
-   "desc": "The design of the Royal Netherlands Navy’s new Amphibious Transport Ship has been unveiled at the NEDS 2026 naval exhibition, as Damen Naval and electrical integrator Alewijnse agreed to work more closely on the programm",
-   "img": "https://ukdj.ams3.digitaloceanspaces.com/2026/11/Amphibious-Transport-Ship-artists-impression.webp",
-   "source": "ukdj"
-  },
-  {
    "title": "Switzerland selects Thales GM200 radar to replace ageing TAFLIR system",
    "link": "https://www.airforce-technology.com/news/switzerland-thales-gm200-radar/",
    "date": "2026-11-19T16:13:41Z",
@@ -1052,18 +1060,18 @@
    "source": "twz"
   },
   {
-   "title": "Ireland's EU Presidency: Hybrid Threats Test a Neutral State",
-   "link": "https://www.rusi.org/explore-our-research/publications/rusi-newsbrief/irelands-eu-presidency-hybrid-threats-test-neutral-state",
-   "date": "2026-11-19T00:00:00Z",
-   "desc": "Hoax bomb threats, cyberattacks and drone incursions around Ireland's EU presidency have exposed the limits of its neutral, underfunded defence posture.",
-   "img": null,
-   "source": "rusi"
-  },
-  {
    "title": "Can Japan's ‘007’ Act as a Tailwind for Its New Intelligence Agency?",
    "link": "https://www.rusi.org/explore-our-research/publications/commentary/can-japans-007-act-tailwind-its-new-intelligence-agency",
    "date": "2026-11-19T00:00:00Z",
    "desc": "Japan’s hit spy drama VIVANT could boost public support for the country’s new intelligence agency – but Beijing has condemned its portrayal of China.",
+   "img": null,
+   "source": "rusi"
+  },
+  {
+   "title": "Ireland's EU Presidency: Hybrid Threats Test a Neutral State",
+   "link": "https://www.rusi.org/explore-our-research/publications/rusi-newsbrief/irelands-eu-presidency-hybrid-threats-test-neutral-state",
+   "date": "2026-11-19T00:00:00Z",
+   "desc": "Hoax bomb threats, cyberattacks and drone incursions around Ireland's EU presidency have exposed the limits of its neutral, underfunded defence posture.",
    "img": null,
    "source": "rusi"
   },
@@ -1297,14 +1305,6 @@
    "date": "2026-11-17T16:46:42Z",
    "desc": "Somali Türk Görev Kuvveti Hava Unsur Komutanlığı bünyesinde görev yapan F-16’lar, bakım zamanı gelen uçakların rotasyonu kapsamında Mogadişu ile Bandırma arasında ara iniş yapmadan intikal etti. İki sortide toplam 5 bin ",
    "img": null,
-   "source": "savunmasanayist"
-  },
-  {
-   "title": "NATO EDGE 26 İzmir’de: Türk Savunma Sanayii NATO Vitrininde",
-   "link": "https://www.savunmasanayist.com/nato-edge-26-izmirde-turk-savunma-sanayii-nato-vitrininde/",
-   "date": "2026-11-17T11:45:45Z",
-   "desc": "NATO’nun en kapsamlı teknoloji ve sanayi buluşması NATO EDGE 26, NATO İletişim ve Bilgi Ajansı (NCIA) ev sahipliğinde Türkiye’de ilk kez düzenlendi. Açılışta konuşan Cumhurbaşkanlığı Savunma Sanayii Başkanı Prof. Dr. Hal",
-   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/NATO-EDGE-26-4.jpg",
    "source": "savunmasanayist"
   },
   {
