@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T02:44:51Z",
+ "generated": "2026-11-22T10:30:30Z",
  "sources": [
   {
    "id": "defensenews",
@@ -188,7 +188,7 @@
    "count": 10,
    "latest": "2026-11-20T17:54:27Z",
    "error": null,
-   "ms": 175
+   "ms": 265
   },
   {
    "id": "breakingdefense",
@@ -196,7 +196,7 @@
    "count": 12,
    "latest": "2026-11-21T18:06:38Z",
    "error": null,
-   "ms": 654
+   "ms": 125
   },
   {
    "id": "defenseone",
@@ -204,7 +204,7 @@
    "count": 12,
    "latest": "2026-11-21T23:16:41Z",
    "error": null,
-   "ms": 616
+   "ms": 468
   },
   {
    "id": "afmag",
@@ -212,7 +212,7 @@
    "count": 9,
    "latest": "2026-11-21T01:34:54Z",
    "error": null,
-   "ms": 236
+   "ms": 314
   },
   {
    "id": "airforcetech",
@@ -220,7 +220,7 @@
    "count": 10,
    "latest": "2026-11-19T17:25:55Z",
    "error": null,
-   "ms": 159
+   "ms": 124
   },
   {
    "id": "twz",
@@ -228,7 +228,7 @@
    "count": 12,
    "latest": "2026-11-21T18:11:09Z",
    "error": null,
-   "ms": 187
+   "ms": 152
   },
   {
    "id": "warontherocks",
@@ -236,7 +236,7 @@
    "count": 12,
    "latest": "2026-11-20T17:18:04Z",
    "error": null,
-   "ms": 363
+   "ms": 418
   },
   {
    "id": "rand",
@@ -244,23 +244,23 @@
    "count": 6,
    "latest": "2026-11-18T16:00:00Z",
    "error": null,
-   "ms": 202
+   "ms": 184
   },
   {
    "id": "ukdj",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-21T13:03:11Z",
+   "latest": "2026-11-22T10:07:57Z",
    "error": null,
-   "ms": 757
+   "ms": 1189
   },
   {
    "id": "aviationist",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-21T22:14:08Z",
+   "latest": "2026-11-22T03:36:25Z",
    "error": null,
-   "ms": 69
+   "ms": 151
   },
   {
    "id": "rusi",
@@ -268,7 +268,7 @@
    "count": 12,
    "latest": "2026-11-20T00:00:00Z",
    "error": null,
-   "ms": 96
+   "ms": 113
   },
   {
    "id": "eurosd",
@@ -276,35 +276,35 @@
    "count": 6,
    "latest": "2026-11-20T16:41:30Z",
    "error": null,
-   "ms": 308
+   "ms": 542
   },
   {
    "id": "savunmasanayist",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-21T13:22:17Z",
+   "latest": "2026-11-22T07:49:17Z",
    "error": null,
-   "ms": 840
+   "ms": 907
   },
   {
    "id": "defensehere",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-20T18:37:22Z",
+   "latest": "2026-11-21T19:43:11Z",
    "error": null,
-   "ms": 2678
+   "ms": 2354
   }
  ],
  "trending": [
   {
-   "term": "Ukraine",
-   "n": 9,
-   "sources": 6
-  },
-  {
    "term": "NATO",
    "n": 9,
    "sources": 5
+  },
+  {
+   "term": "Ukraine",
+   "n": 8,
+   "sources": 6
   },
   {
    "term": "Trump",
@@ -324,6 +324,46 @@
  ],
  "items": [
   {
+   "title": "Hybrid Navy concept to drive fleet lethality, says minister",
+   "link": "https://ukdefencejournal.org.uk/hybrid-navy-concept-to-drive-fleet-lethality-says-minister/",
+   "date": "2026-11-22T10:07:57Z",
+   "desc": "The Royal Navy is developing a Hybrid Navy Concept of Operations to combine autonomous and crewed air, surface and sub-surface vessels as it works to make the fleet more lethal, according to an answer given in Parliament",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Atlantic Net sub-hunting network to enter service next year",
+   "link": "https://ukdefencejournal.org.uk/atlantic-net-sub-hunting-network-to-enter-service-next-year/",
+   "date": "2026-11-22T10:00:12Z",
+   "desc": "Atlantic Net, the Royal Navy’s £90 million network of drones, sensors and artificial intelligence to track submarines and protect undersea cables, will enter service next year, according to a written answer from Luke Pol",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "No fixed war readiness plan for each service, says minister",
+   "link": "https://ukdefencejournal.org.uk/no-fixed-war-readiness-plan-for-each-service-says-minister/",
+   "date": "2026-11-22T09:57:06Z",
+   "desc": "The Ministry of Defence does not have a fixed three-year war readiness plan for each of the services, and the Integrated Force Design 2035 setting out the capabilities needed in future will not be published, according to",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "ABD ve Çin’in Henüz Gösteremediği Kabiliyet: AKINCI’dan ORKA Torpidosu",
+   "link": "https://www.savunmasanayist.com/akinci-orka-torpido-atisi/",
+   "date": "2026-11-22T07:49:17Z",
+   "desc": "ROKETSAN’ın milli imkânlarla geliştirdiği ORKA Yeni Nesil Hafif Sınıf Torpido, Baykar’ın AKINCI TİHA’sından başarıyla atıldı. Bu atışla, sabit kanatlı bir insansız hava aracından torpido atışı dünyada ilk kez gerçekleşti",
+   "img": null,
+   "source": "savunmasanayist"
+  },
+  {
+   "title": "Belgian F-16s Are Defending the Baltic With Counter-Drone Guided Rockets",
+   "link": "https://theaviationist.com/2026/11/22/belgian-f16s-baltic-rockets/",
+   "date": "2026-11-22T03:36:25Z",
+   "desc": "Belgian Air Force F-16s, deployed to Šiauliai Air Base in Lithuania since late October, were seen carrying FZ275 laser guided rockets during a flypast over Riga, Latvia on Nov. 18, 2026. The presumably live loadout of la",
+   "img": "https://theaviationist.com/wp-content/uploads/2026/11/BelgianF16sRockets_1.jpg",
+   "source": "aviationist"
+  },
+  {
    "title": "Canada joins NATO innovation fund, promises ‘business as usual’ with US",
    "link": "https://www.defenseone.com/policy/2026/11/canada-joins-nato-innovation-fund-promises-business-usual-us/417391/",
    "date": "2026-11-21T23:16:41Z",
@@ -338,6 +378,22 @@
    "desc": "Footage from THE WATCH: America’s Nuclear Mission shows how demanding tanking is for B-52 crews, just as the B-52J’s new engines are about to change the way the bomber responds to the throttles. The B-52 episode of THE W",
    "img": "https://theaviationist.com/wp-content/uploads/2026/11/The-Watch-B-52-2.jpg",
    "source": "aviationist"
+  },
+  {
+   "title": "ASPİLSAN Enerji, Ar-Ge harcamalarında Kayseri’de birinci, Türkiye genelinde 16’ncı oldu",
+   "link": "https://defensehere.com/tr/aspilsan-enerji-ar-ge-harcamalarinda-kayseride-birinci-turkiye-genelinde-16nci-oldu/",
+   "date": "2026-11-21T19:43:11Z",
+   "desc": "ASPİLSAN Enerji , araştırma ve geliştirme (Ar-Ge) yatırımlarıyla yerli ve millî enerji teknolojilerinin geliştirilmesine katkı sağlamayı sürdürüyor. Şirketten yapılan açıklamada, Organize Sanayi Bölgeleri Üst Kuruluşu (O",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/HXkbYa-XQAA4uaQ.jpeg",
+   "source": "defensehere"
+  },
+  {
+   "title": "5G ve 6G Türkiye’nin dijital dönüşümünde stratejik kaldıraç olacak",
+   "link": "https://defensehere.com/tr/5g-ve-6g-turkiyenin-dijital-donusumunde-stratejik-kaldirac-olacak/",
+   "date": "2026-11-21T19:35:14Z",
+   "desc": "Türkiye Odalar ve Borsalar Birliği (TOBB) Telekomünikasyon Meclisi Başkanı Kemal Turnacı, 5G ve geleceğin haberleşme teknolojisi 6G’nin Türkiye’nin dijital dönüşümünde önemli bir rol üstleneceğini bildirdi. Anadolu Ajans",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "USS Theodore Roosevelt Arrives In The Middle East, Relieving USS George Washington",
@@ -432,30 +488,6 @@
    "link": "https://ukdefencejournal.org.uk/brave1-was-fresh-air-for-nato-innovation-says-official/",
    "date": "2026-11-21T10:00:09Z",
    "desc": "Ukraine’s defence technology cluster Brave1 has been described as a breath of “fresh air” for NATO’s own efforts to innovate, as the two sides push ahead with a joint grant programme that only funds teams made up of Ukra",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Countries on waiting list for Ukraine’s Delta battle system",
-   "link": "https://ukdefencejournal.org.uk/countries-on-waiting-list-for-ukraines-delta-battle-system/",
-   "date": "2026-11-21T09:00:07Z",
-   "desc": "A list of countries is waiting to receive Ukraine’s Delta battlefield management system, with the first expected to be given access next year under a scheme that would share its source code with allies, according to the ",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Adversary could weaponise own satellite debris, MPs warned",
-   "link": "https://ukdefencejournal.org.uk/adversary-could-weaponise-own-satellite-debris-mps-warned/",
-   "date": "2026-11-21T08:45:09Z",
-   "desc": "A hostile state could destroy one of its own satellites to shower debris on Western constellations without it counting as an armed attack, Dr Adam Bower of the University of St Andrews has told Parliament’s Joint Committ",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Ex-Space Command chief doubts UK could ride out space attack",
-   "link": "https://ukdefencejournal.org.uk/ex-space-command-chief-doubts-uk-could-ride-out-space-attack/",
-   "date": "2026-11-21T08:30:23Z",
-   "desc": "Britain cannot be confident it could absorb a first strike in space and still deliver the capabilities its forces depend on, Major General Paul Tedman, who commanded UK Space Command until this summer, has told Parliamen",
    "img": null,
    "source": "ukdj"
   },
@@ -732,14 +764,6 @@
    "source": "savunmasanayist"
   },
   {
-   "title": "SKYDAGGER HUNTER ve TOYCA-05, SKY SHOW 2026’da hedefleri vurdu",
-   "link": "https://defensehere.com/tr/skydagger-hunter-ve-toyca-05-sky-show-2026da-hedefleri-vurdu/",
-   "date": "2026-11-20T13:36:28Z",
-   "desc": "SKYDAGGER, Konya’nın Karapınar ilçesinde düzenlenen SKY SHOW 2026 kapsamında gerçekleştirdiği gösterimde HUNTER önleyici İHA ve TOYCA-05 kamikaze İHA’nın hedeflerini başarıyla vurduğunu duyurdu. Şirketin tarafından payla",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
    "title": "Skylark Labs demonstrates humanoid search for explosive hazards",
    "link": "https://breakingdefense.com/2026/11/skylark-labs-demonstrates-humanoid-search-for-explosive-hazards/",
    "date": "2026-11-20T13:20:00Z",
@@ -754,14 +778,6 @@
    "desc": "FNSS ve CSG Grubu’nun ortak girişimi Danube Defence Systems’in geliştirdiği CFL-120 KARPAT Orta Sınıf Tankı, atış gösterimini başarıyla tamamladı. Slovakya’daki Záhorie Askerî Test Sahası’nda potansiyel kullanıcıların ka",
    "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/FNSS-KAPLAN-KARPAT-cfl-120.jpg",
    "source": "savunmasanayist"
-  },
-  {
-   "title": "ABD ile Honduras arasında savunma ve sınır güvenliği işbirliği anlaşmaları imzalandı",
-   "link": "https://defensehere.com/tr/abd-ile-honduras-arasinda-savunma-ve-sinir-guvenligi-isbirligi-anlasmalari-imzalandi/",
-   "date": "2026-11-20T12:47:22Z",
-   "desc": "ABD Savunma Bakanı Pete Hegseth, Honduras Devlet Başkanı Nasry Asfura ile savunma, sınır güvenliği ve narko-terörizmle mücadele alanlarında işbirliğinin güçlendirilmesini ele almak üzere bir araya geldi. Honduras’taki En",
-   "img": null,
-   "source": "defensehere"
   },
   {
    "title": "Dutch defense-industry plan targets 40% growth, €15 billion revenue by 2030",
@@ -1244,14 +1260,6 @@
    "source": "eurosd"
   },
   {
-   "title": "MSB’ye Dev Bütçe: 1 Trilyon 532 Milyar TL",
-   "link": "https://www.savunmasanayist.com/msbye-dev-butce-1-trilyon-532-milyar-tl/",
-   "date": "2026-11-18T10:20:04Z",
-   "desc": "Mili Savunma Bakanlığı’nın (MSB) 2027 yılı bütçe teklifi 1 trilyon 532 milyar lira olarak açıklandı. Bütçenin toplam bütçedeki payı yüzde 6,17 oldu. Milli Savunma Bakanı Yaşar Güler, Plan ve Bütçe Komisyonu’nda MSB’nin g",
-   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/10/MKE-TOLGA-20mm.jpg",
-   "source": "savunmasanayist"
-  },
-  {
    "title": "The U.S.-Chinese-Russian Summit and the Future of Trilateral Nuclear Talks",
    "link": "https://warontherocks.com/the-u-s-chinese-russian-summit-and-the-future-of-trilateral-nuclear-talks/",
    "date": "2026-11-18T08:30:27Z",
@@ -1361,14 +1369,6 @@
    "date": "2026-11-16T22:24:55Z",
    "desc": "The B61-11 is a decades-old nuclear weapon, but footage showing it being loaded inside the B-2 Spirit’s weapons bay is exceptionally rare. Jeff Bolton’s new documentary series THE WATCH offers a close-up look at an opera",
    "img": "https://theaviationist.com/wp-content/uploads/2026/11/B-61-top.jpg",
-   "source": "aviationist"
-  },
-  {
-   "title": "Canadian Snowbirds Fly Final Flypasts with the CT-114 Tutor",
-   "link": "https://theaviationist.com/2026/11/16/snowbirds-final-flypasts-tutor/",
-   "date": "2026-11-16T20:13:59Z",
-   "desc": "The Canadian Snowbirds display team have said farewell to the jet that has served them since their formation over fifty years ago as they now enter a hiatus ahead of the arrival of new Pilatus PC-21s. The Canadair CT-114",
-   "img": "https://theaviationist.com/wp-content/uploads/2026/11/SnowbirdsTutorRetired_1.jpg",
    "source": "aviationist"
   },
   {
