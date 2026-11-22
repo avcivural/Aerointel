@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-22T18:08:48Z",
+ "generated": "2026-11-22T23:41:31Z",
  "sources": [
   {
    "id": "defensenews",
@@ -188,7 +188,7 @@
    "count": 10,
    "latest": "2026-11-20T17:54:27Z",
    "error": null,
-   "ms": 317
+   "ms": 300
   },
   {
    "id": "breakingdefense",
@@ -196,7 +196,7 @@
    "count": 12,
    "latest": "2026-11-21T18:06:38Z",
    "error": null,
-   "ms": 170
+   "ms": 149
   },
   {
    "id": "defenseone",
@@ -204,7 +204,7 @@
    "count": 12,
    "latest": "2026-11-21T23:16:41Z",
    "error": null,
-   "ms": 670
+   "ms": 484
   },
   {
    "id": "afmag",
@@ -212,7 +212,7 @@
    "count": 9,
    "latest": "2026-11-21T01:34:54Z",
    "error": null,
-   "ms": 164
+   "ms": 430
   },
   {
    "id": "airforcetech",
@@ -220,15 +220,15 @@
    "count": 10,
    "latest": "2026-11-19T17:25:55Z",
    "error": null,
-   "ms": 170
+   "ms": 111
   },
   {
    "id": "twz",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-21T18:11:09Z",
+   "latest": "2026-11-22T22:26:09Z",
    "error": null,
-   "ms": 217
+   "ms": 178
   },
   {
    "id": "warontherocks",
@@ -236,7 +236,7 @@
    "count": 12,
    "latest": "2026-11-20T17:18:04Z",
    "error": null,
-   "ms": 301
+   "ms": 333
   },
   {
    "id": "rand",
@@ -244,23 +244,23 @@
    "count": 6,
    "latest": "2026-11-18T16:00:00Z",
    "error": null,
-   "ms": 245
+   "ms": 314
   },
   {
    "id": "ukdj",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-22T18:00:09Z",
+   "latest": "2026-11-22T21:00:11Z",
    "error": null,
-   "ms": 625
+   "ms": 1152
   },
   {
    "id": "aviationist",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-22T03:36:25Z",
+   "latest": "2026-11-22T19:44:30Z",
    "error": null,
-   "ms": 59
+   "ms": 161
   },
   {
    "id": "rusi",
@@ -268,7 +268,7 @@
    "count": 12,
    "latest": "2026-11-20T00:00:00Z",
    "error": null,
-   "ms": 84
+   "ms": 137
   },
   {
    "id": "eurosd",
@@ -276,7 +276,7 @@
    "count": 6,
    "latest": "2026-11-20T16:41:30Z",
    "error": null,
-   "ms": 270
+   "ms": 567
   },
   {
    "id": "savunmasanayist",
@@ -284,20 +284,21 @@
    "count": 10,
    "latest": "2026-11-22T07:49:17Z",
    "error": null,
-   "ms": 832
+   "ms": 920
   },
   {
    "id": "defensehere",
-   "status": "error",
-   "count": 0,
-   "latest": null,
-   "error": "ParseError: mismatched tag: line 1, column 166"
+   "status": "ok",
+   "count": 10,
+   "latest": "2026-11-22T13:14:03Z",
+   "error": null,
+   "ms": 2259
   }
  ],
  "trending": [
   {
    "term": "Ukraine",
-   "n": 8,
+   "n": 9,
    "sources": 6
   },
   {
@@ -307,21 +308,45 @@
   },
   {
    "term": "Russian",
-   "n": 4,
-   "sources": 4
-  },
-  {
-   "term": "Nuclear",
-   "n": 4,
-   "sources": 3
+   "n": 5,
+   "sources": 5
   },
   {
    "term": "China",
-   "n": 4,
+   "n": 5,
    "sources": 3
+  },
+  {
+   "term": "NATO",
+   "n": 4,
+   "sources": 4
   }
  ],
  "items": [
+  {
+   "title": "Ukraine’s Campaign Against Russian Naval Assets Far Beyond The Black Sea Enters A New Phase",
+   "link": "https://www.twz.com/sea/ukraines-campaign-against-russian-naval-assets-far-beyond-the-black-sea-enters-a-new-phase",
+   "date": "2026-11-22T22:26:09Z",
+   "desc": "A Russian Navy corvette burned and capsized after being struck by Ukrainian uncrewed service vessels (USVs) while docked in Benghazi, Libya. In addition, a Russian cargo ship was struck by Ukrainian USVs while operating ",
+   "img": "https://www.twz.com/wp-content/uploads/2026/11/Merkury-corvette-sunk-ukraine-1.jpg?quality=85",
+   "source": "twz"
+  },
+  {
+   "title": "Streeting hosts China’s defence minister in rare visit",
+   "link": "https://ukdefencejournal.org.uk/streeting-hosts-chinas-defence-minister-in-rare-visit/",
+   "date": "2026-11-22T21:00:11Z",
+   "desc": "Wes Streeting, the Defence Secretary, has hosted China’s defence minister, Admiral Dong Jun, in the first such visit for 26 years, saying direct channels are needed so rivalry does not become confrontation through miscal",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Here’s How The E-4B Nightwatch Talks To Submarines: A Rare Look At The Doomsday Plane’s Trailing Wire Antenna",
+   "link": "https://theaviationist.com/2026/11/22/e-4b-nightwatch-trailing-wire-antenna/",
+   "date": "2026-11-22T19:44:30Z",
+   "desc": "Rare footage takes us to the tail section of the E-4B, where the 15,000-foot wire used to pass the President’s orders to the ballistic missile submarines is stored. THE WATCH: America’s Nuclear Mission, the six-part docu",
+   "img": "https://theaviationist.com/wp-content/uploads/2026/11/E-4B-top-scaled.jpg",
+   "source": "aviationist"
+  },
   {
    "title": "Putin will not cut UK deterrent out of Europe, says minister",
    "link": "https://ukdefencejournal.org.uk/putin-will-not-cut-uk-deterrent-out-of-europe-says-minister/",
@@ -371,6 +396,14 @@
    "source": "ukdj"
   },
   {
+   "title": "AKINCI TİHA, ORKA torpidosunu ilk kez havadan bıraktı",
+   "link": "https://defensehere.com/tr/akinci-tiha-orka-torpidosunu-ilk-kez-havadan-birakti/",
+   "date": "2026-11-22T13:14:03Z",
+   "desc": "Baykar tarafından geliştirilen Bayraktar AKINCI Taarruzi İnsansız Hava Aracı (TİHA), ORKA Yeni Nesil Hafif Sınıf Torpido ile gerçekleştirdiği havadan bırakma testini başarıyla tamamladı. Testle birlikte milli torpido ilk",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "Britain backs Meteor push for Ukraine’s Gripen fighters",
    "link": "https://ukdefencejournal.org.uk/britain-backs-meteor-push-for-ukraines-gripen-fighters/",
    "date": "2026-11-22T13:11:18Z",
@@ -395,12 +428,12 @@
    "source": "ukdj"
   },
   {
-   "title": "UK defence hardly looks resilient, warn peers",
-   "link": "https://ukdefencejournal.org.uk/uk-defence-hardly-looks-resilient-warn-peers/",
-   "date": "2026-11-22T12:00:35Z",
-   "desc": "The House of Lords National Resilience Committee has warned that the UK is underprepared and the government complacent, and that against hostility from Russia, China and Iran Britain’s defence “hardly looks resilient” , ",
+   "title": "HAVELSAN, HÜRKUŞ’un görev planlama yazılımında kabul sürecini tamamladı",
+   "link": "https://defensehere.com/tr/havelsan-hurkusun-gorev-planlama-yaziliminda-kabul-surecini-tamamladi/",
+   "date": "2026-11-22T11:16:59Z",
+   "desc": "HAVELSAN, Hava Kuvvetleri Komutanlığı envanterinde uzun yıllardır kullanılan Filo Seviyesi Görev Planlama (FSGP) Sistemi’ni HÜRKUŞ uçağına uyarladı. HÜRKUŞ için geliştirilen Görev Planlama Yazılımı’nın kabul süreci başar",
    "img": null,
-   "source": "ukdj"
+   "source": "defensehere"
   },
   {
    "title": "ABD ve Çin’in Henüz Gösteremediği Kabiliyet: AKINCI’dan ORKA Torpidosu",
@@ -433,6 +466,22 @@
    "desc": "Footage from THE WATCH: America’s Nuclear Mission shows how demanding tanking is for B-52 crews, just as the B-52J’s new engines are about to change the way the bomber responds to the throttles. The B-52 episode of THE W",
    "img": "https://theaviationist.com/wp-content/uploads/2026/11/The-Watch-B-52-top.jpg",
    "source": "aviationist"
+  },
+  {
+   "title": "ASPİLSAN Enerji, Ar-Ge harcamalarında Kayseri’de birinci, Türkiye genelinde 16’ncı oldu",
+   "link": "https://defensehere.com/tr/aspilsan-enerji-ar-ge-harcamalarinda-kayseride-birinci-turkiye-genelinde-16nci-oldu/",
+   "date": "2026-11-21T19:43:11Z",
+   "desc": "ASPİLSAN Enerji , araştırma ve geliştirme (Ar-Ge) yatırımlarıyla yerli ve millî enerji teknolojilerinin geliştirilmesine katkı sağlamayı sürdürüyor. Şirketten yapılan açıklamada, Organize Sanayi Bölgeleri Üst Kuruluşu (O",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/HXkbYa-XQAA4uaQ.jpeg",
+   "source": "defensehere"
+  },
+  {
+   "title": "5G ve 6G Türkiye’nin dijital dönüşümünde stratejik kaldıraç olacak",
+   "link": "https://defensehere.com/tr/5g-ve-6g-turkiyenin-dijital-donusumunde-stratejik-kaldirac-olacak/",
+   "date": "2026-11-21T19:35:14Z",
+   "desc": "Türkiye Odalar ve Borsalar Birliği (TOBB) Telekomünikasyon Meclisi Başkanı Kemal Turnacı, 5G ve geleceğin haberleşme teknolojisi 6G’nin Türkiye’nin dijital dönüşümünde önemli bir rol üstleneceğini bildirdi. Anadolu Ajans",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "USS Theodore Roosevelt Arrives In The Middle East, Relieving USS George Washington",
@@ -595,12 +644,36 @@
    "source": "twz"
   },
   {
+   "title": "Arjantin, İtalyan yapımı FCX20 korvetleri tedarik etmeyi planlıyor",
+   "link": "https://defensehere.com/tr/arjantin-italyan-yapimi-fcx20-korvetleri-tedarik-etmeyi-planliyor/",
+   "date": "2026-11-20T18:37:22Z",
+   "desc": "Arjantin Donanması, İtalyan gemi inşa şirketi Fincantieri tarafından geliştirilen üç adet FCX20 korvetini tedarik etmeyi planlıyor. Fincantieri tarafından 19 Kasım’da yapılan açıklamada, iki ülkenin savunma bakanlarının ",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Mitsubishi Electric, MIURA 5 roketiyle uzaya uydu gönderecek",
+   "link": "https://defensehere.com/tr/mitsubishi-electric-miura-5-roketiyle-uzaya-uydu-gonderecek/",
+   "date": "2026-11-20T18:29:40Z",
+   "desc": "Mitsubishi Electric, İspanyol fırlatma hizmetleri sağlayıcısı PLD Space tarafından geliştirilen MIURA 5 roketiyle küçük bir uyduyu yörüngeye gönderecek. PLD Space tarafından 18 Kasım’da yapılan açıklamada, iki şirket ara",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "Autonomy firm Auterion to launch joint venture with Ukrainian drone maker Skyfall",
    "link": "https://breakingdefense.com/2026/11/autonomy-firm-auterion-to-launch-joint-venture-with-ukrainian-drone-maker-skyfall/",
    "date": "2026-11-20T18:24:00Z",
    "desc": "The new venture, called Skyfall X Auterion, will produce Skyfall drones with Auterion software in Germany, “outside the range of air strikes,” Auterion said.",
    "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2025/11/251120_skyfall_booth_dubai_BD-scaled-e1763649791541-1024x577.jpg",
    "source": "breakingdefense"
+  },
+  {
+   "title": "FNSS Kaplan tabanlı Karpat tankı, ilk atışlı gösterimini gerçekleştirdi",
+   "link": "https://defensehere.com/tr/fnss-kaplan-tabanli-karpat-tanki-ilk-atisli-gosterimini-gerceklestirdi/",
+   "date": "2026-11-20T17:54:58Z",
+   "desc": "Çekya merkezli Czechoslovak Group (CSG), Türk savunma sanayii şirketi FNSS tarafından geliştirilen Kaplan paletli platformu temel alan CFL-120 Karpat orta sınıf tankını Slovakya’da düzenlenen dinamik gösterimde potansiye",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "Trump, Xi agreed that military AI decisions should involve humans, Bessent says",
@@ -633,6 +706,22 @@
    "desc": "After moving to Hill AFB in 2019, the U.S. Air Force’s F-35A Lightning II Demo Team is now returning to Luke AFB, where it was originally created in 2016. The U.S. Air Force’s F-35A Lightning II Demonstration Team announ",
    "img": "https://theaviationist.com/wp-content/uploads/2026/11/F-35A_Demo_Team.jpg",
    "source": "aviationist"
+  },
+  {
+   "title": "Polonya’daki hava sahası ihlallerine karşılık NATO savaş uçakları havalandı",
+   "link": "https://defensehere.com/tr/polonyadaki-hava-sahasi-ihlallerine-karsilik-nato-savas-ucaklari-havalandi/",
+   "date": "2026-11-20T17:07:07Z",
+   "desc": "NATO Genel Sekreteri Mark Rutte, Polonya’nın hava sahasının ihlal edilmesini “tehlikeli” olarak nitelendirerek, olay üzerine NATO savaş uçaklarının havalandırıldığını ve müttefiklerin caydırıcılık ve savunma kabiliyetler",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Malezya, Thales Alenia Space ile imzaladığı yeni anlaşmalarla uzay kabiliyetlerini geliştirmeyi planlıyor",
+   "link": "https://defensehere.com/tr/malezya-thales-alenia-space-ile-imzaladigi-yeni-anlasmalarla-uzay-kabiliyetlerini-gelistirmeyi-planliyor/",
+   "date": "2026-11-20T17:00:50Z",
+   "desc": "Malezya, bu yıl yürürlüğe koyduğu Ulusal Savunma Sanayi Politikası (NDIP) doğrultusunda uydu haberleşme kabiliyetlerini geliştirmeyi hedefliyor. Bu kapsamda, merkezi Kuala Lumpur’da bulunan Weststar Group, Avrupalı savun",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "German attack drones pass live-fire tests, with first deliveries planned this year",
@@ -673,6 +762,14 @@
    "desc": "Kirsten Davies is taking over the role for Sean Cairncross at the White House.",
    "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/06/9516078-scaled-e1780415125783-1024x577.jpg",
    "source": "breakingdefense"
+  },
+  {
+   "title": "STM’den KARGU’lu paylaşım: Dağların üstünden doğdu bir yıldız",
+   "link": "https://defensehere.com/tr/stmden-kargulu-paylasim-daglarin-ustunden-dogdu-bir-yildiz/",
+   "date": "2026-11-20T15:32:26Z",
+   "desc": "STM, milli vurucu insansız hava aracı (İHA) KARGU’ya ilişkin görüntüleri sosyal medya hesabından paylaştı. Paylaşımda, “Dağların üstünden doğdu bir yıldız” ifadelerine yer verilirken, videoda Barış Manço’nun “Vur Ha Vur”",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "Mayınlı Arazilere MKE Çözümü: ALPAY D ile Güvenli Koridor",
@@ -1059,14 +1156,6 @@
    "source": "rusi"
   },
   {
-   "title": "Tehran Widens Attacks On Gulf Nations After Latest U.S. Strike On Iranian Island",
-   "link": "https://www.twz.com/news-features/tehran-widens-attacks-on-gulf-nations-after-latest-u-s-strike-on-iranian-island",
-   "date": "2026-11-18T22:06:41Z",
-   "desc": "Amid stalled efforts to find a diplomatic solution to the conflict between the U.S. and Iran, the Islamic Republic is stepping up attacks on Kuwait and Bahrain, two nations that host American bases. Wednesday’s strikes t",
-   "img": "https://www.twz.com/wp-content/uploads/2026/11/CENTCOM-F16-strike.jpg?quality=85",
-   "source": "twz"
-  },
-  {
    "title": "‘Holy S—, That’s Tehran!’: B-2 Pilots Tell the Story of Operation Midnight Hammer",
    "link": "https://www.airandspaceforces.com/inside-operation-midnight-hammer-b-2-pilots/",
    "date": "2026-11-18T21:51:11Z",
@@ -1281,14 +1370,6 @@
    "desc": "Professor Margaret MacMillan describes the lead up to World War I and the important differences that can be missed when reaching for historical parallels.",
    "img": null,
    "source": "rusi"
-  },
-  {
-   "title": "Rare Footage Shows B61 Nuclear Bomb on B-2 Stealth Bomber’s Rotary Launcher",
-   "link": "https://theaviationist.com/2026/11/16/b-2-footage-the-watch/",
-   "date": "2026-11-16T22:24:55Z",
-   "desc": "The B61-11 is a decades-old nuclear weapon, but footage showing it being loaded inside the B-2 Spirit’s weapons bay is exceptionally rare. Jeff Bolton’s new documentary series THE WATCH offers a close-up look at an opera",
-   "img": "https://theaviationist.com/wp-content/uploads/2026/11/B-61-top.jpg",
-   "source": "aviationist"
   },
   {
    "title": "Theater in Abu Dhabi, Everyday Life at Home: Why the War Still Shapes Every Story",
