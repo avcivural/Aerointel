@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T23:09:22Z",
+ "generated": "2026-11-25T05:32:53Z",
  "sources": [
   {
    "id": "defensenews",
@@ -188,7 +188,7 @@
    "count": 10,
    "latest": "2026-11-24T21:30:00Z",
    "error": null,
-   "ms": 233
+   "ms": 256
   },
   {
    "id": "breakingdefense",
@@ -196,15 +196,15 @@
    "count": 12,
    "latest": "2026-11-24T19:29:09Z",
    "error": null,
-   "ms": 207
+   "ms": 166
   },
   {
    "id": "defenseone",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-23T17:36:44Z",
+   "latest": "2026-11-24T22:58:06Z",
    "error": null,
-   "ms": 647
+   "ms": 460
   },
   {
    "id": "afmag",
@@ -212,7 +212,7 @@
    "count": 9,
    "latest": "2026-11-24T22:26:37Z",
    "error": null,
-   "ms": 287
+   "ms": 264
   },
   {
    "id": "airforcetech",
@@ -220,7 +220,7 @@
    "count": 10,
    "latest": "2026-11-24T17:26:32Z",
    "error": null,
-   "ms": 169
+   "ms": 98
   },
   {
    "id": "twz",
@@ -228,7 +228,7 @@
    "count": 12,
    "latest": "2026-11-24T22:39:54Z",
    "error": null,
-   "ms": 250
+   "ms": 156
   },
   {
    "id": "warontherocks",
@@ -236,7 +236,7 @@
    "count": 12,
    "latest": "2026-11-24T18:30:04Z",
    "error": null,
-   "ms": 364
+   "ms": 459
   },
   {
    "id": "rand",
@@ -244,15 +244,15 @@
    "count": 7,
    "latest": "2026-11-24T16:50:00Z",
    "error": null,
-   "ms": 188
+   "ms": 384
   },
   {
    "id": "ukdj",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-24T21:27:02Z",
+   "latest": "2026-11-25T05:00:22Z",
    "error": null,
-   "ms": 1421
+   "ms": 1077
   },
   {
    "id": "aviationist",
@@ -260,7 +260,7 @@
    "count": 12,
    "latest": "2026-11-24T22:47:37Z",
    "error": null,
-   "ms": 158
+   "ms": 177
   },
   {
    "id": "rusi",
@@ -268,7 +268,7 @@
    "count": 12,
    "latest": "2026-11-24T00:00:00Z",
    "error": null,
-   "ms": 96
+   "ms": 56
   },
   {
    "id": "eurosd",
@@ -276,7 +276,7 @@
    "count": 6,
    "latest": "2026-11-24T12:26:30Z",
    "error": null,
-   "ms": 230
+   "ms": 557
   },
   {
    "id": "savunmasanayist",
@@ -284,14 +284,15 @@
    "count": 10,
    "latest": "2026-11-24T17:23:57Z",
    "error": null,
-   "ms": 472
+   "ms": 903
   },
   {
    "id": "defensehere",
-   "status": "error",
-   "count": 0,
-   "latest": null,
-   "error": "ParseError: mismatched tag: line 1, column 166"
+   "status": "ok",
+   "count": 10,
+   "latest": "2026-11-24T20:14:34Z",
+   "error": null,
+   "ms": 2398
   }
  ],
  "trending": [
@@ -302,8 +303,8 @@
   },
   {
    "term": "Ukraine",
-   "n": 8,
-   "sources": 5
+   "n": 7,
+   "sources": 4
   },
   {
    "term": "Trump",
@@ -322,6 +323,46 @@
   }
  ],
  "items": [
+  {
+   "title": "Helicopter and GCAP deals locked in before defence plan",
+   "link": "https://ukdefencejournal.org.uk/helicopter-and-gcap-deals-locked-in-before-defence-plan/",
+   "date": "2026-11-25T05:00:22Z",
+   "desc": "The Ministry of Defence committed to the New Medium Helicopter and to £8.6 billion for the Global Combat Air Programme before the Defence Investment Plan was finalised, which introduced additional constraints into the pr",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Defence projects to start only when fully funded, NAO says",
+   "link": "https://ukdefencejournal.org.uk/defence-projects-to-start-only-when-fully-funded-nao-says/",
+   "date": "2026-11-25T04:00:14Z",
+   "desc": "The Ministry of Defence has told its teams that work on some projects can only start once funding for the whole project is available, in a bid to end a culture of approving business cases on the basis that affordability ",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Most defence savings lack plans, auditors warn",
+   "link": "https://ukdefencejournal.org.uk/most-defence-savings-lack-plans-auditors-warn/",
+   "date": "2026-11-25T03:00:19Z",
+   "desc": "The Ministry of Defence has mature delivery plans for only £2.4 billion of the £10.7 billion of efficiency savings in the Defence Investment Plan, while most of the cost of the Strategic Defence Review’s commitments fall",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Defence procurement arm operating unsustainably, NAO warns",
+   "link": "https://ukdefencejournal.org.uk/defence-procurement-arm-operating-unsustainably-nao-warns/",
+   "date": "2026-11-25T00:01:18Z",
+   "desc": "The Ministry of Defence’s procurement organisation warned it was already operating unsustainably, with an 18% shortfall in the capacity it needs, and that planned workforce cuts would make this significantly worse, accor",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Program looks to build shipbuilding, defense manufacturing capability in Hawaii",
+   "link": "https://www.defenseone.com/business/2026/11/program-looks-build-shipbuilding-defense-manufacturing-capability-hawaii/417440/",
+   "date": "2026-11-24T22:58:06Z",
+   "desc": "HONOLULU— A Pentagon-funded workforce-development program at Honolulu Community College is aiming to forge the next generation of Hawaii manufacturing industry leaders—and grow the defense industrial base in the Pacific.",
+   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/24/202610_AMTS_046/large.jpg",
+   "source": "defenseone"
+  },
   {
    "title": "NASA Takes Ownership of X-59 QueSST After Acceptance Review",
    "link": "https://theaviationist.com/2026/11/24/nasa-takes-ownership-ox-x-59-quesst/",
@@ -395,6 +436,22 @@
    "source": "afmag"
   },
   {
+   "title": "İran: Hürmüz Boğazı’nda ABD’ye ait 2 İHA düşürüldü",
+   "link": "https://defensehere.com/tr/iran-hurmuz-bogazinda-abdye-ait-2-iha-dusuruldu/",
+   "date": "2026-11-24T20:14:34Z",
+   "desc": "İran ordusu, Basra Körfezi üzerinde Hürmüz Boğazı’nın batısı ve doğusunda ABD’ye ait iki insansız hava aracının (İHA) düşürüldüğünü bildirdi. İran ordusunun Halkla İlişkiler Biriminden yapılan açıklamada, ABD’ye ait LUCA",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "ABD ordusunda görevli asker, Çin’e gizli askeri bilgileri sattığını itiraf etti",
+   "link": "https://defensehere.com/tr/abd-ordusunda-gorevli-asker-cine-gizli-askeri-bilgileri-sattigini-itiraf-etti/",
+   "date": "2026-11-24T20:04:01Z",
+   "desc": "ABD ordusunda görev yapan bir asker, Çin ile bağlantılı kişilere ABD’ye ait ulusal savunma bilgilerini sattığını itiraf etti. ABD Adalet Bakanlığından yapılan yazılı açıklamada, Washington’daki Lewis-McChord Müşterek Üss",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/HIMARS.jpeg",
+   "source": "defensehere"
+  },
+  {
    "title": "UK Defence Innovation plans investment of £1.6bn by 2030",
    "link": "https://ukdefencejournal.org.uk/uk-defence-innovation-plans-investment-of-1-6bn-by-2030/",
    "date": "2026-11-24T20:00:03Z",
@@ -409,6 +466,14 @@
    "desc": "",
    "img": "https://cdn.jwplayer.com/videos/YFThLR9X-5ZsksG4j.mp4",
    "source": "defensenews"
+  },
+  {
+   "title": "Eskişehir’de askeri helikopter kaza kırıma uğradı: 5 asker şehit oldu",
+   "link": "https://defensehere.com/tr/eskisehirde-askeri-helikopter-kaza-kirima-ugradi-5-asker-sehit-oldu/",
+   "date": "2026-11-24T19:50:01Z",
+   "desc": "Milli Savunma Bakanlığı (MSB) , Eskişehir’de eğitim uçuşu sırasında kaza kırıma uğrayan Hava Kuvvetleri Komutanlığına ait AS-532 tipi helikopterde görevli 5 askerin şehit olduğunu bildirdi. Bakanlıktan yapılan ilk açıkla",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "UK’s MI5 warns local defense firms of Russian sabotage risk",
@@ -483,6 +548,14 @@
    "source": "ukdj"
   },
   {
+   "title": "Küresel ekonominin 2027 rotasını yapay zeka yatırımları ve borçlanma maliyetleri belirleyecek",
+   "link": "https://defensehere.com/tr/kuresel-ekonominin-2027-rotasini-yapay-zeka-yatirimlari-ve-borclanma-maliyetleri-belirleyecek/",
+   "date": "2026-11-24T17:39:44Z",
+   "desc": "Küresel finans kuruluşlarının 2027 yılına ilişkin görünüm raporlarına göre, dünya ekonomisinin büyümesinde yapay zeka yatırımları belirleyici rol oynayacak. Ancak yüksek borçlanma maliyetleri, bütçe açıkları ve merkez ba",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "French Rafales Conduct First Highway Operations in Finland",
    "link": "https://theaviationist.com/2026/11/24/french-rafales-conduct-first-highway-operations-in-finland/",
    "date": "2026-11-24T17:30:15Z",
@@ -547,6 +620,14 @@
    "source": "breakingdefense"
   },
   {
+   "title": "İran: ABD, bölgede işlevsiz kalan askeri üslerini daha uzağa taşımaya çalışıyor",
+   "link": "https://defensehere.com/tr/iran-abd-bolgede-islevsiz-kalan-askeri-uslerini-daha-uzaga-tasimaya-calisiyor/",
+   "date": "2026-11-24T16:14:43Z",
+   "desc": "İran Genelkurmay Başkanı Tümgeneral Ali Abdullahi, ABD’nin savaş sırasında zarar gören ve operasyonel olarak işlevsiz hale gelen bazı askeri üslerini daha uzak noktalara taşımaya ve o bölgelerde konuşlanmaya çalıştığını ",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "A Look At The Dam Busters And Their Incredible Bouncing Bombs",
    "link": "https://theaviationist.com/2026/11/24/the-dam-busters-and-their-incredible-bouncing-bombs/",
    "date": "2026-11-24T16:13:27Z",
@@ -571,14 +652,6 @@
    "source": "breakingdefense"
   },
   {
-   "title": "British spy plane heads east towards the Baltic",
-   "link": "https://ukdefencejournal.org.uk/british-spy-plane-heads-east-towards-the-baltic/",
-   "date": "2026-11-24T16:00:32Z",
-   "desc": "An RAF RC-135W Rivet Joint signals intelligence aircraft flew east from RAF Waddington towards the Baltic on Monday morning, as Swedish and US Army-contracted surveillance aircraft operated over the region and the Black ",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "Rehearsing the Indo-Pacific fight with AI-enhanced simulation",
    "link": "https://breakingdefense.com/2026/11/rehearsing-the-indo-pacific-fight-with-ai-enhanced-simulation/",
    "date": "2026-11-24T15:47:26Z",
@@ -587,20 +660,52 @@
    "source": "breakingdefense"
   },
   {
+   "title": "İngiltere iç istihbarat teşkilatı MI5, savunma şirketlerine Rusya kaynaklı saldırı uyarısında bulundu",
+   "link": "https://defensehere.com/tr/ingiltere-ic-istihbarat-teskilati-mi5-savunma-sirketlerine-rusya-kaynakli-saldiri-uyarisinda-bulundu/",
+   "date": "2026-11-24T15:46:54Z",
+   "desc": "İngiltere iç istihbarat teşkilatı MI5, Ukrayna’ya askeri malzeme sağlayan İngiliz şirketlerinin Rusya tarafından hedef alındığı uyarısında bulunarak şirketlerden çalışanlarını ve tesislerini olası saldırılara karşı korum",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Türkiye ile Guatemala arasında savunma sanayii iş birliği anlaşması imzalandı",
+   "link": "https://defensehere.com/tr/turkiye-ile-guatemala-arasinda-savunma-sanayii-is-birligi-anlasmasi-imzalandi/",
+   "date": "2026-11-24T15:41:21Z",
+   "desc": "Türkiye ile Guatemala arasındaki savunma sanayii iş birliğinin güçlendirilmesi ve yeni projelere zemin hazırlanması amacıyla Savunma Sanayii İş Birliği Anlaşması imzalandı. Savunma Sanayii Başkanlığının (SSB) sosyal medy",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "ULAK Haberleşme, Nijer Millî Savunma Bakanlığı heyetini ağırladı",
+   "link": "https://defensehere.com/tr/ulak-haberlesme-nijer-milli-savunma-bakanligi-heyetini-agirladi/",
+   "date": "2026-11-24T15:35:18Z",
+   "desc": "ULAK Haberleşme A.Ş., Nijer Millî Savunma Bakanlığı heyetini şirketinde ağırlayarak yerli ve millî haberleşme teknolojileri alanındaki çalışmalarını tanıttı. Şirketin sosyal medya hesabından yapılan açıklamaya göre, gerç",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/u5.jpg",
+   "source": "defensehere"
+  },
+  {
+   "title": "Başoğlu Kablo’nun BC TubBraid ürünü KÜL Sertifikası almaya hak kazandı",
+   "link": "https://defensehere.com/tr/basoglu-kablonun-bc-tubbraid-urunu-kul-sertifikasi-almaya-hak-kazandi/",
+   "date": "2026-11-24T15:27:26Z",
+   "desc": "Başoğlu Kablo ve Profil San. ve Tic. A.Ş., savunma sanayisine yönelik geliştirdiği BC TubBraid Yüksek Performanslı Esnek Bakır Örgülü Ekran ürünüyle Kalifiye Ürün Listesi (KÜL) Sertifikası almaya hak kazandı. Şirketin so",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Dr. Özge Kaya’nın “Güvenlik, Savaş ve Savunma: Türk Savunma Çalışmaları I” kitabı yayımlandı",
+   "link": "https://defensehere.com/tr/dr-ozge-kayanin-guvenlik-savas-ve-savunma-turk-savunma-calismalari-i-kitabi-yayimlandi/",
+   "date": "2026-11-24T15:22:15Z",
+   "desc": "Dr. Özge Kaya’nın güvenlik, savaş ve savunma alanındaki akademik çalışmalarını ele aldığı “Güvenlik, Savaş ve Savunma: Türk Savunma Çalışmaları I” başlıklı kitabı yayımlandı. Kaya, sosyal medya hesabından yaptığı paylaşı",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "Trump’s carrier desire might not take flight, and a new twist for Navy shipbuilding",
    "link": "https://breakingdefense.com/2026/11/trumps-carrier-desire-might-not-take-flight-and-a-new-twist-for-navy-shipbuilding/",
    "date": "2026-11-24T15:15:00Z",
    "desc": "The president’s carrier-launch preferences are grounded on Capitol Hill, while the Navy’s shipbuilding strategy may be headed for a revision.",
    "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/BO242-pb-1024x576.png",
    "source": "breakingdefense"
-  },
-  {
-   "title": "British troops fire air defence missiles in Finland",
-   "link": "https://ukdefencejournal.org.uk/british-troops-fire-air-defence-missiles-in-finland/",
-   "date": "2026-11-24T15:00:23Z",
-   "desc": "British Army reservists from 106 (Yeomanry) Regiment Royal Artillery have fired Starstreak High Velocity Missiles from coastal ranges in Finland during Exercise Mallet Strike 26-2, according to imagery released by NATO’s",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "HAVELSAN’dan HÜRKUŞ’a Kritik Yazılım: Pilotlara Yeni Kabiliyetler",
@@ -619,28 +724,12 @@
    "source": "airforcetech"
   },
   {
-   "title": "America conducts another nuclear missile launch test",
-   "link": "https://ukdefencejournal.org.uk/america-conducts-another-nuclear-missile-launch-test/",
-   "date": "2026-11-24T14:00:47Z",
-   "desc": "An unarmed Minuteman III intercontinental ballistic missile was launched from Vandenberg Space Force Base in California on 17 November in an operational test designated GT-257, according to imagery released by the US Spa",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "LaNeve’s campaign plan aims for top-down guidance, flipping ‘transformation in contact’ era",
    "link": "https://breakingdefense.com/2026/11/laneves-campaign-plan-aims-for-top-down-guidance-flipping-transformation-in-contact-era/",
    "date": "2026-11-24T13:45:00Z",
    "desc": "If the guidance does become the service’s official campaign plan, “How the Army Fights” will leave behind the service’s “Continuous Transformation” campaign, including initiatives such as Transformation in Contact, in an",
    "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/10072330-scaled-e1795450350112-1024x577.jpg",
    "source": "breakingdefense"
-  },
-  {
-   "title": "British nuclear weapons workers begin strike over pay",
-   "link": "https://ukdefencejournal.org.uk/british-nuclear-weapons-workers-begin-strike-over-pay/",
-   "date": "2026-11-24T13:00:46Z",
-   "desc": "Around 70 workers who maintain weapons systems for the Royal Navy’s nuclear-armed submarines at RNAD Coulport have begun a series of strikes after rejecting a pay offer from the ABL Alliance, according to the union Unite",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "Russia may launch nuke-laden satellite by year’s end, German report warns",
@@ -1083,6 +1172,14 @@
    "source": "defenseone"
   },
   {
+   "title": "Army 3-Star to Lead NORAD; Air Force Picks New Head at Nuclear Weapons Center",
+   "link": "https://www.airandspaceforces.com/army-3-star-norad-air-force-nuclear-weapons-center-boss/",
+   "date": "2026-11-21T00:37:01Z",
+   "desc": "The White House is nominating Army Lt. Gen. Patrick D. Frank to become commander of U.S. Northern Command and North American Aerospace Defense Command, a role traditionally held by Air Force officers. If confirmed, Frank",
+   "img": "https://www.airandspaceforces.com/app/uploads/2026/11/7932504-900x600.jpg",
+   "source": "afmag"
+  },
+  {
    "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
    "link": "https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-216",
    "date": "2026-11-20T23:12:57Z",
@@ -1219,14 +1316,6 @@
    "source": "airforcetech"
   },
   {
-   "title": "Defense Business Brief: Vantor’s Raptor; Hadrian’s foundry, and more",
-   "link": "https://www.defenseone.com/business/2026/11/defense-business-brief-vantors-raptor-hadrians-foundry-and-more/417327/",
-   "date": "2026-11-19T14:00:00Z",
-   "desc": "Flying drones at lower altitudes can help them evade radar detection, but what happens if the GPS is jammed? How will the drone know where it is? “The lower you go, the more important it is that you're looking out obliqu",
-   "img": "https://cdn.defenseone.com/media/img/cd/2026/11/19/DBB_lander/large.jpg",
-   "source": "defenseone"
-  },
-  {
    "title": "The Ground Beneath the Cloud: Dispersion and Dependency in the Digital Age",
    "link": "https://warontherocks.com/the-ground-beneath-the-cloud-dispersion-and-dependency-in-the-digital-age/",
    "date": "2026-11-19T08:30:45Z",
@@ -1257,14 +1346,6 @@
    "desc": "FPV (first-person view) drones have become indelibly associated with the killing of masses of soldiers, as well as the destruction of armoured vehicles and other war material in Ukraine.",
    "img": null,
    "source": "rusi"
-  },
-  {
-   "title": "‘Holy S—, That’s Tehran!’: B-2 Pilots Tell the Story of Operation Midnight Hammer",
-   "link": "https://www.airandspaceforces.com/inside-operation-midnight-hammer-b-2-pilots/",
-   "date": "2026-11-18T21:51:11Z",
-   "desc": "A sliver of moon hung low in the sky: blood red, eerie, and ominous. Already 18 hours into their mission, the two pilots were, for now, focused and alert. They checked their switches, eyed the moving map display, watched",
-   "img": "https://www.airandspaceforces.com/app/uploads/2026/11/9127323-900x600.jpg",
-   "source": "afmag"
   },
   {
    "title": "Is Dollar Dominance in Decline?",
