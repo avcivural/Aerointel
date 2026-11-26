@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T00:35:16Z",
+ "generated": "2026-11-26T09:01:35Z",
  "sources": [
   {
    "id": "defensenews",
@@ -188,7 +188,7 @@
    "count": 10,
    "latest": "2026-11-25T21:51:50Z",
    "error": null,
-   "ms": 81
+   "ms": 278
   },
   {
    "id": "breakingdefense",
@@ -196,7 +196,7 @@
    "count": 12,
    "latest": "2026-11-25T18:15:00Z",
    "error": null,
-   "ms": 94
+   "ms": 173
   },
   {
    "id": "defenseone",
@@ -204,7 +204,7 @@
    "count": 12,
    "latest": "2026-11-25T15:00:00Z",
    "error": null,
-   "ms": 159
+   "ms": 429
   },
   {
    "id": "afmag",
@@ -212,7 +212,7 @@
    "count": 9,
    "latest": "2026-11-25T21:40:18Z",
    "error": null,
-   "ms": 231
+   "ms": 351
   },
   {
    "id": "airforcetech",
@@ -220,7 +220,7 @@
    "count": 10,
    "latest": "2026-11-25T16:26:28Z",
    "error": null,
-   "ms": 88
+   "ms": 170
   },
   {
    "id": "twz",
@@ -228,15 +228,15 @@
    "count": 12,
    "latest": "2026-11-25T21:26:00Z",
    "error": null,
-   "ms": 201
+   "ms": 266
   },
   {
    "id": "warontherocks",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-25T18:30:58Z",
+   "latest": "2026-11-26T08:30:44Z",
    "error": null,
-   "ms": 268
+   "ms": 244
   },
   {
    "id": "rand",
@@ -244,15 +244,15 @@
    "count": 7,
    "latest": "2026-11-24T16:50:00Z",
    "error": null,
-   "ms": 202
+   "ms": 269
   },
   {
    "id": "ukdj",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-25T19:23:49Z",
+   "latest": "2026-11-26T09:00:04Z",
    "error": null,
-   "ms": 901
+   "ms": 1086
   },
   {
    "id": "aviationist",
@@ -260,7 +260,7 @@
    "count": 12,
    "latest": "2026-11-25T13:37:20Z",
    "error": null,
-   "ms": 116
+   "ms": 195
   },
   {
    "id": "rusi",
@@ -268,7 +268,7 @@
    "count": 12,
    "latest": "2026-11-25T00:00:00Z",
    "error": null,
-   "ms": 143
+   "ms": 252
   },
   {
    "id": "eurosd",
@@ -276,29 +276,28 @@
    "count": 6,
    "latest": "2026-11-25T12:48:49Z",
    "error": null,
-   "ms": 206
+   "ms": 583
   },
   {
    "id": "savunmasanayist",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-25T16:20:03Z",
+   "latest": "2026-11-26T08:19:24Z",
    "error": null,
-   "ms": 717
+   "ms": 455
   },
   {
    "id": "defensehere",
-   "status": "ok",
-   "count": 10,
-   "latest": "2026-11-25T15:50:29Z",
-   "error": null,
-   "ms": 1858
+   "status": "error",
+   "count": 0,
+   "latest": null,
+   "error": "ParseError: mismatched tag: line 1, column 168"
   }
  ],
  "trending": [
   {
    "term": "Ukraine",
-   "n": 7,
+   "n": 8,
    "sources": 5
   },
   {
@@ -323,6 +322,78 @@
   }
  ],
  "items": [
+  {
+   "title": "Leak exposes Kremlin propagandist’s AI fake news machine",
+   "link": "https://ukdefencejournal.org.uk/leak-exposes-kremlin-propagandists-ai-fake-news-machine/",
+   "date": "2026-11-26T09:00:04Z",
+   "desc": "Leaked files from the laptop of Moscow-based propagandist John Mark Dougan show he used an AI-powered dashboard to publish around 22,800 fake stories a month across 47 websites posing as local news outlets, NewsGuard has",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Royal Navy mine hunting drone deal is HII’s biggest abroad",
+   "link": "https://ukdefencejournal.org.uk/royal-navy-mine-hunting-drone-deal-is-hiis-biggest-abroad/",
+   "date": "2026-11-26T08:45:40Z",
+   "desc": "HII has won a £142 million contract for REMUS 620 uncrewed underwater vehicles and Sea Launcher systems for Royal Navy mine hunting, the largest international order in its 25-year unmanned systems history, according to t",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "MPs reject legal minimum standard for troops’ barracks",
+   "link": "https://ukdefencejournal.org.uk/mps-reject-legal-minimum-standard-for-troops-barracks/",
+   "date": "2026-11-26T08:45:13Z",
+   "desc": "MPs have voted down a Lords amendment that would have set a legal minimum standard for single living accommodation housing more than 77,000 service personnel, according to proceedings in the Commons on the Armed Forces B",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Where Soldiers Enjoyed Thanksgiving",
+   "link": "https://warontherocks.com/where-soldiers-enjoyed-thanksgiving/",
+   "date": "2026-11-26T08:30:44Z",
+   "desc": "Today, I’m slicing turkey. Grease dots my pinks and greens. Scuffs mar my jump boots. As I serve, soldiers feast: smoked turkey, honey-glazed ham, a steamship round of beef, smoked flank steak, and a whole smoked pig. Al",
+   "img": null,
+   "source": "warontherocks"
+  },
+  {
+   "title": "Surplus cold-weather kit offered to Ukraine case by case",
+   "link": "https://ukdefencejournal.org.uk/surplus-cold-weather-kit-offered-to-ukraine-case-by-case/",
+   "date": "2026-11-26T08:30:20Z",
+   "desc": "The Ministry of Defence considers giving surplus cold-weather equipment to Ukraine case by case before disposal, taking into account its condition and Ukraine’s priorities, and routinely buys winter kit for Ukraine ahead",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Kraliyet Donanması’na 186 Milyon Dolarlık Sualtı Avcısı",
+   "link": "https://www.savunmasanayist.com/kraliyet-donanmasina-186-milyon-dolarlik-sualti-avcisi/",
+   "date": "2026-11-26T08:19:24Z",
+   "desc": "Birleşik Krallık, Kraliyet Donanması’nın mayın avlama kabiliyetini güçlendirmek amacıyla HII şirketiyle REMUS 620 insansız su altı aracı için 186 milyon dolar değerinde sözleşme imzaladı. Birleşik Krallık Savunma Bakanlı",
+   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/HII-REMUS-620-2.jpg",
+   "source": "savunmasanayist"
+  },
+  {
+   "title": "George Washington’s Thanksgiving Proclamation",
+   "link": "https://warontherocks.com/george-washingtons-thanksgiving-proclamation-5/",
+   "date": "2026-11-26T08:15:50Z",
+   "desc": "Editor’s note: Congressional representatives asked George Washington to designate a national day of thanksgiving in honor of the new United States Constitution, which had come into operation in 1789. Washington observed ",
+   "img": null,
+   "source": "warontherocks"
+  },
+  {
+   "title": "Britain inks massive deal to get submarines to sea faster",
+   "link": "https://ukdefencejournal.org.uk/britain-inks-massive-deal-to-get-submarines-to-sea-faster/",
+   "date": "2026-11-26T07:52:52Z",
+   "desc": "Babcock has signed a five-year Gateway Agreement worth around £8 billion to maintain the Royal Navy’s submarines and run naval base services at Devonport and on the Clyde, with incentives to cut the time boats spend in m",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Ukraine asks allies for forty more fighter jets",
+   "link": "https://ukdefencejournal.org.uk/ukraine-asks-allies-for-forty-more-fighter-jets/",
+   "date": "2026-11-26T07:45:00Z",
+   "desc": "Ukraine needs forty more fighter jets and wants allies to hand over air defence interceptors from their stocks in return for future deliveries, Defence Minister Evgeniy Khmara told the NATO Parliamentary Assembly in Berl",
+   "img": null,
+   "source": "ukdj"
+  },
   {
    "title": "Carla Babb Named Head of Content for Military Times and Defense News",
    "link": "https://www.defensenews.com/news/2026/11/25/carla-babb-named-head-of-content-for-military-times-and-defense-news/",
@@ -508,46 +579,6 @@
    "source": "defensenews"
   },
   {
-   "title": "SSB: TUSAŞ’ın yol haritası Mühendislik Çalıştayı’nda ele alındı",
-   "link": "https://defensehere.com/tr/ssb-tusasin-yol-haritasi-muhendislik-calistayinda-ele-alindi/",
-   "date": "2026-11-25T15:50:29Z",
-   "desc": "Türk Havacılık ve Uzay Sanayii AŞ’nin (TUSAŞ) gelecek dönem stratejik hedefleri ve mühendislik yol haritası doğrultusunda Mühendislik Çalıştayı düzenlendi. Savunma Sanayii Başkanlığının (SSB) sosyal medya hesabından yapı",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Libya-Türkiye deniz yetki alanları anlaşması Libya Resmi Gazetesi’nde yayımlandı",
-   "link": "https://defensehere.com/tr/libya-turkiye-deniz-yetki-alanlari-anlasmasi-libya-resmi-gazetesinde-yayimlandi/",
-   "date": "2026-11-25T15:40:02Z",
-   "desc": "Libya Temsilciler Meclisi’nin onayladığı Türkiye ile Libya arasındaki deniz yetki alanlarının sınırlandırılmasına ilişkin anlaşma, harita ve coğrafi koordinatlarıyla birlikte Libya Resmi Gazetesi’nde yayımlandı. Libya Te",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Türkiye savunma sanayisinde yüzde 80 yerlilik oranını aştı: İhracat 10 milyar dolara ulaştı",
-   "link": "https://defensehere.com/tr/turkiye-savunma-sanayisinde-yuzde-80-yerlilik-oranini-asti-ihracat-10-milyar-dolara-ulasti/",
-   "date": "2026-11-25T15:24:49Z",
-   "desc": "Cumhurbaşkanlığı Savunma Sanayii Başkan Yardımcısı Mustafa Murat Şeker, Türkiye’nin savunma sanayisinde önemli bir üretim ve ihracat kapasitesine ulaştığını belirterek, “Savunma sanayimiz bugün yüzde 80’in üzerinde yerli",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/AA-20261125-43178256-43178254-KOCAELI_SANAYI_ODASINDA_YENI_DONEMIN_ILK_MECLIS_TOPLANTISI_GERCEKLESTIRILDI.jpg",
-   "source": "defensehere"
-  },
-  {
-   "title": "KONGSBERG’in DESNA hava savunma sistemi Ukrayna’da hizmete girdi",
-   "link": "https://defensehere.com/tr/kongsbergin-desna-hava-savunma-sistemi-ukraynada-hizmete-girdi/",
-   "date": "2026-11-25T15:04:53Z",
-   "desc": "KONGSBERG, Ukraynalı bir ortakla geliştirdiği DESNA hava savunma sistemini Ukrayna’ya teslim etti. İnsansız hava araçlarına (İHA) karşı koruma sağlamak üzere geliştirilen sistem, Ukrayna üretimi füzeleri ve fırlatıcıları",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Royal Navy picks HII for mine hunting drone fleet",
-   "link": "https://ukdefencejournal.org.uk/royal-navy-picks-hii-for-mine-hunting-drone-fleet/",
-   "date": "2026-11-25T15:00:50Z",
-   "desc": "HII Unmanned Systems has been selected for a £303 million Royal Navy contract for eight uncrewed mine hunting mission systems, and the contract is now expected to start on 25 November, according to a contract award notic",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "Defense Business Brief: Building warships; Drones; Neighborhood watch; and more...",
    "link": "https://www.defenseone.com/business/2026/11/defense-business-brief-building-warships-drones-neighborhood-watch-and-more/417441/",
    "date": "2026-11-25T15:00:00Z",
@@ -580,36 +611,12 @@
    "source": "breakingdefense"
   },
   {
-   "title": "Saab, ABD merkezli Mythos AI şirketini satın aldı",
-   "link": "https://defensehere.com/tr/saab-abd-merkezli-mythos-ai-sirketini-satin-aldi/",
-   "date": "2026-11-25T14:25:07Z",
-   "desc": "İsveçli savunma ve teknoloji şirketi Saab, denizcilik alanında otonom sistem teknolojileri geliştiren ABD merkezli Mythos AI şirketinin satın alma işlemlerinin tamamlandığını duyurdu. 15 çalışanı bulunan Mythos AI, akıll",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
    "title": "Boeing wins $2.8bn US Air Force order for 15 KC-46A tankers",
    "link": "https://www.airforce-technology.com/news/boeing-us-kc-461/",
    "date": "2026-11-25T14:20:19Z",
    "desc": "Boeing has received a $2.82bn US Air Force contract for 15 additional KC-46A Pegasus aerial refuelling aircraft, extending the programme’s production pipeline to 2030.",
    "img": null,
    "source": "airforcetech"
-  },
-  {
-   "title": "Cheaper training rocket for MLRS crews completes test",
-   "link": "https://ukdefencejournal.org.uk/cheaper-training-rocket-for-mlrs-crews-completes-test/",
-   "date": "2026-11-25T14:00:27Z",
-   "desc": "Lockheed Martin has completed a third successful test of its Joint Reduced Range Rocket, a low-cost training round with a reusable launch pod designed for HIMARS and M270 launchers, according to the company . During the ",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Savunma Sanayii Kocaeli İl Buluşması başladı",
-   "link": "https://defensehere.com/tr/savunma-sanayii-ve-uluslararasi-ticaretin-kalbi-kocaelide-atti/",
-   "date": "2026-11-25T13:49:31Z",
-   "desc": "Savunma Sanayii Başkanlığı ve Kocaeli Sanayi Odası (KSO) iş birliğinde düzenlenen “Savunma Sanayii Kocaeli İl Buluşması ve Match4Industry İkili İş Görüşmeleri” başladı. Savunma sanayiinin önde gelen ana yüklenicileri ile",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/AA-20261125-43179681-43179676-SAVUNMA_SANAYII_BASKAN_YARDIMCISI_SEKER_KOCAELIDE_IKILI_IS_GORUSMELERI_ETKINLIGINDE_KONUSTU.jpg",
-   "source": "defensehere"
   },
   {
    "title": "First Dark Eagle hypersonic battery ‘fully fielded,’ Lozano says",
@@ -636,68 +643,12 @@
    "source": "savunmasanayist"
   },
   {
-   "title": "Minister confirms progress on carrier drone wingman trials",
-   "link": "https://ukdefencejournal.org.uk/minister-confirms-progress-on-carrier-drone-wingman-trials/",
-   "date": "2026-11-25T13:00:04Z",
-   "desc": "Northrop Grumman’s TALON demonstrator will prepare for trials in UK waters next year, including a launch from one of the Royal Navy’s aircraft carriers, according to an answer given in Parliament. Conservative MP Ben Obe",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "HII Awarded Largest International Unmanned Systems Contract in Company History by UK Ministry of Defence",
    "link": "https://euro-sd.com/2026/11/news/exclusive-news/54834/hii-remus-620/",
    "date": "2026-11-25T12:48:49Z",
    "desc": "HII, America’s largest military shipbuilder and global leader in autonomous seapower, has been awarded a £142 million (approximately $186 million) … mehr... The post HII Awarded Largest International Unmanned Systems Con",
    "img": "https://euro-sd.com/wp-content/uploads/2026/11/UK_MHC_2026_2_5414c9d3f2-300x200.webp",
    "source": "eurosd"
-  },
-  {
-   "title": "Bayraktar AKINCI’dan ASELSAN TOLUN-L mühimmatıyla ilk atış",
-   "link": "https://defensehere.com/tr/bayraktar-akincidan-aselsan-tolun-l-muhimmatiyla-ilk-atis/",
-   "date": "2026-11-25T12:27:12Z",
-   "desc": "Bayraktar AKINCI TİHA, ASELSAN tarafından geliştirilen TOLUN-L mühimmatıyla ilk atışını başarıyla gerçekleştirdi. BAYKAR , gelişmeyi sosyal medya hesabından, “BAYKAR AKINCI TİHA’dan ASELSAN TOLUN-L Mühimmatı’nın ilk atış",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/baykar0.png",
-   "source": "defensehere"
-  },
-  {
-   "title": "Aksa Composites, Airbus Helicopters’e ilk seri sevkiyatını gerçekleştirdi",
-   "link": "https://defensehere.com/tr/aksa-composites-airbus-helicopterse-ilk-seri-sevkiyatini-gerceklestirdi/",
-   "date": "2026-11-25T12:24:10Z",
-   "desc": "Aksa İleri Kompozit Teknolojileri ve Havacılık Sanayi A.Ş. (Aksa Composites), Airbus Helicopters’e ilk seri sevkiyatını gerçekleştirdi. Şirketin sosyal medya hesabından yapılan açıklamada, Airbus Helicopters ile sürdürül",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Zelenskiy, PURL girişimi kapsamında ülkesine füzelerin tedarik edilmesini beklediklerini belirtti",
-   "link": "https://defensehere.com/tr/zelenskiy-purl-girisimi-kapsaminda-ulkesine-fuzelerin-tedarik-edilmesini-beklediklerini-belirtti/",
-   "date": "2026-11-25T12:08:02Z",
-   "desc": "Ukrayna Devlet Başkanı Volodimir Zelenskiy, Ukrayna’nın Öncelikli İhtiyaçlar Listesi (PURL) girişimi kapsamında savaş uçakları ve hava savunma sistemleri için kullanılacak füzelerin ülkesine tedarik edilmesini bekledikle",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Military wildfire capability aimed at next fire season",
-   "link": "https://ukdefencejournal.org.uk/military-wildfire-capability-aimed-at-next-fire-season/",
-   "date": "2026-11-25T12:00:02Z",
-   "desc": "The Ministry of Defence aims to have an initial UK aerial firefighting capability, drawing on RAF Chinook helicopters and A400M Atlas aircraft, available for the 2027 wildfire season, according to an answer given in Parl",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "BBC journalist investigates who killed her family in Ukraine",
-   "link": "https://ukdefencejournal.org.uk/bbc-journalist-investigates-who-killed-her-family-in-ukraine/",
-   "date": "2026-11-25T11:10:37Z",
-   "desc": "BBC journalist Anastasiya Gribanova has investigated how her father and grandparents died as Russian forces advanced on her village of Dachne in eastern Ukraine, finding conflicting accounts of who killed them, according",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "DragonFire laser could be adapted for land use",
-   "link": "https://ukdefencejournal.org.uk/dragonfire-laser-could-be-adapted-for-land-use/",
-   "date": "2026-11-25T11:00:45Z",
-   "desc": "The Ministry of Defence is exploring potential future applications for the DragonFire laser weapon across a range of operational environments, including the land domain, according to an answer given in Parliament. Conser",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "Galvion awarded third successive Danish helmet framework contract",
@@ -722,14 +673,6 @@
    "desc": "ROME — The numbers cannot be found in this year’s Italian defense budget, but the country has achieved a promised spending total on defense and domestic security equal to 2.8% of GDP in 2026, officials have claimed. That",
    "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-2278905649.jpg",
    "source": "defensenews"
-  },
-  {
-   "title": "Yapay zeka destekli silahlarda hesap verebilirlik insan sorumluluğuna bağlı",
-   "link": "https://defensehere.com/tr/yapay-zeka-destekli-silahlarda-hesap-verebilirlik-insan-sorumluluguna-bagli/",
-   "date": "2026-11-25T10:17:49Z",
-   "desc": "Askeri operasyonlarda hedef belirleme ve saldırı kararlarında yapay zeka kullanımının yaygınlaşması, sivillerin korunması ve olası savaş suçlarında kimin sorumlu tutulacağına ilişkin tartışmaları artırırken, uzmanlar tek",
-   "img": null,
-   "source": "defensehere"
   },
   {
    "title": "ABD 15 Tanker Daha Alıyor: Boeing’in Zararı Artıyor",
@@ -1068,10 +1011,10 @@
    "source": "afmag"
   },
   {
-   "title": "Kerch Bridge Destruction: Politically Embarrassing, Logistically Contained",
-   "link": "https://www.rusi.org/explore-our-research/publications/commentary/kerch-bridge-destruction-politically-embarrassing-logistically-contained",
+   "title": "Recording: Development, Defence, Geopolitics: US Lessons and Reflections",
+   "link": "https://www.rusi.org/research-event-recordings/recording-development-defence-geopolitics-us-lessons-and-reflections",
    "date": "2026-11-24T00:00:00Z",
-   "desc": "Ukraine’s destruction of the Kerch Road bridge has embarrassed Moscow, but Russia’s adapted southern supply chains mean the military impact will probably stay localised.",
+   "desc": "A conversation with Former National Security Advisor, Lt. General (Ret.) H R McMaster, reflecting on the security and strategic implications of Western aid cuts.",
    "img": null,
    "source": "rusi"
   },
@@ -1092,10 +1035,10 @@
    "source": "rusi"
   },
   {
-   "title": "Recording: Development, Defence, Geopolitics: US Lessons and Reflections",
-   "link": "https://www.rusi.org/research-event-recordings/recording-development-defence-geopolitics-us-lessons-and-reflections",
+   "title": "Kerch Bridge Destruction: Politically Embarrassing, Logistically Contained",
+   "link": "https://www.rusi.org/explore-our-research/publications/commentary/kerch-bridge-destruction-politically-embarrassing-logistically-contained",
    "date": "2026-11-24T00:00:00Z",
-   "desc": "A conversation with Former National Security Advisor, Lt. General (Ret.) H R McMaster, reflecting on the security and strategic implications of Western aid cuts.",
+   "desc": "Ukraine’s destruction of the Kerch Road bridge has embarrassed Moscow, but Russia’s adapted southern supply chains mean the military impact will probably stay localised.",
    "img": null,
    "source": "rusi"
   },
@@ -1220,26 +1163,10 @@
    "source": "warontherocks"
   },
   {
-   "title": "STM’den Yeni Kamikaze FPV: ALKAN Envantere Girdi",
-   "link": "https://www.savunmasanayist.com/stmden-yeni-kamikaze-fpv-alkan-envantere-girdi/",
-   "date": "2026-11-23T08:13:52Z",
-   "desc": "STM tarafından geliştirilen millî kamikaze sistemi ALKAN FPV, kabul testlerini tamamlayarak Türk güvenlik güçlerinin envanterine girdi. Sistemin ilk teslimatları gerçekleştirildi. Türk savunma sanayii bünyesinde insansız",
-   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/STM-ALKAN-FPV-3.jpg",
-   "source": "savunmasanayist"
-  },
-  {
    "title": "Same Risk, Different Letterhead? The City Watchdog Takes On the Professions",
    "link": "https://www.rusi.org/explore-our-research/publications/commentary/same-risk-different-letterhead-city-watchdog-takes-professions",
    "date": "2026-11-23T00:00:00Z",
    "desc": "Decisions remain as the UK debates a Bill on anti-money laundering supervision of lawyers, accountants and company formation agents to the Financial Conduct Authority.",
-   "img": null,
-   "source": "rusi"
-  },
-  {
-   "title": "Recording: China and the UK Economy: The Case for Risk-Managed Growth",
-   "link": "https://www.rusi.org/research-event-recordings/recording-china-and-uk-economy-case-risk-managed-growth",
-   "date": "2026-11-23T00:00:00Z",
-   "desc": "Hear from the Business, Innovation, Science and Trade Committee as they discuss their new report on managing the UK's economic relationship with China.",
    "img": null,
    "source": "rusi"
   },
@@ -1324,14 +1251,6 @@
    "source": "aviationist"
   },
   {
-   "title": "Why the Next Bioterrorists May Not Make the Same Mistakes as Aum Shinrikyo",
-   "link": "https://warontherocks.com/why-the-next-bioterrorists-may-not-make-the-same-mistakes-as-aum-shinrikyo/",
-   "date": "2026-11-20T08:30:48Z",
-   "desc": "In conversations with law enforcement and security professionals, one view has repeatedly emerged: Aum Shinrikyo’s failed biological weapons program in the early 1990s shows that the risk of bioterrorism is overstated, d",
-   "img": null,
-   "source": "warontherocks"
-  },
-  {
    "title": "Navy will likely fly CCAs sooner than F/A-XX, White House nom says",
    "link": "https://www.defenseone.com/defense-systems/2026/11/navy-will-likely-fly-ccas-sooner-f-xx-white-house-nom-says/417365/",
    "date": "2026-11-20T08:03:41Z",
@@ -1380,14 +1299,6 @@
    "source": "defenseone"
   },
   {
-   "title": "Handshakes Without Headway",
-   "link": "https://warontherocks.com/handshakes-without-headway/",
-   "date": "2026-11-19T20:17:57Z",
-   "desc": "Welcome to The Adversarial. Every other week, we’ll provide you with expert analysis on America’s greatest challengers: China, Russia, Iran, North Korea, and jihadists. Read more below.***Iran Washington and Tehran are s",
-   "img": null,
-   "source": "warontherocks"
-  },
-  {
    "title": "Schiebel demonstrates S-100 ‘mothership’ role for small drone operations",
    "link": "https://www.airforce-technology.com/news/schiebel-s-100-mothership-demonstration/",
    "date": "2026-11-19T17:25:55Z",
@@ -1416,6 +1327,14 @@
    "link": "https://www.rusi.org/explore-our-research/publications/rusi-newsbrief/irelands-eu-presidency-hybrid-threats-test-neutral-state",
    "date": "2026-11-19T00:00:00Z",
    "desc": "Hoax bomb threats, cyberattacks and drone incursions around Ireland's EU presidency have exposed the limits of its neutral, underfunded defence posture.",
+   "img": null,
+   "source": "rusi"
+  },
+  {
+   "title": "Can Drones Replace Soldiers? NATO's Uncrewed Strategy",
+   "link": "https://www.rusi.org/news-and-comment/video-commentary/can-drones-replace-soldiers-natos-uncrewed-strategy",
+   "date": "2026-11-19T00:00:00Z",
+   "desc": "FPV (first-person view) drones have become indelibly associated with the killing of masses of soldiers, as well as the destruction of armoured vehicles and other war material in Ukraine.",
    "img": null,
    "source": "rusi"
   },
