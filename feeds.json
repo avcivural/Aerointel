@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T11:04:57Z",
+ "generated": "2026-11-27T20:05:59Z",
  "sources": [
   {
    "id": "defensenews",
@@ -186,17 +186,17 @@
    "id": "defensenews",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-25T21:51:50Z",
+   "latest": "2026-11-27T14:23:36Z",
    "error": null,
-   "ms": 348
+   "ms": 258
   },
   {
    "id": "breakingdefense",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-25T18:15:00Z",
+   "latest": "2026-11-27T19:57:02Z",
    "error": null,
-   "ms": 138
+   "ms": 224
   },
   {
    "id": "defenseone",
@@ -204,7 +204,7 @@
    "count": 12,
    "latest": "2026-11-25T15:00:00Z",
    "error": null,
-   "ms": 571
+   "ms": 410
   },
   {
    "id": "afmag",
@@ -212,23 +212,23 @@
    "count": 9,
    "latest": "2026-11-25T21:40:18Z",
    "error": null,
-   "ms": 249
+   "ms": 321
   },
   {
    "id": "airforcetech",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-26T16:22:13Z",
+   "latest": "2026-11-27T14:27:14Z",
    "error": null,
-   "ms": 123
+   "ms": 219
   },
   {
    "id": "twz",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-25T21:26:00Z",
+   "latest": "2026-11-27T18:57:35Z",
    "error": null,
-   "ms": 385
+   "ms": 314
   },
   {
    "id": "warontherocks",
@@ -236,7 +236,7 @@
    "count": 12,
    "latest": "2026-11-26T08:30:44Z",
    "error": null,
-   "ms": 365
+   "ms": 344
   },
   {
    "id": "rand",
@@ -244,15 +244,15 @@
    "count": 7,
    "latest": "2026-11-24T16:50:00Z",
    "error": null,
-   "ms": 341
+   "ms": 304
   },
   {
    "id": "ukdj",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-27T11:00:25Z",
+   "latest": "2026-11-27T20:00:12Z",
    "error": null,
-   "ms": 1349
+   "ms": 832
   },
   {
    "id": "aviationist",
@@ -260,7 +260,7 @@
    "count": 12,
    "latest": "2026-11-26T18:38:07Z",
    "error": null,
-   "ms": 125
+   "ms": 153
   },
   {
    "id": "rusi",
@@ -268,23 +268,23 @@
    "count": 12,
    "latest": "2026-11-27T00:00:00Z",
    "error": null,
-   "ms": 2055
+   "ms": 195
   },
   {
    "id": "eurosd",
    "status": "ok",
    "count": 6,
-   "latest": "2026-11-26T14:46:45Z",
+   "latest": "2026-11-27T12:36:30Z",
    "error": null,
-   "ms": 529
+   "ms": 488
   },
   {
    "id": "savunmasanayist",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-27T10:49:31Z",
+   "latest": "2026-11-27T13:48:46Z",
    "error": null,
-   "ms": 783
+   "ms": 787
   },
   {
    "id": "defensehere",
@@ -292,24 +292,14 @@
    "count": 10,
    "latest": "2026-11-27T08:06:43Z",
    "error": null,
-   "ms": 2545
+   "ms": 3217
   }
  ],
  "trending": [
   {
-   "term": "Ukraine",
-   "n": 10,
-   "sources": 7
-  },
-  {
-   "term": "Russian",
-   "n": 7,
-   "sources": 5
-  },
-  {
    "term": "NATO",
-   "n": 6,
-   "sources": 6
+   "n": 8,
+   "sources": 7
   },
   {
    "term": "Boeing",
@@ -317,19 +307,181 @@
    "sources": 6
   },
   {
-   "term": "Pentagon",
+   "term": "Ukraine",
+   "n": 6,
+   "sources": 6
+  },
+  {
+   "term": "Russian",
    "n": 5,
    "sources": 4
+  },
+  {
+   "term": "KC-46",
+   "n": 5,
+   "sources": 5
   }
  ],
  "items": [
   {
-   "title": "Banks to end debanking of defence firms, says arms chief",
-   "link": "https://ukdefencejournal.org.uk/banks-to-end-debanking-of-defence-firms-says-arms-chief/",
-   "date": "2026-11-27T11:00:25Z",
-   "desc": "Several clearing banks will announce an end to the debanking of defence firms when the Defence Finance and Investment Strategy launches in London on 1 December, National Armaments Director Rupert Pearce told the Defence ",
+   "title": "Trump and NATO chief urge Russia not to widen the war",
+   "link": "https://ukdefencejournal.org.uk/trump-and-nato-chief-urge-russia-not-to-widen-the-war/",
+   "date": "2026-11-27T20:00:12Z",
+   "desc": "US President Donald Trump and NATO Secretary General Mark Rutte discussed the importance of Russia avoiding any action that “intentionally, or unintentionally” expands its war against Ukraine, according to a joint statem",
    "img": null,
    "source": "ukdj"
+  },
+  {
+   "title": "BAE Hägglunds lands record $6B deal for 400+ CV90s from five NATO nations",
+   "link": "https://breakingdefense.com/2026/11/bae-hagglunds-lands-record-6b-deal-for-400-cv90s-from-five-nato-nations/",
+   "date": "2026-11-27T19:57:02Z",
+   "desc": "The joint procurement by Finland, Lithuania, the Netherlands, Norway and Sweden is expressly linked to the threat from Russia.",
+   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/cv90-jonas-1-good-scaled-e1795807504446-1024x577.jpeg",
+   "source": "breakingdefense"
+  },
+  {
+   "title": "First M-346 rolls out for Italian aerobatic team",
+   "link": "https://ukdefencejournal.org.uk/first-m-346-rolls-out-for-italian-aerobatic-team/",
+   "date": "2026-11-27T19:37:09Z",
+   "desc": "Leonardo has rolled out the first of 15 M-346 aircraft for the Italian Air Force’s Frecce Tricolori aerobatic team and begun flight testing, pilot training and work on a new display programme, according to the company . ",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Europe Bets Big On CV90 Armored Fighting Vehicle",
+   "link": "https://www.twz.com/land/europe-bets-big-on-cv90-armored-fighting-vehicle",
+   "date": "2026-11-27T18:57:35Z",
+   "desc": "Five European NATO members have signed a landmark agreement to jointly procure more than 400 CV90 series infantry fighting vehicles, in a deal valued at approximately $6 billion. The agreement is one of the biggest multi",
+   "img": "https://www.twz.com/wp-content/uploads/2026/11/BAE-Systems-CV90-IFV_340960.jpg?quality=85",
+   "source": "twz"
+  },
+  {
+   "title": "Sneak Down The Chimney Undetected In This Newly Upgraded Very Stealthy Christmas Tree T-Shirt",
+   "link": "https://www.twz.com/uncategorized/sneak-down-the-chimney-undetected-in-this-newly-upgraded-very-stealthy-christmas-tree-t-shirt",
+   "date": "2026-11-27T18:54:01Z",
+   "desc": "It’s that time of year again! After Santa’s sleigh came out of depot maintenance for another hypersonic flight around the globe, the elves are calibrating its radar and replacing the bulb in Rudolph’s beacon. That’s righ",
+   "img": "https://www.twz.com/wp-content/uploads/2026/11/Silent-Night-black12.jpg?quality=85&w=2048",
+   "source": "twz"
+  },
+  {
+   "title": "Forces outflow down seven per cent this year, minister says",
+   "link": "https://ukdefencejournal.org.uk/forces-outflow-down-seven-per-cent-this-year-minister-says/",
+   "date": "2026-11-27T18:00:44Z",
+   "desc": "The number of personnel leaving Britain’s armed forces has fallen by 7% this year, reversing the trend of the previous four years, Louise Sandher-Jones, Minister for the Armed Forces, told MPs during a debate on the Arme",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Tekever drone tracks Marines landing from Portuguese warship",
+   "link": "https://ukdefencejournal.org.uk/tekever-drone-tracks-marines-landing-from-portuguese-warship/",
+   "date": "2026-11-27T17:00:40Z",
+   "desc": "A Tekever AR3 EVO drone fitted with Arkeus’s Warden hyperspectral sensor flew from a Portuguese Navy vessel during an amphibious operation at REPMUS 2026, detecting, identifying and tracking points of interest including ",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Build country of Britain’s new amphibious ships now unclear",
+   "link": "https://ukdefencejournal.org.uk/build-country-of-britains-new-amphibious-ships-now-unclear/",
+   "date": "2026-11-27T16:05:56Z",
+   "desc": "Britain and the Netherlands are still exploring the Amphibious Transport Ship as a potential joint programme, Luke Pollard has said when asked about Damen’s announcement on where the ships would be built, according to an",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "US Air Force orders fifteen more KC-46A tankers",
+   "link": "https://ukdefencejournal.org.uk/us-air-force-orders-fifteen-more-kc-46a-tankers/",
+   "date": "2026-11-27T16:00:38Z",
+   "desc": "Boeing has been awarded a US Air Force contract for fifteen additional KC-46A Pegasus tankers, bringing the number on contract or in service worldwide to 203, according to the company . Of those, 116 have been delivered ",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Historic England objects to British missile motor factory",
+   "link": "https://ukdefencejournal.org.uk/historic-england-objects-to-british-missile-motor-factory/",
+   "date": "2026-11-27T15:30:03Z",
+   "desc": "Historic England has objected to Cambridge Aerospace’s £24 million plan for a solid rocket motor factory at the former RAF Coltishall in Norfolk, warning that storage units between the base’s Cold War blast walls would c",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Britain opens defence test ranges to small firms online",
+   "link": "https://ukdefencejournal.org.uk/britain-opens-defence-test-ranges-to-small-firms-online/",
+   "date": "2026-11-27T15:07:44Z",
+   "desc": "Small businesses and start-ups can now find and book defence and industry testing ranges, facilities and expertise through a single online portal, the new Test and Evaluation Marketplace, according to the Ministry of Def",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Saab buys US maritime autonomy firm Mythos AI",
+   "link": "https://ukdefencejournal.org.uk/saab-buys-us-maritime-autonomy-firm-mythos-ai/",
+   "date": "2026-11-27T15:00:37Z",
+   "desc": "Saab has completed its acquisition of Mythos AI, a US developer of navigation and autonomy software for vessels, according to the Swedish company . Saab said the deal combines Mythos AI’s navigation and autonomy software",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "MP urges Defence Secretary to base warships further north",
+   "link": "https://ukdefencejournal.org.uk/mp-urges-defence-secretary-to-base-warships-further-north/",
+   "date": "2026-11-27T14:46:51Z",
+   "desc": "Liberal Democrat MP Jamie Stone has asked to meet Defence Secretary Wes Streeting over whether British warships are based close enough to Russian activity in the North Sea, after reports of a Russian warship jamming flig",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "GomSpace awarded $1.8m under EDF for space-based intelligence programme",
+   "link": "https://www.airforce-technology.com/news/gomspace-spaceintelligence-project-eu/",
+   "date": "2026-11-27T14:27:14Z",
+   "desc": "GomSpace has announced its selection as a consortium partner in SPIDER2, a significant space-based intelligence project funded under the European Defence Fund (EDF).",
+   "img": null,
+   "source": "airforcetech"
+  },
+  {
+   "title": "Hackers breach US Air Force flagship Cloud One computing platform",
+   "link": "https://www.defensenews.com/pentagon/2026/11/27/hackers-breach-us-air-force-flagship-cloud-one-computing-platform/",
+   "date": "2026-11-27T14:23:36Z",
+   "desc": "Hackers have breached the U.S. Air Force’s flagship cloud computing platform, three people familiar with the matter told Reuters, in a development that could jeopardize a vast swathe of sensitive tactical, personnel and ",
+   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/08/US_Iran_26034637113421.jpg.jpg",
+   "source": "defensenews"
+  },
+  {
+   "title": "A race for lifesaving battlefield drones | Defense News Weekly Full Episode 11.24.26",
+   "link": "https://www.defensenews.com/video/2026/11/27/a-race-for-lifesaving-battlefield-drones-defense-news-weekly-full-episode-11-24-26/",
+   "date": "2026-11-27T14:00:00Z",
+   "desc": "While Ukrainian innovators pioneer frontline aerial drone evacuation, DARPA develops AI-assisted robots to find and assess injured troops and civilians. The race to save lives is on.",
+   "img": "https://cdn.jwplayer.com/videos/b8jqKJHE-5ZsksG4j.mp4",
+   "source": "defensenews"
+  },
+  {
+   "title": "CANİK’ten İngiltere’de Üretim Atağı: 4 Kat Büyüme",
+   "link": "https://www.savunmasanayist.com/canikten-ingilterede-uretim-atagi-4-kat-buyume/",
+   "date": "2026-11-27T13:48:46Z",
+   "desc": "CANİK, Birleşik Krallık’taki şirketi AEI Systems’in mühendislik altyapısını genişletmek amacıyla yeni bir yatırım programına başlıyor. Türk savunma sanayii şirketi CANİK ’in bu hamlesiyle ülkedeki orta kalibre top üretim",
+   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/CANIK-2.jpg",
+   "source": "savunmasanayist"
+  },
+  {
+   "title": "BAE SYSTEMS secures five-nation landmark agreement for new CV90",
+   "link": "https://euro-sd.com/2026/11/news/land/54877/bae-systems-cv90/",
+   "date": "2026-11-27T12:36:30Z",
+   "desc": "BAE Systems has been awarded contracts worth a total of $6 billion (€5.5 billion) in a joint procurement with Finland, … mehr... The post BAE SYSTEMS secures five-nation landmark agreement for new CV90 appeared first on ",
+   "img": "https://euro-sd.com/wp-content/uploads/2026/11/RS318509_BAE-Systems-CV90-IFV-image-3_lpr-300x200.jpg",
+   "source": "eurosd"
+  },
+  {
+   "title": "Leonardo rolls out first M-346 jet for Italy’s Air Force stunt flying unit",
+   "link": "https://www.defensenews.com/global/europe/2026/11/27/leonardo-rolls-out-first-m-346-jet-for-italys-air-force-stunt-flying-unit/",
+   "date": "2026-11-27T11:32:10Z",
+   "desc": "ROME — Italian defense giant Leonardo has rolled out the first of 15 M-346 jets due to take over stunt flying duties with the Italian Air Force’s aerobatic team. Built as a jet trainer and also sold in a light fighter co",
+   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/Foto_M346PAN_03.jpeg",
+   "source": "defensenews"
+  },
+  {
+   "title": "France kicks off defense-industry pact to build up counter-drone efforts",
+   "link": "https://www.defensenews.com/global/europe/2026/11/27/france-kicks-off-defense-industry-pact-to-build-up-counter-drone-efforts/",
+   "date": "2026-11-27T11:12:42Z",
+   "desc": "PARIS — France kicked off an initiative with its defense industry to produce counter-drone systems, a new chapter in efforts to foster a local drone ecosystem through “pacts” with industry that bring together firms and m",
+   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-2281120838.jpg",
+   "source": "defensenews"
   },
   {
    "title": "Türk F-16’ları Romanya Yolcusu",
@@ -340,60 +492,12 @@
    "source": "savunmasanayist"
   },
   {
-   "title": "Nuclear now nearly a quarter of defence budget, MPs told",
-   "link": "https://ukdefencejournal.org.uk/nuclear-now-nearly-a-quarter-of-defence-budget-mps-told/",
-   "date": "2026-11-27T10:00:36Z",
-   "desc": "The Defence Nuclear Enterprise now accounts for just under a quarter of the defence budget and is likely to stay at that level for many years, Ministry of Defence Permanent Secretary Jeremy Pocklington told the Defence C",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Royal Navy surface fleet halved to forty nine ships since 1997",
-   "link": "https://ukdefencejournal.org.uk/royal-navy-surface-fleet-halved-to-forty-nine-ships-since-1997/",
-   "date": "2026-11-27T09:30:57Z",
-   "desc": "The Royal Navy surface fleet now numbers 49 vessels, half the 97 it had in May 1997, with just five frigates and no amphibious ships on the books as of 1 November, according to figures released in Parliament . Conservati",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "No money saved by Army training changes, MPs told",
-   "link": "https://ukdefencejournal.org.uk/no-money-saved-by-army-training-changes-mps-told/",
-   "date": "2026-11-27T09:00:24Z",
-   "desc": "No money was saved by changes to the Army’s collective training programme, the Ministry of Defence’s Director General Finance, Aneen Blackmore, told the Defence Committee, as a senior commander said rising running costs ",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Britain finishes talks to join EU civilian security missions",
-   "link": "https://ukdefencejournal.org.uk/britain-finishes-talks-to-join-eu-civilian-security-missions/",
-   "date": "2026-11-27T08:40:48Z",
-   "desc": "Britain has concluded negotiations on taking part in the European Union’s civilian Common Security and Defence Policy missions and aims to sign the agreement in due course, but will not contribute to mission budgets, acc",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Ministry says it will keep reassessing Palantir use",
-   "link": "https://ukdefencejournal.org.uk/ministry-says-it-will-keep-reassessing-palantir-use/",
-   "date": "2026-11-27T08:30:21Z",
-   "desc": "The Ministry of Defence will continue to reassess its use of technologies and suppliers where appropriate, according to an answer given in Parliament after a Liberal Democrat MP asked whether it would reassess its use of",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "NATO’nun hava nöbetini Türk Hava Kuvvetleri devralacak",
    "link": "https://defensehere.com/tr/natonun-hava-nobetini-turk-hava-kuvvetleri-devralacak/",
    "date": "2026-11-27T08:06:43Z",
    "desc": "Amasya’nın Merzifon ilçesindeki 5’inci Ana Jet Üs Komutanlığına bağlı 151’inci Jet Filo Komutanlığı (Tunç Filo) unsurları, NATO’nun 73’üncü Dönem Geliştirilmiş Hava Polisliği görevi kapsamında Romanya’daki Feteşti Hava Ü",
    "img": "https://defensehere.com/wp-content/uploads/2026/11/AA-20261127-43196410-43196409-NATONUN_HAVA_NOBETINI_TURK_HAVA_KUVVETLERI_DEVRALACAK.jpg",
    "source": "defensehere"
-  },
-  {
-   "title": "MI5 warns Russia is targeting UK firms supplying Ukraine",
-   "link": "https://ukdefencejournal.org.uk/mi5-warns-russia-is-targeting-uk-firms-supplying-ukraine/",
-   "date": "2026-11-27T07:45:44Z",
-   "desc": "UK businesses supplying the Ukrainian Armed Forces are being targeted by the Russian state, the National Protective Security Authority, part of MI5, has warned, as ministers brief defence and infrastructure chief executi",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "Rusya jet yakıtı ihracatına yönelik yasağın süresini uzattı",
@@ -428,26 +532,18 @@
    "source": "defensehere"
   },
   {
-   "title": "MPs restore merger of reserve and cadet associations",
-   "link": "https://ukdefencejournal.org.uk/mps-restore-merger-of-reserve-and-cadet-associations/",
-   "date": "2026-11-27T06:00:47Z",
-   "desc": "MPs have voted to restore plans to merge Britain’s 13 reserve forces and cadets associations into a single non-departmental public body, overturning a Lords defeat and adding government amendments to strengthen regional ",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Ukraine says it hit five Russian jets at major air base",
-   "link": "https://ukdefencejournal.org.uk/ukraine-says-it-hit-five-russian-jets-at-major-air-base/",
-   "date": "2026-11-27T06:00:18Z",
-   "desc": "Ukrainian forces struck Savasleyka air base in Russia’s Nizhny Novgorod region, hitting three MiG-31 fighters and two Su-34 fighter-bombers that will be unable to fly for some time, according to Ukraine’s General Staff .",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "Episode 7: Who's Paying for British Politics?",
    "link": "https://www.rusi.org/podcasts/suspicious-transaction-report/episode-7-whos-paying-british-politics",
    "date": "2026-11-27T00:00:00Z",
    "desc": "Philip Rycroft joins us to discuss foreign money, crypto donations and the hidden channels of political influence – and how Britain can better defend its democracy.",
+   "img": null,
+   "source": "rusi"
+  },
+  {
+   "title": "The Price of Cost-Cutting: What Next for UK Aid and Development Assistance?",
+   "link": "https://www.rusi.org/explore-our-research/publications/commentary/price-cost-cutting-what-next-uk-aid-and-development-assistance",
+   "date": "2026-11-27T00:00:00Z",
+   "desc": "Deep UK and Western aid cuts are fuelling insecurity across sub-Saharan Africa. Protecting British interests requires money paired with genuine strategic reform.",
    "img": null,
    "source": "rusi"
   },
@@ -466,14 +562,6 @@
    "desc": "The M-346 in PAN configuration for the Italian Air Force’s Frecce Tricolori aerobatic team has been officially unveiled at Leonardo’s Venegono plant. Leonardo and the Italian Air Force have officially unveiled the new M-",
    "img": "https://theaviationist.com/wp-content/uploads/2026/11/PAN-Rollout-3.jpg",
    "source": "aviationist"
-  },
-  {
-   "title": "Offset rules not yet decided for SA80 rifle replacement",
-   "link": "https://ukdefencejournal.org.uk/offset-rules-not-yet-decided-for-sa80-rifle-replacement/",
-   "date": "2026-11-26T18:00:16Z",
-   "desc": "It has not yet been decided whether Britain’s new defence offset policy will apply to Project GRAYBURN, the programme to replace the Army’s SA80 rifle family, and the answer will depend on the procurement route chosen, a",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "Turkish Technic, hizmet ihracatında 8. kez şampiyon oldu",
@@ -868,14 +956,6 @@
    "source": "eurosd"
   },
   {
-   "title": "Hanwha Aerospace partners with Modirum Gespi in Brazil’s defense sector",
-   "link": "https://euro-sd.com/2026/11/articles/industry/54825/hanwha-aerospace-modirum-gespi/",
-   "date": "2026-11-25T10:44:36Z",
-   "desc": "Hanwha Aerospace has signed a memorandum of understanding (MOU) with Modirum Gespi, a defense manufacturer with operations in Brazil, to … mehr... The post Hanwha Aerospace partners with Modirum Gespi in Brazil’s defense",
-   "img": "https://euro-sd.com/wp-content/uploads/2026/11/Pic-Kopie-300x225.jpg",
-   "source": "eurosd"
-  },
-  {
    "title": "Buried in Italy’s budget, officials see Rome meeting NATO spending target",
    "link": "https://www.defensenews.com/global/europe/2026/11/25/buried-in-italys-budget-officials-see-rome-meeting-nato-spending-target/",
    "date": "2026-11-25T10:22:51Z",
@@ -892,14 +972,6 @@
    "source": "savunmasanayist"
   },
   {
-   "title": "Czech jet engine maker eyes growing role as US supplier in drones, missiles",
-   "link": "https://www.defensenews.com/global/europe/2026/11/25/czech-jet-engine-maker-eyes-growing-role-as-us-supplier-in-drones-missiles/",
-   "date": "2026-11-25T09:33:18Z",
-   "desc": "WARSAW, Poland — Czech jet engine producer PBS Aerospace aims to expand its manufacturing capacity in the United States, targeting at least a twofold increase in its production capacity there, according to senior company",
-   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/Photo-by-PBS-3.jpg",
-   "source": "defensenews"
-  },
-  {
    "title": "The Contract Was the Easy Part: How Accelerator Day Put the Pentagon on the Clock",
    "link": "https://warontherocks.com/cogs-of-war/the-contract-was-the-easy-part-how-accelerator-day-put-the-pentagon-on-the-clock/",
    "date": "2026-11-25T09:00:04Z",
@@ -914,14 +986,6 @@
    "desc": "Congress wants its war powers back. At least, that is the message that the legislature has communicated to the public numerous times over the past decade. Members of Congress have forced an astonishing number of votes on",
    "img": null,
    "source": "warontherocks"
-  },
-  {
-   "title": "Ankara’da Tarihi Kare: Halife Hafter İlk Kez Türkiye’de",
-   "link": "https://www.savunmasanayist.com/ankarada-tarihi-kare-halife-hafter-ilk-kez-turkiyede/",
-   "date": "2026-11-25T07:20:08Z",
-   "desc": "Libya Ulusal Ordusu Başkomutanı Halife Hafter, Cumhurbaşkanı Erdoğan’ın daveti üzerine Ankara’ya geldi. Türkiye-Libya temasları artarken, Erdoğan’ın 8-9 Aralık’ta Trablus’u ziyaret etmesi planlanıyor. Halife Hafter’in Tü",
-   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/Halid-Hafter-Ozel-Kuvvetler.jpg",
-   "source": "savunmasanayist"
   },
   {
    "title": "Russia's New Cruise Missiles and the Rapid Iteration Trap",
@@ -972,14 +1036,6 @@
    "source": "afmag"
   },
   {
-   "title": "Ford in talks with the Pentagon to supply military vehicles",
-   "link": "https://www.defensenews.com/pentagon/2026/11/24/ford-in-talks-with-the-pentagon-to-supply-military-vehicles/",
-   "date": "2026-11-24T21:30:00Z",
-   "desc": "Ford said on Tuesday it has held talks with the Pentagon about supplying military vehicles and other defense products to the U.S. military, as legacy automakers seek a share of fast-rising defense spending amid tough com",
-   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-2255983122.jpg",
-   "source": "defensenews"
-  },
-  {
    "title": "Seoul Scrambles F-15Ks As Russian Warplanes Come Within Seconds Of Crossing Into South Korean Airspace",
    "link": "https://www.twz.com/air/seoul-scrambles-f-15ks-as-russian-warplanes-come-within-seconds-of-crossing-into-south-korean-airspace",
    "date": "2026-11-24T21:24:50Z",
@@ -1012,14 +1068,6 @@
    "source": "afmag"
   },
   {
-   "title": "Coast Guard tests capabilities of new icebreaker with 5-month Arctic mission",
-   "link": "https://www.defensenews.com/video/2026/11/24/coast-guard-tests-capabilities-of-new-icebreaker-with-5-month-arctic-mission/",
-   "date": "2026-11-24T19:57:33Z",
-   "desc": "",
-   "img": "https://cdn.jwplayer.com/videos/YFThLR9X-5ZsksG4j.mp4",
-   "source": "defensenews"
-  },
-  {
    "title": "UK’s MI5 warns local defense firms of Russian sabotage risk",
    "link": "https://breakingdefense.com/2026/11/uks-mi5-warns-local-defense-firms-of-russian-sabotage-risk/",
    "date": "2026-11-24T19:29:09Z",
@@ -1034,14 +1082,6 @@
    "desc": "A FireAnt uncrewed ground vehicle (UGV) was used to deploy small sensors capable of detecting hostile drones on the ground during a recent U.S. Army test exercise. Using UGVs to quickly establish even localized sensor ne",
    "img": "https://www.twz.com/wp-content/uploads/2026/11/fireant-ugv-unattended-ground-sensors.jpg?quality=85",
    "source": "twz"
-  },
-  {
-   "title": "‘A new competition space’: US Coast Guard takes icebreaker on maiden voyage to the Arctic",
-   "link": "https://www.defensenews.com/naval/2026/11/24/a-new-competition-space-us-coast-guard-takes-icebreaker-on-maiden-voyage-to-the-arctic/",
-   "date": "2026-11-24T18:44:16Z",
-   "desc": "The U.S. Coast Guard’s first new icebreaker in nearly three decades returned from a maiden voyage to the Arctic this month, having demonstrated a spectrum of military operations that open up future possibilities for the ",
-   "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/10086759.jpg",
-   "source": "defensenews"
   },
   {
    "title": "Sweden’s Gripens Are Doing Big Things With A Tiny Footprint In Poland",
@@ -1132,14 +1172,6 @@
    "source": "aviationist"
   },
   {
-   "title": "How a small Army team built a lightweight battle planning app: Odin",
-   "link": "https://breakingdefense.com/2026/11/how-a-small-army-team-built-a-lightweight-battle-planning-app-odin/",
-   "date": "2026-11-24T16:03:00Z",
-   "desc": "Software optimized for brigades and above, where large staffs have bulky generators to power an arsenal of laptops, routers, and servers, doesn’t necessarily translate to battalion and below, Maj. Andrew Durfee explained",
-   "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Odin_Fast-MCOO_Screenshot-scaled-e1795444286527-1024x577.png",
-   "source": "breakingdefense"
-  },
-  {
    "title": "Nato vows to protect territory after reports of Russian nuclear satellite",
    "link": "https://www.airforce-technology.com/news/nato-russia-nuclear-satellite/",
    "date": "2026-11-24T14:14:13Z",
@@ -1212,14 +1244,6 @@
    "source": "afmag"
   },
   {
-   "title": "Did Ukraine Use A Mothership To Launch Its Sea Drone Attack On Russian Ships in Benghazi?",
-   "link": "https://www.twz.com/sea/did-ukraine-use-a-mothership-to-launch-its-sea-drone-attack-on-russian-ships-in-benghazi",
-   "date": "2026-11-23T22:12:53Z",
-   "desc": "The uncrewed surface vessels (USVs) that attacked a Russian Navy corvette and a cargo ship on Sunday were launched from a mothership at sea, the Security Service of Ukraine (SBU) claimed on Monday . The SBU’s comments ap",
-   "img": "https://www.twz.com/wp-content/uploads/2026/11/Drone-boat-libya-russua.jpg?quality=85",
-   "source": "twz"
-  },
-  {
    "title": "Frecce Tricolori’s New M-346 Seen During Rehearsal Ahead of Official Unveiling",
    "link": "https://theaviationist.com/2026/11/23/frecce-tricoloris-new-m-346-seen-during-rehearsal/",
    "date": "2026-11-23T21:09:04Z",
@@ -1234,14 +1258,6 @@
    "desc": "Welcome to The Ukraine Compass, a weekly digest of Ukrainian commentary and analysis from across the political spectrum, only for War on the Rocks members. Each week, we bring you a curated selection of articles from Ukr",
    "img": null,
    "source": "warontherocks"
-  },
-  {
-   "title": "Marines Want Naval Strike Missiles With Double The Range",
-   "link": "https://www.twz.com/sea/marines-want-naval-strike-missiles-with-double-the-range",
-   "date": "2026-11-23T18:45:27Z",
-   "desc": "The U.S. Marine Corps is looking at ways to at least double the range of its ground-launched Naval Strike Missile (NSM) anti-ship cruise missiles. NSMs able to hit targets up to 270 nautical miles away, if not more, woul",
-   "img": "https://www.twz.com/wp-content/uploads/2026/11/nsm-double-range.jpg?quality=85",
-   "source": "twz"
   },
   {
    "title": "White House sets limits on contractors' contacts with Congress",
@@ -1274,14 +1290,6 @@
    "desc": "The seasonal ANTAR expeditions to King George Island, home to Peru’s Machu Picchu Base, will benefit from the Spartan’s STOL capability and the ability to operate from the nearby Teniente Marsh Aerodrome. Peru’s C-27J Sp",
    "img": "https://theaviationist.com/wp-content/uploads/2026/11/Peru-C-27J-Spartan-Antarctica-1.jpg",
    "source": "aviationist"
-  },
-  {
-   "title": "Vector unveils BOMBARD 1,100km-range jet-powered strike drone",
-   "link": "https://www.airforce-technology.com/news/vector-bombard-strike-drone/",
-   "date": "2026-11-23T13:28:50Z",
-   "desc": "US uncrewed-systems company Vector has introduced BOMBARD, a jet-powered, long-range strike system with a stated maximum range of 1,100km.",
-   "img": null,
-   "source": "airforcetech"
   },
   {
    "title": "Retired Navy A-6 Intruder Transported by CH-53K to MCB Quantico",
@@ -1402,14 +1410,6 @@
    "desc": "White House National Cyber Director Sean Cairncross has been fired, according to a White House official and two people familiar with the matter, creating another leadership opening in the Trump administration’s cybersecu",
    "img": "https://cdn.defenseone.com/media/img/cd/2026/11/19/GettyImages_2282302597-1/large.jpg",
    "source": "defenseone"
-  },
-  {
-   "title": "Co-Creating the New Europe: The Road, Not the Destination in EU–UK Talks",
-   "link": "https://www.rusi.org/explore-our-research/publications/commentary/co-creating-new-europe-road-not-destination-eu-uk-talks",
-   "date": "2026-11-20T00:00:00Z",
-   "desc": "As leaders meet in Brussels on 20 November, a more useful question than re-joining the EU is what the UK will help to build next.",
-   "img": null,
-   "source": "rusi"
   },
   {
    "title": "The Army wants its units to use more data, but many aren’t built to do so",
