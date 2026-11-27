@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T19:11:24Z",
+ "generated": "2026-11-27T02:18:53Z",
  "sources": [
   {
    "id": "defensenews",
@@ -188,7 +188,7 @@
    "count": 10,
    "latest": "2026-11-25T21:51:50Z",
    "error": null,
-   "ms": 332
+   "ms": 369
   },
   {
    "id": "breakingdefense",
@@ -196,7 +196,7 @@
    "count": 12,
    "latest": "2026-11-25T18:15:00Z",
    "error": null,
-   "ms": 117
+   "ms": 113
   },
   {
    "id": "defenseone",
@@ -204,7 +204,7 @@
    "count": 12,
    "latest": "2026-11-25T15:00:00Z",
    "error": null,
-   "ms": 536
+   "ms": 332
   },
   {
    "id": "afmag",
@@ -212,7 +212,7 @@
    "count": 9,
    "latest": "2026-11-25T21:40:18Z",
    "error": null,
-   "ms": 279
+   "ms": 298
   },
   {
    "id": "airforcetech",
@@ -220,7 +220,7 @@
    "count": 10,
    "latest": "2026-11-26T13:18:27Z",
    "error": null,
-   "ms": 126
+   "ms": 213
   },
   {
    "id": "twz",
@@ -228,7 +228,7 @@
    "count": 12,
    "latest": "2026-11-25T21:26:00Z",
    "error": null,
-   "ms": 367
+   "ms": 145
   },
   {
    "id": "warontherocks",
@@ -236,7 +236,7 @@
    "count": 12,
    "latest": "2026-11-26T08:30:44Z",
    "error": null,
-   "ms": 223
+   "ms": 317
   },
   {
    "id": "rand",
@@ -244,7 +244,7 @@
    "count": 7,
    "latest": "2026-11-24T16:50:00Z",
    "error": null,
-   "ms": 292
+   "ms": 260
   },
   {
    "id": "ukdj",
@@ -252,7 +252,7 @@
    "count": 10,
    "latest": "2026-11-26T18:00:16Z",
    "error": null,
-   "ms": 872
+   "ms": 1562
   },
   {
    "id": "aviationist",
@@ -260,7 +260,7 @@
    "count": 12,
    "latest": "2026-11-26T18:38:07Z",
    "error": null,
-   "ms": 134
+   "ms": 150
   },
   {
    "id": "rusi",
@@ -268,7 +268,7 @@
    "count": 12,
    "latest": "2026-11-26T00:00:00Z",
    "error": null,
-   "ms": 266
+   "ms": 216
   },
   {
    "id": "eurosd",
@@ -276,7 +276,7 @@
    "count": 6,
    "latest": "2026-11-26T14:46:45Z",
    "error": null,
-   "ms": 555
+   "ms": 515
   },
   {
    "id": "savunmasanayist",
@@ -284,15 +284,15 @@
    "count": 10,
    "latest": "2026-11-26T11:14:33Z",
    "error": null,
-   "ms": 769
+   "ms": 262
   },
   {
    "id": "defensehere",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-26T09:47:34Z",
+   "latest": "2026-11-26T20:26:24Z",
    "error": null,
-   "ms": 2378
+   "ms": 2213
   }
  ],
  "trending": [
@@ -324,6 +324,14 @@
  ],
  "items": [
   {
+   "title": "ASELSAN, Macaristan ile yeni iş birliği fırsatlarını görüştü",
+   "link": "https://defensehere.com/tr/aselsan-macaristan-ile-yeni-is-birligi-firsatlarini-gorustu/",
+   "date": "2026-11-26T20:26:24Z",
+   "desc": "ASELSAN , Türkiye ile Macaristan arasındaki savunma sanayii iş birliğinin geliştirilmesine yönelik temaslarını sürdürüyor. ASELSAN Genel Müdürü Ahmet Akyol, Macaristan Savunma Bakanı Romulusz Ruszin-Szendi ve beraberinde",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/HYENn4fWIAAveUR.jpeg",
+   "source": "defensehere"
+  },
+  {
    "title": "Frecce Tricolori’s M-346PAN Officially Unveiled",
    "link": "https://theaviationist.com/2026/11/26/frecce-tricoloris-m-346pan-officially-unveiled/",
    "date": "2026-11-26T18:38:07Z",
@@ -338,6 +346,22 @@
    "desc": "It has not yet been decided whether Britain’s new defence offset policy will apply to Project GRAYBURN, the programme to replace the Army’s SA80 rifle family, and the answer will depend on the procurement route chosen, a",
    "img": null,
    "source": "ukdj"
+  },
+  {
+   "title": "Turkish Technic, hizmet ihracatında 8. kez şampiyon oldu",
+   "link": "https://defensehere.com/tr/turkish-technic-hizmet-ihracatinda-8-kez-sampiyon-oldu/",
+   "date": "2026-11-26T17:37:19Z",
+   "desc": "Türk Hava Yolları ‘nın (THY) uçak bakım ve onarım şirketi Turkish Technic , uluslararası alandaki başarılarına bir yenisini daha ekledi. Şirket, Hizmet İhracatçıları Birliği tarafından düzenlenen değerlendirmede Bakım ve",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Türkiye ile Macaristan savunma sanayii iş birliğinde yeni projeleri görüştü",
+   "link": "https://defensehere.com/tr/turkiye-ile-macaristan-savunma-sanayii-is-birliginde-yeni-projeleri-gorustu/",
+   "date": "2026-11-26T17:11:39Z",
+   "desc": "Savunma Sanayii Başkanı Prof. Dr. Haluk Görgün, Macaristan Savunma Bakanı Romulusz Ruszin-Szendi ve beraberindeki heyeti Savunma Sanayii Başkanlığı nda kabul etti. Gerçekleştirilen görüşmede, Türkiye ile Macaristan arası",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/HYEIqqqW4AAJHj6.jpeg",
+   "source": "defensehere"
   },
   {
    "title": "Arms chief commits to decent barracks standard next decade",
@@ -356,12 +380,36 @@
    "source": "aviationist"
   },
   {
+   "title": "F-35 motorlarının idamesi için RTX ile 2,5 milyar dolarlık sözleşme imzalandı",
+   "link": "https://defensehere.com/tr/f-35-motorlarinin-idamesi-icin-rtx-ile-25-milyar-dolarlik-sozlesme-imzalandi/",
+   "date": "2026-11-26T16:03:22Z",
+   "desc": "Pentagon’un 25 Kasım’da yaptığı açıklamaya göre ABD’li teknoloji şirketi RTX, F-35 Lightning II savaş uçaklarına güç veren F135 tahrik sistemlerinin idamesine yönelik 2,53 milyar dolar değerinde bir sözleşme imzaladı. RT",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "MPs to be told where ten billion in defence savings fall",
    "link": "https://ukdefencejournal.org.uk/mps-to-be-told-where-ten-billion-in-defence-savings-fall/",
    "date": "2026-11-26T16:00:11Z",
    "desc": "The Ministry of Defence will write to the Defence Committee setting out how £10.7 billion of savings in the Defence Investment Plan are split across its four delivery areas and how much it spends on consultants, after of",
    "img": null,
    "source": "ukdj"
+  },
+  {
+   "title": "ASELSAN Genel Müdürü Akyol, TOBB Savunma Sanayii Meclisi üyeleriyle bir araya geldi",
+   "link": "https://defensehere.com/tr/aselsan-genel-muduru-akyol-tobb-savunma-sanayii-meclisi-uyeleriyle-bir-araya-geldi/",
+   "date": "2026-11-26T15:12:49Z",
+   "desc": "ASELSAN Genel Müdürü Ahmet Akyol, Türkiye Odalar ve Borsalar Birliği (TOBB) Savunma Sanayii Meclisi üyeleriyle bir araya gelerek mevcut çalışmaları ve gelecek dönemin yol haritasını değerlendirdi. Akyol, sosyal medya hes",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Hanwha Aerospace, Güney Kore üretimi KM3 amfibi köprü aracının ihracat haklarını elde etti",
+   "link": "https://defensehere.com/tr/hanwha-aerospace-guney-kore-uretimi-km3-amfibi-kopru-aracinin-ihracat-haklarini-elde-etti/",
+   "date": "2026-11-26T15:06:55Z",
+   "desc": "Güney Koreli savunma ve teknoloji devi Hanwha Aerospace, KM3 amfibi köprü aracının ihracat hakkını aracın orijinal üreticisinden aldı. Yonhap Haber Ajansı tarafından verilen haber şirketin açıklamasına dayandırıldı. KM3,",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "Ministers won’t publish what counts towards NATO target",
@@ -372,12 +420,44 @@
    "source": "ukdj"
   },
   {
+   "title": "Türkiye ile Suudi Arabistan arasında savunma sanayii iş birliği mutabakatı imzalandı",
+   "link": "https://defensehere.com/tr/turkiye-ile-suudi-arabistan-arasinda-savunma-sanayii-is-birligi-mutabakati-imzalandi/",
+   "date": "2026-11-26T14:56:16Z",
+   "desc": "Savunma Sanayii Başkanı Prof. Dr. Haluk Görgün, Suudi Arabistan Krallığı Savunma Geliştirme Genel Otoritesi (GADD) Başkanı Dr. Faleh bin Abdullah Al-Sulaiman’ı Savunma Sanayii Başkanlığında kabul etti. Görüşmenin ardında",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Embraer ve ALADA, KC-390 ve A-29’un ihracatına yönelik çerçeve anlaşması imzaladı",
+   "link": "https://defensehere.com/tr/embraer-ve-alada-kc-390-ve-a-29un-ihracatina-yonelik-cerceve-anlasmasi-imzaladi/",
+   "date": "2026-11-26T14:49:26Z",
+   "desc": "Embraer ve ALADA, Brezilya’nın başkenti Brasília’da düzenlenen Mostra BID fuarında, KC-390 Millennium ve A-29 Super Tucano uçaklarının tedarik edilmesine yönelik bir çerçeve anlaşması imzaladı. Anlaşmayla Latin Amerika v",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Fas ve İsrail, 2027 yılı için ortak askeri işbirliği planı hazırlama konusunda anlaştı",
+   "link": "https://defensehere.com/tr/fas-ve-israil-2027-yili-icin-ortak-askeri-isbirligi-plani-hazirlama-konusunda-anlasti/",
+   "date": "2026-11-26T14:48:22Z",
+   "desc": "Fas ile İsrail’in, 2027 yılına yönelik ortak askeri işbirliği eylem planı hazırlama konusunda anlaşmaya vardığı bildirildi. Fas Silahlı Kuvvetlerinden yapılan yazılı açıklamada, iki ülke arasındaki 4. Ortak Askeri Komite",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "GSIS 2026: Programme Overview",
    "link": "https://euro-sd.com/2026/11/news/industry-news/54869/gsis-2026-3/",
    "date": "2026-11-26T14:46:45Z",
    "desc": "International experts from government, academia and industry will discuss strategies and technological solutions to strengthen Europe’s security capabilities in Hamburg … mehr... The post GSIS 2026: Programme Overview ap",
    "img": "https://euro-sd.com/wp-content/uploads/2026/11/GSIS25_IOT_221025_0033-300x201.jpg",
    "source": "eurosd"
+  },
+  {
+   "title": "HAVELSAN, AS 9100 Rev.D kalite belgesini almaya hak kazandı",
+   "link": "https://defensehere.com/tr/havelsan-as-9100-rev-d-kalite-belgesini-almaya-hak-kazandi/",
+   "date": "2026-11-26T14:44:28Z",
+   "desc": "HAVELSAN, havacılık, uzay ve savunma sanayii alanlarını kapsayan AS 9100 Rev.D Kalite Yönetim Sistemi belgesini almaya hak kazandı. Şirket, belgelendirme sürecinin ardından Uluslararası Havacılık Kalite Grubu’na (IAQG) ü",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "Tungsten shotgun shells beat lead against drones in trials",
@@ -476,14 +556,6 @@
    "source": "ukdj"
   },
   {
-   "title": "Savunma Sanayii Akademi, uçuşa elverişlilik Aralık ayı eğitim programını açıkladı",
-   "link": "https://defensehere.com/tr/savunma-sanayii-akademi-ucusa-elverislilik-aralik-ayi-egitim-programini-acikladi/",
-   "date": "2026-11-26T09:47:34Z",
-   "desc": "Savunma Sanayii Akademi , havacılık ve savunma sanayii profesyonellerine yönelik Uçuşa Elverişlilik Okulu’nun Aralık ayı eğitim programının başlayacağını duyurdu. Havacılık ve savunma sanayii sektörünün teknik uzmanlık i",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/HYCTo81XkAAT224.png",
-   "source": "defensehere"
-  },
-  {
    "title": "Endonezya Botlarına Türk Dokunuşu: ASELSAN ve ROKETSAN Hamlesi",
    "link": "https://www.savunmasanayist.com/endonezya-botlarina-turk-dokunusu-aselsan-ve-roketsan-hamlesi/",
    "date": "2026-11-26T09:42:44Z",
@@ -492,60 +564,12 @@
    "source": "savunmasanayist"
   },
   {
-   "title": "ABD Ukrayna’ya 622 milyon dolarlık F-16 bakım ve destek ekipmanı satışını onayladı",
-   "link": "https://defensehere.com/tr/abd-ukraynaya-622-milyon-dolarlik-f-16-bakim-ve-destek-ekipmani-satisini-onayladi/",
-   "date": "2026-11-26T09:36:41Z",
-   "desc": "ABD Dışişleri Bakanlığı, Ukrayna’ya 622 milyon dolar tutarında F-16 uçaklarının bakım ve destek hizmetleri ile ilgili ekipman satışını onayladığını duyurdu. ABD Dışişleri Bakanlığı, yaptığı açıklamada, söz konusu satın a",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Saab, ABD merkezli Mythos AI şirketini satın aldı",
-   "link": "https://defensehere.com/tr/saab-abd-merkezli-mythos-ai-sirketini-satin-aldi/",
-   "date": "2026-11-26T09:21:46Z",
-   "desc": "İsveçli savunma ve teknoloji şirketi Saab, denizcilik alanında otonom sistem teknolojileri geliştiren ABD merkezli Mythos AI şirketinin satın alma işlemlerinin tamamlandığını duyurdu. 15 çalışanı bulunan Mythos AI, akıll",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Tarihte bugün: BOZDOĞAN füzesi ilk kez ateşlendi",
-   "link": "https://defensehere.com/tr/tarihte-bugun-bozdogan-fuzesi-ilk-kez-ateslendi/",
-   "date": "2026-11-26T09:18:44Z",
-   "desc": "Türkiye’nin yerli ve milli hava-hava füzesi BOZDOĞAN, 26 Kasım 2019’da gerçekleştirilen ilk güdümlü atış testini başarıyla tamamladı. TÜBİTAK Savunma Sanayii Araştırma ve Geliştirme Enstitüsü (SAGE) tarafından geliştiril",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "ASELSAN’ın Lazer Güdüm Kiti LGK’sı sahada etkinliğini kanıtladı",
-   "link": "https://defensehere.com/tr/aselsanin-lazer-gudum-kiti-lgksi-sahada-etkinligini-kanitladi/",
-   "date": "2026-11-26T09:14:26Z",
-   "desc": "ASELSAN, geliştirdiği Lazer Güdüm Kiti’nin (LGK) gerçek operasyonel koşullarda etkinliğini kanıtladığını bildirdi. ASELSAN’ın sosyal medya hesabından yapılan paylaşımda, LGK’nın hem sabit hem de hareketli hedeflere yükse",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Tarihte bugün: NASA’nın InSight aracı Mars’a indi",
-   "link": "https://defensehere.com/tr/tarihte-bugun-nasanin-insight-araci-marsa-indi/",
-   "date": "2026-11-26T08:55:10Z",
-   "desc": "NASA tarafından geliştirilen ve Kızıl Gezegen’in derinliklerini araştırmak üzere tasarlanan InSight uzay aracı, 26 Kasım 2018’de Mars yüzeyine başarılı şekilde iniş yaptı. Mars’ın iç yapısını incelemek amacıyla gönderile",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
    "title": "Where Soldiers Enjoyed Thanksgiving",
    "link": "https://warontherocks.com/where-soldiers-enjoyed-thanksgiving/",
    "date": "2026-11-26T08:30:44Z",
    "desc": "Today, I’m slicing turkey. Grease dots my pinks and greens. Scuffs mar my jump boots. As I serve, soldiers feast: smoked turkey, honey-glazed ham, a steamship round of beef, smoked flank steak, and a whole smoked pig. Al",
    "img": null,
    "source": "warontherocks"
-  },
-  {
-   "title": "İran’dan ABD’nin savaşta yapay zeka kullanımına ilişkin BM’ye denetim çağrısı",
-   "link": "https://defensehere.com/tr/irandan-abdnin-savasta-yapay-zeka-kullanimina-iliskin-bmye-denetim-cagrisi/",
-   "date": "2026-11-26T08:28:10Z",
-   "desc": "İran, ABD’nin ülkeye yönelik askeri saldırılarda yapay zeka teknolojisini kullandığını belirterek, Birleşmiş Milletleri (BM) yapay zekanın askeri alanda kullanılması konusunda uluslararası denetim mekanizması oluşturmaya",
-   "img": null,
-   "source": "defensehere"
   },
   {
    "title": "Kraliyet Donanması’na 186 Milyon Dolarlık Sualtı Avcısı",
@@ -562,30 +586,6 @@
    "desc": "Editor’s note: Congressional representatives asked George Washington to designate a national day of thanksgiving in honor of the new United States Constitution, which had come into operation in 1789. Washington observed ",
    "img": null,
    "source": "warontherocks"
-  },
-  {
-   "title": "Kuantum Algoritma Yarışması’nın ödül töreni gerçekleştirildi",
-   "link": "https://defensehere.com/tr/kuantum-algoritma-yarismasinin-odul-toreni-gerceklestirildi/",
-   "date": "2026-11-26T07:28:33Z",
-   "desc": "Savunma Sanayii Başkanlığı öncülüğünde Haziran 2026’da hayata geçirilen Türkiye Kuantum Platformu tarafından düzenlenen Kuantum Algoritma Yarışması’nın ödül töreni gerçekleştirildi. Teknopark İstanbul’un ev sahipliğinde ",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Northrop Grumman, ABD’ye 3 adet E-130J stratejik iletişim uçağı teslim edecek",
-   "link": "https://defensehere.com/tr/northrop-grumman-abdye-3-adet-e-130j-stratejik-iletisim-ucagi-teslim-edecek/",
-   "date": "2026-11-26T06:38:45Z",
-   "desc": "ABD merkezli savunma ve havacılık şirketi Northrop Grumman, ABD Donanması’nın E-130J stratejik iletişim uçağı programı kapsamında 1 milyar 130 milyon 397 bin 498 dolarlık ek sözleşme aldı. Northrop Grumman Systems Corp.’",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Fas’tan yerli savunma sanayi atılımı! 2,2 milyar dolar kaynak, 50 bin istihdam",
-   "link": "https://defensehere.com/tr/fastan-yerli-savunma-sanayi-atilimi-22-milyar-dolar-kaynak-50-bin-istihdam/",
-   "date": "2026-11-26T06:17:40Z",
-   "desc": "Fas, yerli savunma ve güvenlik sanayisinin geliştirilmesine yönelik yol haritasının finansmanı için 2,2 milyar dolar tahsis etti. Fas resmi haber ajansı MAP’ın aktardığına göre, Fas Kralı 6. Muhammed, başkent Rabat’taki ",
-   "img": null,
-   "source": "defensehere"
   },
   {
    "title": "Views from Ukraine on Digitalised Warfare",
