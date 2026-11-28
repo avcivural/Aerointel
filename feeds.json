@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T11:07:51Z",
+ "generated": "2026-11-28T19:01:17Z",
  "sources": [
   {
    "id": "defensenews",
@@ -188,7 +188,7 @@
    "count": 10,
    "latest": "2026-11-27T14:23:36Z",
    "error": null,
-   "ms": 283
+   "ms": 296
   },
   {
    "id": "breakingdefense",
@@ -196,7 +196,7 @@
    "count": 12,
    "latest": "2026-11-27T19:57:02Z",
    "error": null,
-   "ms": 136
+   "ms": 131
   },
   {
    "id": "defenseone",
@@ -204,7 +204,7 @@
    "count": 12,
    "latest": "2026-11-25T15:00:00Z",
    "error": null,
-   "ms": 133
+   "ms": 554
   },
   {
    "id": "afmag",
@@ -212,7 +212,7 @@
    "count": 9,
    "latest": "2026-11-25T21:40:18Z",
    "error": null,
-   "ms": 306
+   "ms": 247
   },
   {
    "id": "airforcetech",
@@ -220,15 +220,15 @@
    "count": 10,
    "latest": "2026-11-27T14:27:14Z",
    "error": null,
-   "ms": 142
+   "ms": 148
   },
   {
    "id": "twz",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-27T22:31:00Z",
+   "latest": "2026-11-28T18:38:59Z",
    "error": null,
-   "ms": 199
+   "ms": 396
   },
   {
    "id": "warontherocks",
@@ -236,7 +236,7 @@
    "count": 12,
    "latest": "2026-11-26T08:30:44Z",
    "error": null,
-   "ms": 294
+   "ms": 334
   },
   {
    "id": "rand",
@@ -244,15 +244,15 @@
    "count": 6,
    "latest": "2026-11-24T16:50:00Z",
    "error": null,
-   "ms": 211
+   "ms": 350
   },
   {
    "id": "ukdj",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-28T11:00:46Z",
+   "latest": "2026-11-28T19:00:20Z",
    "error": null,
-   "ms": 941
+   "ms": 1125
   },
   {
    "id": "aviationist",
@@ -260,7 +260,7 @@
    "count": 12,
    "latest": "2026-11-27T21:28:00Z",
    "error": null,
-   "ms": 145
+   "ms": 127
   },
   {
    "id": "rusi",
@@ -268,7 +268,7 @@
    "count": 12,
    "latest": "2026-11-27T00:00:00Z",
    "error": null,
-   "ms": 133
+   "ms": 162
   },
   {
    "id": "eurosd",
@@ -276,15 +276,15 @@
    "count": 6,
    "latest": "2026-11-27T12:36:30Z",
    "error": null,
-   "ms": 478
+   "ms": 542
   },
   {
    "id": "savunmasanayist",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-28T10:57:43Z",
+   "latest": "2026-11-28T14:37:48Z",
    "error": null,
-   "ms": 712
+   "ms": 794
   },
   {
    "id": "defensehere",
@@ -292,7 +292,7 @@
    "count": 10,
    "latest": "2026-11-28T00:20:36Z",
    "error": null,
-   "ms": 2174
+   "ms": 2565
   }
  ],
  "trending": [
@@ -324,10 +324,106 @@
  ],
  "items": [
   {
-   "title": "Raytheon chosen to develop US Navy nuclear cruise missile",
-   "link": "https://ukdefencejournal.org.uk/raytheon-chosen-to-develop-us-navy-nuclear-cruise-missile/",
-   "date": "2026-11-28T11:00:46Z",
-   "desc": "Raytheon has been awarded an Other Transaction Authority agreement by the US Navy to advance development of the Nuclear-Armed Sea-Launched Cruise Missile, a next-generation submarine-launched weapon known as SLCM-N, acco",
+   "title": "Royal Marines and Norwegian commandos board ships in fjords",
+   "link": "https://ukdefencejournal.org.uk/royal-marines-and-norwegian-commandos-board-ships-in-fjords/",
+   "date": "2026-11-28T19:00:20Z",
+   "desc": "Around 40 Royal Marines have spent three weeks boarding civilian and military vessels around Harstad in northern Norway alongside Norway’s Coastal Ranger Commandos, ahead of a major Commando Force deployment to the Arcti",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Ukrainian Mothership That Launched Benghazi Sea Drone Attacks Hunted By Russia: Report",
+   "link": "https://www.twz.com/news-features/ukrainian-mothership-that-launched-benghazi-sea-drone-attacks-hunted-by-russia-report",
+   "date": "2026-11-28T18:38:59Z",
+   "desc": "Russia is reportedly stepping up efforts to find the mothership Ukraine said it used to launch uncrewed surface vessels (USVs) to strike ships in and near a port in Libya. Security at the Benghazi facility is also being ",
+   "img": "https://www.twz.com/wp-content/uploads/2026/11/IL38RussiaMothershipHunt-copy.jpg?quality=85",
+   "source": "twz"
+  },
+  {
+   "title": "Commonwealth troops’ families to get immigration fee waiver",
+   "link": "https://ukdefencejournal.org.uk/commonwealth-troops-families-to-get-immigration-fee-waiver/",
+   "date": "2026-11-28T18:00:03Z",
+   "desc": "Families of foreign and Commonwealth service personnel will be exempted from immigration fees before the end of September 2027 after the government accepted a Lords amendment to the Armed Forces Bill, according to procee",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Drone industry body wants five per cent of defence budget",
+   "link": "https://ukdefencejournal.org.uk/drone-industry-body-wants-five-per-cent-of-defence-budget/",
+   "date": "2026-11-28T17:00:49Z",
+   "desc": "British autonomy firms have launched Autonomous UK, a trade body calling for 5% of the defence budget to go on autonomous systems by 2030 and warning that the Ministry of Defence’s budget for new uncrewed systems is set ",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Arms chief concerned over clearance changes for small firms",
+   "link": "https://ukdefencejournal.org.uk/arms-chief-concerned-over-clearance-changes-for-small-firms/",
+   "date": "2026-11-28T16:00:32Z",
+   "desc": "Changes that stopped central government relying on intermediaries to sustain security clearances have had an adverse impact on smaller defence firms and need to be fixed, National Armaments Director Rupert Pearce told th",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Fast-track defence buying hits eight hundred and fifty deals",
+   "link": "https://ukdefencejournal.org.uk/fast-track-defence-buying-hits-eight-hundred-and-fifty-deals/",
+   "date": "2026-11-28T16:00:19Z",
+   "desc": "The Ministry of Defence’s Commercial X fast-track buying unit had delivered 850 contracts by March at an average of 31 days from requirement to contract, 47% faster than comparable procurements, according to an answer gi",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Ministers won’t say how much Ajax cash is due this year",
+   "link": "https://ukdefencejournal.org.uk/ministers-wont-say-how-much-ajax-cash-is-due-this-year/",
+   "date": "2026-11-28T15:30:16Z",
+   "desc": "Ministers have declined to say how much of the remaining £930 million in contractual payments to General Dynamics for the Ajax programme is forecast to be paid this financial year, or how much the next milestone payment ",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Defence assets for sale not yet identified, auditors find",
+   "link": "https://ukdefencejournal.org.uk/defence-assets-for-sale-not-yet-identified-auditors-find/",
+   "date": "2026-11-28T15:00:57Z",
+   "desc": "The Ministry of Defence has not identified which assets it will sell to meet a £400 million asset sales target that formed part of the Defence Investment Plan settlement, according to the National Audit Office , which al",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Gökyüzünde Yeni Çağ: Bayraktar KIZILELMA’nın Bilinmeyenleri",
+   "link": "https://www.savunmasanayist.com/gokyuzunde-yeni-cag-bayraktar-kizilelmanin-bilinmeyenleri/",
+   "date": "2026-11-28T14:37:48Z",
+   "desc": "Türkiye’nin ilk insansız savaş uçağı Bayraktar KIZILELMA, kabul testlerini tamamlayarak dünya havacılık tarihinde operasyonel olarak envantere giren ilk insansız savaş uçağı oldu. BAYKAR tarafından tamamen öz kaynaklarla",
+   "img": "http://www.savunmasanayist.com/wp-content/uploads/2025/12/KIZILELMA-Kol-Ucusu.jpg",
+   "source": "savunmasanayist"
+  },
+  {
+   "title": "Ministry placing six defence contracts a week, MPs told",
+   "link": "https://ukdefencejournal.org.uk/ministry-placing-six-defence-contracts-a-week-mps-told/",
+   "date": "2026-11-28T14:00:22Z",
+   "desc": "The Ministry of Defence has placed nearly 400 contracts worth about £3 billion since the Defence Investment Plan was published, around six a week, National Armaments Director Rupert Pearce told the Defence Committee. Res",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Bayraktar Anlattı: İlk İHA Denemelerinden Dünya Liderliğine",
+   "link": "https://www.savunmasanayist.com/bayraktar-anlatti-ilk-iha-denemelerinden-dunya-liderligine/",
+   "date": "2026-11-28T13:49:05Z",
+   "desc": "BAYKAR Yönetim Kurulu Başkanı Selçuk Bayraktar, TUSAŞ tarafından düzenlenen Mühendislik Konferansı’nda milli havacılık serüvenini paylaştı. TUSAŞ Genel Müdürü Dr. Mehmet Demiroğlu’nun moderatörlüğünde gerçekleşen panelde",
+   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/Selcuk-Bayraktar-Muhendislik-Bulusmasi-4.jpg",
+   "source": "savunmasanayist"
+  },
+  {
+   "title": "VALOUR veterans network passes forty centres",
+   "link": "https://ukdefencejournal.org.uk/valour-veterans-network-passes-forty-centres/",
+   "date": "2026-11-28T13:30:20Z",
+   "desc": "The VALOUR veterans support network now has more than 40 recognised centres across the UK backed by over £26 million, though data on how many veterans it has helped will not be available until early next year, according ",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Sonardyne owner Kraken cuts forecast as defence awards slip",
+   "link": "https://ukdefencejournal.org.uk/sonardyne-owner-kraken-cuts-forecast-as-defence-awards-slip/",
+   "date": "2026-11-28T13:00:46Z",
+   "desc": "Kraken Robotics, which bought British Sonardyne owner Covelya Group in July, has cut its 2026 revenue guidance to C$250 million to C$260 million from up to C$320 million, largely because government procurement awards hav",
    "img": null,
    "source": "ukdj"
   },
@@ -336,24 +432,8 @@
    "link": "https://www.savunmasanayist.com/aselsanin-radar-avcisi-antidot-10-bin-ucus-saatini-asti/",
    "date": "2026-11-28T10:57:43Z",
    "desc": "ASELSAN’ın ANTIDOT 2ES Elektronik Destek Podu, 10 bin saati aşkın uçuş süresine ulaştı. Sistem 5 ülkede aktif olarak görev yapıyor. ASELSAN ‘ın insansız hava araçlarının elektronik harp kabiliyetlerini desteklemek amacıy",
-   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/ASELSAN-ANTIDOT-2ES.jpg",
+   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/ASELSAN-ANTIDOT-2ES-4.jpg",
    "source": "savunmasanayist"
-  },
-  {
-   "title": "Kerch bridge collapse blocks Azov ships from Black Sea",
-   "link": "https://ukdefencejournal.org.uk/kerch-bridge-collapse-blocks-azov-ships-from-black-sea/",
-   "date": "2026-11-28T10:32:14Z",
-   "desc": "Ships in the Sea of Azov will likely be unable to sail directly into the Black Sea until the waterway beneath the Kerch bridge is cleared, after Ukrainian strikes collapsed the bridge’s arch section and blocked the chann",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Industry ‘probably not’ ready for three per cent yet",
-   "link": "https://ukdefencejournal.org.uk/industry-probably-not-ready-for-three-per-cent-yet/",
-   "date": "2026-11-28T10:00:09Z",
-   "desc": "British industry probably does not yet have the capacity to deliver on defence spending of 3% of GDP but will by 2030, National Armaments Director Rupert Pearce told the Defence Committee. Asked by Labour MP Alex Baker w",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "Rheinmetall’den Ukrayna’da Geri Adım: Proje İptal Olabilir",
@@ -364,68 +444,12 @@
    "source": "savunmasanayist"
   },
   {
-   "title": "Naming deterrent submarine was incorrect, says top official",
-   "link": "https://ukdefencejournal.org.uk/naming-deterrent-submarine-was-incorrect-says-top-official/",
-   "date": "2026-11-28T09:00:14Z",
-   "desc": "It was incorrect to name the Royal Navy submarine returning from a 217-day deterrent patrol, Ministry of Defence Permanent Secretary Jeremy Pocklington told the Defence Committee, after Conservative MP Jesse Norman accus",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "Peru’da Askeri Helikopter Düştü: 8 Ölü, Pilot Yaralı",
    "link": "https://www.savunmasanayist.com/peruda-askeri-helikopter-dustu-8-olu-pilot-yarali/",
    "date": "2026-11-28T08:11:22Z",
    "desc": "Peru’ya ait Mi-17 tipi askeri helikopter, görev uçuşu sırasında düştü. Kazada 8 asker hayatını kaybederken ağır yaralanan pilot kurtuldu. Peru Hava Kuvvetleri’ne ait Mi-17 tipi askeri helikopter, ülkenin güneydoğusunda b",
    "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/Peru-Mi-17-helikopter-dustu-2.jpg",
    "source": "savunmasanayist"
-  },
-  {
-   "title": "Up to nine new explosives plants to begin design next month",
-   "link": "https://ukdefencejournal.org.uk/up-to-nine-new-explosives-plants-to-begin-design-next-month/",
-   "date": "2026-11-28T08:00:44Z",
-   "desc": "Up to nine proposed energetic materials factories will be taken forward to detailed engineering design from December, with that stage expected to complete in mid-2027, Luke Pollard told Parliament . The Minister for Defe",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Lossiemouth military home upgrades miss autumn target",
-   "link": "https://ukdefencejournal.org.uk/lossiemouth-military-home-upgrades-miss-autumn-target/",
-   "date": "2026-11-28T07:45:45Z",
-   "desc": "Only 39 of the 61 Service Family Accommodation properties at Lossiemouth that were expected to be upgraded by autumn 2026 have been completed, with all remaining homes now due by the end of the year, according to an answ",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Direct defence spending on small firms rose last year",
-   "link": "https://ukdefencejournal.org.uk/direct-defence-spending-on-small-firms-rose-last-year/",
-   "date": "2026-11-28T07:30:23Z",
-   "desc": "Ministry of Defence direct spending with small and medium-sized enterprises rose to £1.3 billion in 2025-26 from £1.2 billion the year before, according to answers given in Parliament , as ministers set out progress at t",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Forces housing plan stretches credulity, MPs warn",
-   "link": "https://ukdefencejournal.org.uk/forces-housing-plan-stretches-credulity-mps-warn/",
-   "date": "2026-11-28T06:00:28Z",
-   "desc": "Confidence that the Ministry of Defence can become the property developer needed to fix forces homes “stretches credulity”, after MPs found it lacks the skills for its £9 billion housing strategy and has deferred £0.8 bi",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Royal Navy seeks craneable armoury pods for ships",
-   "link": "https://ukdefencejournal.org.uk/royal-navy-seeks-craneable-armoury-pods-for-ships/",
-   "date": "2026-11-28T04:00:52Z",
-   "desc": "The Royal Navy Capability Accelerator is sounding out industry on modular Force Protection pods that can be craned on and off ships to store and move weapons, ammunition and equipment without permanently modifying the ve",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Merchant crews must learn to sail without GPS, study warns",
-   "link": "https://ukdefencejournal.org.uk/merchant-crews-must-learn-to-sail-without-gps-study-warns/",
-   "date": "2026-11-28T03:00:36Z",
-   "desc": "Civilian crews of merchant ships expected to support military sealift should be trained to navigate without satellite positioning and to keep strict discipline over personal phones, according to a new Council on Geostrat",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "Romanya, Rheinmetall’e 738 milyon avroluk Lynx siparişi verdi",
@@ -724,28 +748,12 @@
    "source": "eurosd"
   },
   {
-   "title": "Endonezya Botlarına Türk Dokunuşu: ASELSAN ve ROKETSAN Hamlesi",
-   "link": "https://www.savunmasanayist.com/endonezya-botlarina-turk-dokunusu-aselsan-ve-roketsan-hamlesi/",
-   "date": "2026-11-26T09:42:44Z",
-   "desc": "Endonezya, KSR X33 tipi ilk insansız hücum botunu teslim aldı. Sipariş edilen üç yeni araçta ASELSAN sistemleri kullanılacak. Botların seri üretime girmesi halinde ROKETSAN’ın ÇAKIR füzesi değerlendiriliyor. Endonezyalı ",
-   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/KSR-X33-2.jpg",
-   "source": "savunmasanayist"
-  },
-  {
    "title": "Where Soldiers Enjoyed Thanksgiving",
    "link": "https://warontherocks.com/where-soldiers-enjoyed-thanksgiving/",
    "date": "2026-11-26T08:30:44Z",
    "desc": "Today, I’m slicing turkey. Grease dots my pinks and greens. Scuffs mar my jump boots. As I serve, soldiers feast: smoked turkey, honey-glazed ham, a steamship round of beef, smoked flank steak, and a whole smoked pig. Al",
    "img": null,
    "source": "warontherocks"
-  },
-  {
-   "title": "Kraliyet Donanması’na 186 Milyon Dolarlık Sualtı Avcısı",
-   "link": "https://www.savunmasanayist.com/kraliyet-donanmasina-186-milyon-dolarlik-sualti-avcisi/",
-   "date": "2026-11-26T08:19:24Z",
-   "desc": "Birleşik Krallık, Kraliyet Donanması’nın mayın avlama kabiliyetini güçlendirmek amacıyla HII şirketiyle REMUS 620 insansız su altı aracı için 186 milyon dolar değerinde sözleşme imzaladı. Birleşik Krallık Savunma Bakanlı",
-   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/HII-REMUS-620-2.jpg",
-   "source": "savunmasanayist"
   },
   {
    "title": "George Washington’s Thanksgiving Proclamation",
@@ -1098,14 +1106,6 @@
    "desc": "The alert urges industry to respond immediately and “reduce opportunities for hostile actors to identify your organisation or people as targets, conduct hostile reconnaissance, and attack people, sites or operations.”",
    "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/Delta-UK-e1795547287384-1024x577.jpg",
    "source": "breakingdefense"
-  },
-  {
-   "title": "FireAnt Mini Uncrewed Ground Vehicles Deploy Drone Detection Sensors In U.S. Army Test",
-   "link": "https://www.twz.com/land/fireant-mini-uncrewed-ground-vehicles-deploy-drone-detection-sensors-in-u-s-army-test",
-   "date": "2026-11-24T19:19:27Z",
-   "desc": "A FireAnt uncrewed ground vehicle (UGV) was used to deploy small sensors capable of detecting hostile drones on the ground during a recent U.S. Army test exercise. Using UGVs to quickly establish even localized sensor ne",
-   "img": "https://www.twz.com/wp-content/uploads/2026/11/fireant-ugv-unattended-ground-sensors.jpg?quality=85",
-   "source": "twz"
   },
   {
    "title": "Winners and Losers from the Shenzhen Summit",
