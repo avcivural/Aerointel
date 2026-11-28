@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T20:05:59Z",
+ "generated": "2026-11-28T02:50:38Z",
  "sources": [
   {
    "id": "defensenews",
@@ -188,7 +188,7 @@
    "count": 10,
    "latest": "2026-11-27T14:23:36Z",
    "error": null,
-   "ms": 258
+   "ms": 271
   },
   {
    "id": "breakingdefense",
@@ -196,7 +196,7 @@
    "count": 12,
    "latest": "2026-11-27T19:57:02Z",
    "error": null,
-   "ms": 224
+   "ms": 143
   },
   {
    "id": "defenseone",
@@ -204,7 +204,7 @@
    "count": 12,
    "latest": "2026-11-25T15:00:00Z",
    "error": null,
-   "ms": 410
+   "ms": 458
   },
   {
    "id": "afmag",
@@ -212,7 +212,7 @@
    "count": 9,
    "latest": "2026-11-25T21:40:18Z",
    "error": null,
-   "ms": 321
+   "ms": 204
   },
   {
    "id": "airforcetech",
@@ -220,15 +220,15 @@
    "count": 10,
    "latest": "2026-11-27T14:27:14Z",
    "error": null,
-   "ms": 219
+   "ms": 107
   },
   {
    "id": "twz",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-27T18:57:35Z",
+   "latest": "2026-11-27T22:31:00Z",
    "error": null,
-   "ms": 314
+   "ms": 294
   },
   {
    "id": "warontherocks",
@@ -236,7 +236,7 @@
    "count": 12,
    "latest": "2026-11-26T08:30:44Z",
    "error": null,
-   "ms": 344
+   "ms": 309
   },
   {
    "id": "rand",
@@ -244,23 +244,23 @@
    "count": 7,
    "latest": "2026-11-24T16:50:00Z",
    "error": null,
-   "ms": 304
+   "ms": 102
   },
   {
    "id": "ukdj",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-27T20:00:12Z",
+   "latest": "2026-11-27T22:30:37Z",
    "error": null,
-   "ms": 832
+   "ms": 1127
   },
   {
    "id": "aviationist",
    "status": "ok",
    "count": 12,
-   "latest": "2026-11-26T18:38:07Z",
+   "latest": "2026-11-27T21:28:00Z",
    "error": null,
-   "ms": 153
+   "ms": 139
   },
   {
    "id": "rusi",
@@ -268,7 +268,7 @@
    "count": 12,
    "latest": "2026-11-27T00:00:00Z",
    "error": null,
-   "ms": 195
+   "ms": 102
   },
   {
    "id": "eurosd",
@@ -276,7 +276,7 @@
    "count": 6,
    "latest": "2026-11-27T12:36:30Z",
    "error": null,
-   "ms": 488
+   "ms": 580
   },
   {
    "id": "savunmasanayist",
@@ -284,22 +284,22 @@
    "count": 10,
    "latest": "2026-11-27T13:48:46Z",
    "error": null,
-   "ms": 787
+   "ms": 883
   },
   {
    "id": "defensehere",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-27T08:06:43Z",
+   "latest": "2026-11-27T20:13:34Z",
    "error": null,
-   "ms": 3217
+   "ms": 7490
   }
  ],
  "trending": [
   {
    "term": "NATO",
-   "n": 8,
-   "sources": 7
+   "n": 7,
+   "sources": 6
   },
   {
    "term": "Boeing",
@@ -312,17 +312,73 @@
    "sources": 6
   },
   {
-   "term": "Russian",
-   "n": 5,
-   "sources": 4
-  },
-  {
    "term": "KC-46",
    "n": 5,
    "sources": 5
+  },
+  {
+   "term": "Yard",
+   "n": 4,
+   "sources": 2
   }
  ],
  "items": [
+  {
+   "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
+   "link": "https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-217",
+   "date": "2026-11-27T22:31:00Z",
+   "desc": "Welcome to Bunker Talk. This is a weekend open discussion post for the best commenting crew on the net, in which we can chat about all the stuff that went on this week that we didn’t cover. We can also talk about the stu",
+   "img": "https://www.twz.com/wp-content/uploads/2026/11/GettyImages-50610834.jpg?quality=85",
+   "source": "twz"
+  },
+  {
+   "title": "British Royal Marines beat US and Ukraine in drone contest",
+   "link": "https://ukdefencejournal.org.uk/british-royal-marines-beat-us-and-ukraine-in-drone-contest/",
+   "date": "2026-11-27T22:30:37Z",
+   "desc": "A five-strong team from 40 Commando has taken top honours at the first Drone Crucible special operations drone competition at the Grafenwöhr Training Area in Bavaria, beating teams from the United States, Germany, Latvia",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Royal Navy brings drone boats to London aboard HMS Tyne",
+   "link": "https://ukdefencejournal.org.uk/royal-navy-brings-drone-boats-to-london-aboard-hms-tyne/",
+   "date": "2026-11-27T22:00:33Z",
+   "desc": "HMS Tyne has berthed alongside HMS Belfast in London carrying a Kraken K3 Scout uncrewed boat from the 1st Autonomous Squadron and drones from 700X Naval Air Squadron, to show ministers and industry how crewed and uncrew",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "‘ELITE’ Hostile Radar Simulator Tested with B-52 for the First Time",
+   "link": "https://theaviationist.com/2026/11/27/elite-hostile-radar-simulator-b-52/",
+   "date": "2026-11-27T21:28:00Z",
+   "desc": "The Expendable Low-cost Integrated Training Emitter offers realistic Electronic Warfare training by simulating modern adversary air defense systems for B-52 and F-35 Formal Training Units. The 307th Bomb Wing at Barksdal",
+   "img": "https://theaviationist.com/wp-content/uploads/2026/11/B-52-ELITE-Radar-1.jpg",
+   "source": "aviationist"
+  },
+  {
+   "title": "Chinese AI models allowed for some defence uses",
+   "link": "https://ukdefencejournal.org.uk/chinese-ai-models-allowed-for-some-defence-uses/",
+   "date": "2026-11-27T21:00:07Z",
+   "desc": "Chinese-origin artificial intelligence models are not permitted for general use by Ministry of Defence staff but have legitimate defence use cases subject to governance and risk controls, according to an answer given in ",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Unique AIM-9X Sidewinders Now Seen On USAF F-35As In The Middle East",
+   "link": "https://www.twz.com/air/unique-aim-9x-sidewinders-now-seen-on-usaf-f-35as-in-the-middle-east",
+   "date": "2026-11-27T20:28:44Z",
+   "desc": "U.S. Air Force F-35A Joint Strike Fighters in the Middle East have started carrying AIM-9X Sidewinders painted almost entirely white or light gray. This is a scheme that does not appear to have been previously seen on th",
+   "img": "https://www.twz.com/wp-content/uploads/2026/11/f-35-light-colored-aim-9x-sidewinder-middle-east.jpg?quality=85",
+   "source": "twz"
+  },
+  {
+   "title": "Mekke İttifakı’nda ortak savunma dönemi: Teknoloji ve askeri işbirliği güçleniyor",
+   "link": "https://defensehere.com/tr/mekke-ittifakinda-ortak-savunma-donemi-teknoloji-ve-askeri-isbirligi-gucleniyor/",
+   "date": "2026-11-27T20:13:34Z",
+   "desc": "Mekke İttifakı bünyesindeki Stratejik Siyasi ve Savunma Komitesi, Suudi Arabistan’a yönelik Husi saldırılarını güçlü şekilde kınadı. Türkiye, Pakistan ve Suudi Arabistan, savunma sanayisi, ortak teknoloji geliştirilmesi,",
+   "img": null,
+   "source": "defensehere"
+  },
   {
    "title": "Trump and NATO chief urge Russia not to widen the war",
    "link": "https://ukdefencejournal.org.uk/trump-and-nato-chief-urge-russia-not-to-widen-the-war/",
@@ -332,12 +388,28 @@
    "source": "ukdj"
   },
   {
+   "title": "Dışişleri Bakanı Hakan Fidan: Mekke İttifakı’nın en büyük amacı barış ve istikrara katkı sağlamak",
+   "link": "https://defensehere.com/tr/disisleri-bakani-hakan-fidan-mekke-ittifakinin-en-buyuk-amaci-baris-ve-istikrara-katki-saglamak/",
+   "date": "2026-11-27T19:58:14Z",
+   "desc": "Dışişleri Bakanı Hakan Fidan, Ortak Savunma için Mekke Anlaşması kapsamında oluşturulan Stratejik Siyasi ve Savunma Komitesi’nin İslamabad’da gerçekleştirilen ikinci olağan toplantısının ardından basın mensuplarına açıkl",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
    "title": "BAE Hägglunds lands record $6B deal for 400+ CV90s from five NATO nations",
    "link": "https://breakingdefense.com/2026/11/bae-hagglunds-lands-record-6b-deal-for-400-cv90s-from-five-nato-nations/",
    "date": "2026-11-27T19:57:02Z",
    "desc": "The joint procurement by Finland, Lithuania, the Netherlands, Norway and Sweden is expressly linked to the threat from Russia.",
    "img": "https://breakingdefense.com/wp-content/uploads/sites/13/2026/11/cv90-jonas-1-good-scaled-e1795807504446-1024x577.jpeg",
    "source": "breakingdefense"
+  },
+  {
+   "title": "Cumhurbaşkanı Yardımcısı Yılmaz: “SSB’nin 2027 yılı bütçesi için 2 milyar 159 milyon lira ödenek öngörülüyor”",
+   "link": "https://defensehere.com/tr/cumhurbaskani-yardimcisi-yilmaz-ssbnin-2027-yili-butcesi-icin-2-milyar-159-milyon-lira-odenek-ongoruluyor/",
+   "date": "2026-11-27T19:42:45Z",
+   "desc": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, “Cumhurbaşkanımızın liderliğinde, Türkiye’nin kendi kararlarını uygulayabilen, güvenliğini milli imkanlarıyla sağlayan ve savunma teknolojilerinde söz sahibi bir ülke olması için ç",
+   "img": null,
+   "source": "defensehere"
   },
   {
    "title": "First M-346 rolls out for Italian aerobatic team",
@@ -364,12 +436,36 @@
    "source": "twz"
   },
   {
+   "title": "Milli Savunma Bakan Yardımcısı Salih Ayhan, İspanya’da temaslarda bulundu",
+   "link": "https://defensehere.com/tr/milli-savunma-bakan-yardimcisi-salih-ayhan-ispanyada-temaslarda-bulundu/",
+   "date": "2026-11-27T18:50:51Z",
+   "desc": "Milli Savunma Bakan Yardımcısı Salih Ayhan ve beraberindeki heyet, Airbus’ın Sevilla ve Madrid’deki tesislerine teknik inceleme ziyaretleri gerçekleştirmek üzere İspanya’ya gitti. Türkiye’nin Madrid Büyükelçiliği, İspany",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/HYIXhzCW8AAmgtN.jpeg",
+   "source": "defensehere"
+  },
+  {
+   "title": "Türk savunma sanayisinde amfibi harekât için güçler birleşti: ZAHA’dan açık deniz testi",
+   "link": "https://defensehere.com/tr/turk-savunma-sanayisinde-amfibi-harekat-icin-gucler-birlesti-zahadan-acik-deniz-testi/",
+   "date": "2026-11-27T18:36:56Z",
+   "desc": "Türk savunma sanayisinde kara ve deniz platformlarının ortak operasyonel kabiliyete dönüştürülmesine yönelik önemli bir aşama daha tamamlandı. FNSS üretimi Zırhlı Amfibi Hücum Aracı’nın (ZAHA), Yeni Tip Çıkarma Gemisi’nd",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/AA-20261127-43202721-43202720-TURK_SAVUNMA_SANAYISINDE_GUCLER_AMFIBI_HAREKAT_ICIN_BIRLESTI.jpg",
+   "source": "defensehere"
+  },
+  {
    "title": "Forces outflow down seven per cent this year, minister says",
    "link": "https://ukdefencejournal.org.uk/forces-outflow-down-seven-per-cent-this-year-minister-says/",
    "date": "2026-11-27T18:00:44Z",
    "desc": "The number of personnel leaving Britain’s armed forces has fallen by 7% this year, reversing the trend of the previous four years, Louise Sandher-Jones, Minister for the Armed Forces, told MPs during a debate on the Arme",
    "img": null,
    "source": "ukdj"
+  },
+  {
+   "title": "Empa Elektronik’in 9 aylık cirosu 4,33 milyar liraya ulaştı",
+   "link": "https://defensehere.com/tr/empa-elektronikin-9-aylik-cirosu-433-milyar-liraya-ulasti/",
+   "date": "2026-11-27T17:36:50Z",
+   "desc": "Empa Elektronik , 2026’nın ocak-eylül döneminde cirosunu yüzde 35 artırarak 4,33 milyar liraya, net karını ise yüzde 66 artışla 66 milyon liraya yükseltti. Şirketin 111 milyon dolarlık sipariş portföyü bulunurken, 2027 y",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/AA-20261127-43201782-43201779-EMPA_ELEKTRONIKIN_9_AYLIK_CIROSU_433_MILYAR_LIRAYA_NET_KARI_66_MILYON_LIRAYA_CIKTI.jpg",
+   "source": "defensehere"
   },
   {
    "title": "Tekever drone tracks Marines landing from Portuguese warship",
@@ -404,28 +500,12 @@
    "source": "ukdj"
   },
   {
-   "title": "Britain opens defence test ranges to small firms online",
-   "link": "https://ukdefencejournal.org.uk/britain-opens-defence-test-ranges-to-small-firms-online/",
-   "date": "2026-11-27T15:07:44Z",
-   "desc": "Small businesses and start-ups can now find and book defence and industry testing ranges, facilities and expertise through a single online portal, the new Test and Evaluation Marketplace, according to the Ministry of Def",
+   "title": "Almanya Kara Kuvvetleri Komutanlığına Korgeneral Heico Hübner atanacak",
+   "link": "https://defensehere.com/tr/almanya-kara-kuvvetleri-komutanligina-korgeneral-heico-hubner-atanacak/",
+   "date": "2026-11-27T15:08:15Z",
+   "desc": "Almanya Savunma Bakanı Boris Pistorius’un, Kara Kuvvetleri Komutanlığı görevine Korgeneral Heico Hübner’i atayacağı bildirildi. Savunma Bakanlığından yapılan açıklamada, Pistorius’un, Korgeneral Hübner’i Kara Kuvvetlerin",
    "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Saab buys US maritime autonomy firm Mythos AI",
-   "link": "https://ukdefencejournal.org.uk/saab-buys-us-maritime-autonomy-firm-mythos-ai/",
-   "date": "2026-11-27T15:00:37Z",
-   "desc": "Saab has completed its acquisition of Mythos AI, a US developer of navigation and autonomy software for vessels, according to the Swedish company . Saab said the deal combines Mythos AI’s navigation and autonomy software",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "MP urges Defence Secretary to base warships further north",
-   "link": "https://ukdefencejournal.org.uk/mp-urges-defence-secretary-to-base-warships-further-north/",
-   "date": "2026-11-27T14:46:51Z",
-   "desc": "Liberal Democrat MP Jamie Stone has asked to meet Defence Secretary Wes Streeting over whether British warships are based close enough to Russian activity in the North Sea, after reports of a Russian warship jamming flig",
-   "img": null,
-   "source": "ukdj"
+   "source": "defensehere"
   },
   {
    "title": "GomSpace awarded $1.8m under EDF for space-based intelligence programme",
@@ -452,6 +532,14 @@
    "source": "defensenews"
   },
   {
+   "title": "Polonya Savunma Bakan Yardımcısı Sobkowiak-Czarnecka, ASELSAN’ı ziyaret etti",
+   "link": "https://defensehere.com/tr/polonya-savunma-bakan-yardimcisi-sobkowiak-czarnecka-aselsani-ziyaret-etti/",
+   "date": "2026-11-27T13:56:39Z",
+   "desc": "ASELSAN Genel Müdürü Ahmet Akyol, Polonya Milli Savunma Bakan Yardımcısı Magdalena Sobkowiak-Czarnecka’yı ASELSAN’da ağırladıklarını bildirdi. Görüşmede, Polonya’da yürütülen çalışmalar, mevcut projeler ve yeni iş birliğ",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/a2-1.jpg",
+   "source": "defensehere"
+  },
+  {
    "title": "CANİK’ten İngiltere’de Üretim Atağı: 4 Kat Büyüme",
    "link": "https://www.savunmasanayist.com/canikten-ingilterede-uretim-atagi-4-kat-buyume/",
    "date": "2026-11-27T13:48:46Z",
@@ -466,6 +554,22 @@
    "desc": "BAE Systems has been awarded contracts worth a total of $6 billion (€5.5 billion) in a joint procurement with Finland, … mehr... The post BAE SYSTEMS secures five-nation landmark agreement for new CV90 appeared first on ",
    "img": "https://euro-sd.com/wp-content/uploads/2026/11/RS318509_BAE-Systems-CV90-IFV-image-3_lpr-300x200.jpg",
    "source": "eurosd"
+  },
+  {
+   "title": "Çin, Cuhay Hava Gösterisi’nde yeni taarruz helikopterini görücüye çıkaracak",
+   "link": "https://defensehere.com/tr/cin-cuhay-hava-gosterisinde-yeni-taarruz-helikopterini-gorucuye-cikaracak/",
+   "date": "2026-11-27T12:34:17Z",
+   "desc": "Çin ordusu, genel maksat helikopteri “Z-20″nin taarruz özellikleriyle donatılmış versiyonu “Z-20T”yi, gelecek ay düzenlenecek 16. Cuhay Hava Gösterisi’nde ilk kez sergilemeye hazırlanıyor. Xinhua’nın haberine göre, Çin U",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "Rheinmetall, 2030 ciro hedefini 45 milyar avrodan 33-37 milyar avro aralığına düşürdü",
+   "link": "https://defensehere.com/tr/rheinmetall-2030-ciro-hedefini-45-milyar-avrodan-33-37-milyar-avro-araligina-dusurdu/",
+   "date": "2026-11-27T12:30:29Z",
+   "desc": "Almanya merkezli savunma sanayisi şirketi Rheinmetall , orta vadeli finansal beklentilerini aşağı yönlü güncelledi. Şirket, Hamburg’da düzenlenen Sermaye Piyasaları Günü’nde yaptığı sunumda, 2030 yılına ilişkin ciro hede",
+   "img": "https://defensehere.com/wp-content/uploads/2026/11/1200x801.jpg",
+   "source": "defensehere"
   },
   {
    "title": "Leonardo rolls out first M-346 jet for Italy’s Air Force stunt flying unit",
@@ -492,44 +596,12 @@
    "source": "savunmasanayist"
   },
   {
-   "title": "NATO’nun hava nöbetini Türk Hava Kuvvetleri devralacak",
-   "link": "https://defensehere.com/tr/natonun-hava-nobetini-turk-hava-kuvvetleri-devralacak/",
-   "date": "2026-11-27T08:06:43Z",
-   "desc": "Amasya’nın Merzifon ilçesindeki 5’inci Ana Jet Üs Komutanlığına bağlı 151’inci Jet Filo Komutanlığı (Tunç Filo) unsurları, NATO’nun 73’üncü Dönem Geliştirilmiş Hava Polisliği görevi kapsamında Romanya’daki Feteşti Hava Ü",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/AA-20261127-43196410-43196409-NATONUN_HAVA_NOBETINI_TURK_HAVA_KUVVETLERI_DEVRALACAK.jpg",
-   "source": "defensehere"
-  },
-  {
-   "title": "Rusya jet yakıtı ihracatına yönelik yasağın süresini uzattı",
-   "link": "https://defensehere.com/tr/rusya-jet-yakiti-ihracatina-yonelik-yasagin-suresini-uzatti/",
-   "date": "2026-11-27T07:43:12Z",
-   "desc": "Rus hükümeti, jet yakıtı ihracatına yönelik yasağın geçerlilik süresini 31 Mart 2027’ye kadar uzattı. Hükümetten yapılan yazılı açıklamada, iç akaryakıt piyasasında istikrarın korunması amacıyla yeni bir kararname imzala",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
    "title": "NATO’nun En Büyük Kara Tedariki: 5 Ülke Alıyor",
    "link": "https://www.savunmasanayist.com/natonun-en-buyuk-kara-tedariki-5-ulke-aliyor/",
    "date": "2026-11-27T07:42:31Z",
    "desc": "5 NATO ülkesi, BAE Systems Hägglunds üretimi 430’dan fazla CV90 zırhlı muharebe aracı için ortak tedarik gerçekleştirecek. NATO’nun en büyük ortak kara savunma tedariki olarak nitelendirilen programın toplam değerinin 7,",
    "img": "http://www.savunmasanayist.com/wp-content/uploads/2023/05/CV90.jpg",
    "source": "savunmasanayist"
-  },
-  {
-   "title": "Finlandiya, 160 adet CV9035 Mk IV piyade savaş aracı tedarik edecek",
-   "link": "https://defensehere.com/tr/finlandiya-160-adet-cv9035-mk-iv-piyade-savas-araci-tedarik-edecek/",
-   "date": "2026-11-27T07:23:34Z",
-   "desc": "Finlandiya Savunma Bakanı Antti Häkkänen, Finlandiya Silahlı Kuvvetleri için İsveç merkezli BAE Systems Hägglunds AB tarafından üretilecek 160 adet CV9035 Mk IV Nordic Edition piyade savaş aracının tedarik edilmesine ona",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "T3 Vakfı Kosova’da İHA teknolojileri için merkez kuruyor",
-   "link": "https://defensehere.com/tr/t3-vakfi-kosovada-iha-teknolojileri-icin-merkez-kuruyor/",
-   "date": "2026-11-27T06:47:40Z",
-   "desc": "Kosova’da, Türkiye Teknoloji Takımı Vakfı (T3 Vakfı) desteğiyle insansız hava araçlarına (İHA) odaklanan bilim ve teknoloji inovasyon merkezi açılması planlanıyor. Kosova Başbakanı Albin Kurti, Kosova Meclisi Genel Kurul",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/thumbs_b_c_682cdcf2b87a811ea519c04c6c6b3472.webp",
-   "source": "defensehere"
   },
   {
    "title": "Episode 7: Who's Paying for British Politics?",
@@ -548,36 +620,12 @@
    "source": "rusi"
   },
   {
-   "title": "ASELSAN, Macaristan ile yeni iş birliği fırsatlarını görüştü",
-   "link": "https://defensehere.com/tr/aselsan-macaristan-ile-yeni-is-birligi-firsatlarini-gorustu/",
-   "date": "2026-11-26T20:26:24Z",
-   "desc": "ASELSAN , Türkiye ile Macaristan arasındaki savunma sanayii iş birliğinin geliştirilmesine yönelik temaslarını sürdürüyor. ASELSAN Genel Müdürü Ahmet Akyol, Macaristan Savunma Bakanı Romulusz Ruszin-Szendi ve beraberinde",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/HYENn4fWIAAveUR.jpeg",
-   "source": "defensehere"
-  },
-  {
    "title": "Frecce Tricolori’s M-346PAN Officially Unveiled",
    "link": "https://theaviationist.com/2026/11/26/frecce-tricoloris-m-346pan-officially-unveiled/",
    "date": "2026-11-26T18:38:07Z",
    "desc": "The M-346 in PAN configuration for the Italian Air Force’s Frecce Tricolori aerobatic team has been officially unveiled at Leonardo’s Venegono plant. Leonardo and the Italian Air Force have officially unveiled the new M-",
-   "img": "https://theaviationist.com/wp-content/uploads/2026/11/PAN-Rollout-3.jpg",
+   "img": "https://theaviationist.com/wp-content/uploads/2026/11/M-346-Rollout-new-watermark-e1795814312378.jpg",
    "source": "aviationist"
-  },
-  {
-   "title": "Turkish Technic, hizmet ihracatında 8. kez şampiyon oldu",
-   "link": "https://defensehere.com/tr/turkish-technic-hizmet-ihracatinda-8-kez-sampiyon-oldu/",
-   "date": "2026-11-26T17:37:19Z",
-   "desc": "Türk Hava Yolları ‘nın (THY) uçak bakım ve onarım şirketi Turkish Technic , uluslararası alandaki başarılarına bir yenisini daha ekledi. Şirket, Hizmet İhracatçıları Birliği tarafından düzenlenen değerlendirmede Bakım ve",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Türkiye ile Macaristan savunma sanayii iş birliğinde yeni projeleri görüştü",
-   "link": "https://defensehere.com/tr/turkiye-ile-macaristan-savunma-sanayii-is-birliginde-yeni-projeleri-gorustu/",
-   "date": "2026-11-26T17:11:39Z",
-   "desc": "Savunma Sanayii Başkanı Prof. Dr. Haluk Görgün, Macaristan Savunma Bakanı Romulusz Ruszin-Szendi ve beraberindeki heyeti Savunma Sanayii Başkanlığı nda kabul etti. Gerçekleştirilen görüşmede, Türkiye ile Macaristan arası",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/HYEIqqqW4AAJHj6.jpeg",
-   "source": "defensehere"
   },
   {
    "title": "USAF Contracts Final KC-46 Lot of Original Production Deal",
@@ -594,30 +642,6 @@
    "desc": "Embraer and Brazil’s ALADA have signed a framework agreement to assess potential government-to-government sales of the KC-390 Millennium and A-29 Super Tucano in Latin America and Africa.",
    "img": null,
    "source": "airforcetech"
-  },
-  {
-   "title": "F-35 motorlarının idamesi için RTX ile 2,5 milyar dolarlık sözleşme imzalandı",
-   "link": "https://defensehere.com/tr/f-35-motorlarinin-idamesi-icin-rtx-ile-25-milyar-dolarlik-sozlesme-imzalandi/",
-   "date": "2026-11-26T16:03:22Z",
-   "desc": "Pentagon’un 25 Kasım’da yaptığı açıklamaya göre ABD’li teknoloji şirketi RTX, F-35 Lightning II savaş uçaklarına güç veren F135 tahrik sistemlerinin idamesine yönelik 2,53 milyar dolar değerinde bir sözleşme imzaladı. RT",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "ASELSAN Genel Müdürü Akyol, TOBB Savunma Sanayii Meclisi üyeleriyle bir araya geldi",
-   "link": "https://defensehere.com/tr/aselsan-genel-muduru-akyol-tobb-savunma-sanayii-meclisi-uyeleriyle-bir-araya-geldi/",
-   "date": "2026-11-26T15:12:49Z",
-   "desc": "ASELSAN Genel Müdürü Ahmet Akyol, Türkiye Odalar ve Borsalar Birliği (TOBB) Savunma Sanayii Meclisi üyeleriyle bir araya gelerek mevcut çalışmaları ve gelecek dönemin yol haritasını değerlendirdi. Akyol, sosyal medya hes",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Hanwha Aerospace, Güney Kore üretimi KM3 amfibi köprü aracının ihracat haklarını elde etti",
-   "link": "https://defensehere.com/tr/hanwha-aerospace-guney-kore-uretimi-km3-amfibi-kopru-aracinin-ihracat-haklarini-elde-etti/",
-   "date": "2026-11-26T15:06:55Z",
-   "desc": "Güney Koreli savunma ve teknoloji devi Hanwha Aerospace, KM3 amfibi köprü aracının ihracat hakkını aracın orijinal üreticisinden aldı. Yonhap Haber Ajansı tarafından verilen haber şirketin açıklamasına dayandırıldı. KM3,",
-   "img": null,
-   "source": "defensehere"
   },
   {
    "title": "GSIS 2026: Programme Overview",
@@ -1084,28 +1108,12 @@
    "source": "twz"
   },
   {
-   "title": "Sweden’s Gripens Are Doing Big Things With A Tiny Footprint In Poland",
-   "link": "https://www.twz.com/air/swedens-tiny-gripen-fighter-detachment-takes-on-a-big-nato-role",
-   "date": "2026-11-24T18:34:08Z",
-   "desc": "Russian cruise missiles enter Polish airspace during a major attack on Ukraine . NATO fighters scramble . Two Swedish Gripens join Polish F-16s in the response, tracking airborne threats over Poland. One Swedish pilot at",
-   "img": "https://www.twz.com/wp-content/uploads/2026/11/Gripen-Poland-QRA.jpg?quality=85",
-   "source": "twz"
-  },
-  {
    "title": "Winners and Losers from the Shenzhen Summit",
    "link": "https://warontherocks.com/winners-and-losers-from-the-shenzhen-summit/",
    "date": "2026-11-24T18:30:04Z",
    "desc": "On Nov. 19, while attending the Asia-Pacific Economic Cooperation meeting, U.S. President Donald Trump, Chinese General Secretary Xi Jinping, and Russian President Vladimir Putin gathered in Shenzhen for a historic summi",
    "img": null,
    "source": "warontherocks"
-  },
-  {
-   "title": "Turkish Kizilelma Fighter Drone Declared Operational",
-   "link": "https://www.twz.com/air/turkish-kizilelma-fighter-drone-declared-operational",
-   "date": "2026-11-24T18:10:10Z",
-   "desc": "Turkish drone manufacturer Baykar says it has made aviation history, announcing that the first three of its Bayraktar Kizilelma uncrewed combat aircraft have entered the inventory of the Turkish security forces following",
-   "img": "https://www.twz.com/wp-content/uploads/2026/11/Kizilelma-plan-view.jpg?quality=85",
-   "source": "twz"
   },
   {
    "title": "French Rafales Conduct First Highway Operations in Finland",
@@ -1354,14 +1362,6 @@
    "desc": "HALIFAX, Nova Scotia —Hours after news broke that the United States would limit defense cooperation with Canada, the Canadian government announced plans to pour 100 million Canadian dollars into a NATO defense-innovation",
    "img": "https://cdn.defenseone.com/media/img/cd/2026/11/21/GettyImages_2305292204/large.jpg",
    "source": "defenseone"
-  },
-  {
-   "title": "Here’s What The F130 Engines Will Change For B-52 Pilots During Aerial Refueling",
-   "link": "https://theaviationist.com/2026/11/21/b-52-the-watch/",
-   "date": "2026-11-21T22:14:08Z",
-   "desc": "Footage from THE WATCH: America’s Nuclear Mission shows how demanding tanking is for B-52 crews, just as the B-52J’s new engines are about to change the way the bomber responds to the throttles. The B-52 episode of THE W",
-   "img": "https://theaviationist.com/wp-content/uploads/2026/11/The-Watch-B-52-top.jpg",
-   "source": "aviationist"
   },
   {
    "title": "The military lacks an ‘overarching plan’ to improve munition stockpiles—partly because it’s no one’s job",
