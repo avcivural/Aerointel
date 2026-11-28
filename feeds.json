@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T02:50:38Z",
+ "generated": "2026-11-28T11:07:51Z",
  "sources": [
   {
    "id": "defensenews",
@@ -188,7 +188,7 @@
    "count": 10,
    "latest": "2026-11-27T14:23:36Z",
    "error": null,
-   "ms": 271
+   "ms": 283
   },
   {
    "id": "breakingdefense",
@@ -196,7 +196,7 @@
    "count": 12,
    "latest": "2026-11-27T19:57:02Z",
    "error": null,
-   "ms": 143
+   "ms": 136
   },
   {
    "id": "defenseone",
@@ -204,7 +204,7 @@
    "count": 12,
    "latest": "2026-11-25T15:00:00Z",
    "error": null,
-   "ms": 458
+   "ms": 133
   },
   {
    "id": "afmag",
@@ -212,7 +212,7 @@
    "count": 9,
    "latest": "2026-11-25T21:40:18Z",
    "error": null,
-   "ms": 204
+   "ms": 306
   },
   {
    "id": "airforcetech",
@@ -220,7 +220,7 @@
    "count": 10,
    "latest": "2026-11-27T14:27:14Z",
    "error": null,
-   "ms": 107
+   "ms": 142
   },
   {
    "id": "twz",
@@ -228,7 +228,7 @@
    "count": 12,
    "latest": "2026-11-27T22:31:00Z",
    "error": null,
-   "ms": 294
+   "ms": 199
   },
   {
    "id": "warontherocks",
@@ -236,23 +236,23 @@
    "count": 12,
    "latest": "2026-11-26T08:30:44Z",
    "error": null,
-   "ms": 309
+   "ms": 294
   },
   {
    "id": "rand",
    "status": "ok",
-   "count": 7,
+   "count": 6,
    "latest": "2026-11-24T16:50:00Z",
    "error": null,
-   "ms": 102
+   "ms": 211
   },
   {
    "id": "ukdj",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-27T22:30:37Z",
+   "latest": "2026-11-28T11:00:46Z",
    "error": null,
-   "ms": 1127
+   "ms": 941
   },
   {
    "id": "aviationist",
@@ -260,7 +260,7 @@
    "count": 12,
    "latest": "2026-11-27T21:28:00Z",
    "error": null,
-   "ms": 139
+   "ms": 145
   },
   {
    "id": "rusi",
@@ -268,7 +268,7 @@
    "count": 12,
    "latest": "2026-11-27T00:00:00Z",
    "error": null,
-   "ms": 102
+   "ms": 133
   },
   {
    "id": "eurosd",
@@ -276,40 +276,30 @@
    "count": 6,
    "latest": "2026-11-27T12:36:30Z",
    "error": null,
-   "ms": 580
+   "ms": 478
   },
   {
    "id": "savunmasanayist",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-27T13:48:46Z",
+   "latest": "2026-11-28T10:57:43Z",
    "error": null,
-   "ms": 883
+   "ms": 712
   },
   {
    "id": "defensehere",
    "status": "ok",
    "count": 10,
-   "latest": "2026-11-27T20:13:34Z",
+   "latest": "2026-11-28T00:20:36Z",
    "error": null,
-   "ms": 7490
+   "ms": 2174
   }
  ],
  "trending": [
   {
    "term": "NATO",
-   "n": 7,
-   "sources": 6
-  },
-  {
-   "term": "Boeing",
    "n": 6,
-   "sources": 6
-  },
-  {
-   "term": "Ukraine",
-   "n": 6,
-   "sources": 6
+   "sources": 5
   },
   {
    "term": "KC-46",
@@ -317,12 +307,142 @@
    "sources": 5
   },
   {
-   "term": "Yard",
+   "term": "Boeing",
+   "n": 5,
+   "sources": 5
+  },
+  {
+   "term": "Ukraine",
+   "n": 5,
+   "sources": 5
+  },
+  {
+   "term": "Pentagon",
    "n": 4,
-   "sources": 2
+   "sources": 3
   }
  ],
  "items": [
+  {
+   "title": "Raytheon chosen to develop US Navy nuclear cruise missile",
+   "link": "https://ukdefencejournal.org.uk/raytheon-chosen-to-develop-us-navy-nuclear-cruise-missile/",
+   "date": "2026-11-28T11:00:46Z",
+   "desc": "Raytheon has been awarded an Other Transaction Authority agreement by the US Navy to advance development of the Nuclear-Armed Sea-Launched Cruise Missile, a next-generation submarine-launched weapon known as SLCM-N, acco",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "ASELSAN’ın Radar Avcısı ANTIDOT 10 Bin Uçuş Saatini Aştı",
+   "link": "https://www.savunmasanayist.com/aselsanin-radar-avcisi-antidot-10-bin-ucus-saatini-asti/",
+   "date": "2026-11-28T10:57:43Z",
+   "desc": "ASELSAN’ın ANTIDOT 2ES Elektronik Destek Podu, 10 bin saati aşkın uçuş süresine ulaştı. Sistem 5 ülkede aktif olarak görev yapıyor. ASELSAN ‘ın insansız hava araçlarının elektronik harp kabiliyetlerini desteklemek amacıy",
+   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/ASELSAN-ANTIDOT-2ES.jpg",
+   "source": "savunmasanayist"
+  },
+  {
+   "title": "Kerch bridge collapse blocks Azov ships from Black Sea",
+   "link": "https://ukdefencejournal.org.uk/kerch-bridge-collapse-blocks-azov-ships-from-black-sea/",
+   "date": "2026-11-28T10:32:14Z",
+   "desc": "Ships in the Sea of Azov will likely be unable to sail directly into the Black Sea until the waterway beneath the Kerch bridge is cleared, after Ukrainian strikes collapsed the bridge’s arch section and blocked the chann",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Industry ‘probably not’ ready for three per cent yet",
+   "link": "https://ukdefencejournal.org.uk/industry-probably-not-ready-for-three-per-cent-yet/",
+   "date": "2026-11-28T10:00:09Z",
+   "desc": "British industry probably does not yet have the capacity to deliver on defence spending of 3% of GDP but will by 2030, National Armaments Director Rupert Pearce told the Defence Committee. Asked by Labour MP Alex Baker w",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Rheinmetall’den Ukrayna’da Geri Adım: Proje İptal Olabilir",
+   "link": "https://www.savunmasanayist.com/rheinmetallden-ukraynada-geri-adim-proje-iptal-olabilir/",
+   "date": "2026-11-28T09:55:02Z",
+   "desc": "Rheinmetall, Ukrayna’da yıllık yüz binlerce 155 mm topçu mühimmatı üretmesi planlanan fabrikanın inşasından vazgeçmeyi değerlendiriyor. Şirketin CEO’su Armin Papperger, Ukrayna tarafında ilerleme kaydedilememesi nedeniyl",
+   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/Rheinmetall-155-mm-topcu-muhimmati.jpg",
+   "source": "savunmasanayist"
+  },
+  {
+   "title": "Naming deterrent submarine was incorrect, says top official",
+   "link": "https://ukdefencejournal.org.uk/naming-deterrent-submarine-was-incorrect-says-top-official/",
+   "date": "2026-11-28T09:00:14Z",
+   "desc": "It was incorrect to name the Royal Navy submarine returning from a 217-day deterrent patrol, Ministry of Defence Permanent Secretary Jeremy Pocklington told the Defence Committee, after Conservative MP Jesse Norman accus",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Peru’da Askeri Helikopter Düştü: 8 Ölü, Pilot Yaralı",
+   "link": "https://www.savunmasanayist.com/peruda-askeri-helikopter-dustu-8-olu-pilot-yarali/",
+   "date": "2026-11-28T08:11:22Z",
+   "desc": "Peru’ya ait Mi-17 tipi askeri helikopter, görev uçuşu sırasında düştü. Kazada 8 asker hayatını kaybederken ağır yaralanan pilot kurtuldu. Peru Hava Kuvvetleri’ne ait Mi-17 tipi askeri helikopter, ülkenin güneydoğusunda b",
+   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/Peru-Mi-17-helikopter-dustu-2.jpg",
+   "source": "savunmasanayist"
+  },
+  {
+   "title": "Up to nine new explosives plants to begin design next month",
+   "link": "https://ukdefencejournal.org.uk/up-to-nine-new-explosives-plants-to-begin-design-next-month/",
+   "date": "2026-11-28T08:00:44Z",
+   "desc": "Up to nine proposed energetic materials factories will be taken forward to detailed engineering design from December, with that stage expected to complete in mid-2027, Luke Pollard told Parliament . The Minister for Defe",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Lossiemouth military home upgrades miss autumn target",
+   "link": "https://ukdefencejournal.org.uk/lossiemouth-military-home-upgrades-miss-autumn-target/",
+   "date": "2026-11-28T07:45:45Z",
+   "desc": "Only 39 of the 61 Service Family Accommodation properties at Lossiemouth that were expected to be upgraded by autumn 2026 have been completed, with all remaining homes now due by the end of the year, according to an answ",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Direct defence spending on small firms rose last year",
+   "link": "https://ukdefencejournal.org.uk/direct-defence-spending-on-small-firms-rose-last-year/",
+   "date": "2026-11-28T07:30:23Z",
+   "desc": "Ministry of Defence direct spending with small and medium-sized enterprises rose to £1.3 billion in 2025-26 from £1.2 billion the year before, according to answers given in Parliament , as ministers set out progress at t",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Forces housing plan stretches credulity, MPs warn",
+   "link": "https://ukdefencejournal.org.uk/forces-housing-plan-stretches-credulity-mps-warn/",
+   "date": "2026-11-28T06:00:28Z",
+   "desc": "Confidence that the Ministry of Defence can become the property developer needed to fix forces homes “stretches credulity”, after MPs found it lacks the skills for its £9 billion housing strategy and has deferred £0.8 bi",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Royal Navy seeks craneable armoury pods for ships",
+   "link": "https://ukdefencejournal.org.uk/royal-navy-seeks-craneable-armoury-pods-for-ships/",
+   "date": "2026-11-28T04:00:52Z",
+   "desc": "The Royal Navy Capability Accelerator is sounding out industry on modular Force Protection pods that can be craned on and off ships to store and move weapons, ammunition and equipment without permanently modifying the ve",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Merchant crews must learn to sail without GPS, study warns",
+   "link": "https://ukdefencejournal.org.uk/merchant-crews-must-learn-to-sail-without-gps-study-warns/",
+   "date": "2026-11-28T03:00:36Z",
+   "desc": "Civilian crews of merchant ships expected to support military sealift should be trained to navigate without satellite positioning and to keep strict discipline over personal phones, according to a new Council on Geostrat",
+   "img": null,
+   "source": "ukdj"
+  },
+  {
+   "title": "Romanya, Rheinmetall’e 738 milyon avroluk Lynx siparişi verdi",
+   "link": "https://defensehere.com/tr/romanya-rheinmetalle-738-milyon-avroluk-lynx-siparisi-verdi/",
+   "date": "2026-11-28T00:20:36Z",
+   "desc": "Romanya Savunma Bakanlığı, 298 aracı kapsayan çerçeve sözleşme kapsamında Rheinmetall’e yaklaşık 738 milyon avro değerinde 66 adet daha Lynx muharebe aracı siparişi verdi. Araçların teslimatına 2028 yılında başlanacağı b",
+   "img": null,
+   "source": "defensehere"
+  },
+  {
+   "title": "BAE Systems beş Avrupa ülkesinden 6 milyar dolarlık CV90 siparişi aldı",
+   "link": "https://defensehere.com/tr/bae-systems-bes-avrupa-ulkesinden-6-milyar-dolarlik-cv90-siparisi-aldi/",
+   "date": "2026-11-27T23:04:32Z",
+   "desc": "İngiliz savunma şirketi BAE Systems beş Avrupa ülkesi tarafından 6 milyar dolarlık muharebe aracı (CV9035 MkIV Nordic Edition) sipariş edildiğini bildirdi. Bu ülkelerin Finlandiya, Litvanya, Hollanda, Norveç ve İsveç old",
+   "img": null,
+   "source": "defensehere"
+  },
   {
    "title": "Bunker Talk: Let’s Talk About All The Things We Did And Didn’t Cover This Week",
    "link": "https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-217",
@@ -332,36 +452,12 @@
    "source": "twz"
   },
   {
-   "title": "British Royal Marines beat US and Ukraine in drone contest",
-   "link": "https://ukdefencejournal.org.uk/british-royal-marines-beat-us-and-ukraine-in-drone-contest/",
-   "date": "2026-11-27T22:30:37Z",
-   "desc": "A five-strong team from 40 Commando has taken top honours at the first Drone Crucible special operations drone competition at the Grafenwöhr Training Area in Bavaria, beating teams from the United States, Germany, Latvia",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Royal Navy brings drone boats to London aboard HMS Tyne",
-   "link": "https://ukdefencejournal.org.uk/royal-navy-brings-drone-boats-to-london-aboard-hms-tyne/",
-   "date": "2026-11-27T22:00:33Z",
-   "desc": "HMS Tyne has berthed alongside HMS Belfast in London carrying a Kraken K3 Scout uncrewed boat from the 1st Autonomous Squadron and drones from 700X Naval Air Squadron, to show ministers and industry how crewed and uncrew",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "‘ELITE’ Hostile Radar Simulator Tested with B-52 for the First Time",
    "link": "https://theaviationist.com/2026/11/27/elite-hostile-radar-simulator-b-52/",
    "date": "2026-11-27T21:28:00Z",
    "desc": "The Expendable Low-cost Integrated Training Emitter offers realistic Electronic Warfare training by simulating modern adversary air defense systems for B-52 and F-35 Formal Training Units. The 307th Bomb Wing at Barksdal",
    "img": "https://theaviationist.com/wp-content/uploads/2026/11/B-52-ELITE-Radar-1.jpg",
    "source": "aviationist"
-  },
-  {
-   "title": "Chinese AI models allowed for some defence uses",
-   "link": "https://ukdefencejournal.org.uk/chinese-ai-models-allowed-for-some-defence-uses/",
-   "date": "2026-11-27T21:00:07Z",
-   "desc": "Chinese-origin artificial intelligence models are not permitted for general use by Ministry of Defence staff but have legitimate defence use cases subject to governance and risk controls, according to an answer given in ",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "Unique AIM-9X Sidewinders Now Seen On USAF F-35As In The Middle East",
@@ -378,14 +474,6 @@
    "desc": "Mekke İttifakı bünyesindeki Stratejik Siyasi ve Savunma Komitesi, Suudi Arabistan’a yönelik Husi saldırılarını güçlü şekilde kınadı. Türkiye, Pakistan ve Suudi Arabistan, savunma sanayisi, ortak teknoloji geliştirilmesi,",
    "img": null,
    "source": "defensehere"
-  },
-  {
-   "title": "Trump and NATO chief urge Russia not to widen the war",
-   "link": "https://ukdefencejournal.org.uk/trump-and-nato-chief-urge-russia-not-to-widen-the-war/",
-   "date": "2026-11-27T20:00:12Z",
-   "desc": "US President Donald Trump and NATO Secretary General Mark Rutte discussed the importance of Russia avoiding any action that “intentionally, or unintentionally” expands its war against Ukraine, according to a joint statem",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "Dışişleri Bakanı Hakan Fidan: Mekke İttifakı’nın en büyük amacı barış ve istikrara katkı sağlamak",
@@ -410,14 +498,6 @@
    "desc": "Cumhurbaşkanı Yardımcısı Cevdet Yılmaz, “Cumhurbaşkanımızın liderliğinde, Türkiye’nin kendi kararlarını uygulayabilen, güvenliğini milli imkanlarıyla sağlayan ve savunma teknolojilerinde söz sahibi bir ülke olması için ç",
    "img": null,
    "source": "defensehere"
-  },
-  {
-   "title": "First M-346 rolls out for Italian aerobatic team",
-   "link": "https://ukdefencejournal.org.uk/first-m-346-rolls-out-for-italian-aerobatic-team/",
-   "date": "2026-11-27T19:37:09Z",
-   "desc": "Leonardo has rolled out the first of 15 M-346 aircraft for the Italian Air Force’s Frecce Tricolori aerobatic team and begun flight testing, pilot training and work on a new display programme, according to the company . ",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "Europe Bets Big On CV90 Armored Fighting Vehicle",
@@ -452,52 +532,12 @@
    "source": "defensehere"
   },
   {
-   "title": "Forces outflow down seven per cent this year, minister says",
-   "link": "https://ukdefencejournal.org.uk/forces-outflow-down-seven-per-cent-this-year-minister-says/",
-   "date": "2026-11-27T18:00:44Z",
-   "desc": "The number of personnel leaving Britain’s armed forces has fallen by 7% this year, reversing the trend of the previous four years, Louise Sandher-Jones, Minister for the Armed Forces, told MPs during a debate on the Arme",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
    "title": "Empa Elektronik’in 9 aylık cirosu 4,33 milyar liraya ulaştı",
    "link": "https://defensehere.com/tr/empa-elektronikin-9-aylik-cirosu-433-milyar-liraya-ulasti/",
    "date": "2026-11-27T17:36:50Z",
    "desc": "Empa Elektronik , 2026’nın ocak-eylül döneminde cirosunu yüzde 35 artırarak 4,33 milyar liraya, net karını ise yüzde 66 artışla 66 milyon liraya yükseltti. Şirketin 111 milyon dolarlık sipariş portföyü bulunurken, 2027 y",
    "img": "https://defensehere.com/wp-content/uploads/2026/11/AA-20261127-43201782-43201779-EMPA_ELEKTRONIKIN_9_AYLIK_CIROSU_433_MILYAR_LIRAYA_NET_KARI_66_MILYON_LIRAYA_CIKTI.jpg",
    "source": "defensehere"
-  },
-  {
-   "title": "Tekever drone tracks Marines landing from Portuguese warship",
-   "link": "https://ukdefencejournal.org.uk/tekever-drone-tracks-marines-landing-from-portuguese-warship/",
-   "date": "2026-11-27T17:00:40Z",
-   "desc": "A Tekever AR3 EVO drone fitted with Arkeus’s Warden hyperspectral sensor flew from a Portuguese Navy vessel during an amphibious operation at REPMUS 2026, detecting, identifying and tracking points of interest including ",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Build country of Britain’s new amphibious ships now unclear",
-   "link": "https://ukdefencejournal.org.uk/build-country-of-britains-new-amphibious-ships-now-unclear/",
-   "date": "2026-11-27T16:05:56Z",
-   "desc": "Britain and the Netherlands are still exploring the Amphibious Transport Ship as a potential joint programme, Luke Pollard has said when asked about Damen’s announcement on where the ships would be built, according to an",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "US Air Force orders fifteen more KC-46A tankers",
-   "link": "https://ukdefencejournal.org.uk/us-air-force-orders-fifteen-more-kc-46a-tankers/",
-   "date": "2026-11-27T16:00:38Z",
-   "desc": "Boeing has been awarded a US Air Force contract for fifteen additional KC-46A Pegasus tankers, bringing the number on contract or in service worldwide to 203, according to the company . Of those, 116 have been delivered ",
-   "img": null,
-   "source": "ukdj"
-  },
-  {
-   "title": "Historic England objects to British missile motor factory",
-   "link": "https://ukdefencejournal.org.uk/historic-england-objects-to-british-missile-motor-factory/",
-   "date": "2026-11-27T15:30:03Z",
-   "desc": "Historic England has objected to Cambridge Aerospace’s £24 million plan for a solid rocket motor factory at the former RAF Coltishall in Norfolk, warning that storage units between the base’s Cold War blast walls would c",
-   "img": null,
-   "source": "ukdj"
   },
   {
    "title": "Almanya Kara Kuvvetleri Komutanlığına Korgeneral Heico Hübner atanacak",
@@ -556,22 +596,6 @@
    "source": "eurosd"
   },
   {
-   "title": "Çin, Cuhay Hava Gösterisi’nde yeni taarruz helikopterini görücüye çıkaracak",
-   "link": "https://defensehere.com/tr/cin-cuhay-hava-gosterisinde-yeni-taarruz-helikopterini-gorucuye-cikaracak/",
-   "date": "2026-11-27T12:34:17Z",
-   "desc": "Çin ordusu, genel maksat helikopteri “Z-20″nin taarruz özellikleriyle donatılmış versiyonu “Z-20T”yi, gelecek ay düzenlenecek 16. Cuhay Hava Gösterisi’nde ilk kez sergilemeye hazırlanıyor. Xinhua’nın haberine göre, Çin U",
-   "img": null,
-   "source": "defensehere"
-  },
-  {
-   "title": "Rheinmetall, 2030 ciro hedefini 45 milyar avrodan 33-37 milyar avro aralığına düşürdü",
-   "link": "https://defensehere.com/tr/rheinmetall-2030-ciro-hedefini-45-milyar-avrodan-33-37-milyar-avro-araligina-dusurdu/",
-   "date": "2026-11-27T12:30:29Z",
-   "desc": "Almanya merkezli savunma sanayisi şirketi Rheinmetall , orta vadeli finansal beklentilerini aşağı yönlü güncelledi. Şirket, Hamburg’da düzenlenen Sermaye Piyasaları Günü’nde yaptığı sunumda, 2030 yılına ilişkin ciro hede",
-   "img": "https://defensehere.com/wp-content/uploads/2026/11/1200x801.jpg",
-   "source": "defensehere"
-  },
-  {
    "title": "Leonardo rolls out first M-346 jet for Italy’s Air Force stunt flying unit",
    "link": "https://www.defensenews.com/global/europe/2026/11/27/leonardo-rolls-out-first-m-346-jet-for-italys-air-force-stunt-flying-unit/",
    "date": "2026-11-27T11:32:10Z",
@@ -604,18 +628,18 @@
    "source": "savunmasanayist"
   },
   {
-   "title": "Episode 7: Who's Paying for British Politics?",
-   "link": "https://www.rusi.org/podcasts/suspicious-transaction-report/episode-7-whos-paying-british-politics",
-   "date": "2026-11-27T00:00:00Z",
-   "desc": "Philip Rycroft joins us to discuss foreign money, crypto donations and the hidden channels of political influence – and how Britain can better defend its democracy.",
-   "img": null,
-   "source": "rusi"
-  },
-  {
    "title": "The Price of Cost-Cutting: What Next for UK Aid and Development Assistance?",
    "link": "https://www.rusi.org/explore-our-research/publications/commentary/price-cost-cutting-what-next-uk-aid-and-development-assistance",
    "date": "2026-11-27T00:00:00Z",
    "desc": "Deep UK and Western aid cuts are fuelling insecurity across sub-Saharan Africa. Protecting British interests requires money paired with genuine strategic reform.",
+   "img": null,
+   "source": "rusi"
+  },
+  {
+   "title": "Episode 7: Who's Paying for British Politics?",
+   "link": "https://www.rusi.org/podcasts/suspicious-transaction-report/episode-7-whos-paying-british-politics",
+   "date": "2026-11-27T00:00:00Z",
+   "desc": "Philip Rycroft joins us to discuss foreign money, crypto donations and the hidden channels of political influence – and how Britain can better defend its democracy.",
    "img": null,
    "source": "rusi"
   },
@@ -876,14 +900,6 @@
    "source": "airforcetech"
   },
   {
-   "title": "ÖZEL | Hafter’e Tıbbi Yardım: Ankara’yla Normalleşme Böyle Başladı",
-   "link": "https://www.savunmasanayist.com/hafter-tsk-acil-tibbi-yardim-normallesme/",
-   "date": "2026-11-25T16:20:03Z",
-   "desc": "Türkiye’ye ilk resmî ziyaretini gerçekleştiren Libya Ulusal Ordusu Genel Komutanı Mareşal Halife Hafter, bugün Cumhurbaşkanı Erdoğan ile bir araya geldi. Hafter-Erdoğan görüşmesinin, Türkiye’nin “Tek Libya” politikasının",
-   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/Cumhurbaskani-Erdogan-Maresal-Hafter.jpg",
-   "source": "savunmasanayist"
-  },
-  {
    "title": "The US is racing to fix its missile production challenge. Will it work, and can partners help?",
    "link": "https://breakingdefense.com/2026/11/the-us-is-racing-to-fix-its-missile-production-challenge-will-it-work-and-can-partners-help/",
    "date": "2026-11-25T16:01:00Z",
@@ -956,14 +972,6 @@
    "source": "aviationist"
   },
   {
-   "title": "TF-2000’in Yeni Gücü Yolda: MKE’den 127 mm Milli Deniz Topu",
-   "link": "https://www.savunmasanayist.com/tf-2000in-yeni-gucu-yolda-mkeden-127-mm-milli-deniz-topu/",
-   "date": "2026-11-25T13:10:06Z",
-   "desc": "MKE, 127 mm millî deniz topunun geliştirme çalışmalarını sürdürüyor. Sistemin ilk görev yerinin, Türk Deniz Kuvvetleri için geliştirilen TF-2000 Hava Savunma Harbi Muhribi olması planlanıyor. MKE ‘nin geliştirdiği 127 mm",
-   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/DENIZHAN-76.jpg",
-   "source": "savunmasanayist"
-  },
-  {
    "title": "HII Awarded Largest International Unmanned Systems Contract in Company History by UK Ministry of Defence",
    "link": "https://euro-sd.com/2026/11/news/exclusive-news/54834/hii-remus-620/",
    "date": "2026-11-25T12:48:49Z",
@@ -986,14 +994,6 @@
    "desc": "ROME — The numbers cannot be found in this year’s Italian defense budget, but the country has achieved a promised spending total on defense and domestic security equal to 2.8% of GDP in 2026, officials have claimed. That",
    "img": "https://one.sightlinemg.com/wp-content/uploads/2026/11/GettyImages-2278905649.jpg",
    "source": "defensenews"
-  },
-  {
-   "title": "ABD 15 Tanker Daha Alıyor: Boeing’in Zararı Artıyor",
-   "link": "https://www.savunmasanayist.com/abd-15-tanker-daha-aliyor-boeingin-zarari-artiyor/",
-   "date": "2026-11-25T09:50:40Z",
-   "desc": "ABD Hava Kuvvetleri, Boeing ile 15 adet yeni KC-46A Pegasus havadan yakıt ikmal uçağı alımı için 2,82 milyar dolarlık sözleşme imzaladı. 24 Kasım’da duyurulan bu sipariş, 2011 yılında imzalanan ilk sözleşme kapsamındaki ",
-   "img": "http://www.savunmasanayist.com/wp-content/uploads/2026/11/ABD-KC-46A.jpg",
-   "source": "savunmasanayist"
   },
   {
    "title": "The Contract Was the Easy Part: How Accelerator Day Put the Pentagon on the Clock",
@@ -1464,14 +1464,6 @@
    "link": "https://www.rand.org/pubs/commentary/2026/11/why-employers-cant-tame-health-costs.html",
    "date": "2026-11-02T12:00:00Z",
    "desc": "Price transparency alone isn’t helping employers rein in health care costs. What will it take to give them real leverage—and overcome the barriers of today’s system?",
-   "img": null,
-   "source": "rand"
-  },
-  {
-   "title": "America's Least Bad Option in Iran",
-   "link": "https://www.rand.org/pubs/commentary/2026/10/americas-least-bad-option-in-iran.html",
-   "date": "2026-10-29T11:00:00Z",
-   "desc": "In Iran, the United States could return to a full-scale bombing campaign, walk away from the conflict, or stick with the current approach. Staying the course almost certainly will not bring quick results but it is strate",
    "img": null,
    "source": "rand"
   }
